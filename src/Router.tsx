@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouteConstants } from "./constants";
 
 import { HomePage } from "./pages/Home.page";
 import { ProductPage } from "./pages/Product.page";
@@ -7,7 +8,7 @@ import { MembershipPage } from "./pages/Membership.page";
 import { FaqPage } from "./pages/Faq.page";
 import { SchoolsPage } from "./pages/Schools.page";
 
-import { RouteConstants } from "./constants";
+import { Layout } from "@/components";
 
 const {
   ROUTE_LANDING,
@@ -20,28 +21,33 @@ const {
 
 const router = createBrowserRouter([
   {
-    path: ROUTE_LANDING,
-    element: <HomePage />,
-  },
-  {
-    path: ROUTE_PRODUCT,
-    element: <ProductPage />,
-  },
-  {
-    path: ROUTE_ABOUT_US,
-    element: <AboutUsPage />,
-  },
-  {
-    path: ROUTE_MEMBERSHIP,
-    element: <MembershipPage />,
-  },
-  {
-    path: ROUTE_FAQ,
-    element: <FaqPage />,
-  },
-  {
-    path: ROUTE_SCHOOLS,
-    element: <SchoolsPage />,
+    element: <Layout />,
+    children: [
+      {
+        path: ROUTE_LANDING,
+        element: <HomePage />,
+      },
+      {
+        path: ROUTE_PRODUCT,
+        element: <ProductPage />,
+      },
+      {
+        path: ROUTE_ABOUT_US,
+        element: <AboutUsPage />,
+      },
+      {
+        path: ROUTE_MEMBERSHIP,
+        element: <MembershipPage />,
+      },
+      {
+        path: ROUTE_FAQ,
+        element: <FaqPage />,
+      },
+      {
+        path: ROUTE_SCHOOLS,
+        element: <SchoolsPage />,
+      },
+    ],
   },
 ]);
 
