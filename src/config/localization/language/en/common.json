@@ -1,0 +1,10 @@
+{
+  "navigation": {
+    "home": "Home",
+    "product": "Product",
+    "aboutUs": "Who We Are",
+    "membership": "Membership",
+    "faq": "FAQ",
+    "schools": "For Schools"
+  }
+}
