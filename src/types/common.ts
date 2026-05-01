@@ -7,22 +7,26 @@ export interface IBackgroundSection {
 
 export interface IEyebrow {
   children: string;
-  variant?: EyebrowVariant;
+  variant?: IEyebrowVariant;
 }
 
-export type EyebrowVariant =
-  | "default"
-  | "dark"
-  | "light"
-  | "primary"
-  | "secondary";
+export type IEyebrowVariant = "default" | "light" | "primary";
+
+export interface IHeroDescription {
+  children: string;
+  variant?: IHeroDescriptionVariant;
+  margin?: boolean;
+}
+
+export type IHeroDescriptionVariant = "dark" | "light";
 
 export interface IHeroTitle {
-  title: string;
-  variant?: HeroTitleVariant;
+  children: string;
+  subtitle?: string;
+  variant?: IHeroTitleVariant;
 }
 
-export type HeroTitleVariant = "dark" | "light" | "primary";
+export type IHeroTitleVariant = "dark" | "light" | "primary";
 
 export interface INavigationLink {
   path: string;
@@ -32,23 +36,32 @@ export interface INavigationLink {
 
 export interface IButton {
   children: string;
-  icon?: ReactNode;
+  variant?: IButtonVariant;
+  icon?: boolean;
 }
+
+export type IButtonVariant =
+  | "primary"
+  | "secondary"
+  | "white-primary"
+  | "white-secondary"
+  | "white-dark";
 
 export interface ISection {
   eyebrow?: string;
-  eyebrowVariant?: EyebrowVariant;
+  eyebrowVariant?: IEyebrowVariant;
   sectionTitle?: string;
-  sectionTitleVariant?: SectionTitleVariant;
+  sectionTitleVariant?: ISectionTitleVariant;
   children?: React.ReactNode;
-  variant?: SectionVariant;
+  variant?: ISectionVariant;
 }
 
-export type SectionVariant = "blank" | "primary" | "secondary" | "dark";
+export type ISectionVariant = "blank" | "primary" | "secondary" | "dark";
 
 export interface ISectionTitle {
   children: string;
-  variant?: SectionTitleVariant;
+  variant?: ISectionTitleVariant;
+  margin?: boolean;
 }
 
-export type SectionTitleVariant = "dark" | "light";
+export type ISectionTitleVariant = "dark" | "light";

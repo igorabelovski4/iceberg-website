@@ -14,73 +14,173 @@
     "fr": "French"
   },
   "cta": {
-    "start": "Get started"
+    "start": "Get started",
+    "try": "Try it now"
   },
   "home": {
+    "hero": {
+      "title": "Guidance over Grading.",
+      "subtitle": "More than marks",
+      "description": "Coaching that truly moves. Growth that truly matters. With Iceberg by your side, you lead learning dialogues that bring everyone along.",
+      "badges": {
+        "0": {
+          "title": "100% GDPR-compliant",
+          "items": {
+            "0": "Zero-Retention",
+            "1": "EU Servers"
+          }
+        },
+        "1": {
+          "title": "Everyone in the boat",
+          "items": {
+            "0": "Teacher",
+            "1": "Student",
+            "2": "Parents"
+          }
+        },
+        "2": {
+          "title": "Measurable growth",
+          "items": {
+            "0": "Conversation by conversation"
+          }
+        }
+      }
+    },
     "nutshell": {
       "eyebrow": "In a nutshell",
-      "sectionTitle": "Iceberg guides teachers through every phase of the learning dialogue – from preparation to parent email – so they can be fully present.",
-      "cta": "Try it now"
+      "title": "Iceberg guides teachers through every phase of the learning dialogue – from preparation to parent email – so they can be fully present."
     },
     "difference": {
       "eyebrow": "The difference",
-      "sectionTitle": "Before & After"
+      "title": "Before & After"
     },
     "howWorks": {
       "eyebrow": "How it works",
-      "sectionTitle": "The Three Phases Of Conversation"
+      "title": "The Three Phases Of Conversation"
     },
     "forWho": {
-      "sectionTitle": "Who Is Iceberg For?"
+      "title": "Who Is Iceberg For?"
     },
     "support": {
       "eyebrow": "More than software",
-      "sectionTitle": "You're Not Alone"
+      "title": "You're Not Alone"
     },
     "founder": {
       "eyebrow": "From the founder",
-      "sectionTitle": "The Idea behind Iceberg"
+      "title": "The Idea behind Iceberg"
     },
     "join": {}
   },
   "product": {
+    "hero": {
+      "title": "Dialogue platform that makes growth visible",
+      "description": "Iceberg guides you through every conversation—from preparation to parent communication so you can focus on what truly matters: the student in front of you."
+    },
+    "features": {
+      "eyebrow": "Features",
+      "title": "Everything you need for meaningful conversations"
+    },
+    "experience": {
+      "eyebrow": "User experience",
+      "title": "Designed for real conversations"
+    },
+    "methodology": {
+      "eyebrow": "Methodology",
+      "title": "Grounded in research. Built for teachers."
+    },
+    "benefits": {
+      "eyebrow": "The outcome",
+      "title": "What changes when you use Iceberg"
+    },
     "start": {
       "eyebrow": "Get started",
-      "sectionTitle": "Iceberg guides teachers through every phase of the learning dialogue – from preparation to parent email – so they can be fully present.",
+      "title": "Iceberg guides teachers through every phase of the learning dialogue – from preparation to parent email – so they can be fully present.",
       "cta": "Try it now"
     }
   },
   "aboutUs": {
+    "hero": {
+      "title": "Bult by educators. For educators",
+      "description": "Tools, training, and support to help you lead conversations that truly matter."
+    },
     "exist": {
       "eyebrow": "Whe we exist",
-      "sectionTitle": "Built for the moments that matter",
+      "title": "Built for the moments that matter",
       "more": "Learning conversations are where real change happens — but too often, they lack structure, time, and support. We created Iceberg to make those moments easier to lead, deeper in impact, and consistent across every classroom."
+    },
+    "pedagogic": {
+      "eyebrow": "Pedagogic+",
+      "title": "A modern approach to learning conversations"
     },
     "membership": {
       "eyebrow": "Membership",
-      "sectionTitle": "Every Iceberg license includes Pedagogic+ membership - because the tool is only as powerful as the person using it.",
+      "title": "Every Iceberg license includes Pedagogic+ membership - because the tool is only as powerful as the person using it.",
       "cta": "See membership"
+    },
+    "founder": {
+      "eyebrow": "Founder",
+      "title": "Built from real classroom experience"
+    },
+    "trust": {
+      "eyebrow": "Trust",
+      "title": "Built on real experience"
     },
     "development": {
       "eyebrow": "Development partner",
-      "sectionTitle": "Technical development and platform infrastructure by gons.ch - a team dedicated to building tools that educators can trust. Built with care. Designed for teachers. Trusted by schools across Europe."
+      "title": "Technical development and platform infrastructure by gons.ch - a team dedicated to building tools that educators can trust. Built with care. Designed for teachers. Trusted by schools across Europe."
     }
   },
   "membership": {
+    "hero": {
+      "title": "More than a license. A complete support system.",
+      "description": "When you get Iceberg, you get the app + Pedagogic+ membership. It's not just software — it's ongoing support, training, and a community that believes in what you do."
+    },
+    "included": {
+      "eyebrow": "What included",
+      "title": "Everything in your membership"
+    },
     "pricing": {
       "eyebrow": "Pricing",
-      "sectionTitle": "Transparent. Simple. Fair."
+      "title": "Transparent. Simple. Fair."
+    },
+    "group": {
+      "eyebrow": "Group licenses",
+      "title": "School & Team Licenses"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "description": "Everything you need to know about Iceberg and how it works"
     }
   },
   "schools": {
+    "hero": {
+      "title": "Coaching Conversation That Move Your School Forward",
+      "description": "How to anchor learning conversations as a shared practice within your team—so that every teacher communicates confidently, competently, and effectively with children and parents."
+    },
     "consultation": {
       "eyebrow": "Consultation",
-      "sectionTitle": "Since we introduced learning conversations school-wide, the quality of our parent communication has fundamentally changed – and the trust in our team has grown noticeably.",
+      "title": "Since we introduced learning conversations school-wide, the quality of our parent communication has fundamentally changed – and the trust in our team has grown noticeably.",
       "cta": "Book your free consultation"
+    },
+    "shift": {
+      "eyebrow": "The shift",
+      "title": "From daily friction to a shared system"
+    },
+    "work": {
+      "eyebrow": "How we work together",
+      "title": "Flexible, practical and atilored to your school"
+    },
+    "strategy": {
+      "title": "Your Free Strategy Consultation"
+    },
+    "booking": {
+      "title": "Book a consultation"
     },
     "faq": {
       "eyebrow": "Frequently asked questions",
-      "sectionTitle": "Everything you want to know"
+      "title": "Everything you want to know"
     }
   }
 }

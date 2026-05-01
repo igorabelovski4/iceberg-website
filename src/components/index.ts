@@ -2,6 +2,7 @@ import BackgroundSection from "./background-section";
 
 import Eyebrow from "./eyebrow";
 
+import HeroDescription from "./hero-description";
 import HeroTitle from "./hero-title";
 
 import PrimaryButton from "./primary-button";
@@ -18,6 +19,7 @@ import SectionTitle from "./section-title";
 export {
   BackgroundSection,
   Eyebrow,
+  HeroDescription,
   HeroTitle,
   LanguagePicker,
   Layout,

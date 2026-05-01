@@ -1,4 +1,3 @@
-/* From Uiverse.io by jaykdoe */
 .container {
   height: 100%;
   width: 100%;
@@ -9,12 +8,12 @@
 .blank {
   background-color: var(--color-white);
 
-  &.stars,
-  &.stars:after,
-  &.stars2,
-  &.stars2:after,
-  &.stars3,
-  &.stars3:after {
+  & .stars,
+  & .stars:after,
+  & .stars2,
+  & .stars2:after,
+  & .stars3,
+  & .stars3:after {
     display: none;
   }
 }
@@ -45,6 +44,7 @@
 
 .inner {
   text-align: center;
+  max-width: 1024;
 }
 
 .stars {

@@ -1,0 +1,19 @@
+.eyebrow {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.default {
+  color: var(--color-text-secondary);
+}
+
+.light {
+  color: var(--color-white);
+}
+
+.primary {
+  color: var(--color-brand-primary);
+}

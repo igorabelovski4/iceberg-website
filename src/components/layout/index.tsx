@@ -13,7 +13,7 @@ const Layout = () => {
         <Burger opened={opened} onClick={toggle} hiddenFrom='sm' size='sm' />
         <Navigation />
       </AppShell.Header>
-      <AppShell.Main px={0} pt={HEADER_HEIGHT}>
+      <AppShell.Main px={0} pb={0} pt={HEADER_HEIGHT}>
         <Outlet />
       </AppShell.Main>
     </AppShell>

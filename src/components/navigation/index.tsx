@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { RouteConstants } from "@/constants";
 import { LOGO_IMAGE } from "@/constants/app";
-import { IconArrowNarrowRight } from "@tabler/icons-react";
 import { Divider, Flex, Image } from "@mantine/core";
 import { LanguagePicker, NavigationLink, PrimaryButton } from "@/components";
 
@@ -52,9 +51,7 @@ const Navigation = () => {
       </Flex>
       <Flex className={classes.right}>
         <LanguagePicker />
-        <PrimaryButton icon={<IconArrowNarrowRight />}>
-          {t("cta.start")}
-        </PrimaryButton>
+        <PrimaryButton icon>{t("cta.start")}</PrimaryButton>
       </Flex>
     </Flex>
   );

@@ -1,18 +1,18 @@
 import clsx from "clsx";
-import { ISectionTitle } from "@/types/common";
+import { IHeroDescription } from "@/types/common";
 import { Text } from "@mantine/core";
 
 import classes from "./index.module.css";
 
-const SectionTitle = ({
+const HeroDescription = ({
   children,
   variant = "dark",
   margin,
-}: ISectionTitle) => {
+}: IHeroDescription) => {
   return (
     <Text
       className={clsx(
-        `${classes.title} ${classes[variant]} ${margin ? classes.margin : ""}`,
+        `${classes.description} ${classes[variant]} ${margin ? classes.margin : ""}`,
       )}
     >
       {children}
@@ -20,4 +20,4 @@ const SectionTitle = ({
   );
 };
 
-export default SectionTitle;
+export default HeroDescription;

@@ -19,7 +19,7 @@ const Section = ({
       <Box className={classes.stars}></Box>
       <Box className={classes.stars2}></Box>
       <Box className={classes.stars3}></Box>
-      <Container maw={1024} className={classes.inner}>
+      <Container className={classes.inner}>
         {eyebrow && <Eyebrow variant={eyebrowVariant}>{eyebrow}</Eyebrow>}
         {sectionTitle && (
           <SectionTitle variant={sectionTitleVariant}>

@@ -1,0 +1,19 @@
+.description {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-top: 28px;
+  text-shadow: var(--text-shadow-1);
+}
+
+.margin {
+  margin-bottom: 28px;
+}
+
+.dark {
+  color: var(--color-text-primary);
+}
+
+.light {
+  color: var(--color-white);
+}

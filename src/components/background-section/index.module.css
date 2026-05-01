@@ -2,5 +2,12 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 80px 0;
+  text-align: center;
   min-height: 400px;
+}
+
+.inner {
+  margin: 0 auto;
+  max-width: 1024px;
 }
