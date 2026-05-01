@@ -6,5 +6,81 @@
     "membership": "Membership",
     "faq": "FAQ",
     "schools": "For Schools"
+  },
+  "languages": {
+    "en": "English",
+    "de": "German",
+    "it": "Italian",
+    "fr": "French"
+  },
+  "cta": {
+    "start": "Get started"
+  },
+  "home": {
+    "nutshell": {
+      "eyebrow": "In a nutshell",
+      "sectionTitle": "Iceberg guides teachers through every phase of the learning dialogue – from preparation to parent email – so they can be fully present.",
+      "cta": "Try it now"
+    },
+    "difference": {
+      "eyebrow": "The difference",
+      "sectionTitle": "Before & After"
+    },
+    "howWorks": {
+      "eyebrow": "How it works",
+      "sectionTitle": "The Three Phases Of Conversation"
+    },
+    "forWho": {
+      "sectionTitle": "Who Is Iceberg For?"
+    },
+    "support": {
+      "eyebrow": "More than software",
+      "sectionTitle": "You're Not Alone"
+    },
+    "founder": {
+      "eyebrow": "From the founder",
+      "sectionTitle": "The Idea behind Iceberg"
+    },
+    "join": {}
+  },
+  "product": {
+    "start": {
+      "eyebrow": "Get started",
+      "sectionTitle": "Iceberg guides teachers through every phase of the learning dialogue – from preparation to parent email – so they can be fully present.",
+      "cta": "Try it now"
+    }
+  },
+  "aboutUs": {
+    "exist": {
+      "eyebrow": "Whe we exist",
+      "sectionTitle": "Built for the moments that matter",
+      "more": "Learning conversations are where real change happens — but too often, they lack structure, time, and support. We created Iceberg to make those moments easier to lead, deeper in impact, and consistent across every classroom."
+    },
+    "membership": {
+      "eyebrow": "Membership",
+      "sectionTitle": "Every Iceberg license includes Pedagogic+ membership - because the tool is only as powerful as the person using it.",
+      "cta": "See membership"
+    },
+    "development": {
+      "eyebrow": "Development partner",
+      "sectionTitle": "Technical development and platform infrastructure by gons.ch - a team dedicated to building tools that educators can trust. Built with care. Designed for teachers. Trusted by schools across Europe."
+    }
+  },
+  "membership": {
+    "pricing": {
+      "eyebrow": "Pricing",
+      "sectionTitle": "Transparent. Simple. Fair."
+    }
+  },
+  "schools": {
+    "consultation": {
+      "eyebrow": "Consultation",
+      "sectionTitle": "Since we introduced learning conversations school-wide, the quality of our parent communication has fundamentally changed – and the trust in our team has grown noticeably.",
+      "cta": "Book your free consultation"
+    },
+    "faq": {
+      "eyebrow": "Frequently asked questions",
+      "sectionTitle": "Everything you want to know"
+    }
   }
 }

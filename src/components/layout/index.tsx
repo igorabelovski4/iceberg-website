@@ -1,15 +1,19 @@
 import { Outlet } from "react-router-dom";
-
-import { AppShell } from "@mantine/core";
+import { useDisclosure } from "@mantine/hooks";
+import { HEADER_HEIGHT } from "@/constants/app";
+import { AppShell, Burger } from "@mantine/core";
 import { Navigation } from "@/components";
 
 const Layout = () => {
+  const [opened, { toggle }] = useDisclosure();
+
   return (
-    <AppShell header={{ height: 60 }} padding='md'>
+    <AppShell padding='md' header={{ height: HEADER_HEIGHT }}>
       <AppShell.Header>
+        <Burger opened={opened} onClick={toggle} hiddenFrom='sm' size='sm' />
         <Navigation />
       </AppShell.Header>
-      <AppShell.Main>
+      <AppShell.Main px={0} pt={HEADER_HEIGHT}>
         <Outlet />
       </AppShell.Main>
     </AppShell>

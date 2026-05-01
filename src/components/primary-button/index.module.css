@@ -1,0 +1,10 @@
+.button {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 8px 20px;
+  height: auto;
+  box-sizing: border-box;
+  background: var(--gradient-primary);
+  box-shadow: var(--box-shadow-2);
+}

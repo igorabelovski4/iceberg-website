@@ -1,3 +1,4 @@
+import * as AppConstants from "./app";
 import * as RouteConstants from "./route";
 
-export { RouteConstants };
+export { AppConstants, RouteConstants };

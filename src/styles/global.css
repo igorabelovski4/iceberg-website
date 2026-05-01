@@ -20,3 +20,50 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
+
+:root {
+  --color-white: #fff;
+
+  --color-text-primary: #333;
+  --color-text-secondary: #555;
+  --color-text-muted: #999;
+
+  --color-brand-primary-very-light: #e6f5f5;
+  --color-brand-primary-light: #b3e0e2;
+  --color-brand-primary: #03989e;
+  --color-brand-primary-dark: #027a7e;
+  --color-brand-primary-very-dark: #025b5f;
+
+  --color-brand-secondary-very-light: #fff9e6;
+  --color-brand-secondary-light: #ffecb5;
+  --color-brand-secondary: #ffc107;
+  --color-brand-secondary-dark: #cc9a06;
+  --color-brand-secondary-very-dark: #997404;
+
+  --gradient-primary: linear-gradient(
+    90deg,
+    var(--color-brand-primary),
+    var(--color-brand-primary-dark)
+  );
+
+  --gradient-secondary: linear-gradient(
+    90deg,
+    var(--color-brand-secondary),
+    var(--color-brand-secondary-dark)
+  );
+
+  --color-divider: #efefef;
+
+  --color-space-light: #1b2735;
+  --color-space-dark: #090a0f;
+
+  --box-shadow-1: 0px 1px 3px rgb(0, 0, 0, 0.05);
+  --box-shadow-2: 0px 2px 4px rgb(0, 0, 0, 0.08);
+  --box-shadow-3: 0px 4px 8px rgba(0, 0, 0, 0.12);
+
+  --text-shadow-1: 0px 4px 8px rgba(0, 0, 0, 0.25);
+
+  --border-radius-mini: 4px;
+  --border-radius-small: 8px;
+  --border-radius-medium: 12px;
+}
