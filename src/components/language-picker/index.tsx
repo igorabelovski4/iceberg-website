@@ -7,8 +7,8 @@ import { useTranslation } from "react-i18next";
 import { GB_FLAG, DE_FLAG } from "@/constants/app";
 
 const data = [
-  { label: "languages.en", image: GB_FLAG },
-  { label: "languages.de", image: DE_FLAG },
+  { label: "languages.en", image: GB_FLAG, code: "EN" },
+  { label: "languages.de", image: DE_FLAG, code: "DE" },
 ];
 
 const LanguagePicker = () => {
@@ -19,7 +19,7 @@ const LanguagePicker = () => {
 
   const items = data.map((item) => (
     <Menu.Item
-      leftSection={<Image src={item.image} width={18} height={18} alt='' />}
+      leftSection={<Image src={item.image} className={classes.flag} />}
       onClick={() => {
         setSelected(item);
 
@@ -46,8 +46,8 @@ const LanguagePicker = () => {
           data-expanded={opened || undefined}
         >
           <Group gap='xs'>
-            <Image src={selected.image} w={22} h={22} alt='' />
-            <span className={classes.label}>{t(selected.label)}</span>
+            <Image src={selected.image} className={classes.flag} />
+            <span className={classes.label}>{t(selected.code)}</span>
           </Group>
           <IconChevronDown size={16} className={classes.icon} stroke={1.5} />
         </UnstyledButton>
