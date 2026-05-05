@@ -1,8 +1,22 @@
+import { IconShield, IconUsers, IconTrendingUp } from "@tabler/icons-react";
+
 export const HEADER_HEIGHT = 76;
+
+export const NUMBER_OF_HOME_PAGE_HERO_BADGES = 3;
+
+export const NUMBER_OF_FAQ_ITEMS = 15;
+
+export const PAGE_HERO_BADGES_ICON_MAP = {
+  shield: IconShield,
+  users: IconUsers,
+  trending: IconTrendingUp,
+};
 
 export const LOGO_IMAGE = "/assets/images/logo.png";
 
 export const LANDING_HERO_IMAGE = "/assets/images/iceberg.png";
+
+export const HERO_3D_VIDEO_IMAGE = "/assets/images/3d-video.png";
 
 export const FAQ_BACKGROUND_IMAGE = "/assets/images/iceberg-deep.png";
 

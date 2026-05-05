@@ -3,14 +3,21 @@ import { AppConstants } from "@/constants";
 import {
   BackgroundSection,
   Eyebrow,
+  HeroCard,
   HeroDescription,
   HeroTitle,
   PrimaryButton,
   Section,
   SectionTitle,
 } from "@/components";
+import { Image, SimpleGrid } from "@mantine/core";
+import { IIconName } from "@/types/common";
 
-const { LANDING_HERO_IMAGE } = AppConstants;
+const {
+  LANDING_HERO_IMAGE,
+  HERO_3D_VIDEO_IMAGE,
+  NUMBER_OF_HOME_PAGE_HERO_BADGES,
+} = AppConstants;
 
 export function HomePage() {
   const { t } = useTranslation();
@@ -27,6 +34,23 @@ export function HomePage() {
         <PrimaryButton variant='secondary' icon>
           {t("cta.start")}
         </PrimaryButton>
+        <Image src={HERO_3D_VIDEO_IMAGE} py={64} />
+        <SimpleGrid cols={3} spacing={36}>
+          {Array(NUMBER_OF_HOME_PAGE_HERO_BADGES)
+            .fill(null)
+            .map((_, index) => (
+              <HeroCard
+                key={index}
+                icon={t(`home.hero.badges.${index}.icon`) as IIconName}
+                title={t(`home.hero.badges.${index}.title`)}
+                items={
+                  t(`home.hero.badges.${index}.items`, {
+                    returnObjects: true,
+                  }) as string[]
+                }
+              />
+            ))}
+        </SimpleGrid>
       </BackgroundSection>
       <Section variant='secondary'>
         <Eyebrow variant='light'>{t("home.nutshell.eyebrow")}</Eyebrow>

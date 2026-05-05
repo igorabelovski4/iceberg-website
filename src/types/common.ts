@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { PAGE_HERO_BADGES_ICON_MAP } from "@/constants/app";
 
 export interface IBackgroundSection {
   imageSrc: string;
@@ -65,3 +65,21 @@ export interface ISectionTitle {
 }
 
 export type ISectionTitleVariant = "dark" | "light";
+
+export type IIconName = keyof typeof PAGE_HERO_BADGES_ICON_MAP;
+
+export interface IHeroCard {
+  icon: IIconName;
+  title: string;
+  items?: string[];
+}
+
+export interface IAccordionBox {
+  children: React.ReactNode;
+}
+
+export interface IAccordionItem {
+  title: string;
+  question: string;
+  answer: string;
+}

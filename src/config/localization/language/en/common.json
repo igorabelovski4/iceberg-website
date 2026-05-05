@@ -25,24 +25,18 @@
       "badges": {
         "0": {
           "title": "100% GDPR-compliant",
-          "items": {
-            "0": "Zero-Retention",
-            "1": "EU Servers"
-          }
+          "icon": "shield",
+          "items": ["Zero-Retention", "EU Servers"]
         },
         "1": {
           "title": "Everyone in the boat",
-          "items": {
-            "0": "Teacher",
-            "1": "Student",
-            "2": "Parents"
-          }
+          "icon": "users",
+          "items": ["Teacher", "Student", "Parents"]
         },
         "2": {
           "title": "Measurable growth",
-          "items": {
-            "0": "Conversation by conversation"
-          }
+          "icon": "trending",
+          "items": ["Conversation by conversation"]
         }
       }
     },
@@ -56,7 +50,24 @@
     },
     "howWorks": {
       "eyebrow": "How it works",
-      "title": "The Three Phases Of Conversation"
+      "title": "The Three Phases Of Conversation",
+      "phases": {
+        "0": {
+          "title": "Before",
+          "icon": "clock",
+          "description": "You open the app and see everything at a glance: last conversation, observations, current level. In two minutes, you’re ready. You start every seassion calm and focus."
+        },
+        "1": {
+          "title": "During",
+          "icon": "message",
+          "description": "You start with a strength. “What has changed?” The student reflects, then opens up. The app transcribes, suggests questions, and guides you through goals and next steps."
+        },
+        "2": {
+          "title": "After",
+          "icon": "send",
+          "description": "The app summarises it all: strengths, competencies, goals, next steps.  In minutes, you have a clear summary — ready to share with parents."
+        }
+      }
     },
     "forWho": {
       "title": "Who Is Iceberg For?"
@@ -152,6 +163,83 @@
     "hero": {
       "title": "Frequently Asked Questions",
       "description": "Everything you need to know about Iceberg and how it works"
+    },
+    "questions": {
+      "0": {
+        "title": "what-is",
+        "question": "What is Iceberg?",
+        "answer": "Iceberg is a tool designed to help teachers lead structured, meaningful learning conversations. It supports every step of the process – from preparation, through the conversation itself, to follow-up and parent communication."
+      },
+      "1": {
+        "title": "who-is-it-for",
+        "question": "Who is Iceberg for?",
+        "answer": "Iceberg is primarily built for teachers and tutors working with students of school age. It is also valuable for schools and educational organizations that want to improve the quality of learning conversations."
+      },
+      "2": {
+        "title": "how-it-works",
+        "question": "How does Iceberg work?",
+        "answer": "Iceberg guides you through three phases: before, during, and after the conversation. It helps you prepare, supports you with prompts during the session, and automatically creates summaries and parent communication afterward."
+      },
+      "3": {
+        "title": "preparation-needed",
+        "question": "Do I need to prepare before each conversation?",
+        "answer": "Preparation is minimal. Before each session, you get a quick overview of previous conversations, notes, and progress – so you can walk in prepared in just a few minutes."
+      },
+      "4": {
+        "title": "does-it-replace-teaching",
+        "question": "Does Iceberg replace my way of teaching?",
+        "answer": "No. Iceberg enhances your existing approach by giving you structure and support. You stay in control of the conversation – the app simply helps you do it more effectively."
+      },
+      "5": {
+        "title": "is-conversation-recorded",
+        "question": "Is the conversation recorded?",
+        "answer": "Yes, conversations are recorded and transcribed to support documentation. Audio data is processed securely and handled according to strict privacy standards."
+      },
+      "6": {
+        "title": "gdpr-compliance",
+        "question": "Is Iceberg GDPR compliant?",
+        "answer": "Yes. Iceberg is fully GDPR compliant. Audio is deleted immediately after transcription (Zero-Retention), and no student data is used for AI training. All data is stored on EU servers."
+      },
+      "7": {
+        "title": "parents-access",
+        "question": "Can parents access the app?",
+        "answer": "No, the app is designed for teachers. However, parents receive clear and structured summaries after each conversation, so they stay informed and involved."
+      },
+      "8": {
+        "title": "multi-language-support",
+        "question": "Can I use Iceberg in different languages?",
+        "answer": "Yes. Iceberg supports multilingual communication, especially when generating parent emails, making it easier to include families from different backgrounds."
+      },
+      "9": {
+        "title": "free-trial",
+        "question": "How does the free trial work?",
+        "answer": "You can start using Iceberg immediately without a credit card. The full feature set is available during the trial, so you can experience the complete workflow."
+      },
+      "10": {
+        "title": "what-included-in-license",
+        "question": "What do I get with a licence?",
+        "answer": "A licence gives you access to unlimited conversations, student profiles, automatic summaries, parent communication, and additional educational content and support."
+      },
+      "11": {
+        "title": "school-approval",
+        "question": "Do I need school approval to use Iceberg?",
+        "answer": "Yes. Since the app processes sensitive data, a data processing agreement and parental consent are required before using it in a school environment."
+      },
+      "12": {
+        "title": "getting-started-time",
+        "question": "How long does it take to get started?",
+        "answer": "Getting started is quick. Once the setup and required approvals are complete, you can begin your first conversation immediately."
+      },
+      "13": {
+        "title": "does-it-add-work",
+        "question": "Will this add more work to my day?",
+        "answer": "No – the goal is the opposite. Iceberg reduces administrative work and simplifies documentation, so you can focus more on the conversation itself."
+      },
+      "14": {
+        "title": "what-makes-it-different",
+        "question": "What makes Iceberg different from other tools?",
+        "answer": "Iceberg is not just a documentation tool. It combines structured guidance, real-time support, and automated follow-up to improve the quality of conversations – not just record them."
+      }
     }
   },
   "schools": {
