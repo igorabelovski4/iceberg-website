@@ -52,6 +52,7 @@ body {
     var(--color-brand-secondary-dark)
   );
 
+  --color-border: #d2d2d2;
   --color-divider: #efefef;
 
   --color-space-light: #1b2735;

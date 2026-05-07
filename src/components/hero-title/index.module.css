@@ -6,8 +6,7 @@
   font-size: 64px;
   line-height: 1.3;
   font-weight: 800;
-  letter-spacing: 2px;
-  text-shadow: var(--text-shadow-1);
+  letter-spacing: 2%;
 }
 
 .subtitle {
@@ -15,6 +14,9 @@
   line-height: 1;
   font-weight: 500;
   letter-spacing: 1px;
+}
+
+.shadow {
   text-shadow: var(--text-shadow-1);
 }
 

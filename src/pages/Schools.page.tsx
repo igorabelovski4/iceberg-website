@@ -1,11 +1,19 @@
 import {
   Eyebrow,
   HeroDescription,
+  HeroImage,
   HeroTitle,
   PrimaryButton,
   Section,
+  Description,
   SectionTitle,
+  ShiftCarousel,
+  WorkCards,
+  StrategyGrid,
+  SchoolFaq,
+  Title,
 } from "@/components";
+import { TEAM_IMAGE } from "@/constants/app";
 import { useTranslation } from "react-i18next";
 
 export function SchoolsPage() {
@@ -14,8 +22,11 @@ export function SchoolsPage() {
   return (
     <>
       <Section>
-        <HeroTitle>{t("schools.hero.title")}</HeroTitle>
-        <HeroDescription>{t("schools.hero.description")}</HeroDescription>
+        <HeroTitle shadow={false}>{t("schools.hero.title")}</HeroTitle>
+        <HeroDescription shadow={false}>
+          {t("schools.hero.description")}
+        </HeroDescription>
+        <HeroImage src={TEAM_IMAGE} alt={t("schools.hero.illustrationText")} />
       </Section>
       <Section variant='dark'>
         <Eyebrow variant='light'>{t("schools.consultation.eyebrow")}</Eyebrow>
@@ -28,14 +39,19 @@ export function SchoolsPage() {
       </Section>
       <Section>
         <Eyebrow>{t("schools.shift.eyebrow")}</Eyebrow>
-        <SectionTitle>{t("schools.shift.title")}</SectionTitle>
+        <SectionTitle margin>{t("schools.shift.title")}</SectionTitle>
+        <Description>{t("schools.shift.description")}</Description>
+        <ShiftCarousel />
       </Section>
       <Section>
         <Eyebrow>{t("schools.work.eyebrow")}</Eyebrow>
-        <SectionTitle>{t("schools.work.title")}</SectionTitle>
+        <SectionTitle margin>{t("schools.work.title")}</SectionTitle>
+        <WorkCards />
       </Section>
       <Section>
-        <SectionTitle>{t("schools.strategy.title")}</SectionTitle>
+        <SectionTitle margin>{t("schools.strategy.title")}</SectionTitle>
+        <Description>{t("schools.strategy.description")}</Description>
+        <StrategyGrid />
       </Section>
       <Section>
         <SectionTitle>{t("schools.booking.title")}</SectionTitle>
@@ -45,6 +61,21 @@ export function SchoolsPage() {
         <SectionTitle variant='light' margin>
           {t("schools.faq.title")}
         </SectionTitle>
+        <SchoolFaq />
+      </Section>
+      <Section variant='primary'>
+        <Title variant='light' big>
+          {t("schools.cta.title")}
+        </Title>
+        <SectionTitle variant='light' margin>
+          {t("schools.cta.subtitle")}
+        </SectionTitle>
+        <Description variant='light' margin>
+          {t("schools.cta.description")}
+        </Description>
+        <PrimaryButton variant='secondary'>
+          {t("schools.cta.cta")}
+        </PrimaryButton>
       </Section>
     </>
   );

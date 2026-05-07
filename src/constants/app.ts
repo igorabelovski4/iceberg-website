@@ -1,10 +1,24 @@
-import { IconShield, IconUsers, IconTrendingUp } from "@tabler/icons-react";
+import {
+  IconShield,
+  IconUsers,
+  IconTrendingUp,
+  IconSearch,
+  IconRoute,
+  IconUsersGroup,
+  IconFriends,
+  IconBook2,
+  IconStairs,
+} from "@tabler/icons-react";
 
 export const HEADER_HEIGHT = 76;
 
 export const NUMBER_OF_HOME_PAGE_HERO_BADGES = 3;
 
 export const NUMBER_OF_FAQ_ITEMS = 15;
+export const NUMBER_OF_SHIFT_ITEMS = 6;
+export const NUMBER_OF_WORK_CARDS = 3;
+export const NUMBER_OF_STRATEGY_ITEMS = 6;
+export const NUMBER_OF_SCHOOL_FAQ_ITEMS = 10;
 
 export const PAGE_HERO_BADGES_ICON_MAP = {
   shield: IconShield,
@@ -34,3 +48,23 @@ export const TABLET_VIEWPORT_IMAGE = "/assets/images/tablet-viewport.png";
 export const TABLET_VIEWPORT_1_IMAGE = "/assets/images/tablet-viewport-1.png";
 export const TABLET_VIEWPORT_2_IMAGE = "/assets/images/tablet-viewport-2.png";
 export const TABLET_VIEWPORT_3_IMAGE = "/assets/images/tablet-viewport-3.png";
+
+export const TEAM_IMAGE = "/assets/illustrations/team.png";
+export const COLLABORATION_IMAGE = "/assets/illustrations/collaboration.png";
+export const MEET_IMAGE = "/assets/illustrations/meet.png";
+export const ONLINE_MEETING_IMAGE = "/assets/illustrations/online-meeting.png";
+
+export const SCHOOL_WORK_IMAGE_MAP = {
+  person: MEET_IMAGE,
+  online: ONLINE_MEETING_IMAGE,
+  group: COLLABORATION_IMAGE,
+};
+
+export const SCHOOL_STRATEGY_ICON_MAP = {
+  search: IconSearch,
+  route: IconRoute,
+  users: IconUsersGroup,
+  friends: IconFriends,
+  book: IconBook2,
+  stairs: IconStairs,
+};

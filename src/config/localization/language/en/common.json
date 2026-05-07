@@ -245,7 +245,8 @@
   "schools": {
     "hero": {
       "title": "Coaching Conversation That Move Your School Forward",
-      "description": "How to anchor learning conversations as a shared practice within your team—so that every teacher communicates confidently, competently, and effectively with children and parents."
+      "description": "How to anchor learning conversations as a shared practice within your team—so that every teacher communicates confidently, competently, and effectively with children and parents.",
+      "illustrationText": "Team illustration"
     },
     "consultation": {
       "eyebrow": "Consultation",
@@ -254,21 +255,194 @@
     },
     "shift": {
       "eyebrow": "The shift",
-      "title": "From daily friction to a shared system"
+      "title": "From daily friction to a shared system",
+      "description": "As a school principal, you don’t just manage conversations – you manage the entire system behind them. What happens in learning conversations affects your team, your parents, and the overall culture of your school. When there is no shared structure, problems accumulate. When there is one, everything changes.",
+      "items": {
+        "0": {
+          "bad": {
+            "title": "No unified standard",
+            "description": "Every teacher conducts learning conversations differently. There is no shared structure, no shared understanding – and no comparability."
+          },
+          "good": {
+            "title": "A unified standard",
+            "description": "All teachers follow the same proven structure. Conversations become consistent, professional, and comparable across the entire school."
+          }
+        },
+        "1": {
+          "bad": {
+            "title": "An overwhelmed team",
+            "description": "Many teachers feel insecure in learning conversations. They struggle to handle difficult situations and often rely on improvisation."
+          },
+          "good": {
+            "title": "A confident, competent team",
+            "description": "Teachers enter conversations with clarity and confidence. They know how to guide discussions and handle complex situations effectively."
+          }
+        },
+        "2": {
+          "bad": {
+            "title": "Eroding parental trust",
+            "description": "Parents experience conversations as unclear or confrontational. Over time, trust in the school begins to weaken."
+          },
+          "good": {
+            "title": "Parents as genuine partners",
+            "description": "Parents feel informed, involved, and respected. Trust grows, and communication becomes constructive and collaborative."
+          }
+        },
+        "3": {
+          "bad": {
+            "title": "Training that doesn’t stick",
+            "description": "You invest in professional development, but little changes in daily practice. What is learned rarely translates into consistent behavior."
+          },
+          "good": {
+            "title": "Sustainable implementation",
+            "description": "What teachers learn becomes part of everyday practice. Conversations follow a shared structure that reinforces itself over time."
+          }
+        },
+        "4": {
+          "bad": {
+            "title": "Conflicts land on your desk",
+            "description": "Misunderstandings escalate into complaints. Teachers feel frustrated, parents are dissatisfied, and you are left to resolve the situation."
+          },
+          "good": {
+            "title": "Fewer conflicts, less escalation",
+            "description": "Clear structure and communication prevent misunderstandings early. Issues are resolved before they reach you."
+          }
+        },
+        "5": {
+          "bad": {
+            "title": "No shared picture of the child",
+            "description": "Teachers, parents, and students see different things. There is no alignment on strengths, goals, or next steps."
+          },
+          "good": {
+            "title": "A shared understanding",
+            "description": "Everyone speaks the same language. Strengths, goals, and progress are clear and aligned across teachers, parents, and students."
+          }
+        }
+      },
+      "seeImpact": "See the impact",
+      "backReality": "Back to reality"
     },
     "work": {
       "eyebrow": "How we work together",
-      "title": "Flexible, practical and atilored to your school"
+      "title": "Flexible, practical and atilored to your school",
+      "items": {
+        "0": {
+          "title": "In Person",
+          "description": "We come directly to you – for an intensive, hands-on team day. Introduction of the Iceberg Method with live exercises, collaborative development, and direct feedback.",
+          "illustration": "person"
+        },
+        "1": {
+          "title": "Online",
+          "description": "Flexible and location-independent. Live webinars, individual consultations, guided rollout with regular check-ins, and ongoing support for everyday questions.",
+          "illustration": "online"
+        },
+        "2": {
+          "title": "Group training",
+          "description": "Lorem ipsum",
+          "illustration": "group"
+        }
+      }
     },
     "strategy": {
-      "title": "Your Free Strategy Consultation"
+      "title": "Your Free Strategy Consultation",
+      "description": "In a personal 45-minute conversation, we develop a concrete plan together for how learning conversations can be introduced at your school. Not generic advice – but a tailored strategy for your team.",
+      "items": {
+        "0": {
+          "title": "Clear situation analysis",
+          "description": "We look together at where your school stands today and what the biggest levers for change are.",
+          "icon": "search"
+        },
+        "1": {
+          "title": "Concrete introduction plan",
+          "description": "You receive a realistic roadmap for how learning conversations can be anchored step by step within the team.",
+          "icon": "route"
+        },
+        "2": {
+          "title": "Handling resistance",
+          "description": "We discuss how to bring sceptical teachers on board and win the team over for the change.",
+          "icon": "users"
+        },
+        "3": {
+          "title": "Parent strategy",
+          "description": "How to involve parents from the very beginning and build trust in the new practice.",
+          "icon": "friends"
+        },
+        "4": {
+          "title": "Sustainable anchoring",
+          "description": "How what is learned does not fizzle out – but becomes a lasting part of the school culture.",
+          "icon": "book"
+        },
+        "5": {
+          "title": "Your next steps",
+          "description": "You leave the conversation with a clear, actionable plan – not vague ideas.",
+          "icon": "stairs"
+        }
+      }
     },
     "booking": {
       "title": "Book a consultation"
     },
     "faq": {
       "eyebrow": "Frequently asked questions",
-      "title": "Everything you want to know"
+      "title": "Everything you want to know",
+      "items": {
+        "0": {
+          "title": "who-is-it-designed-for",
+          "question": "Who is this solution designed for?",
+          "answer": "This solution is designed for school principals who want to introduce structured, high-quality learning conversations across their entire team – not just improve individual teacher performance."
+        },
+        "1": {
+          "title": "difference-from-training",
+          "question": "How is this different from traditional teacher training?",
+          "answer": "Traditional training often stays theoretical and fades over time. Iceberg combines methodology, practical tools, and ongoing support – ensuring that what is learned becomes part of everyday practice."
+        },
+        "2": {
+          "title": "implementation-time",
+          "question": "How long does it take to implement in a school?",
+          "answer": "Implementation depends on your school’s size and goals, but most schools can get started within a few weeks. The process is guided step by step, so your team can adopt it without disruption."
+        },
+        "3": {
+          "title": "additional-workload",
+          "question": "Will this add more work for my teachers?",
+          "answer": "No – the goal is to reduce workload, not increase it. Iceberg simplifies preparation, documentation, and follow-up, allowing teachers to focus on the conversation itself."
+        },
+        "4": {
+          "title": "resistance-to-change",
+          "question": "What if my team is resistant to change?",
+          "answer": "Resistance is natural. The approach is designed to be practical, supportive, and easy to adopt, helping teachers quickly experience the benefits in their daily work."
+        },
+        "5": {
+          "title": "parent-communication",
+          "question": "How does this improve communication with parents?",
+          "answer": "Learning conversations become clearer, more structured, and more transparent. Parents receive consistent communication and feel more involved, which significantly increases trust."
+        },
+        "6": {
+          "title": "whole-school-involvement",
+          "question": "Do I need to involve the entire school at once?",
+          "answer": "Not necessarily. You can start with a smaller group or pilot and expand gradually. The approach is flexible and adapts to your school’s structure."
+        },
+        "7": {
+          "title": "implementation-support",
+          "question": "What kind of support do we receive during implementation?",
+          "answer": "You receive guidance through every step – from strategy and onboarding to ongoing support. This ensures that the approach is not only introduced, but successfully integrated."
+        },
+        "8": {
+          "title": "data-protection-compliance",
+          "question": "Is the solution compliant with data protection regulations?",
+          "answer": "Yes. Iceberg is fully GDPR-compliant, with strict data protection measures such as zero-retention of audio data and EU-based servers."
+        },
+        "9": {
+          "title": "expected-results",
+          "question": "What results can I expect as a school leader?",
+          "answer": "Schools report stronger parental trust, fewer conflicts, more confident teachers, and a clearer, more consistent approach to learning conversations."
+        }
+      }
+    },
+    "cta": {
+      "title": "Your school deserves a shared language.",
+      "subtitle": "Book Your Free Strategy Consultation",
+      "description": "45 minutes. No sales pitch. Just an honest analysis of your situation and a concrete plan for how learning conversations can succeed at your school.",
+      "cta": "Book Your Appointment Now"
     }
   }
 }

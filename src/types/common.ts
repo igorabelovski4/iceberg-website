@@ -1,4 +1,8 @@
-import { PAGE_HERO_BADGES_ICON_MAP } from "@/constants/app";
+import {
+  PAGE_HERO_BADGES_ICON_MAP,
+  SCHOOL_STRATEGY_ICON_MAP,
+  SCHOOL_WORK_IMAGE_MAP,
+} from "@/constants/app";
 
 export interface IBackgroundSection {
   imageSrc: string;
@@ -16,6 +20,7 @@ export interface IHeroDescription {
   children: string;
   variant?: IHeroDescriptionVariant;
   margin?: boolean;
+  shadow?: boolean;
 }
 
 export type IHeroDescriptionVariant = "dark" | "light";
@@ -24,6 +29,7 @@ export interface IHeroTitle {
   children: string;
   subtitle?: string;
   variant?: IHeroTitleVariant;
+  shadow?: boolean;
 }
 
 export type IHeroTitleVariant = "dark" | "light" | "primary";
@@ -38,6 +44,7 @@ export interface IButton {
   children: string;
   variant?: IButtonVariant;
   icon?: boolean;
+  onClick?: () => void;
 }
 
 export type IButtonVariant =
@@ -82,4 +89,48 @@ export interface IAccordionItem {
   title: string;
   question: string;
   answer: string;
+}
+
+export interface IHeroImage {
+  src: string;
+  alt: string;
+}
+
+export interface IText {
+  children: string;
+}
+
+export interface IArrayItem {
+  index: number;
+}
+
+export type ITitleVariant = "dark" | "light";
+
+export interface ITitle {
+  children: string;
+  variant?: ITitleVariant;
+  margin?: boolean;
+  big?: boolean;
+}
+
+export interface ICard {
+  index: number;
+  illustration: ICardIllustrationName;
+}
+
+export type ICardIllustrationName = keyof typeof SCHOOL_WORK_IMAGE_MAP;
+
+export interface IDescription {
+  children: string;
+  variant?: "dark" | "light";
+  align?: "left" | "center";
+  margin?: boolean;
+}
+
+export type IGridItemIconName = keyof typeof SCHOOL_STRATEGY_ICON_MAP;
+
+export interface IGridItem {
+  title: string;
+  description: string;
+  icon: IGridItemIconName;
 }

@@ -1,39 +1,44 @@
-.container {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  padding: 80px 0;
+.carousel {
+  margin-top: 44px;
 }
 
-.primary {
-  background: radial-gradient(
-    ellipse at bottom,
-    var(--color-brand-primary) 0%,
-    var(--color-brand-primary-dark) 100%
-  );
+.control {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: var(--color-white);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: var(--box-shadow-3);
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
 }
 
-.secondary {
-  background: radial-gradient(
-    ellipse at bottom,
-    var(--color-brand-secondary) 0%,
-    var(--color-brand-secondary-dark) 100%
-  );
+.control svg {
+  height: 24px !important;
+  width: 24px !important;
 }
 
-.dark {
-  background: radial-gradient(
-    ellipse at bottom,
-    var(--color-space-light) 0%,
-    var(--color-space-dark) 100%
-  );
+.slide {
+  padding: 32px 80px 48px 80px !important;
+  border-radius: 20px;
+  text-align: left;
+
+  &.bad {
+    background: linear-gradient(to right, #cc3333 0%, #990e0e 100%);
+  }
+
+  &.good {
+    background: linear-gradient(to right, #3bb273 0%, #147a50 100%);
+  }
 }
 
-.inner {
-  text-align: center;
-  max-width: 1024px;
-  padding: 0;
-  box-sizing: border-box;
+.description {
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: var(--color-white);
 }
 
 .stars {

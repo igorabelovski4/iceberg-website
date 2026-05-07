@@ -1,0 +1,24 @@
+.description {
+  font-size: 17px;
+  line-height: 1.8;
+
+  &.light {
+    color: var(--color-white);
+  }
+
+  &.dark {
+    color: var(--color-text-secondary);
+  }
+
+  &.center {
+    text-align: center;
+  }
+
+  &.left {
+    text-align: left;
+  }
+
+  &.margin {
+    margin-bottom: 20px;
+  }
+}

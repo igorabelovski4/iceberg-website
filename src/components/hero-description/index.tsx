@@ -8,11 +8,12 @@ const HeroDescription = ({
   children,
   variant = "dark",
   margin,
+  shadow = true,
 }: IHeroDescription) => {
   return (
     <Text
       className={clsx(
-        `${classes.description} ${classes[variant]} ${margin ? classes.margin : ""}`,
+        `${classes.description} ${classes[variant]} ${margin ? classes.margin : ""} ${shadow ? classes.shadow : ""}`,
       )}
     >
       {children}

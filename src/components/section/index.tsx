@@ -16,13 +16,18 @@ const Section = ({
 }: ISection) => {
   return (
     <Box className={clsx(classes.container, classes[variant])}>
-      <Box className={classes.stars}></Box>
-      <Box className={classes.stars2}></Box>
-      <Box className={classes.stars3}></Box>
+      {variant !== "blank" && (
+        <>
+          <Box className={classes.stars}></Box>
+          <Box className={classes.stars2}></Box>
+          <Box className={classes.stars3}></Box>
+        </>
+      )}
+
       <Container className={classes.inner}>
         {eyebrow && <Eyebrow variant={eyebrowVariant}>{eyebrow}</Eyebrow>}
         {sectionTitle && (
-          <SectionTitle variant={sectionTitleVariant}>
+          <SectionTitle variant={sectionTitleVariant} >
             {sectionTitle}
           </SectionTitle>
         )}
