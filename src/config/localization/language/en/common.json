@@ -144,19 +144,106 @@
   "membership": {
     "hero": {
       "title": "More than a license. A complete support system.",
-      "description": "When you get Iceberg, you get the app + Pedagogic+ membership. It's not just software — it's ongoing support, training, and a community that believes in what you do."
+      "description": "When you get Iceberg, you get the app and Pedagogic+ membership. It's not just software — it's ongoing support, training, and a community that believes in what you do.",
+      "illustrationText": "License illustration"
     },
     "included": {
       "eyebrow": "What included",
-      "title": "Everything in your membership"
+      "title": "Everything in your membership",
+      "items": {
+        "0": {
+          "title": "Personal Support",
+          "description": "You're never alone. Our team is here to help you get the most out of every conversation.",
+          "icon": "headphones"
+        },
+        "1": {
+          "title": "Live Webinars",
+          "description": "Regular training sessions with Branka and the Pedagogic+ team to deepen your practice.",
+          "icon": "camera"
+        },
+        "2": {
+          "title": "Knowledge base",
+          "description": "Access proven frameworks, conversation guides, and best practices from expert educators.",
+          "icon": "book"
+        },
+        "3": {
+          "title": "Community",
+          "description": "Connect with fellow teachers who share your commitment to meaningful student growth.",
+          "icon": "people"
+        }
+      }
     },
     "pricing": {
       "eyebrow": "Pricing",
-      "title": "Transparent. Simple. Fair."
+      "title": "Transparent. Simple. Fair.",
+      "offer": {
+        "title": "Annual License",
+        "price": "69.99$",
+        "interval": "per year",
+        "included": "App + Pedagogic+ Membership",
+        "items": {
+          "0": {
+            "title": "Complete summary at a glance"
+          },
+          "1": {
+            "title": "Structured, adaptive conversation guidance"
+          },
+          "2": {
+            "title": "Deep, resource-oriented conversations"
+          },
+          "3": {
+            "title": "Every student gets to speak"
+          },
+          "4": {
+            "title": "Parent email in their language, ready immediately"
+          },
+          "5": {
+            "title": "Summary created automatically"
+          },
+          "6": {
+            "title": "WOOP goals with a concrete plan"
+          },
+          "7": {
+            "title": "Conversation as a coaching moment"
+          }
+        },
+        "cta": {
+          "start": "Start Free Trial",
+          "contact": "Contact for benefits"
+        }
+      }
     },
     "group": {
       "eyebrow": "Group licenses",
-      "title": "School & Team Licenses"
+      "title": "School & Team Licenses",
+      "description": "Special pricing for schools and educational institutions. Get your entire team onboarded with the complete compliance package included.",
+      "includes": {
+        "title": "Includes",
+        "items": {
+          "0": {
+            "title": "Ready-to-sign Data Processing Agreement (DPA)"
+          },
+          "1": {
+            "title": "Pre-filled Data Protection Impact Assessment (DPIA)"
+          },
+          "2": {
+            "title": "Print-ready parental consent forms"
+          },
+          "3": {
+            "title": "Personal onboarding for all teachers"
+          },
+          "4": {
+            "title": "Dedicated school support contact"
+          },
+          "5": {
+            "title": "Summary created automatically"
+          },
+          "6": {
+            "title": "Custom training sessions available"
+          }
+        }
+      },
+      "cta": "Contact for School Pricing"
     }
   },
   "faq": {

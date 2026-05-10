@@ -8,12 +8,18 @@ import {
   IconFriends,
   IconBook2,
   IconStairs,
+  IconHeadphones,
+  IconVideo,
+  IconBook,
 } from "@tabler/icons-react";
 
 export const HEADER_HEIGHT = 76;
 
 export const NUMBER_OF_HOME_PAGE_HERO_BADGES = 3;
 
+export const NUMBER_OF_MEMBERSHIP_ITEMS = 4;
+export const NUMBER_OF_LICENSE_INCLUDED_FEATURES = 8;
+export const NUMBER_OF_GROUP_LICENSE_INCLUDED_FEATURES = 7;
 export const NUMBER_OF_FAQ_ITEMS = 15;
 export const NUMBER_OF_SHIFT_ITEMS = 6;
 export const NUMBER_OF_WORK_CARDS = 3;
@@ -53,6 +59,14 @@ export const TEAM_IMAGE = "/assets/illustrations/team.png";
 export const COLLABORATION_IMAGE = "/assets/illustrations/collaboration.png";
 export const MEET_IMAGE = "/assets/illustrations/meet.png";
 export const ONLINE_MEETING_IMAGE = "/assets/illustrations/online-meeting.png";
+export const CERTIFICATION_IMAGE = "/assets/illustrations/certification.png";
+
+export const MEMBERSHIP_CARDS_ICON_MAP = {
+  headphones: IconHeadphones,
+  camera: IconVideo,
+  book: IconBook,
+  people: IconUsers,
+};
 
 export const SCHOOL_WORK_IMAGE_MAP = {
   person: MEET_IMAGE,

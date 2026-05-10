@@ -1,8 +1,10 @@
 import {
+  MEMBERSHIP_CARDS_ICON_MAP,
   PAGE_HERO_BADGES_ICON_MAP,
   SCHOOL_STRATEGY_ICON_MAP,
   SCHOOL_WORK_IMAGE_MAP,
 } from "@/constants/app";
+import { ForwardRefExoticComponent } from "react";
 
 export interface IBackgroundSection {
   imageSrc: string;
@@ -134,3 +136,12 @@ export interface IGridItem {
   description: string;
   icon: IGridItemIconName;
 }
+
+export interface IFeatureCard {
+  title: string;
+  description: string;
+  map: any;
+  icon: IFeatureCardIconName;
+}
+
+export type IFeatureCardIconName = keyof typeof MEMBERSHIP_CARDS_ICON_MAP;

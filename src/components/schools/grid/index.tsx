@@ -1,4 +1,4 @@
-import { Box, Flex, Group, SimpleGrid, Stack } from "@mantine/core";
+import { Flex, Group, SimpleGrid, Stack } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 import { AppConstants } from "@/constants";
 import { IGridItem, IGridItemIconName } from "@/types/common";

@@ -1,3 +1,6 @@
+import { useTranslation } from "react-i18next";
+import { AppConstants } from "@/constants";
+
 import {
   Eyebrow,
   HeroDescription,
@@ -13,8 +16,8 @@ import {
   SchoolFaq,
   Title,
 } from "@/components";
-import { TEAM_IMAGE } from "@/constants/app";
-import { useTranslation } from "react-i18next";
+
+const { TEAM_IMAGE } = AppConstants;
 
 export function SchoolsPage() {
   const { t } = useTranslation();

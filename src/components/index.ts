@@ -7,10 +7,15 @@ import Description from "./description";
 
 import Eyebrow from "./eyebrow";
 
+import FeatureCard from "./feature-card";
+
 import HeroCard from "./hero-card";
 import HeroDescription from "./hero-description";
 import HeroImage from "./hero-image";
 import HeroTitle from "./hero-title";
+
+import MembershipCards from "./membership/cards";
+import MembershipOffer from "./membership/offer";
 
 import PrimaryButton from "./primary-button";
 
@@ -36,12 +41,15 @@ export {
   BackgroundSection,
   Description,
   Eyebrow,
+  FeatureCard,
   HeroCard,
   HeroDescription,
   HeroImage,
   HeroTitle,
   LanguagePicker,
   Layout,
+  MembershipCards,
+  MembershipOffer,
   PrimaryButton,
   Navigation,
   NavigationLink,
