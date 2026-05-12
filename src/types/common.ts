@@ -46,6 +46,7 @@ export interface IButton {
   children: string;
   variant?: IButtonVariant;
   icon?: boolean;
+  block?: boolean;
   onClick?: () => void;
 }
 
@@ -106,7 +107,7 @@ export interface IArrayItem {
   index: number;
 }
 
-export type ITitleVariant = "dark" | "light";
+export type ITitleVariant = "dark" | "light" | "primary";
 
 export interface ITitle {
   children: string;
@@ -145,3 +146,7 @@ export interface IFeatureCard {
 }
 
 export type IFeatureCardIconName = keyof typeof MEMBERSHIP_CARDS_ICON_MAP;
+
+export interface IBenefitItem {
+  value: string;
+}

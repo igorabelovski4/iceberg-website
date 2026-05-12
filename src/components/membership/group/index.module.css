@@ -1,0 +1,16 @@
+.wrapper {
+  margin-top: 44px;
+  align-items: center;
+}
+
+.titleBox {
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--color-brand-primary);
+  text-align: left;
+}
+
+.benefits {
+  margin: 16px 0 44px 0;
+  align-self: flex-start;
+}

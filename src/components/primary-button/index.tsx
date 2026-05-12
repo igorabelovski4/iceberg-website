@@ -9,12 +9,15 @@ const PrimaryButton = ({
   children,
   variant = "primary",
   icon,
+  block,
   onClick,
 }: IButton) => {
   return (
     <Button
       variant='filled'
-      className={clsx(classes.button, classes[variant])}
+      className={clsx(
+        `${classes.button} ${classes[variant]} ${block ? classes.block : ""}`,
+      )}
       {...(icon && { rightSection: <IconArrowNarrowRight /> })}
       onClick={onClick}
     >

@@ -2,11 +2,13 @@ import { useTranslation } from "react-i18next";
 import { AppConstants } from "@/constants";
 
 import {
+  Description,
   Eyebrow,
   HeroDescription,
   HeroImage,
   HeroTitle,
   MembershipCards,
+  MembershipGroup,
   MembershipOffer,
   Section,
   SectionTitle,
@@ -35,15 +37,19 @@ export function MembershipPage() {
         <MembershipCards />
       </Section>
       <Section variant='secondary'>
-        <Eyebrow variant='light'>{t("membership.pricing.eyebrow")}</Eyebrow>
+        <Eyebrow variant='light'>{t("membership.offer.eyebrow")}</Eyebrow>
         <SectionTitle variant='light'>
-          {t("membership.pricing.title")}
+          {t("membership.offer.title")}
         </SectionTitle>
         <MembershipOffer />
       </Section>
       <Section>
         <Eyebrow>{t("membership.group.eyebrow")}</Eyebrow>
-        <SectionTitle>{t("membership.group.title")}</SectionTitle>
+        <SectionTitle margin>{t("membership.group.title")}</SectionTitle>
+        <Description align='left'>
+          {t("membership.group.description")}
+        </Description>
+        <MembershipGroup />
       </Section>
     </>
   );

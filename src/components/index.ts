@@ -2,6 +2,7 @@ import AccordionBox from "./accordion";
 import AccordionItem from "./accordion-item";
 
 import BackgroundSection from "./background-section";
+import BenefitItem from "./benefit-item";
 
 import Description from "./description";
 
@@ -15,6 +16,7 @@ import HeroImage from "./hero-image";
 import HeroTitle from "./hero-title";
 
 import MembershipCards from "./membership/cards";
+import MembershipGroup from "./membership/group";
 import MembershipOffer from "./membership/offer";
 
 import PrimaryButton from "./primary-button";
@@ -39,6 +41,7 @@ export {
   AccordionBox,
   AccordionItem,
   BackgroundSection,
+  BenefitItem,
   Description,
   Eyebrow,
   FeatureCard,
@@ -49,6 +52,7 @@ export {
   LanguagePicker,
   Layout,
   MembershipCards,
+  MembershipGroup,
   MembershipOffer,
   PrimaryButton,
   Navigation,
