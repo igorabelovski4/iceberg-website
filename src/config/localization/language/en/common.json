@@ -112,7 +112,8 @@
   "aboutUs": {
     "hero": {
       "title": "Bult by educators. For educators",
-      "description": "Tools, training, and support to help you lead conversations that truly matter."
+      "description": "Tools, training, and support to help you lead conversations that truly matter.",
+      "illustrationText": "Educator illustration"
     },
     "exist": {
       "eyebrow": "Whe we exist",
@@ -121,7 +122,35 @@
     },
     "pedagogic": {
       "eyebrow": "Pedagogic+",
-      "title": "A modern approach to learning conversations"
+      "title": "A modern approach to learning conversations",
+      "descriptions": {
+        "0": {
+          "text": "Pedagogic+ is the foundation behind Iceberg. It brings together research, real classroom experience, and a clear methodology focused on meaningful learning dialogues."
+        },
+        "1": {
+          "text": "At the same time, Pedagogic+ is a community for teachers who want to go deeper — a space where educators learn, share, and grow together, guided by research-backed methods and real classroom insights."
+        },
+        "2": {
+          "text": "The goal is simple: to help teachers move beyond surface-level conversations and create real impact in how students grow, reflect, and take responsibility for their learning."
+        }
+      },
+      "cards": {
+        "0": {
+          "title": "Training",
+          "description": "Workshops, webinars, and practical resources designed to help you grow and apply what you learn in real conversations.",
+          "illustration": "training"
+        },
+        "1": {
+          "title": "Community",
+          "description": "Connect with like-minded teachers, share experiences, and learn from each other in a supportive environment.",
+          "illustration": "community"
+        },
+        "2": {
+          "title": "Support",
+          "description": "Get guidance when you need it – with expert support that helps you navigate real challenges in your daily work.",
+          "illustration": "support"
+        }
+      }
     },
     "membership": {
       "eyebrow": "Membership",
@@ -130,11 +159,48 @@
     },
     "founder": {
       "eyebrow": "Founder",
-      "title": "Built from real classroom experience"
+      "title": "Built from real classroom experience",
+      "name": "Branka Milovanović",
+      "biography": {
+        "0": {
+          "text": "Branka is a teacher, coach, and school development expert who has worked closely with students, parents, and educators for years. Through this experience, she gained a deep understanding of what truly happens in learning conversations — and where they often fall short."
+        },
+        "1": {
+          "text": "She saw the same pattern again and again: conversations that mattered, but lacked structure, time, and support to reach their full potential. That insight became the foundation for both Pedagogic+ and Iceberg."
+        },
+        "2": {
+          "text": "Her work combines research-backed methods with real classroom practice, helping teachers lead conversations that are not only structured, but truly meaningful."
+        },
+        "3": {
+          "text": "I built Iceberg because I know what it's like to walk out of a learning dialogue feeling like it could have gone deeper. Teachers deserve a tool that helps them be fully present—not just another piece of software."
+        }
+      }
     },
     "trust": {
       "eyebrow": "Trust",
-      "title": "Built on real experience"
+      "title": "Built on real experience",
+      "items": {
+        "0": {
+          "title": "Real experience",
+          "description": "10+ years working directly with teachers and students",
+          "icon": "experience"
+        },
+        "1": {
+          "title": "Used in schools",
+          "description": "Tested and applied in everyday school environments",
+          "icon": "school"
+        },
+        "2": {
+          "title": "Research-backed methods",
+          "description": "Based on Hattie’s research and the WOOP framework",
+          "icon": "research"
+        },
+        "3": {
+          "title": "Privacy by design",
+          "description": "GDPR-compliant with zero-retention architecture",
+          "icon": "privacy"
+        }
+      }
     },
     "development": {
       "eyebrow": "Development partner",

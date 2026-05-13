@@ -1,8 +1,8 @@
 import {
   MEMBERSHIP_CARDS_ICON_MAP,
   PAGE_HERO_BADGES_ICON_MAP,
-  SCHOOL_STRATEGY_ICON_MAP,
-  SCHOOL_WORK_IMAGE_MAP,
+  GRID_ICON_MAP,
+  ILLUSTRATION_IMAGE_MAP,
 } from "@/constants/app";
 import { ForwardRefExoticComponent } from "react";
 
@@ -121,7 +121,7 @@ export interface ICard {
   illustration: ICardIllustrationName;
 }
 
-export type ICardIllustrationName = keyof typeof SCHOOL_WORK_IMAGE_MAP;
+export type ICardIllustrationName = keyof typeof ILLUSTRATION_IMAGE_MAP;
 
 export interface IDescription {
   children: string;
@@ -130,7 +130,7 @@ export interface IDescription {
   margin?: boolean;
 }
 
-export type IGridItemIconName = keyof typeof SCHOOL_STRATEGY_ICON_MAP;
+export type IGridItemIconName = keyof typeof GRID_ICON_MAP;
 
 export interface IGridItem {
   title: string;

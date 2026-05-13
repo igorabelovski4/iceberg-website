@@ -11,12 +11,19 @@ import {
   IconHeadphones,
   IconVideo,
   IconBook,
+  IconUserStar,
+  IconBuildingCommunity,
+  IconFlask,
 } from "@tabler/icons-react";
 
 export const HEADER_HEIGHT = 76;
 
 export const NUMBER_OF_HOME_PAGE_HERO_BADGES = 3;
 
+export const NUMBER_OF_PEDAGOGIC_TEXTS = 3;
+export const NUMBER_OF_PEDAGOGIC_CARDS = 3;
+export const NUMBER_OF_FOUNDER_BIOGRAPHY_TEXTS = 4;
+export const NUMBER_OF_TRUST_ITEMS = 4;
 export const NUMBER_OF_MEMBERSHIP_ITEMS = 4;
 export const NUMBER_OF_MEMBERSHIP_BENEFITS = 8;
 export const NUMBER_OF_GROUP_MEMBERSHIP_BENEFITS = 7;
@@ -35,12 +42,10 @@ export const PAGE_HERO_BADGES_ICON_MAP = {
 };
 
 export const LOGO_IMAGE = "/assets/images/logo.png";
-
 export const LANDING_HERO_IMAGE = "/assets/images/iceberg.png";
-
 export const HERO_3D_VIDEO_IMAGE = "/assets/images/3d-video.png";
-
 export const FAQ_BACKGROUND_IMAGE = "/assets/images/iceberg-deep.png";
+export const FOUNDER_IMAGE = "/assets/images/founder.png";
 
 export const DE_FLAG = "/assets/flags/de.png";
 export const FR_FLAG = "/assets/flags/fr.png";
@@ -62,6 +67,10 @@ export const COLLABORATION_IMAGE = "/assets/illustrations/collaboration.png";
 export const MEET_IMAGE = "/assets/illustrations/meet.png";
 export const ONLINE_MEETING_IMAGE = "/assets/illustrations/online-meeting.png";
 export const CERTIFICATION_IMAGE = "/assets/illustrations/certification.png";
+export const EDUCATOR_IMAGE = "/assets/illustrations/educator.png";
+export const TRAINING_IMAGE = "/assets/illustrations/remote-meeting.png";
+export const COMMUNITY_IMAGE = "/assets/illustrations/community.png";
+export const SUPPORT_IMAGE = "./assets/illustrations/active-support.png";
 
 export const MEMBERSHIP_CARDS_ICON_MAP = {
   headphones: IconHeadphones,
@@ -70,17 +79,24 @@ export const MEMBERSHIP_CARDS_ICON_MAP = {
   people: IconUsers,
 };
 
-export const SCHOOL_WORK_IMAGE_MAP = {
+export const ILLUSTRATION_IMAGE_MAP = {
   person: MEET_IMAGE,
   online: ONLINE_MEETING_IMAGE,
   group: COLLABORATION_IMAGE,
+  training: TRAINING_IMAGE,
+  community: COMMUNITY_IMAGE,
+  support: SUPPORT_IMAGE,
 };
 
-export const SCHOOL_STRATEGY_ICON_MAP = {
+export const GRID_ICON_MAP = {
   search: IconSearch,
   route: IconRoute,
   users: IconUsersGroup,
   friends: IconFriends,
   book: IconBook2,
   stairs: IconStairs,
+  experience: IconUserStar,
+  school: IconBuildingCommunity,
+  research: IconFlask,
+  privacy: IconShield,
 };

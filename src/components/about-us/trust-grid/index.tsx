@@ -7,7 +7,7 @@ import Title from "@/components/title";
 import Description from "@/components/description";
 import classes from "./index.module.css";
 
-const { NUMBER_OF_STRATEGY_ITEMS } = AppConstants;
+const { NUMBER_OF_TRUST_ITEMS } = AppConstants;
 
 const GridItem = ({ title, description, icon }: IGridItem) => {
   const Icon = GRID_ICON_MAP[icon];
@@ -25,25 +25,23 @@ const GridItem = ({ title, description, icon }: IGridItem) => {
   );
 };
 
-const StrategyGrid = () => {
+const TrustGrid = () => {
   const { t } = useTranslation();
 
   return (
     <SimpleGrid cols={2} className={classes.wrapper}>
-      {Array(NUMBER_OF_STRATEGY_ITEMS)
+      {Array(NUMBER_OF_TRUST_ITEMS)
         .fill(null)
         .map((_, index) => (
           <GridItem
-            title={t(`schools.strategy.items.${index}.title`)}
-            description={t(`schools.strategy.items.${index}.description`)}
+            title={t(`aboutUs.trust.items.${index}.title`)}
+            description={t(`aboutUs.trust.items.${index}.description`)}
             key={index}
-            icon={
-              t(`schools.strategy.items.${index}.icon`) as IGridItemIconName
-            }
+            icon={t(`aboutUs.trust.items.${index}.icon`) as IGridItemIconName}
           />
         ))}
     </SimpleGrid>
   );
 };
 
-export default StrategyGrid;
+export default TrustGrid;

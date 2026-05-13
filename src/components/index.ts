@@ -9,6 +9,7 @@ import Description from "./description";
 import Eyebrow from "./eyebrow";
 
 import FeatureCard from "./feature-card";
+import Founder from "./about-us/founder";
 
 import HeroCard from "./hero-card";
 import HeroDescription from "./hero-description";
@@ -19,6 +20,7 @@ import MembershipCards from "./membership/cards";
 import MembershipGroup from "./membership/group";
 import MembershipOffer from "./membership/offer";
 
+import PedagogicCards from "./about-us/pedagogic-cards";
 import PrimaryButton from "./primary-button";
 
 import LanguagePicker from "./language-picker";
@@ -34,6 +36,7 @@ import SchoolFaq from "./schools/faq";
 import StrategyGrid from "./schools/grid";
 
 import Title from "./title";
+import TrustGrid from "./about-us/trust-grid";
 
 import WorkCards from "./schools/cards";
 
@@ -45,6 +48,7 @@ export {
   Description,
   Eyebrow,
   FeatureCard,
+  Founder,
   HeroCard,
   HeroDescription,
   HeroImage,
@@ -54,6 +58,7 @@ export {
   MembershipCards,
   MembershipGroup,
   MembershipOffer,
+  PedagogicCards,
   PrimaryButton,
   Navigation,
   NavigationLink,
@@ -63,5 +68,6 @@ export {
   SchoolFaq,
   StrategyGrid,
   Title,
+  TrustGrid,
   WorkCards,
 };
