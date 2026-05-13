@@ -85,11 +85,53 @@
   "product": {
     "hero": {
       "title": "Dialogue platform that makes growth visible",
-      "description": "Iceberg guides you through every conversation—from preparation to parent communication so you can focus on what truly matters: the student in front of you."
+      "description": "Iceberg guides you through every conversation—from preparation to parent communication so you can focus on what truly matters: the student in front of you.",
+      "image-desktop-text": "Dekstop viewport",
+      "image-tablet-text": "Tablet viewport",
+      "image-phone-text": "Phone viewport",
+      "app-store-text": "App Store button",
+      "google-play-text": "Google Play button"
     },
     "features": {
       "eyebrow": "Features",
-      "title": "Everything you need for meaningful conversations"
+      "title": "Everything you need for meaningful conversations",
+      "items": {
+        "0": {
+          "title": "Guided conversation flow",
+          "description": "A structured framework guides you through every phase of the conversation – before, during, and after. You always know what to focus on and how to lead the dialogue, without relying on improvisation. This creates consistency and confidence in every interaction.",
+          "icon": "roadmap"
+        },
+        "1": {
+          "title": "Automatic transcription",
+          "description": "Conversations are recorded and transcribed in real time, capturing everything accurately in the background. You no longer need to split your attention between listening and taking notes. This allows you to stay fully present with the student.",
+          "icon": "microphone"
+        },
+        "2": {
+          "title": "Smart prompts & question suggestions",
+          "description": "During the conversation, the app provides contextual prompts and “power questions” to guide you. These suggestions help you go deeper, stay on track, and handle different situations more effectively. Over time, this improves the quality of every conversation you lead.",
+          "icon": "messages"
+        },
+        "3": {
+          "title": "AI-generated summaries",
+          "description": "After each session, the app automatically generates a clear and structured summary. It highlights strengths, key discussion points, and agreed next steps. What used to take significant time is now done for you within minutes.",
+          "icon": "AI"
+        },
+        "4": {
+          "title": "Parent email generator",
+          "description": "After every conversation, a structured and supportive email is ready to send to parents. It includes key insights, strengths, and agreed goals – automatically generated in their preferred language. This keeps parents informed and involved without adding extra work.",
+          "icon": "envelope"
+        },
+        "5": {
+          "title": "WOOP goal builder",
+          "description": "The built-in WOOP framework helps transform goals into concrete, actionable plans. Students define what they want to achieve, identify possible obstacles, and decide how to respond. This makes goals realistic, trackable, and far more likely to happen.",
+          "icon": "target"
+        },
+        "6": {
+          "title": "Student profiles & progress tracking",
+          "description": "Each student has a dynamic profile that reflects their strengths, competencies, and level of independence. You can track development over time and see patterns across different areas. This creates a complete and meaningful picture of each student’s growth.",
+          "icon": "student"
+        }
+      }
     },
     "experience": {
       "eyebrow": "User experience",
@@ -97,11 +139,74 @@
     },
     "methodology": {
       "eyebrow": "Methodology",
-      "title": "Grounded in research. Built for teachers."
+      "title": "Grounded in research. Built for teachers.",
+      "descriptions": {
+        "0": {
+          "text": "Iceberg is built on John Hattie's Visible Learning research—the largest synthesis of educational studies ever conducted. Hattie shows that the teacher-student relationship has an effect size of d = 0.72, almost twice the average of all educational interventions."
+        },
+        "1": {
+          "text": "The WOOP method (Wish, Outcome, Obstacle, Plan) by Professor Gabriele Oettingen provides the goal-setting framework. Unlike positive thinking alone, WOOP asks: what might get in the way? And what will you do if that happens?"
+        },
+        "2": {
+          "text": "The 5 Iceberg Levels make independence visible. From Deep Sea (close guidance) to Summit (fully independent), each competency has its own journey. Teachers can see more in a student than the student believes about themselves."
+        }
+      }
     },
     "benefits": {
       "eyebrow": "The outcome",
-      "title": "What changes when you use Iceberg"
+      "title": "What changes when you use Iceberg",
+      "items": {
+        "0": {
+          "title": "Students whoo feel truly seen",
+          "description": "Every student gets the space to speak and reflect. Even quieter students open up, leading to stronger relationships, more trust, and higher engagement.",
+          "illustration": "satisfaction"
+        },
+        "1": {
+          "title": "More time, less admin",
+          "description": "All notes, summaries, and parent communication are created automatically. What used to take up to an hour of documentation after each conversation is now reduced to just a few minutes.",
+          "illustration": "clock"
+        },
+        "2": {
+          "title": "Structured conversation, no guesswork",
+          "description": "Every conversation follows a clear structure – before, during, and after. You always know what to ask next, without relying on improvisation or repeating the same patterns.",
+          "illustration": "conversation"
+        },
+        "3": {
+          "title": "Deeper student conversation",
+          "description": "Move beyond grades and surface-level topics. Iceberg helps you uncover real challenges, hidden strengths, and the underlying factors that truly influence a student’s development.",
+          "illustration": "deep-minds"
+        },
+        "4": {
+          "title": "Goals that actually happen",
+          "description": "With the WOOP method, goals become concrete and actionable. Students don’t just set intentions – they identify obstacles and define clear steps to move forward.",
+          "illustration": "goals"
+        },
+        "5": {
+          "title": "Parents effortlessly involved",
+          "description": "After each conversation, a structured and supportive summary is ready to send to parents – in their preferred language. They stay informed, involved, and aligned without extra effort.",
+          "illustration": "parents"
+        },
+        "6": {
+          "title": "Fully present during conversation",
+          "description": "No need to take notes or manage documentation during the conversation. You can focus entirely on the student while the app captures and structures everything in the background.",
+          "illustration": "focus"
+        },
+        "7": {
+          "title": "Continuous improvement through feedback",
+          "description": "Each conversation includes built-in reflection. Over time, you develop stronger communication skills and improve the quality of your conversations step by step.",
+          "illustration": "feedback"
+        },
+        "8": {
+          "title": "Visible student progress",
+          "description": "Track development across competencies, independence, and self-responsibility. Progress becomes measurable and visible – not just reflected in grades.",
+          "illustration": "progress"
+        },
+        "9": {
+          "title": "Less stress, more confidence",
+          "description": "You enter every conversation prepared and supported. With a clear system in place, conversations become more predictable, effective, and significantly less stressful.",
+          "illustration": "confidence"
+        }
+      }
     },
     "start": {
       "eyebrow": "Get started",
