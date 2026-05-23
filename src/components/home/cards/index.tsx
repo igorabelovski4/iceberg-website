@@ -21,7 +21,7 @@ const PhaseCard = () => {
         const Icon = PHASES_ICON_MAP[iconKey];
 
         return (
-          <Card key={index} className={classes.card}>
+          <Card key={index} className={classes.card} withBorder shadow='xl'>
             <Stack className={classes.inner}>
               <Icon
                 size={36}

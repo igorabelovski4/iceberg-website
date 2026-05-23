@@ -24,6 +24,8 @@ import {
   IconClock,
   IconBrandLine,
   IconSend,
+  IconSchool,
+  IconHeart,
 } from "@tabler/icons-react";
 
 export const HEADER_HEIGHT = 76;
@@ -32,6 +34,8 @@ export const NUMBER_OF_HOME_PAGE_HERO_BADGES = 3;
 export const NUMBER_OF_STORY_STEPS = 6;
 export const NUMBER_OF_DIFFERENCES = 7;
 export const NUMBER_OF_PHASE_CARDS = 3;
+export const NUMBER_OF_PERSPECTIVES = 3;
+export const NUMBER_OF_PERSPECTIVE_DETAILS = 3;
 export const NUMBER_OF_FEATURES = 7;
 export const NUMBER_OF_METHODOLOGY_TEXTS = 3;
 export const NUMBER_OF_BENEFITS = 10;
@@ -118,6 +122,12 @@ export const PHASES_ICON_MAP = {
   clock: IconClock,
   message: IconBrandLine,
   send: IconSend,
+};
+
+export const PERSPECTIVE_ICON_MAP = {
+  school: IconSchool,
+  hearth: IconHeart,
+  people: IconUsers,
 };
 
 export const FEATURES_ICON_MAP = {

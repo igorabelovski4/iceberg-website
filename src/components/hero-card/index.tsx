@@ -1,4 +1,4 @@
-import { Stack, Text } from "@mantine/core";
+import { Card, Group, Stack, Text } from "@mantine/core";
 
 import { IHeroCard } from "@/types/common";
 
@@ -13,12 +13,18 @@ const HeroCard = ({ icon, title, items }: IHeroCard) => {
 
   return (
     <>
-      <Stack className={classes.card}>
-        <Icon size={24} stroke={1.5} />
-        <Text>{title}</Text>
-        {items?.map((item, index) => (
-          <Text key={index}>{item}</Text>
-        ))}
+      <Stack className={classes.card} align='center'>
+        <Icon size={28} className={classes.icon} />
+        <Stack gap={4}>
+          <Text className={classes.title}>{title}</Text>
+          <Group>
+            {items?.map((item, index) => (
+              <Text key={index} className={classes.additional}>
+                {item}
+              </Text>
+            ))}
+          </Group>
+        </Stack>
       </Stack>
     </>
   );

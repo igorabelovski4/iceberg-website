@@ -96,12 +96,14 @@ export interface IHeroCard {
 
 export interface IAccordionBox {
   children: React.ReactNode;
+  dark?: boolean;
 }
 
 export interface IAccordionItem {
   title: string;
   question: string;
   answer: string;
+  dark?: boolean;
 }
 
 export interface IHeroImage {

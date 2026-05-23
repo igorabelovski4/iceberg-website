@@ -31,6 +31,7 @@ import NavigationLink from "./navigation-link";
 import OutcomeCarousel from "./product/carousel";
 
 import PedagogicCards from "./about-us/pedagogic-cards";
+import PerspectiveSwitch from "./home/perspective-switch";
 import PhaseCard from "./home/cards";
 import PrimaryButton from "./primary-button";
 import ProsConsItem from "./pros-cons";
@@ -75,6 +76,7 @@ export {
   NavigationLink,
   OutcomeCarousel,
   PedagogicCards,
+  PerspectiveSwitch,
   PhaseCard,
   PrimaryButton,
   ProsConsItem,

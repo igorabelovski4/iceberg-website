@@ -8,6 +8,7 @@ import {
   HeroDescription,
   HeroTitle,
   MembershipCards,
+  PerspectiveSwitch,
   PhaseCard,
   PrimaryButton,
   Section,
@@ -83,7 +84,8 @@ export function HomePage() {
         <PhaseCard />
       </Section>
       <Section>
-        <SectionTitle>{t("home.forWho.title")}</SectionTitle>
+        <SectionTitle margin>{t("home.forWho.title")}</SectionTitle>
+        <PerspectiveSwitch />
       </Section>
       <Section>
         <Eyebrow>{t("home.support.eyebrow")}</Eyebrow>

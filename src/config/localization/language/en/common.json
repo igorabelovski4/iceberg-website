@@ -163,7 +163,75 @@
       }
     },
     "forWho": {
-      "title": "Who Is Iceberg For?"
+      "title": "Who Is Iceberg For?",
+      "options": {
+        "0": {
+          "value": "teachers",
+          "title": "For Teachers",
+          "icon": "school",
+          "additional": "You gain time. And depth.",
+          "description": "You are fully present. No notes, no laptop between you and the student. After the conversation, the app delivers a complete summary – with strengths, independence level, and WOOP goals. The documentation writes itself. And the feedback loop helps you improve with every conversation.",
+          "color": "#4F7CAC",
+          "details": {
+            "0": {
+              "value": "2 min",
+              "label": "Preparation time"
+            },
+            "1": {
+              "value": "100%",
+              "label": "Present in conversation"
+            },
+            "2": {
+              "value": "Auto",
+              "label": "Documentation"
+            }
+          }
+        },
+        "1": {
+          "value": "students",
+          "title": "For Students",
+          "icon": "hearth",
+          "additional": "Finally, someone truly listens.",
+          "description": "The conversation begins with your strengths – not your grades. You are asked what you want and what might hold you back. You learn to assess yourself: what am I good at? Where am I still struggling? You leave the conversation with a clear plan and the knowledge that your teacher truly listened.",
+          "color": "#D9B65C",
+          "details": {
+            "0": {
+              "value": "Strengths",
+              "label": "First, not grades"
+            },
+            "1": {
+              "value": "Voice",
+              "label": "Every student heard"
+            },
+            "2": {
+              "value": "WHOOP",
+              "label": "Clear action plan"
+            }
+          }
+        },
+        "2": {
+          "value": "parents",
+          "title": "For Parents",
+          "icon": "people",
+          "additional": "Everyone in the boat.",
+          "description": "After every conversation they receive a resource-oriented summary in their preferred language. They know which goal is being worked on and how they can support at home. No waiting until the next report card. Parents can give anonymous feedback if they wish.",
+          "color": "#C65A5A",
+          "details": {
+            "0": {
+              "value": "Instant",
+              "label": "Email after conversation"
+            },
+            "1": {
+              "value": "Multi",
+              "label": "Language support"
+            },
+            "2": {
+              "value": "Feedback",
+              "label": "Anonymous option"
+            }
+          }
+        }
+      }
     },
     "support": {
       "eyebrow": "More than software",
@@ -177,7 +245,7 @@
   "product": {
     "hero": {
       "title": "Dialogue platform that makes growth visible",
-      "description": "Iceberg guides you through every conversation—from preparation to parent communication so you can focus on what truly matters: the student in front of you.",
+      "description": "Iceberg guides you through every conversation — from preparation to parent communication so you can focus on what truly matters: the student in front of you.",
       "image-desktop-text": "Dekstop viewport",
       "image-tablet-text": "Tablet viewport",
       "image-phone-text": "Phone viewport",
