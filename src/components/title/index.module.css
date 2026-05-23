@@ -3,6 +3,10 @@
   line-height: 1.5;
   font-weight: 700;
 
+  &.thin {
+    font-weight: 600;
+  }
+
   &.dark {
     color: var(--color-text-primary);
   }

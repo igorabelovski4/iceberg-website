@@ -8,6 +8,18 @@
     var(--color-brand-primary-dark) 100%
   );
   overflow: hidden;
+
+  &.alternative {
+    background: radial-gradient(
+      ellipse at bottom,
+      var(--color-brand-secondary) 0%,
+      var(--color-brand-secondary-dark) 100%
+    );
+
+    .iconBox {
+      color: var(--color-brand-secondary);
+    }
+  }
 }
 
 .inner {

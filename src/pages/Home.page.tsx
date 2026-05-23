@@ -2,13 +2,17 @@ import { useTranslation } from "react-i18next";
 import { AppConstants } from "@/constants";
 import {
   BackgroundSection,
+  Difference,
   Eyebrow,
   HeroCard,
   HeroDescription,
   HeroTitle,
+  MembershipCards,
+  PhaseCard,
   PrimaryButton,
   Section,
   SectionTitle,
+  Story,
 } from "@/components";
 import { Image, SimpleGrid } from "@mantine/core";
 import { IIconName } from "@/types/common";
@@ -17,6 +21,7 @@ const {
   LANDING_HERO_IMAGE,
   HERO_3D_VIDEO_IMAGE,
   NUMBER_OF_HOME_PAGE_HERO_BADGES,
+  FOUNDER_IMAGE,
 } = AppConstants;
 
 export function HomePage() {
@@ -52,6 +57,10 @@ export function HomePage() {
             ))}
         </SimpleGrid>
       </BackgroundSection>
+      <Section>
+        <Eyebrow>{t("home.story.eyebrow")}</Eyebrow>
+        <Story />
+      </Section>
       <Section variant='secondary'>
         <Eyebrow variant='light'>{t("home.nutshell.eyebrow")}</Eyebrow>
         <SectionTitle variant='light' margin>
@@ -63,22 +72,33 @@ export function HomePage() {
       </Section>
       <Section>
         <Eyebrow variant='primary'>{t("home.difference.eyebrow")}</Eyebrow>
-        <SectionTitle>{t("home.difference.title")}</SectionTitle>
+        <SectionTitle margin>{t("home.difference.title")}</SectionTitle>
+        <Difference />
       </Section>
       <Section variant='dark'>
         <Eyebrow variant='light'>{t("home.howWorks.eyebrow")}</Eyebrow>
-        <SectionTitle variant='light'>{t("home.howWorks.title")}</SectionTitle>
+        <SectionTitle variant='light' margin>
+          {t("home.howWorks.title")}
+        </SectionTitle>
+        <PhaseCard />
       </Section>
       <Section>
         <SectionTitle>{t("home.forWho.title")}</SectionTitle>
       </Section>
       <Section>
         <Eyebrow>{t("home.support.eyebrow")}</Eyebrow>
-        <SectionTitle>{t("home.support.title")}</SectionTitle>
+        <SectionTitle margin>{t("home.support.title")}</SectionTitle>
+        <MembershipCards />
       </Section>
       <Section>
         <Eyebrow>{t("home.founder.eyebrow")}</Eyebrow>
-        <SectionTitle>{t("home.founder.title")}</SectionTitle>
+        <SectionTitle margin>{t("home.founder.title")}</SectionTitle>
+        <Image
+          src={FOUNDER_IMAGE}
+          alt={t("aboutUs.founder.name")}
+          h={500}
+          radius='xl'
+        />
       </Section>
       <Section variant='primary'></Section>
     </>

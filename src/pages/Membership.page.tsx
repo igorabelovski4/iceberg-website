@@ -46,7 +46,7 @@ export function MembershipPage() {
       <Section>
         <Eyebrow>{t("membership.group.eyebrow")}</Eyebrow>
         <SectionTitle margin>{t("membership.group.title")}</SectionTitle>
-        <Description align='left'>
+        <Description align='left' margin>
           {t("membership.group.description")}
         </Description>
         <MembershipGroup />

@@ -1,0 +1,26 @@
+.card {
+  padding: 20px;
+  border-radius: 16px;
+  border: 2px dashed transparent;
+
+  &.active,
+  &.active:hover {
+    border-color: var(--color-brand-secondary);
+  }
+
+  &:hover {
+    background-color: var(--color-brand-secondary-very-light);
+  }
+}
+
+.step {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 600;
+  color: var(--color-border);
+}
+
+.illustration {
+  height: 120px;
+  width: auto;
+}

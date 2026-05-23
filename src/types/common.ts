@@ -3,8 +3,17 @@ import {
   PAGE_HERO_BADGES_ICON_MAP,
   GRID_ICON_MAP,
   ILLUSTRATION_IMAGE_MAP,
+  STORY_STEPS_IMAGE_MAP,
 } from "@/constants/app";
-import { ForwardRefExoticComponent } from "react";
+
+export interface IStoryCard {
+  num: number;
+  illustration: IStoryCardIllustrationName;
+  activeStep: number;
+  onClick?: (value: number) => void;
+}
+
+export type IStoryCardIllustrationName = keyof typeof STORY_STEPS_IMAGE_MAP;
 
 export interface IBackgroundSection {
   imageSrc: string;
@@ -116,6 +125,7 @@ export interface ITitle {
   margin?: boolean;
   big?: boolean;
   alignLeft?: boolean;
+  thin?: boolean;
 }
 
 export interface ICard {
@@ -145,10 +155,21 @@ export interface IFeatureCard {
   description: string;
   map: any;
   icon: IFeatureCardIconName;
+  alternative?: boolean;
 }
 
 export type IFeatureCardIconName = keyof typeof MEMBERSHIP_CARDS_ICON_MAP;
 
-export interface IBenefitItem {
+export interface IProsConsSetion {
+  cons?: boolean;
+  header?: boolean;
+  title?: string;
+  itemsNum: number;
+  itemsTitle: string;
+}
+
+export interface IProsConstItem {
+  cons?: boolean;
   value: string;
+  index: number;
 }

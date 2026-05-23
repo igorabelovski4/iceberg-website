@@ -2,9 +2,9 @@ import AccordionBox from "./accordion";
 import AccordionItem from "./accordion-item";
 
 import BackgroundSection from "./background-section";
-import BenefitItem from "./benefit-item";
 
 import Description from "./description";
+import Difference from "./home/difference";
 import Download from "./product/download";
 
 import Eyebrow from "./eyebrow";
@@ -31,12 +31,15 @@ import NavigationLink from "./navigation-link";
 import OutcomeCarousel from "./product/carousel";
 
 import PedagogicCards from "./about-us/pedagogic-cards";
+import PhaseCard from "./home/cards";
 import PrimaryButton from "./primary-button";
+import ProsConsItem from "./pros-cons";
 
 import Section from "./section";
 import SectionTitle from "./section-title";
 import ShiftCarousel from "./schools/carousel";
 import SchoolFaq from "./schools/faq";
+import Story from "./home/story";
 import StrategyGrid from "./schools/grid";
 
 import Title from "./title";
@@ -52,8 +55,8 @@ export {
   AccordionBox,
   AccordionItem,
   BackgroundSection,
-  BenefitItem,
   Description,
+  Difference,
   Download,
   Eyebrow,
   FeatureCard,
@@ -72,11 +75,14 @@ export {
   NavigationLink,
   OutcomeCarousel,
   PedagogicCards,
+  PhaseCard,
   PrimaryButton,
+  ProsConsItem,
   Section,
   SectionTitle,
   ShiftCarousel,
   SchoolFaq,
+  Story,
   StrategyGrid,
   Title,
   TrustGrid,

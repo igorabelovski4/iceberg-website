@@ -1,12 +1,13 @@
-import BenefitItem from "@/components/benefit-item";
+import ProsConsItem from "@/components/pros-cons";
 import Description from "@/components/description";
 import Eyebrow from "@/components/eyebrow";
 import { NUMBER_OF_MEMBERSHIP_BENEFITS } from "@/constants/app";
-import { Card, Divider, Group, Stack, Text } from "@mantine/core";
+import { Box, Card, Divider, Group, Stack, Text } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 
 import classes from "./index.module.css";
 import PrimaryButton from "@/components/primary-button";
+import ProsConsSection from "@/components/pros-cons";
 
 const MembershipOffer = () => {
   const { t } = useTranslation();
@@ -26,16 +27,13 @@ const MembershipOffer = () => {
         <Description>{t("membership.offer.offer.included")}</Description>
       </Stack>
       <Divider />
-      <Stack gap='xs' className={classes.benefits}>
-        {Array(NUMBER_OF_MEMBERSHIP_BENEFITS)
-          .fill(null)
-          .map((_, index) => (
-            <BenefitItem
-              value={t(`membership.offer.offer.items.${index}.title`)}
-              key={index}
-            />
-          ))}
-      </Stack>
+      <Box my='xl'>
+        <ProsConsSection
+          header={false}
+          itemsNum={NUMBER_OF_MEMBERSHIP_BENEFITS}
+          itemsTitle='membership.offer.offer.items'
+        />
+      </Box>
       <Divider />
       <Group align='center' justify='space-between' mt='xl' wrap='nowrap'>
         <PrimaryButton icon block>

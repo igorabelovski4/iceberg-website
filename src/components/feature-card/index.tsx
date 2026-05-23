@@ -5,11 +5,19 @@ import classes from "./index.module.css";
 import Title from "../title";
 import Description from "../description";
 
-const FeatureCard = ({ title, description, map, icon }: IFeatureCard) => {
+const FeatureCard = ({
+  title,
+  description,
+  map,
+  icon,
+  alternative = false,
+}: IFeatureCard) => {
   const Icon = map[icon];
 
   return (
-    <Box className={classes.container}>
+    <Box
+      className={`${classes.container} ${alternative ? classes.alternative : ""}`}
+    >
       <Box className={classes.stars}></Box>
       <Box className={classes.stars2}></Box>
       <Box className={classes.stars3}></Box>

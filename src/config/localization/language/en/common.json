@@ -40,13 +40,106 @@
         }
       }
     },
+    "story": {
+      "eyebrow": "Our story",
+      "items": {
+        "0": {
+          "illustration": "dilemma",
+          "title": "You are my favourite teacher.  You believe in me. You help me.",
+          "description": "And again you hear it. You give yourself a quiet pat on the shoulder — not because you were perfect, but because you know you made a difference. Your students grow because you make it possible. That is exactly why you became a teacher."
+        },
+        "1": {
+          "illustration": "missing",
+          "title": "But time is short. The framework is missing.",
+          "description": "Too often the conversation stays at the surface. The quiet ones are waiting for the right question. The strong ones are waiting for a real challenge. Your students grow because you make it possible. That is exactly why you became a teacher. The parents have no idea how much you invest. Goals fade away. Work that does not land."
+        },
+        "2": {
+          "illustration": "fall",
+          "title": "You did not become a teacher for this.",
+          "description": "You do not want to go back. And you do not have to."
+        },
+        "3": {
+          "illustration": "discover",
+          "title": "Below the surface lies what truly matters.",
+          "description": "Undiscovered strengths. Unnamed fears. Potential that is waiting for someone to believe in it. The learning dialogue is the only place where you can dive in — when you are present, when you truly listen. That moment of genuine connection changes a student. Not the grade. That moment."
+        },
+        "4": {
+          "illustration": "grow",
+          "title": "That person is you",
+          "description": "The learning dialogue is the only place where you can dive in — when you are present, when you truly listen. That moment of genuine connection changes a student. Not the grade. That moment."
+        },
+        "5": {
+          "illustration": "won",
+          "title": "Iceberg is built for that moment.",
+          "description": "With Iceberg, conversations change for everyone involved. For you, for the student, for the parents. They become more interactive, more competent, and go deeper. Iceberg does not make the conversation easier. It makes it possible."
+        }
+      }
+    },
     "nutshell": {
       "eyebrow": "In a nutshell",
       "title": "Iceberg guides teachers through every phase of the learning dialogue – from preparation to parent email – so they can be fully present."
     },
     "difference": {
       "eyebrow": "The difference",
-      "title": "Before & After"
+      "title": "Before & After",
+      "against": {
+        "title": "Without Iceberg",
+        "items": {
+          "0": {
+            "text": "No overview before the conversation"
+          },
+          "1": {
+            "text": "Always the same questions"
+          },
+          "2": {
+            "text": "Conversation stays at the surface"
+          },
+          "3": {
+            "text": "Quiet students stay quiet"
+          },
+          "4": {
+            "text": "Parents don't know what is happening"
+          },
+          "5": {
+            "text": "One hour of documentation afterwards"
+          },
+          "6": {
+            "text": "Goals that fade away"
+          },
+          "7": {
+            "text": "Conversation as an obligation"
+          }
+        }
+      },
+      "for": {
+        "title": "With Iceberg",
+        "items": {
+          "0": {
+            "text": "Complete summary at a glance"
+          },
+          "1": {
+            "text": "Structured, adaptive conversation guidance"
+          },
+          "2": {
+            "text": "Deep, resource-oriented conversations"
+          },
+          "3": {
+            "text": "Every student gets to speak"
+          },
+          "4": {
+            "text": "Parent email in their language, ready immediately"
+          },
+          "5": {
+            "text": "Summary created automatically"
+          },
+          "6": {
+            "text": "Goals with a concrete plan"
+          },
+          "7": {
+            "text": "Conversation as a coaching moment"
+          }
+        }
+      }
     },
     "howWorks": {
       "eyebrow": "How it works",
@@ -79,8 +172,7 @@
     "founder": {
       "eyebrow": "From the founder",
       "title": "The Idea behind Iceberg"
-    },
-    "join": {}
+    }
   },
   "product": {
     "hero": {
@@ -348,6 +440,11 @@
           "title": "Community",
           "description": "Connect with fellow teachers who share your commitment to meaningful student growth.",
           "icon": "people"
+        },
+        "4": {
+          "title": "Disclaimer",
+          "description": "Placeholder for text",
+          "icon": "alert"
         }
       }
     },
@@ -361,28 +458,28 @@
         "included": "App + Pedagogic+ Membership",
         "items": {
           "0": {
-            "title": "Complete summary at a glance"
+            "text": "Complete summary at a glance"
           },
           "1": {
-            "title": "Structured, adaptive conversation guidance"
+            "text": "Structured, adaptive conversation guidance"
           },
           "2": {
-            "title": "Deep, resource-oriented conversations"
+            "text": "Deep, resource-oriented conversations"
           },
           "3": {
-            "title": "Every student gets to speak"
+            "text": "Every student gets to speak"
           },
           "4": {
-            "title": "Parent email in their language, ready immediately"
+            "text": "Parent email in their language, ready immediately"
           },
           "5": {
-            "title": "Summary created automatically"
+            "text": "Summary created automatically"
           },
           "6": {
-            "title": "WOOP goals with a concrete plan"
+            "text": "WOOP goals with a concrete plan"
           },
           "7": {
-            "title": "Conversation as a coaching moment"
+            "text": "Conversation as a coaching moment"
           }
         },
         "cta": {
@@ -399,25 +496,25 @@
         "title": "Includes",
         "items": {
           "0": {
-            "title": "Ready-to-sign Data Processing Agreement (DPA)"
+            "text": "Ready-to-sign Data Processing Agreement (DPA)"
           },
           "1": {
-            "title": "Pre-filled Data Protection Impact Assessment (DPIA)"
+            "text": "Pre-filled Data Protection Impact Assessment (DPIA)"
           },
           "2": {
-            "title": "Print-ready parental consent forms"
+            "text": "Print-ready parental consent forms"
           },
           "3": {
-            "title": "Personal onboarding for all teachers"
+            "text": "Personal onboarding for all teachers"
           },
           "4": {
-            "title": "Dedicated school support contact"
+            "text": "Dedicated school support contact"
           },
           "5": {
-            "title": "Summary created automatically"
+            "text": "Summary created automatically"
           },
           "6": {
-            "title": "Custom training sessions available"
+            "text": "Custom training sessions available"
           }
         }
       },

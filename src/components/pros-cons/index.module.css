@@ -1,0 +1,41 @@
+.itemWrapper {
+  gap: 12px;
+}
+
+.cons {
+  color: var(--color-error);
+}
+
+.pros {
+  color: var(--color-brand-primary);
+}
+
+.wrapper {
+  gap: 24px;
+}
+
+.titleBox {
+  width: 100%;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--color-brand-primary);
+
+  &.cons {
+    border-bottom-color: #f0f0f0;
+  }
+}
+
+.titleIcon {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  border-radius: 9999px;
+  background-color: #e0f7f8;
+
+  &.cons {
+    background-color: #ffeeee;
+  }
+}
+
+.items {
+  gap: 24px;
+}

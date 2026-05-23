@@ -20,12 +20,18 @@ import {
   IconMailOpened,
   IconTargetArrow,
   IconUserShare,
+  IconAlertTriangle,
+  IconClock,
+  IconBrandLine,
+  IconSend,
 } from "@tabler/icons-react";
 
 export const HEADER_HEIGHT = 76;
 
 export const NUMBER_OF_HOME_PAGE_HERO_BADGES = 3;
-
+export const NUMBER_OF_STORY_STEPS = 6;
+export const NUMBER_OF_DIFFERENCES = 7;
+export const NUMBER_OF_PHASE_CARDS = 3;
 export const NUMBER_OF_FEATURES = 7;
 export const NUMBER_OF_METHODOLOGY_TEXTS = 3;
 export const NUMBER_OF_BENEFITS = 10;
@@ -54,6 +60,13 @@ export const DE_FLAG = "/assets/flags/de.png";
 export const FR_FLAG = "/assets/flags/fr.png";
 export const GB_FLAG = "/assets/flags/gb.png";
 export const IT_FLAG = "/assets/flags/it.png";
+
+export const STORY_STEP_1_IMAGE = "/assets/illustrations/dilemma.png";
+export const STORY_STEP_2_IMAGE = "/assets/illustrations/missing.png";
+export const STORY_STEP_3_IMAGE = "/assets/illustrations/fall.png";
+export const STORY_STEP_4_IMAGE = "/assets/illustrations/discover.png";
+export const STORY_STEP_5_IMAGE = "/assets/illustrations/grow.png";
+export const STORY_STEP_6_IMAGE = "/assets/illustrations/won.png";
 
 export const APP_STORE_IMAGE = "/assets/images/app-store-button.png";
 export const GOOGLE_PLAY_IMAGE = "/assets/images/google-play-button.png";
@@ -92,6 +105,21 @@ export const PAGE_HERO_BADGES_ICON_MAP = {
   trending: IconTrendingUp,
 };
 
+export const STORY_STEPS_IMAGE_MAP = {
+  dilemma: STORY_STEP_1_IMAGE,
+  missing: STORY_STEP_2_IMAGE,
+  fall: STORY_STEP_3_IMAGE,
+  discover: STORY_STEP_4_IMAGE,
+  grow: STORY_STEP_5_IMAGE,
+  won: STORY_STEP_6_IMAGE,
+};
+
+export const PHASES_ICON_MAP = {
+  clock: IconClock,
+  message: IconBrandLine,
+  send: IconSend,
+};
+
 export const FEATURES_ICON_MAP = {
   route: IconRoute,
   microphone: IconMicrophone2,
@@ -120,6 +148,7 @@ export const MEMBERSHIP_CARDS_ICON_MAP = {
   camera: IconVideo,
   book: IconBook,
   people: IconUsers,
+  alert: IconAlertTriangle,
 };
 
 export const ILLUSTRATION_IMAGE_MAP = {
