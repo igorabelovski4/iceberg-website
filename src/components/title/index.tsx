@@ -8,10 +8,11 @@ const Title = ({
   variant = "dark",
   margin = true,
   big = false,
+  alignLeft = false,
 }: ITitle) => {
   return (
     <Text
-      className={`${classes.title} ${classes[variant]} ${margin ? classes.margin : ""} ${big ? classes.big : ""}`}
+      className={`${classes.title} ${classes[variant]} ${margin ? classes.margin : ""} ${big ? classes.big : ""} ${alignLeft ? classes.left : ""}`}
     >
       {children}
     </Text>

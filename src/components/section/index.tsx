@@ -12,10 +12,13 @@ const Section = ({
   eyebrowVariant = "light",
   sectionTitle,
   sectionTitleVariant = "dark",
+  largeBottomPadding = false,
   children,
 }: ISection) => {
   return (
-    <Box className={clsx(classes.container, classes[variant])}>
+    <Box
+      className={`${clsx(classes.container, classes[variant])} ${largeBottomPadding ? classes.largeBottomPadding : ""}`}
+    >
       {variant !== "blank" && (
         <>
           <Box className={classes.stars}></Box>
@@ -27,7 +30,7 @@ const Section = ({
       <Container className={classes.inner}>
         {eyebrow && <Eyebrow variant={eyebrowVariant}>{eyebrow}</Eyebrow>}
         {sectionTitle && (
-          <SectionTitle variant={sectionTitleVariant} >
+          <SectionTitle variant={sectionTitleVariant}>
             {sectionTitle}
           </SectionTitle>
         )}

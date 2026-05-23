@@ -99,37 +99,44 @@
         "0": {
           "title": "Guided conversation flow",
           "description": "A structured framework guides you through every phase of the conversation – before, during, and after. You always know what to focus on and how to lead the dialogue, without relying on improvisation. This creates consistency and confidence in every interaction.",
-          "icon": "roadmap"
+          "icon": "route",
+          "color": "#D9B65C"
         },
         "1": {
           "title": "Automatic transcription",
           "description": "Conversations are recorded and transcribed in real time, capturing everything accurately in the background. You no longer need to split your attention between listening and taking notes. This allows you to stay fully present with the student.",
-          "icon": "microphone"
+          "icon": "microphone",
+          "color": "#4F7CAC"
         },
         "2": {
           "title": "Smart prompts & question suggestions",
           "description": "During the conversation, the app provides contextual prompts and “power questions” to guide you. These suggestions help you go deeper, stay on track, and handle different situations more effectively. Over time, this improves the quality of every conversation you lead.",
-          "icon": "messages"
+          "icon": "messages",
+          "color": "#C65A5A"
         },
         "3": {
           "title": "AI-generated summaries",
           "description": "After each session, the app automatically generates a clear and structured summary. It highlights strengths, key discussion points, and agreed next steps. What used to take significant time is now done for you within minutes.",
-          "icon": "AI"
+          "icon": "ai",
+          "color": "#3FA38D"
         },
         "4": {
           "title": "Parent email generator",
           "description": "After every conversation, a structured and supportive email is ready to send to parents. It includes key insights, strengths, and agreed goals – automatically generated in their preferred language. This keeps parents informed and involved without adding extra work.",
-          "icon": "envelope"
+          "icon": "envelope",
+          "color": "#E08A3C"
         },
         "5": {
           "title": "WOOP goal builder",
           "description": "The built-in WOOP framework helps transform goals into concrete, actionable plans. Students define what they want to achieve, identify possible obstacles, and decide how to respond. This makes goals realistic, trackable, and far more likely to happen.",
-          "icon": "target"
+          "icon": "target",
+          "color": "#7B61A8"
         },
         "6": {
           "title": "Student profiles & progress tracking",
           "description": "Each student has a dynamic profile that reflects their strengths, competencies, and level of independence. You can track development over time and see patterns across different areas. This creates a complete and meaningful picture of each student’s growth.",
-          "icon": "student"
+          "icon": "student",
+          "color": "#C97C92"
         }
       }
     },
@@ -174,7 +181,7 @@
         "3": {
           "title": "Deeper student conversation",
           "description": "Move beyond grades and surface-level topics. Iceberg helps you uncover real challenges, hidden strengths, and the underlying factors that truly influence a student’s development.",
-          "illustration": "deep-minds"
+          "illustration": "minds"
         },
         "4": {
           "title": "Goals that actually happen",

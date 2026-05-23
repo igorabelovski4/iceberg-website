@@ -1,0 +1,16 @@
+.slide {
+  display: flex;
+  align-items: center;
+}
+
+.illustration {
+  width: 341px;
+}
+
+.indicators {
+  bottom: 0;
+}
+
+.indicator {
+  background-color: var(--color-brand-primary);
+}

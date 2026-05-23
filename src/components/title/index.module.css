@@ -22,4 +22,8 @@
   &.big {
     font-size: 48px;
   }
+
+  &.left {
+    text-align: left;
+  }
 }

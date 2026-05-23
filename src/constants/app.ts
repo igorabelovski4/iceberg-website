@@ -14,12 +14,21 @@ import {
   IconUserStar,
   IconBuildingCommunity,
   IconFlask,
+  IconMicrophone2,
+  IconMessageDots,
+  IconFileAi,
+  IconMailOpened,
+  IconTargetArrow,
+  IconUserShare,
 } from "@tabler/icons-react";
 
 export const HEADER_HEIGHT = 76;
 
 export const NUMBER_OF_HOME_PAGE_HERO_BADGES = 3;
 
+export const NUMBER_OF_FEATURES = 7;
+export const NUMBER_OF_METHODOLOGY_TEXTS = 3;
+export const NUMBER_OF_BENEFITS = 10;
 export const NUMBER_OF_PEDAGOGIC_TEXTS = 3;
 export const NUMBER_OF_PEDAGOGIC_CARDS = 3;
 export const NUMBER_OF_FOUNDER_BIOGRAPHY_TEXTS = 4;
@@ -34,12 +43,6 @@ export const NUMBER_OF_SHIFT_ITEMS = 6;
 export const NUMBER_OF_WORK_CARDS = 3;
 export const NUMBER_OF_STRATEGY_ITEMS = 6;
 export const NUMBER_OF_SCHOOL_FAQ_ITEMS = 10;
-
-export const PAGE_HERO_BADGES_ICON_MAP = {
-  shield: IconShield,
-  users: IconUsers,
-  trending: IconTrendingUp,
-};
 
 export const LOGO_IMAGE = "/assets/images/logo.png";
 export const LANDING_HERO_IMAGE = "/assets/images/iceberg.png";
@@ -56,11 +59,22 @@ export const APP_STORE_IMAGE = "/assets/images/app-store-button.png";
 export const GOOGLE_PLAY_IMAGE = "/assets/images/google-play-button.png";
 
 export const LAPTOP_VIEWPORT_IMAGE = "/assets/images/laptop-viewport.png";
-export const MOBILE_VIEWPORT_IMAGE = "/assets/images/tablet-viewport.png";
 export const TABLET_VIEWPORT_IMAGE = "/assets/images/tablet-viewport.png";
+export const MOBILE_VIEWPORT_IMAGE = "/assets/images/mobile-viewport.png";
 export const TABLET_VIEWPORT_1_IMAGE = "/assets/images/tablet-viewport-1.png";
 export const TABLET_VIEWPORT_2_IMAGE = "/assets/images/tablet-viewport-2.png";
 export const TABLET_VIEWPORT_3_IMAGE = "/assets/images/tablet-viewport-3.png";
+
+export const SATISFACTION_IMAGE = "/assets/illustrations/happy-news.png";
+export const CLOCK_IMAGE = "/assets/illustrations/time-change.png";
+export const CONVERSATION_IMAGE = "/assets/illustrations/getting-coffee.png";
+export const DEEP_MINDS_IMAGE = "/assets/illustrations/thought-process.png";
+export const GOALS_IMAGE = "/assets/illustrations/personal-goals.png";
+export const PARENTS_IMAGE = "/assets/illustrations/quality-time.png";
+export const FOCUS_IMAGE = "/assets/illustrations/podcast-listener.png";
+export const FEEDBACK_IMAGE = "/assets/illustrations/reviews.png";
+export const PROGRESS_IMAGE = "/assets/illustrations/stepping-up.png";
+export const CONFIDENCE_IMAGE = "/assets/illustrations/stand-up.png";
 
 export const TEAM_IMAGE = "/assets/illustrations/team.png";
 export const COLLABORATION_IMAGE = "/assets/illustrations/collaboration.png";
@@ -71,6 +85,35 @@ export const EDUCATOR_IMAGE = "/assets/illustrations/educator.png";
 export const TRAINING_IMAGE = "/assets/illustrations/remote-meeting.png";
 export const COMMUNITY_IMAGE = "/assets/illustrations/community.png";
 export const SUPPORT_IMAGE = "./assets/illustrations/active-support.png";
+
+export const PAGE_HERO_BADGES_ICON_MAP = {
+  shield: IconShield,
+  users: IconUsers,
+  trending: IconTrendingUp,
+};
+
+export const FEATURES_ICON_MAP = {
+  route: IconRoute,
+  microphone: IconMicrophone2,
+  messages: IconMessageDots,
+  ai: IconFileAi,
+  envelope: IconMailOpened,
+  target: IconTargetArrow,
+  student: IconUserShare,
+};
+
+export const OUTCOME_IMAGE_MAP = {
+  satisfaction: SATISFACTION_IMAGE,
+  clock: CLOCK_IMAGE,
+  conversation: CONVERSATION_IMAGE,
+  minds: DEEP_MINDS_IMAGE,
+  goals: GOALS_IMAGE,
+  parents: PARENTS_IMAGE,
+  focus: FOCUS_IMAGE,
+  feedback: FEEDBACK_IMAGE,
+  progress: PROGRESS_IMAGE,
+  confidence: CONFIDENCE_IMAGE,
+};
 
 export const MEMBERSHIP_CARDS_ICON_MAP = {
   headphones: IconHeadphones,

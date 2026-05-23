@@ -5,6 +5,10 @@
   padding: 80px 0;
 }
 
+.largeBottomPadding {
+  padding-bottom: 160px;
+}
+
 .primary {
   background: radial-gradient(
     ellipse at bottom,

@@ -64,6 +64,7 @@ export interface ISection {
   sectionTitleVariant?: ISectionTitleVariant;
   children?: React.ReactNode;
   variant?: ISectionVariant;
+  largeBottomPadding?: boolean;
 }
 
 export type ISectionVariant = "blank" | "primary" | "secondary" | "dark";
@@ -114,6 +115,7 @@ export interface ITitle {
   variant?: ITitleVariant;
   margin?: boolean;
   big?: boolean;
+  alignLeft?: boolean;
 }
 
 export interface ICard {
