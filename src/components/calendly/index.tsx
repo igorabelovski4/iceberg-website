@@ -3,7 +3,7 @@ import { InlineWidget } from "react-calendly";
 
 const Calendly = () => {
   return (
-    <Box style={{ height: "700px" }}>
+    <Box style={{ width: "100%", height: "700px" }}>
       <InlineWidget
         url='https://calendly.com/igorabelovski4/test-event?hide_gdpr_banner=1&text_color=333333&primary_color=03989e'
         styles={{

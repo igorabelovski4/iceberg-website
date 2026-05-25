@@ -9,6 +9,8 @@ import { IShiftCarouselSlideItem, IShiftItem } from "@/types/common";
 import Title from "@/components/title";
 
 const ShiftCarouselSlide = ({ item }: IShiftCarouselSlideItem) => {
+  const { t } = useTranslation();
+
   const [impactShown, setImpactShown] = useState(false);
 
   function handleToggleImpact() {
@@ -30,7 +32,7 @@ const ShiftCarouselSlide = ({ item }: IShiftCarouselSlideItem) => {
         {impactShown ? item.good.description : item.bad.description}
       </Text>
       <PrimaryButton variant='white-dark' onClick={handleToggleImpact}>
-        {impactShown ? "backReality" : "seeImpact"}
+        {t(`schools.shift.${impactShown ? "backReality" : "seeImpact"}`)}
       </PrimaryButton>
     </Carousel.Slide>
   );
