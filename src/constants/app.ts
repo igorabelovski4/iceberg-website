@@ -30,30 +30,6 @@ import {
 
 export const HEADER_HEIGHT = 76;
 
-export const NUMBER_OF_HOME_PAGE_HERO_BADGES = 3;
-export const NUMBER_OF_STORY_STEPS = 6;
-export const NUMBER_OF_DIFFERENCES = 7;
-export const NUMBER_OF_PHASE_CARDS = 3;
-export const NUMBER_OF_PERSPECTIVES = 3;
-export const NUMBER_OF_PERSPECTIVE_DETAILS = 3;
-export const NUMBER_OF_FEATURES = 7;
-export const NUMBER_OF_METHODOLOGY_TEXTS = 3;
-export const NUMBER_OF_BENEFITS = 10;
-export const NUMBER_OF_PEDAGOGIC_TEXTS = 3;
-export const NUMBER_OF_PEDAGOGIC_CARDS = 3;
-export const NUMBER_OF_FOUNDER_BIOGRAPHY_TEXTS = 4;
-export const NUMBER_OF_TRUST_ITEMS = 4;
-export const NUMBER_OF_MEMBERSHIP_ITEMS = 4;
-export const NUMBER_OF_MEMBERSHIP_BENEFITS = 8;
-export const NUMBER_OF_GROUP_MEMBERSHIP_BENEFITS = 7;
-export const NUMBER_OF_LICENSE_INCLUDED_FEATURES = 8;
-export const NUMBER_OF_GROUP_LICENSE_INCLUDED_FEATURES = 7;
-export const NUMBER_OF_FAQ_ITEMS = 15;
-export const NUMBER_OF_SHIFT_ITEMS = 6;
-export const NUMBER_OF_WORK_CARDS = 3;
-export const NUMBER_OF_STRATEGY_ITEMS = 6;
-export const NUMBER_OF_SCHOOL_FAQ_ITEMS = 10;
-
 export const LOGO_IMAGE = "/assets/images/logo.png";
 export const LANDING_HERO_IMAGE = "/assets/images/iceberg.png";
 export const HERO_3D_VIDEO_IMAGE = "/assets/images/3d-video.png";

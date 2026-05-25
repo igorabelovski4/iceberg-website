@@ -1,13 +1,14 @@
 import { Flex, Group, SimpleGrid, Stack } from "@mantine/core";
 import { useTranslation } from "react-i18next";
-import { AppConstants } from "@/constants";
-import { IGridItem, IGridItemIconName } from "@/types/common";
+import {
+  IGridItem,
+  IGridItemIconName,
+  ISchoolStrategyItem,
+} from "@/types/common";
 import { GRID_ICON_MAP } from "@/constants/app";
 import Title from "@/components/title";
 import Description from "@/components/description";
 import classes from "./index.module.css";
-
-const { NUMBER_OF_STRATEGY_ITEMS } = AppConstants;
 
 const GridItem = ({ title, description, icon }: IGridItem) => {
   const Icon = GRID_ICON_MAP[icon];
@@ -28,20 +29,20 @@ const GridItem = ({ title, description, icon }: IGridItem) => {
 const StrategyGrid = () => {
   const { t } = useTranslation();
 
+  const strategies = t("schools.strategy.items", {
+    returnObjects: true,
+  }) as ISchoolStrategyItem[];
+
   return (
     <SimpleGrid cols={2} className={classes.wrapper}>
-      {Array(NUMBER_OF_STRATEGY_ITEMS)
-        .fill(null)
-        .map((_, index) => (
-          <GridItem
-            title={t(`schools.strategy.items.${index}.title`)}
-            description={t(`schools.strategy.items.${index}.description`)}
-            key={index}
-            icon={
-              t(`schools.strategy.items.${index}.icon`) as IGridItemIconName
-            }
-          />
-        ))}
+      {strategies.map((strategy, index) => (
+        <GridItem
+          title={strategy.title}
+          description={strategy.description}
+          key={index}
+          icon={strategy.icon as IGridItemIconName}
+        />
+      ))}
     </SimpleGrid>
   );
 };

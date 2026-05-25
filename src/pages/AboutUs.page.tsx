@@ -12,12 +12,17 @@ import {
   TrustGrid,
 } from "@/components";
 import { AppConstants } from "@/constants";
+import { IPedgagogicDescriptionItem } from "@/types/common";
 import { Stack } from "@mantine/core";
-const { EDUCATOR_IMAGE, NUMBER_OF_PEDAGOGIC_TEXTS } = AppConstants;
+const { EDUCATOR_IMAGE } = AppConstants;
 import { useTranslation } from "react-i18next";
 
 export function AboutUsPage() {
   const { t } = useTranslation();
+
+  const pedagogicDescriptions = t("aboutUs.pedagogic.descriptions", {
+    returnObjects: true,
+  }) as IPedgagogicDescriptionItem[];
 
   return (
     <>
@@ -32,25 +37,21 @@ export function AboutUsPage() {
         />
       </Section>
       <Section variant='dark'>
-        <Eyebrow variant='light'>{t("aboutUs.exist.eyebrow")}</Eyebrow>
+        <Eyebrow variant='light'>{t("aboutUs.mission.eyebrow")}</Eyebrow>
         <SectionTitle variant='light' margin>
-          {t("aboutUs.exist.title")}
+          {t("aboutUs.mission.title")}
         </SectionTitle>
         <Description variant='light' align='left'>
-          {t("aboutUs.exist.more")}
+          {t("aboutUs.mission.description")}
         </Description>
       </Section>
       <Section>
         <Eyebrow>{t("aboutUs.pedagogic.eyebrow")}</Eyebrow>
         <SectionTitle>{t("aboutUs.pedagogic.title")}</SectionTitle>
         <Stack gap='lg' mt='xl'>
-          {Array(NUMBER_OF_PEDAGOGIC_TEXTS)
-            .fill(null)
-            .map((_, index) => (
-              <Description align='left'>
-                {t(`aboutUs.pedagogic.descriptions.${index}.text`)}
-              </Description>
-            ))}
+          {pedagogicDescriptions.map((description, index) => (
+            <Description align='left'>{description.text}</Description>
+          ))}
         </Stack>
         <PedagogicCards />
       </Section>

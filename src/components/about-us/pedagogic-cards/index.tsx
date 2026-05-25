@@ -1,8 +1,12 @@
 import { Box, Image, SimpleGrid } from "@mantine/core";
 import { AppConstants } from "@/constants";
-const { NUMBER_OF_PEDAGOGIC_CARDS, ILLUSTRATION_IMAGE_MAP } = AppConstants;
+const { ILLUSTRATION_IMAGE_MAP } = AppConstants;
 import { useTranslation } from "react-i18next";
-import { ICard, ICardIllustrationName } from "@/types/common";
+import {
+  ICard,
+  ICardIllustrationName,
+  IPedagogicCardItem,
+} from "@/types/common";
 import Title from "@/components/title";
 import classes from "./index.module.css";
 import Description from "@/components/description";
@@ -30,21 +34,19 @@ const PedagogicCard = ({ index, illustration }: ICard) => {
 const PedagogicCards = () => {
   const { t } = useTranslation();
 
+  const cards = t("aboutUs.pedagogic.cards", {
+    returnObjects: true,
+  }) as IPedagogicCardItem[];
+
   return (
     <SimpleGrid cols={3} className={classes.wrapper}>
-      {Array(NUMBER_OF_PEDAGOGIC_CARDS)
-        .fill(null)
-        .map((_, index) => (
-          <PedagogicCard
-            index={index}
-            key={index}
-            illustration={
-              t(
-                `aboutUs.pedagogic.cards.${index}.illustration`,
-              ) as ICardIllustrationName
-            }
-          />
-        ))}
+      {cards.map((card, index) => (
+        <PedagogicCard
+          index={index}
+          key={index}
+          illustration={card.illustration as ICardIllustrationName}
+        />
+      ))}
     </SimpleGrid>
   );
 };

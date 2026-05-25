@@ -1,21 +1,30 @@
 import { SimpleGrid } from "@mantine/core";
-import { AppConstants } from "@/constants";
 import ProsConsSection from "@/components/pros-cons";
-
-const { NUMBER_OF_DIFFERENCES } = AppConstants;
+import { useTranslation } from "react-i18next";
+import { IDifferenceItem } from "@/types/common";
 
 const Difference = () => {
+  const { t } = useTranslation();
+
+  const differencesAgainst = t("home.difference.against.items", {
+    returnObjects: true,
+  }) as IDifferenceItem[];
+
+  const differencesFor = t("home.difference.for.items", {
+    returnObjects: true,
+  }) as IDifferenceItem[];
+
   return (
     <SimpleGrid cols={2} spacing='xl'>
       <ProsConsSection
         cons
         title='home.difference.against.title'
-        itemsNum={NUMBER_OF_DIFFERENCES}
+        itemsNum={differencesAgainst.length}
         itemsTitle='home.difference.for.items'
       />
       <ProsConsSection
         title='home.difference.for.title'
-        itemsNum={NUMBER_OF_DIFFERENCES}
+        itemsNum={differencesFor.length}
         itemsTitle='home.difference.against.items'
       />
     </SimpleGrid>

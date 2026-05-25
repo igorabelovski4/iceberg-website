@@ -5,19 +5,21 @@ import { Card, SimpleGrid, Stack } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 
 import classes from "./index.module.css";
-import { Icon123 } from "@tabler/icons-react";
+import { IPhaseItem } from "@/types/common";
 
-const { NUMBER_OF_PHASE_CARDS, PHASES_ICON_MAP } = AppConstants;
+const { PHASES_ICON_MAP } = AppConstants;
 
 const PhaseCard = () => {
   const { t } = useTranslation();
 
+  const phases = t("home.howWorks.phases", {
+    returnObjects: true,
+  }) as IPhaseItem[];
+
   return (
     <SimpleGrid cols={3} spacing='xl'>
-      {Array.from({ length: NUMBER_OF_PHASE_CARDS }).map((_, index) => {
-        const iconKey = t(
-          `home.howWorks.phases.${index}.icon`,
-        ) as keyof typeof PHASES_ICON_MAP;
+      {phases.map((phase, index) => {
+        const iconKey = phase.icon as keyof typeof PHASES_ICON_MAP;
         const Icon = PHASES_ICON_MAP[iconKey];
 
         return (
@@ -28,12 +30,8 @@ const PhaseCard = () => {
                 stroke={2}
                 className={`${classes.icon} ${classes[`icon${index + 1}`]}`}
               />
-              <Title margin={false}>
-                {t(`home.howWorks.phases.${index}.title`)}
-              </Title>
-              <Description align='left'>
-                {t(`home.howWorks.phases.${index}.description`)}
-              </Description>
+              <Title margin={false}>{phase.title}</Title>
+              <Description align='left'>{phase.description}</Description>
             </Stack>
           </Card>
         );

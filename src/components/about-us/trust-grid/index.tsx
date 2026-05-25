@@ -1,13 +1,10 @@
 import { Flex, Group, SimpleGrid, Stack } from "@mantine/core";
 import { useTranslation } from "react-i18next";
-import { AppConstants } from "@/constants";
-import { IGridItem, IGridItemIconName } from "@/types/common";
+import { IGridItem, IGridItemIconName, ITrustItem } from "@/types/common";
 import { GRID_ICON_MAP } from "@/constants/app";
 import Title from "@/components/title";
 import Description from "@/components/description";
 import classes from "./index.module.css";
-
-const { NUMBER_OF_TRUST_ITEMS } = AppConstants;
 
 const GridItem = ({ title, description, icon }: IGridItem) => {
   const Icon = GRID_ICON_MAP[icon];
@@ -28,18 +25,20 @@ const GridItem = ({ title, description, icon }: IGridItem) => {
 const TrustGrid = () => {
   const { t } = useTranslation();
 
+  const trusts = t("aboutUs.trust.items", {
+    returnObjects: true,
+  }) as ITrustItem[];
+
   return (
     <SimpleGrid cols={2} className={classes.wrapper}>
-      {Array(NUMBER_OF_TRUST_ITEMS)
-        .fill(null)
-        .map((_, index) => (
-          <GridItem
-            title={t(`aboutUs.trust.items.${index}.title`)}
-            description={t(`aboutUs.trust.items.${index}.description`)}
-            key={index}
-            icon={t(`aboutUs.trust.items.${index}.icon`) as IGridItemIconName}
-          />
-        ))}
+      {trusts.map((trust, index) => (
+        <GridItem
+          title={trust.title}
+          description={trust.description}
+          key={index}
+          icon={trust.icon as IGridItemIconName}
+        />
+      ))}
     </SimpleGrid>
   );
 };

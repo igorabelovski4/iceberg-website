@@ -1,10 +1,7 @@
-import { AppConstants } from "@/constants";
 import { STORY_STEPS_IMAGE_MAP } from "@/constants/app";
-import { IStoryCard, IStoryCardIllustrationName } from "@/types/common";
+import { IStepItem, IStoryCard } from "@/types/common";
 import { Box, Flex, Image, Stack, Text } from "@mantine/core";
 import { useTranslation } from "react-i18next";
-
-const { NUMBER_OF_STORY_STEPS } = AppConstants;
 
 import classes from "./index.module.css";
 import Title from "@/components/title";
@@ -31,32 +28,30 @@ const Story = () => {
   const [activeStep, setActiveStep] = useState(0);
   const { t } = useTranslation();
 
+  const steps = t("home.story.steps", {
+    returnObjects: true,
+  }) as IStepItem[];
+
   function handleClick(value: number) {
     setActiveStep(value);
   }
   return (
     <Stack gap={80}>
       <Flex justify='space-between' className={classes.wrapper}>
-        {Array(NUMBER_OF_STORY_STEPS)
-          .fill(null)
-          .map((_, index) => (
-            <StoryCard
-              key={index}
-              num={index}
-              activeStep={activeStep}
-              onClick={handleClick}
-              illustration={
-                t(
-                  `home.story.items.${index}.illustration`,
-                ) as IStoryCardIllustrationName
-              }
-            />
-          ))}
+        {steps.map((step, index) => (
+          <StoryCard
+            key={index}
+            num={index}
+            activeStep={activeStep}
+            onClick={handleClick}
+            illustration={step.illustration}
+          />
+        ))}
       </Flex>
       <Stack gap={12}>
-        <Title alignLeft>{t(`home.story.items.${activeStep}.title`)}</Title>
+        <Title alignLeft>{t(`home.story.steps.${activeStep}.title`)}</Title>
         <Description align='left'>
-          {t(`home.story.items.${activeStep}.description`)}
+          {t(`home.story.steps.${activeStep}.description`)}
         </Description>
       </Stack>
     </Stack>

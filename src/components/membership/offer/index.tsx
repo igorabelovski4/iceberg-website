@@ -1,46 +1,49 @@
-import ProsConsItem from "@/components/pros-cons";
 import Description from "@/components/description";
 import Eyebrow from "@/components/eyebrow";
-import { NUMBER_OF_MEMBERSHIP_BENEFITS } from "@/constants/app";
 import { Box, Card, Divider, Group, Stack, Text } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 
 import classes from "./index.module.css";
 import PrimaryButton from "@/components/primary-button";
 import ProsConsSection from "@/components/pros-cons";
+import { IMembershipPlanBenefitItem } from "@/types/common";
 
 const MembershipOffer = () => {
   const { t } = useTranslation();
 
+  const benefits = t("membership.pricing.plan.items", {
+    returnObjects: true,
+  }) as IMembershipPlanBenefitItem[];
+
   return (
     <Card className={classes.card}>
       <Stack align='center' gap='sm' mb='xl'>
-        <Eyebrow>{t("membership.offer.offer.title")}</Eyebrow>
+        <Eyebrow>{t("membership.pricing.plan.title")}</Eyebrow>
         <Group>
           <Text className={classes.price}>
-            {t("membership.offer.offer.price")}
+            {t("membership.pricing.plan.price")}
           </Text>
           <Text className={classes.interval}>
-            {t("membership.offer.offer.interval")}
+            {t("membership.pricing.plan.interval")}
           </Text>
         </Group>
-        <Description>{t("membership.offer.offer.included")}</Description>
+        <Description>{t("membership.pricing.plan.included")}</Description>
       </Stack>
       <Divider />
       <Box my='xl'>
         <ProsConsSection
           header={false}
-          itemsNum={NUMBER_OF_MEMBERSHIP_BENEFITS}
-          itemsTitle='membership.offer.offer.items'
+          itemsNum={benefits.length}
+          itemsTitle='membership.pricing.plan.items'
         />
       </Box>
       <Divider />
       <Group align='center' justify='space-between' mt='xl' wrap='nowrap'>
         <PrimaryButton icon block>
-          {t(`membership.offer.offer.cta.start`)}
+          {t(`membership.pricing.plan.cta.start`)}
         </PrimaryButton>
         <PrimaryButton variant='white-primary' block>
-          {t(`membership.offer.offer.cta.contact`)}
+          {t(`membership.pricing.plan.cta.contact`)}
         </PrimaryButton>
       </Group>
     </Card>

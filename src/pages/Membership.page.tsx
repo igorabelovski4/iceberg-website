@@ -37,9 +37,9 @@ export function MembershipPage() {
         <MembershipCards />
       </Section>
       <Section variant='secondary'>
-        <Eyebrow variant='light'>{t("membership.offer.eyebrow")}</Eyebrow>
+        <Eyebrow variant='light'>{t("membership.pricing.eyebrow")}</Eyebrow>
         <SectionTitle variant='light' margin>
-          {t("membership.offer.title")}
+          {t("membership.pricing.title")}
         </SectionTitle>
         <MembershipOffer />
       </Section>

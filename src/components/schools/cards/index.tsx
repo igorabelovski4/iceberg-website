@@ -1,8 +1,8 @@
 import { Box, Image, SimpleGrid } from "@mantine/core";
 import { AppConstants } from "@/constants";
-const { NUMBER_OF_WORK_CARDS, ILLUSTRATION_IMAGE_MAP } = AppConstants;
+const { ILLUSTRATION_IMAGE_MAP } = AppConstants;
 import { useTranslation } from "react-i18next";
-import { ICard, ICardIllustrationName } from "@/types/common";
+import { ICard, ICardIllustrationName, ISchoolsWorkItem } from "@/types/common";
 import Title from "@/components/title";
 import classes from "./index.module.css";
 import Description from "@/components/description";
@@ -30,21 +30,19 @@ const Card = ({ index, illustration }: ICard) => {
 const WorkCards = () => {
   const { t } = useTranslation();
 
+  const cards = t("schools.work.items", {
+    returnObjects: true,
+  }) as ISchoolsWorkItem[];
+
   return (
     <SimpleGrid cols={3} className={classes.wrapper}>
-      {Array(NUMBER_OF_WORK_CARDS)
-        .fill(null)
-        .map((_, index) => (
-          <Card
-            index={index}
-            key={index}
-            illustration={
-              t(
-                `schools.work.items.${index}.illustration`,
-              ) as ICardIllustrationName
-            }
-          />
-        ))}
+      {cards.map((card, index) => (
+        <Card
+          index={index}
+          key={index}
+          illustration={card.illustration as ICardIllustrationName}
+        />
+      ))}
     </SimpleGrid>
   );
 };

@@ -16,17 +16,16 @@ import {
   Story,
 } from "@/components";
 import { Image, SimpleGrid } from "@mantine/core";
-import { IIconName } from "@/types/common";
+import { IBadgeItem } from "@/types/common";
 
-const {
-  LANDING_HERO_IMAGE,
-  HERO_3D_VIDEO_IMAGE,
-  NUMBER_OF_HOME_PAGE_HERO_BADGES,
-  FOUNDER_IMAGE,
-} = AppConstants;
+const { LANDING_HERO_IMAGE, HERO_3D_VIDEO_IMAGE, FOUNDER_IMAGE } = AppConstants;
 
 export function HomePage() {
   const { t } = useTranslation();
+
+  const badges = t("home.hero.badges", {
+    returnObjects: true,
+  }) as IBadgeItem[];
 
   return (
     <>
@@ -42,20 +41,14 @@ export function HomePage() {
         </PrimaryButton>
         <Image src={HERO_3D_VIDEO_IMAGE} py={64} />
         <SimpleGrid cols={3} spacing={36}>
-          {Array(NUMBER_OF_HOME_PAGE_HERO_BADGES)
-            .fill(null)
-            .map((_, index) => (
-              <HeroCard
-                key={index}
-                icon={t(`home.hero.badges.${index}.icon`) as IIconName}
-                title={t(`home.hero.badges.${index}.title`)}
-                items={
-                  t(`home.hero.badges.${index}.items`, {
-                    returnObjects: true,
-                  }) as string[]
-                }
-              />
-            ))}
+          {badges.map((badge, index) => (
+            <HeroCard
+              key={index}
+              icon={badge.icon}
+              title={badge.title}
+              items={badge.items}
+            />
+          ))}
         </SimpleGrid>
       </BackgroundSection>
       <Section>
@@ -84,7 +77,7 @@ export function HomePage() {
         <PhaseCard />
       </Section>
       <Section>
-        <SectionTitle margin>{t("home.forWho.title")}</SectionTitle>
+        <SectionTitle margin>{t("home.audience.title")}</SectionTitle>
         <PerspectiveSwitch />
       </Section>
       <Section>

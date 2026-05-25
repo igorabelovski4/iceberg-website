@@ -14,12 +14,14 @@ import {
   Viewports,
 } from "@/components";
 import { Box, Stack } from "@mantine/core";
-import { AppConstants } from "@/constants";
-
-const { NUMBER_OF_METHODOLOGY_TEXTS } = AppConstants;
+import { IMethodologyDescription } from "@/types/common";
 
 export function ProductPage() {
   const { t } = useTranslation();
+
+  const methodologyDescriptions = t("product.methodology.descriptions", {
+    returnObjects: true,
+  }) as IMethodologyDescription[];
 
   return (
     <>
@@ -50,13 +52,9 @@ export function ProductPage() {
           <Eyebrow>{t("product.methodology.eyebrow")}</Eyebrow>
           <SectionTitle>{t("product.methodology.title")}</SectionTitle>
           <Stack gap='lg' mt='xl'>
-            {Array(NUMBER_OF_METHODOLOGY_TEXTS)
-              .fill(null)
-              .map((_, index) => (
-                <Description align='left'>
-                  {t(`product.methodology.descriptions.${index}.text`)}
-                </Description>
-              ))}
+            {methodologyDescriptions.map((description, index) => (
+              <Description align='left'>{description.text}</Description>
+            ))}
           </Stack>
         </Section>
         <Section>

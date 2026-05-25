@@ -4,6 +4,7 @@ import {
   GRID_ICON_MAP,
   ILLUSTRATION_IMAGE_MAP,
   STORY_STEPS_IMAGE_MAP,
+  FEATURES_ICON_MAP,
 } from "@/constants/app";
 
 export interface IStoryCard {
@@ -174,4 +175,140 @@ export interface IProsConstItem {
   cons?: boolean;
   value: string;
   index: number;
+}
+
+export interface IFeatureItem {
+  title: string;
+  description: string;
+  icon: keyof typeof FEATURES_ICON_MAP;
+  color: string;
+}
+
+export interface IBadgeItem {
+  title: string;
+  icon: keyof typeof PAGE_HERO_BADGES_ICON_MAP;
+  items: string[];
+}
+
+export interface IStepItem {
+  illustration: IStoryCardIllustrationName;
+  title: string;
+  description: string;
+}
+
+export interface IDifferenceItem {
+  text: string;
+}
+
+export interface IPhaseItem {
+  title: string;
+  icon: string;
+  description: string;
+}
+
+export interface IPerspectiveItem {
+  value: string;
+  title: string;
+  icon: string;
+  tagline: string;
+  description: string;
+  color: string;
+  details: IPerspectiveDetailsItem[];
+}
+
+export interface IPerspectiveDetailsItem {
+  value: string;
+  label: string;
+}
+
+export interface IMethodologyDescription {
+  text: string;
+}
+
+export interface IBenefitItem {
+  title: string;
+  description: string;
+  illustration: string;
+}
+
+export interface IOutcomeSlide {
+  benefit: IBenefitItem;
+  index: number;
+}
+
+export interface IPedgagogicDescriptionItem {
+  text: string;
+}
+
+export interface IPedagogicCardItem {
+  title: string;
+  description: string;
+  illustration: string;
+}
+
+export interface IBiographyItem {
+  text: string;
+}
+
+export interface ITrustItem {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface IMembershipBenefitItem {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface IMembershipPlanBenefitItem {
+  text: string;
+}
+
+export interface IMembershipGroupBenefitItem {
+  text: string;
+}
+
+export interface IFaqQuestionItem {
+  id: string;
+  question: string;
+  answer: string;
+}
+
+export interface IShiftItem {
+  bad: IShiftBadItem;
+  good: IShiftGoodItem;
+}
+
+export interface IShiftBadItem {
+  title: string;
+  description: string;
+}
+
+export interface IShiftGoodItem {
+  title: string;
+  description: string;
+}
+
+export interface IShiftCarouselSlideItem {
+  item: IShiftItem;
+}
+
+export interface ISchoolsWorkItem {
+  title: string;
+  description: string;
+  illustration: string;
+}
+
+export interface ISchoolStrategyItem {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface ISchoolFaqItem {
+  title: string;
+  question: string;
+  answer: string;
 }

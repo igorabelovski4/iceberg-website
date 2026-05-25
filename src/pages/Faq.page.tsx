@@ -7,14 +7,15 @@ import {
   Section,
 } from "@/components";
 import { FAQ_BACKGROUND_IMAGE } from "@/constants/app";
+import { IFaqQuestionItem } from "@/types/common";
 import { useTranslation } from "react-i18next";
-
-import { AppConstants } from "@/constants";
-
-const { NUMBER_OF_FAQ_ITEMS } = AppConstants;
 
 export function FaqPage() {
   const { t } = useTranslation();
+
+  const questions = t("faq.questions", {
+    returnObjects: true,
+  }) as IFaqQuestionItem[];
 
   return (
     <>
@@ -23,17 +24,15 @@ export function FaqPage() {
         <HeroDescription margin>{t("faq.hero.description")}</HeroDescription>
         <Section>
           <AccordionBox dark>
-            {Array(NUMBER_OF_FAQ_ITEMS)
-              .fill(null)
-              .map((_, index) => (
-                <AccordionItem
-                  key={t(`faq.questions.${index}.title`)}
-                  title={t(`faq.questions.${index}.title`)}
-                  question={t(`faq.questions.${index}.question`)}
-                  answer={t(`faq.questions.${index}.answer`)}
-                  dark
-                />
-              ))}
+            {questions.map((question, index) => (
+              <AccordionItem
+                key={question.id}
+                title={question.id}
+                question={question.question}
+                answer={question.answer}
+                dark
+              />
+            ))}
           </AccordionBox>
         </Section>
       </BackgroundSection>
