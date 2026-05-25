@@ -30,11 +30,11 @@ import {
 
 export const HEADER_HEIGHT = 76;
 
-export const LOGO_IMAGE = "/assets/images/logo.png";
-export const LANDING_HERO_IMAGE = "/assets/images/iceberg.png";
-export const HERO_3D_VIDEO_IMAGE = "/assets/images/3d-video.png";
-export const FAQ_BACKGROUND_IMAGE = "/assets/images/iceberg-deep.png";
-export const FOUNDER_IMAGE = "/assets/images/founder.png";
+export const LOGO_IMAGE = "/assets/images/logo.webp";
+export const LANDING_HERO_IMAGE = "/assets/images/iceberg.webp";
+export const HERO_3D_VIDEO_IMAGE = "/assets/images/3d-video.webp";
+export const FAQ_BACKGROUND_IMAGE = "/assets/images/iceberg-deep.webp";
+export const FOUNDER_IMAGE = "/assets/images/founder.webp";
 
 export const DE_FLAG = "/assets/flags/de.png";
 export const FR_FLAG = "/assets/flags/fr.png";
@@ -48,15 +48,15 @@ export const STORY_STEP_4_IMAGE = "/assets/illustrations/discover.png";
 export const STORY_STEP_5_IMAGE = "/assets/illustrations/grow.png";
 export const STORY_STEP_6_IMAGE = "/assets/illustrations/won.png";
 
-export const APP_STORE_IMAGE = "/assets/images/app-store-button.png";
-export const GOOGLE_PLAY_IMAGE = "/assets/images/google-play-button.png";
+export const APP_STORE_IMAGE = "/assets/images/app-store-button.webp";
+export const GOOGLE_PLAY_IMAGE = "/assets/images/google-play-button.webp";
 
-export const LAPTOP_VIEWPORT_IMAGE = "/assets/images/laptop-viewport.png";
-export const TABLET_VIEWPORT_IMAGE = "/assets/images/tablet-viewport.png";
-export const MOBILE_VIEWPORT_IMAGE = "/assets/images/mobile-viewport.png";
-export const TABLET_VIEWPORT_1_IMAGE = "/assets/images/tablet-viewport-1.png";
-export const TABLET_VIEWPORT_2_IMAGE = "/assets/images/tablet-viewport-2.png";
-export const TABLET_VIEWPORT_3_IMAGE = "/assets/images/tablet-viewport-3.png";
+export const LAPTOP_VIEWPORT_IMAGE = "/assets/images/laptop-viewport.webp";
+export const TABLET_VIEWPORT_IMAGE = "/assets/images/tablet-viewport.webp";
+export const MOBILE_VIEWPORT_IMAGE = "/assets/images/mobile-viewport.webp";
+export const TABLET_VIEWPORT_1_IMAGE = "/assets/images/tablet-viewport-1.webp";
+export const TABLET_VIEWPORT_2_IMAGE = "/assets/images/tablet-viewport-2.webp";
+export const TABLET_VIEWPORT_3_IMAGE = "/assets/images/tablet-viewport-3.webp";
 
 export const SATISFACTION_IMAGE = "/assets/illustrations/happy-news.png";
 export const CLOCK_IMAGE = "/assets/illustrations/time-change.png";
@@ -77,13 +77,13 @@ export const CERTIFICATION_IMAGE = "/assets/illustrations/certification.png";
 export const EDUCATOR_IMAGE = "/assets/illustrations/educator.png";
 export const TRAINING_IMAGE = "/assets/illustrations/remote-meeting.png";
 export const COMMUNITY_IMAGE = "/assets/illustrations/community.png";
-export const SUPPORT_IMAGE = "./assets/illustrations/active-support.png";
+export const SUPPORT_IMAGE = "/assets/illustrations/active-support.png";
 
 export const PAGE_HERO_BADGES_ICON_MAP = {
   shield: IconShield,
   users: IconUsers,
   trending: IconTrendingUp,
-};
+} as const;
 
 export const STORY_STEPS_IMAGE_MAP = {
   dilemma: STORY_STEP_1_IMAGE,
@@ -92,19 +92,19 @@ export const STORY_STEPS_IMAGE_MAP = {
   discover: STORY_STEP_4_IMAGE,
   grow: STORY_STEP_5_IMAGE,
   won: STORY_STEP_6_IMAGE,
-};
+} as const;
 
 export const PHASES_ICON_MAP = {
   clock: IconClock,
   message: IconBrandLine,
   send: IconSend,
-};
+} as const;
 
 export const PERSPECTIVE_ICON_MAP = {
   school: IconSchool,
   hearth: IconHeart,
   people: IconUsers,
-};
+} as const;
 
 export const FEATURES_ICON_MAP = {
   route: IconRoute,
@@ -114,7 +114,7 @@ export const FEATURES_ICON_MAP = {
   envelope: IconMailOpened,
   target: IconTargetArrow,
   student: IconUserShare,
-};
+} as const;
 
 export const OUTCOME_IMAGE_MAP = {
   satisfaction: SATISFACTION_IMAGE,
@@ -127,7 +127,7 @@ export const OUTCOME_IMAGE_MAP = {
   feedback: FEEDBACK_IMAGE,
   progress: PROGRESS_IMAGE,
   confidence: CONFIDENCE_IMAGE,
-};
+} as const;
 
 export const MEMBERSHIP_CARDS_ICON_MAP = {
   headphones: IconHeadphones,
@@ -135,7 +135,7 @@ export const MEMBERSHIP_CARDS_ICON_MAP = {
   book: IconBook,
   people: IconUsers,
   alert: IconAlertTriangle,
-};
+} as const;
 
 export const ILLUSTRATION_IMAGE_MAP = {
   person: MEET_IMAGE,
@@ -144,7 +144,7 @@ export const ILLUSTRATION_IMAGE_MAP = {
   training: TRAINING_IMAGE,
   community: COMMUNITY_IMAGE,
   support: SUPPORT_IMAGE,
-};
+} as const;
 
 export const GRID_ICON_MAP = {
   search: IconSearch,
@@ -157,4 +157,4 @@ export const GRID_ICON_MAP = {
   school: IconBuildingCommunity,
   research: IconFlask,
   privacy: IconShield,
-};
+} as const;
