@@ -15,6 +15,7 @@ import {
   StrategyGrid,
   SchoolFaq,
   Title,
+  Calendly,
 } from "@/components";
 
 const { TEAM_IMAGE } = AppConstants;
@@ -58,6 +59,7 @@ export function SchoolsPage() {
       </Section>
       <Section>
         <SectionTitle>{t("schools.booking.title")}</SectionTitle>
+        <Calendly />
       </Section>
       <Section variant='dark'>
         <Eyebrow variant='light'>{t("schools.faq.eyebrow")}</Eyebrow>

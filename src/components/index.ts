@@ -3,6 +3,8 @@ import AccordionItem from "./accordion-item";
 
 import BackgroundSection from "./background-section";
 
+import Calendly from "./calendly";
+
 import Description from "./description";
 import Difference from "./home/difference";
 import Download from "./product/download";
@@ -56,6 +58,7 @@ export {
   AccordionBox,
   AccordionItem,
   BackgroundSection,
+  Calendly,
   Description,
   Difference,
   Download,
