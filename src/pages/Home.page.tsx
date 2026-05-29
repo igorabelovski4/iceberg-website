@@ -14,9 +14,11 @@ import {
   Section,
   SectionTitle,
   Story,
+  Video,
 } from "@/components";
 import { Image, SimpleGrid } from "@mantine/core";
 import { IBadgeItem } from "@/types/common";
+import { HOME_VIDEO_MP4, HOME_VIDEO_WEBM } from "@/constants/app";
 
 const { LANDING_HERO_IMAGE, HERO_3D_VIDEO_IMAGE, FOUNDER_IMAGE } = AppConstants;
 
@@ -37,7 +39,7 @@ export function HomePage() {
           {t("home.hero.description")}
         </HeroDescription>
         <PrimaryButton variant='secondary' icon>
-          {t("cta.start")}
+          {t("cta.try")}
         </PrimaryButton>
         <Image src={HERO_3D_VIDEO_IMAGE} py={64} />
         <SimpleGrid cols={3} spacing={36}>
@@ -57,12 +59,7 @@ export function HomePage() {
       </Section>
       <Section variant='secondary'>
         <Eyebrow variant='light'>{t("home.nutshell.eyebrow")}</Eyebrow>
-        <SectionTitle variant='light' margin>
-          {t("home.nutshell.title")}
-        </SectionTitle>
-        <PrimaryButton variant='white-secondary' icon>
-          {t("cta.try")}
-        </PrimaryButton>
+        <SectionTitle variant='light'>{t("home.nutshell.title")}</SectionTitle>
       </Section>
       <Section>
         <Eyebrow variant='primary'>{t("home.difference.eyebrow")}</Eyebrow>
@@ -88,12 +85,7 @@ export function HomePage() {
       <Section>
         <Eyebrow>{t("home.founder.eyebrow")}</Eyebrow>
         <SectionTitle margin>{t("home.founder.title")}</SectionTitle>
-        <Image
-          src={FOUNDER_IMAGE}
-          alt={t("aboutUs.founder.name")}
-          h={500}
-          radius='xl'
-        />
+        <Video srcWebm={HOME_VIDEO_WEBM} srcMp4={HOME_VIDEO_MP4} />
       </Section>
       <Section variant='primary'></Section>
     </>

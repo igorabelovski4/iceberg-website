@@ -1,11 +1,17 @@
 .card {
   padding: 20px;
   border-radius: 16px;
-  border: 2px dashed transparent;
+  border: 4px solid transparent;
 
   &.active,
   &.active:hover {
     border-color: var(--color-brand-secondary);
+    background-color: var(--color-brand-secondary-light);
+    box-shadow: 1px 3px 5px rgba(255, 193, 7, 0.6);
+
+    & .step {
+      color: var(--color-brand-secondary);
+    }
   }
 
   &:hover {
@@ -14,7 +20,7 @@
 }
 
 .step {
-  font-size: 28px;
+  font-size: 48px;
   line-height: 36px;
   font-weight: 600;
   color: var(--color-border);
@@ -23,4 +29,17 @@
 .illustration {
   height: 120px;
   width: auto;
+}
+
+.divider {
+  height: 4px;
+  background-color: var(--color-brand-secondary-dark);
+  display: inline-block;
+  width: 50px;
+}
+
+.activeStep {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-brand-secondary-dark);
 }

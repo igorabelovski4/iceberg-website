@@ -50,6 +50,7 @@ import TrustGrid from "./about-us/trust-grid";
 
 import UserInterface from "./product/user-interface";
 
+import Video from "./video";
 import Viewports from "./product/viewports";
 
 import WorkCards from "./schools/cards";
@@ -92,6 +93,7 @@ export {
   Title,
   TrustGrid,
   UserInterface,
+  Video,
   Viewports,
   WorkCards,
 };

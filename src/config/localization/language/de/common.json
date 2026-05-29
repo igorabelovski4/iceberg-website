@@ -2,15 +2,878 @@
   "navigation": {
     "home": "Startseite",
     "product": "Produkt",
-    "aboutUs": "Über uns",
+    "aboutUs": "Wer wir sind",
     "membership": "Mitgliedschaft",
     "faq": "FAQ",
-    "schools": "Für Schulen"
+    "schools": "F\u00fcr Schulen"
   },
   "languages": {
     "en": "Englisch",
     "de": "Deutsch",
     "it": "Italienisch",
-    "fr": "Französisch"
+    "fr": "Franz\u00f6sisch"
+  },
+  "cta": {
+    "start": "Jetzt starten",
+    "try": "Jetzt ausprobieren"
+  },
+  "home": {
+    "hero": {
+      "title": "Begleitung statt Bewertung.",
+      "subtitle": "Mehr als Noten",
+      "description": "Coaching, das wirklich bewegt. Entwicklung, die wirklich z\u00e4hlt. Mit Eisberg an deiner Seite f\u00fchrst du Lern- und Coachinggespr\u00e4che, die alle mitnehmen.",
+      "badges": [
+        {
+          "title": "100% DSGVO-konform",
+          "icon": "shield",
+          "items": ["Zero-Retention", "EU-Server"]
+        },
+        {
+          "title": "Alle im Boot",
+          "icon": "users",
+          "items": ["Lehrperson", "Sch\u00fcler:in", "Eltern"]
+        },
+        {
+          "title": "Messbare Entwicklung",
+          "icon": "trending",
+          "items": ["Gespr\u00e4ch f\u00fcr Gespr\u00e4ch"]
+        }
+      ]
+    },
+    "story": {
+      "eyebrow": "Unsere Geschichte",
+      "heading": "Kapitel",
+      "steps": [
+        {
+          "illustration": "dilemma",
+          "title": "Sie glauben an mich. Sie geben mich nicht auf, auch wenn ich es Ihnen nicht leicht mache. Sie zeigen mir, dass ich lernen kann.",
+          "description": "Und wieder h\u00f6rst du es von einem Schüler oder einer Schülerin. Du klopfst dir innerlich leise auf die Schulter \u2013 nicht, weil du perfekt bist, sondern weil du weisst, dass du etwas bewirkst. Deine Sch\u00fcler:innen wachsen, weil du es m\u00f6glich machst. Genau deshalb bist du Lehrperson geworden."
+        },
+        {
+          "illustration": "missing",
+          "title": "Aber die Zeit ist knapp. Der Rahmen fehlt.",
+          "description": "Zu oft bleibt das Gespr\u00e4ch an der Oberfl\u00e4che. Die stillen Kinder warten auf die richtige Frage. Die starken Kinder warten auf eine echte Herausforderung. Eltern wissen nicht, wie viel du investierst. Ziele verschwinden wieder. Arbeit, die nicht ankommt."
+        },
+        {
+          "illustration": "fall",
+          "title": "Daf\u00fcr bist du nicht Lehrperson geworden.",
+          "description": "Du willst nicht zur\u00fcck. Und du musst es auch nicht."
+        },
+        {
+          "illustration": "discover",
+          "title": "Unter der Oberfl\u00e4che liegt das, was wirklich z\u00e4hlt.",
+          "description": "Unentdeckte St\u00e4rken. Unausgesprochene \u00c4ngste. Potenzial, das darauf wartet, dass jemand daran glaubt. Das Lern- und Coachinggespr\u00e4ch ist der Ort, an dem du wirklich eintauchen kannst \u2013 wenn du pr\u00e4sent bist, wenn du wirklich zuh\u00f6rst. Dieser Moment echter Verbindung ver\u00e4ndert ein Kind. Nicht die Note. Dieser Moment."
+        },
+        {
+          "illustration": "grow",
+          "title": "Diese Person bist du",
+          "description": "Das Lern- und Coachinggespr\u00e4ch ist der Ort, an dem du wirklich eintauchen kannst \u2013 wenn du pr\u00e4sent bist, wenn du wirklich zuh\u00f6rst. Dieser Moment echter Verbindung ver\u00e4ndert ein Kind. Nicht die Note. Dieser Moment."
+        },
+        {
+          "illustration": "won",
+          "title": "Eisberg wurde genau f\u00fcr diesen Moment entwickelt.",
+          "description": "Mit Eisberg ver\u00e4ndern sich Gespr\u00e4che f\u00fcr alle Beteiligten. F\u00fcr dich, f\u00fcr das Kind, f\u00fcr die Eltern. Sie werden interaktiver, kompetenter und gehen tiefer. Eisberg macht das Gespr\u00e4ch nicht einfach nur leichter. Eisberg macht es m\u00f6glich."
+        }
+      ]
+    },
+    "nutshell": {
+      "eyebrow": "Kurz gesagt",
+      "title": "Eisberg begleitet Lehrpersonen durch jede Phase des Lern- und Coachinggespr\u00e4chs \u2013 von der Vorbereitung bis zur Elternmail \u2013 damit sie wirklich pr\u00e4sent sein k\u00f6nnen."
+    },
+    "difference": {
+      "eyebrow": "Der Unterschied",
+      "title": "Vorher & Nachher",
+      "against": {
+        "title": "Ohne Eisberg",
+        "items": [
+          {
+            "text": "Keine \u00dcbersicht vor dem Gespr\u00e4ch"
+          },
+          {
+            "text": "Immer die gleichen Fragen"
+          },
+          {
+            "text": "Das Gespr\u00e4ch bleibt an der Oberfl\u00e4che"
+          },
+          {
+            "text": "Stille Sch\u00fcler:innen bleiben still"
+          },
+          {
+            "text": "Eltern wissen nicht, was passiert"
+          },
+          {
+            "text": "Die Nachbereitung dauert zu lange"
+          },
+          {
+            "text": "Ziele, die wieder verblassen"
+          },
+          {
+            "text": "Gespr\u00e4ch als Pflichttermin"
+          }
+        ]
+      },
+      "for": {
+        "title": "Mit Eisberg",
+        "items": [
+          {
+            "text": "Vollst\u00e4ndige \u00dcbersicht auf einen Blick"
+          },
+          {
+            "text": "Strukturierte, adaptive Gespr\u00e4chsf\u00fchrung"
+          },
+          {
+            "text": "Tiefe, ressourcenorientierte Gespr\u00e4che"
+          },
+          {
+            "text": "Jede:r Sch\u00fcler:in kommt zu Wort"
+          },
+          {
+            "text": "Elternmail in ihrer Sprache, sofort bereit"
+          },
+          {
+            "text": "Zusammenfassung automatisch erstellt"
+          },
+          {
+            "text": "Ziele mit konkretem Plan"
+          },
+          {
+            "text": "Gespr\u00e4ch als Coaching-Moment"
+          }
+        ]
+      }
+    },
+    "howWorks": {
+      "eyebrow": "So funktioniert es",
+      "title": "Die drei Phasen des Gespr\u00e4chs",
+      "phases": [
+        {
+          "title": "Vorher",
+          "icon": "clock",
+          "description": "Du \u00f6ffnest die App und siehst alles auf einen Blick: letztes Gespr\u00e4ch, Beobachtungen, aktueller Stand. In zwei Minuten bist du bereit. Du startest jedes Gespr\u00e4ch ruhig und fokussiert."
+        },
+        {
+          "title": "W\u00e4hrenddessen",
+          "icon": "message",
+          "description": "Du beginnst mit einer St\u00e4rke. \u201eWas hat sich ver\u00e4ndert?\u201c Das Kind reflektiert und \u00f6ffnet sich. Die App transkribiert, schl\u00e4gt Fragen vor und begleitet dich durch Ziele und n\u00e4chste Schritte."
+        },
+        {
+          "title": "Danach",
+          "icon": "send",
+          "description": "Die App fasst alles zusammen: St\u00e4rken, Kompetenzen, Ziele, n\u00e4chste Schritte. In wenigen Minuten hast du eine klare Zusammenfassung \u2013 bereit zum Teilen mit den Eltern."
+        }
+      ]
+    },
+    "audience": {
+      "title": "F\u00fcr wen ist Eisberg?",
+      "options": [
+        {
+          "value": "teachers",
+          "title": "F\u00fcr Lehrpersonen",
+          "icon": "school",
+          "tagline": "Du gewinnst Zeit. Und Tiefe.",
+          "description": "Du bist wirklich pr\u00e4sent. Keine Notizen, kein Laptop zwischen dir und dem Kind. Nach dem Gespr\u00e4ch liefert dir die App eine vollst\u00e4ndige Zusammenfassung \u2013 mit St\u00e4rken, Selbstst\u00e4ndigkeitsniveau und WOOP-Zielen. Die Dokumentation schreibt sich von selbst. Und die Feedbackschleife hilft dir, mit jedem Gespr\u00e4ch besser zu werden.",
+          "color": "#4F7CAC",
+          "details": [
+            {
+              "value": "2 Min.",
+              "label": "Vorbereitungszeit"
+            },
+            {
+              "value": "100%",
+              "label": "Pr\u00e4sent im Gespr\u00e4ch"
+            },
+            {
+              "value": "Auto",
+              "label": "Dokumentation"
+            }
+          ]
+        },
+        {
+          "value": "students",
+          "title": "F\u00fcr Sch\u00fcler:innen",
+          "icon": "hearth",
+          "tagline": "Endlich h\u00f6rt jemand wirklich zu.",
+          "description": "Das Gespr\u00e4ch beginnt mit deinen St\u00e4rken \u2013 nicht mit deinen Noten. Du wirst gefragt, was du m\u00f6chtest und was dich vielleicht daran hindert. Du lernst, dich selbst einzusch\u00e4tzen: Was kann ich gut? Wo f\u00e4llt es mir noch schwer? Du gehst mit einem klaren Plan aus dem Gespr\u00e4ch und mit dem Gef\u00fchl, dass deine Lehrperson wirklich zugeh\u00f6rt hat.",
+          "color": "#D9B65C",
+          "details": [
+            {
+              "value": "St\u00e4rken",
+              "label": "Zuerst, nicht Noten"
+            },
+            {
+              "value": "Stimme",
+              "label": "Jedes Kind wird geh\u00f6rt"
+            },
+            {
+              "value": "WOOP",
+              "label": "Klarer Handlungsplan"
+            }
+          ]
+        },
+        {
+          "value": "parents",
+          "title": "F\u00fcr Eltern",
+          "icon": "people",
+          "tagline": "Alle im Boot.",
+          "description": "Nach jedem Gespräch kann eine ressourcenorientierte Zusammenfassung in der bevorzugten Sprache der Eltern erstellt werden. So erfahren Eltern, an welchem Ziel gearbeitet wird, welche Entwicklung sichtbar geworden ist und wie sie ihr Kind zuhause konkret unterstützen können. Die App macht dafür einen Vorschlag. Die Lehrperson prüft, ergänzt und entscheidet, wie viel davon nach aussen geht.",
+          "color": "#C65A5A",
+          "details": [
+            {
+              "value": "Sofort",
+              "label": "E-Mail nach dem Gespr\u00e4ch"
+            },
+            {
+              "value": "Multi",
+              "label": "Sprachunterst\u00fctzung"
+            },
+            {
+              "value": "Feedback",
+              "label": "Anonyme Option"
+            }
+          ]
+        }
+      ]
+    },
+    "support": {
+      "eyebrow": "Mehr als Software",
+      "title": "Du bist nicht allein"
+    },
+    "founder": {
+      "eyebrow": "Von der Gr\u00fcnderin",
+      "title": "Die Idee hinter Eisberg"
+    }
+  },
+  "product": {
+    "hero": {
+      "title": "Die Coachingplattform, die Entwicklung sichtbar macht",
+      "description": "Eisberg begleitet dich durch jedes Gespr\u00e4ch \u2013 von der Vorbereitung bis zur Elternkommunikation, damit du dich auf das konzentrieren kannst, was wirklich z\u00e4hlt: den Schüler oder die Schülerin vor dir.",
+      "image-desktop-text": "Desktop-Ansicht",
+      "image-tablet-text": "Tablet-Ansicht",
+      "image-phone-text": "Smartphone-Ansicht",
+      "app-store-text": "App-Store-Button",
+      "google-play-text": "Google-Play-Button"
+    },
+    "features": {
+      "eyebrow": "Funktionen",
+      "title": "Alles, was du f\u00fcr bedeutsame Gespr\u00e4che brauchst",
+      "items": [
+        {
+          "title": "Gef\u00fchrter Gespr\u00e4chsablauf",
+          "description": "Ein strukturierter Rahmen begleitet dich durch jede Phase des Gespr\u00e4chs \u2013 vorher, w\u00e4hrenddessen und danach. Du weisst immer, worauf du dich fokussieren und wie du den Dialog f\u00fchren kannst, ohne improvisieren zu m\u00fcssen. Das schafft Verl\u00e4sslichkeit und Sicherheit in jeder Begegnung.",
+          "icon": "route",
+          "color": "#D9B65C"
+        },
+        {
+          "title": "Automatische Transkription",
+          "description": "Gespr\u00e4che werden in Echtzeit aufgenommen und transkribiert, w\u00e4hrend alles im Hintergrund pr\u00e4zise erfasst wird. Du musst deine Aufmerksamkeit nicht mehr zwischen Zuh\u00f6ren und Notizen aufteilen. So kannst du beim Kind wirklich pr\u00e4sent bleiben.",
+          "icon": "microphone",
+          "color": "#4F7CAC"
+        },
+        {
+          "title": "Smarte Impulse & Fragevorschl\u00e4ge",
+          "description": "W\u00e4hrend des Gespr\u00e4chs liefert dir die App passende Impulse und st\u00e4rkende Fragen. Diese Vorschl\u00e4ge helfen dir, tiefer zu gehen, den roten Faden zu behalten und unterschiedliche Situationen sicherer zu gestalten. Mit der Zeit verbessert sich dadurch die Qualit\u00e4t jedes Gespr\u00e4chs, das du f\u00fchrst.",
+          "icon": "messages",
+          "color": "#C65A5A"
+        },
+        {
+          "title": "KI-generierte Zusammenfassungen",
+          "description": "Nach jedem Gespr\u00e4ch erstellt die App automatisch eine klare und strukturierte Zusammenfassung. Sie hebt St\u00e4rken, zentrale Gespr\u00e4chspunkte und vereinbarte n\u00e4chste Schritte hervor. Was fr\u00fcher viel Zeit gekostet hat, ist nun in wenigen Minuten erledigt.",
+          "icon": "ai",
+          "color": "#3FA38D"
+        },
+        {
+          "title": "Elternmail-Generator",
+          "description": "Nach jedem Gespräch ist eine strukturierte und unterstützende E-Mail an die Eltern bereit. Sie enthält zentrale Erkenntnisse, Stärken und vereinbarte Ziele – automatisch in der bevorzugten Sprache der Eltern. Die App macht dafür einen Vorschlag, den die Lehrperson prüft, ergänzt und bewusst freigibt. So bleiben Eltern informiert und beteiligt, während die Verantwortung und Kontrolle klar bei der Lehrperson bleiben.",
+          "icon": "envelope",
+          "color": "#E08A3C"
+        },
+        {
+          "title": "WOOP-Zielgenerator",
+          "description": "Das integrierte WOOP-Modell hilft dabei, Ziele in konkrete, umsetzbare Pl\u00e4ne zu verwandeln. Sch\u00fcler:innen definieren, was sie erreichen m\u00f6chten, erkennen m\u00f6gliche Hindernisse und entscheiden, wie sie darauf reagieren. So werden Ziele realistisch, \u00fcberpr\u00fcfbar und deutlich wahrscheinlicher umgesetzt.",
+          "icon": "target",
+          "color": "#7B61A8"
+        },
+        {
+          "title": "Sch\u00fcler:innenprofile & Entwicklungsverlauf",
+          "description": "Jede:r Sch\u00fcler:in hat ein dynamisches Profil, das St\u00e4rken, Kompetenzen und das Niveau der Selbstst\u00e4ndigkeit sichtbar macht. Du kannst Entwicklung \u00fcber die Zeit verfolgen und Muster in verschiedenen Bereichen erkennen. So entsteht ein vollst\u00e4ndiges und sinnvolles Bild der Entwicklung jedes Schülers und jeder Schülerin.",
+          "icon": "student",
+          "color": "#C97C92"
+        }
+      ]
+    },
+    "experience": {
+      "eyebrow": "Nutzungserlebnis",
+      "title": "Entwickelt f\u00fcr nachhaltige Gespr\u00e4che"
+    },
+    "methodology": {
+      "eyebrow": "Methodik",
+      "title": "Forschungsbasiert. F\u00fcr Lehrpersonen gemacht.",
+      "descriptions": [
+        {
+          "text": "Eisberg basiert auf John Hatties Forschung zu Visible Learning \u2013 der gr\u00f6ssten Synthese p\u00e4dagogischer Studien. Hattie zeigt, dass die Beziehung zwischen Lehrperson und Sch\u00fcler:in eine Effektst\u00e4rke von d = 0.72 hat, also fast doppelt so hoch wie der Durchschnitt aller p\u00e4dagogischen Interventionen."
+        },
+        {
+          "text": "Die WOOP-Methode (Wish, Outcome, Obstacle, Plan) von Professorin Gabriele Oettingen bildet den Rahmen f\u00fcr die Zielsetzung. Im Unterschied zu positivem Denken allein fragt WOOP: Was k\u00f6nnte im Weg stehen? Und was wirst du tun, wenn das passiert?"
+        },
+        {
+          "text": "Die 5 Eisberg-Level machen Selbstst\u00e4ndigkeit sichtbar. Von Deep Sea \u2013 enge Begleitung \u2013 bis Summit \u2013 vollst\u00e4ndig selbstst\u00e4ndig \u2013 hat jede Kompetenz ihre eigene Entwicklung. Lehrpersonen k\u00f6nnen in einem Kind oft mehr sehen, als der Schüler oder Schülerin selbst \u00fcber sich glaubt."
+        }
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Das Ergebnis",
+      "title": "Was sich ver\u00e4ndert, wenn du Eisberg nutzt",
+      "items": [
+        {
+          "title": "Sch\u00fcler:innen, die sich wirklich gesehen f\u00fchlen",
+          "description": "Jede:r Sch\u00fcler:in erh\u00e4lt Raum zum Sprechen und Reflektieren. Auch stillere Kinder \u00f6ffnen sich, wodurch st\u00e4rkere Beziehungen, mehr Vertrauen und h\u00f6here Beteiligung entstehen.",
+          "illustration": "satisfaction"
+        },
+        {
+          "title": "Mehr Zeit, weniger Administration",
+          "description": "Alle Notizen, Zusammenfassungen und Elterninformationen werden automatisch erstellt. Was fr\u00fcher bis zu einer Stunde Dokumentation nach jedem Gespr\u00e4ch bedeutete, reduziert sich auf wenige Minuten.",
+          "illustration": "clock"
+        },
+        {
+          "title": "Strukturierte Gespr\u00e4che ohne R\u00e4tselraten",
+          "description": "Jedes Gespr\u00e4ch folgt einer klaren Struktur \u2013 vorher, w\u00e4hrenddessen und danach. Du weisst immer, welche Frage als N\u00e4chstes passt, ohne improvisieren oder immer gleiche Muster wiederholen zu m\u00fcssen.",
+          "illustration": "conversation"
+        },
+        {
+          "title": "Tiefere Gespr\u00e4che mit Sch\u00fcler:innen",
+          "description": "Geh \u00fcber Noten und oberfl\u00e4chliche Themen hinaus. Eisberg hilft dir, echte Herausforderungen, verborgene St\u00e4rken und die tieferliegenden Faktoren sichtbar zu machen, die die Entwicklung eines Kindes wirklich beeinflussen.",
+          "illustration": "minds"
+        },
+        {
+          "title": "Ziele, die tats\u00e4chlich umgesetzt werden",
+          "description": "Mit der WOOP-Methode werden Ziele konkret und handlungsnah. Sch\u00fcler:innen setzen nicht nur Absichten, sondern erkennen Hindernisse und definieren klare Schritte, um voranzukommen.",
+          "illustration": "goals"
+        },
+        {
+          "title": "Eltern m\u00fchelos einbezogen",
+          "description": "Nach jedem Gespr\u00e4ch ist eine strukturierte und unterst\u00fctzende Zusammenfassung bereit, die an Eltern gesendet werden kann \u2013 in ihrer bevorzugten Sprache. Sie bleiben informiert, beteiligt und ausgerichtet, ohne zus\u00e4tzlichen Aufwand.",
+          "illustration": "parents"
+        },
+        {
+          "title": "Voll pr\u00e4sent w\u00e4hrend des Gespr\u00e4chs",
+          "description": "Du musst w\u00e4hrend des Gespr\u00e4chs keine Notizen machen oder Dokumentation verwalten. Du kannst dich ganz auf das Kind konzentrieren, w\u00e4hrend die App alles im Hintergrund erfasst und strukturiert.",
+          "illustration": "focus"
+        },
+        {
+          "title": "Kontinuierliche Verbesserung durch Feedback",
+          "description": "Jedes Gespr\u00e4ch enth\u00e4lt eine integrierte Reflexion. Mit der Zeit st\u00e4rkst du deine Gespr\u00e4chskompetenz und verbesserst die Qualit\u00e4t deiner Gespr\u00e4che Schritt f\u00fcr Schritt.",
+          "illustration": "feedback"
+        },
+        {
+          "title": "Sichtbare Entwicklung der Sch\u00fcler:innen",
+          "description": "Verfolge Entwicklung in Kompetenzen, Selbstst\u00e4ndigkeit und Eigenverantwortung. Fortschritt wird messbar und sichtbar \u2013 nicht nur in Noten abgebildet.",
+          "illustration": "progress"
+        },
+        {
+          "title": "Weniger Stress, mehr Sicherheit",
+          "description": "Du gehst vorbereitet und unterst\u00fctzt in jedes Gespr\u00e4ch. Mit einem klaren System werden Gespr\u00e4che planbarer, wirksamer und deutlich weniger belastend.",
+          "illustration": "confidence"
+        }
+      ]
+    },
+    "start": {
+      "eyebrow": "Jetzt starten",
+      "title": "Eisberg begleitet Lehrpersonen durch jede Phase des Lern- und Coachinggespr\u00e4chs \u2013 von der Vorbereitung bis zur Elternmail \u2013 damit sie wirklich pr\u00e4sent sein k\u00f6nnen.",
+      "cta": "Jetzt ausprobieren"
+    }
+  },
+  "aboutUs": {
+    "hero": {
+      "title": "Entwickelt von P\u00e4dagog:innen. F\u00fcr P\u00e4dagog:innen.",
+      "description": "Tools, Weiterbildung und Unterst\u00fctzung, damit du Gespr\u00e4che f\u00fchrst, die wirklich z\u00e4hlen.",
+      "illustrationText": "Illustration einer Lehrperson"
+    },
+    "mission": {
+      "eyebrow": "Warum es uns gibt",
+      "title": "Entwickelt f\u00fcr die Momente, die z\u00e4hlen",
+      "description": "Lern- und Coachinggespr\u00e4che sind der Ort, an dem echte Ver\u00e4nderung entsteht \u2013 doch zu oft fehlen Struktur, Zeit und Unterst\u00fctzung. Wir haben Eisberg entwickelt, damit diese Momente leichter zu f\u00fchren, tiefer in ihrer Wirkung und verl\u00e4sslicher in jedem Klassenzimmer werden."
+    },
+    "pedagogic": {
+      "eyebrow": "P\u00e4dagogik+",
+      "title": "Ein moderner Zugang zu Lern- und Coachinggespr\u00e4chen",
+      "descriptions": [
+        {
+          "text": "P\u00e4dagogik+ ist die Grundlage hinter Eisberg. Es verbindet Forschung, echte Unterrichtserfahrung und eine klare Methodik mit Fokus auf bedeutsame Lern- und Coachinggespr\u00e4che."
+        },
+        {
+          "text": "Gleichzeitig ist P\u00e4dagogik+ eine Community f\u00fcr Lehrpersonen, die tiefer gehen m\u00f6chten \u2013 ein Raum, in dem P\u00e4dagog:innen gemeinsam lernen, teilen und wachsen, begleitet von forschungsbasierten Methoden und echten Einblicken aus dem Schulalltag."
+        },
+        {
+          "text": "Das Ziel ist einfach: Lehrpersonen dabei zu unterst\u00fctzen, \u00fcber oberfl\u00e4chliche Gespr\u00e4che hinauszugehen und echte Wirkung darin zu entfalten, wie Sch\u00fcler:innen wachsen, reflektieren und Verantwortung f\u00fcr ihr Lernen \u00fcbernehmen."
+        }
+      ],
+      "cards": [
+        {
+          "title": "Weiterbildung",
+          "description": "Workshops, Webinare und praktische Materialien, die dir helfen, dich weiterzuentwickeln und das Gelernte in echten Gespr\u00e4chen anzuwenden.",
+          "illustration": "training"
+        },
+        {
+          "title": "Community",
+          "description": "Vernetze dich mit gleichgesinnten Lehrpersonen, teile Erfahrungen und lerne in einem unterst\u00fctzenden Umfeld voneinander.",
+          "illustration": "community"
+        },
+        {
+          "title": "Support",
+          "description": "Erhalte Begleitung, wenn du sie brauchst \u2013 mit fachlicher Unterst\u00fctzung, die dir hilft, echte Herausforderungen im Alltag zu meistern.",
+          "illustration": "support"
+        }
+      ]
+    },
+    "membership": {
+      "eyebrow": "Mitgliedschaft",
+      "title": "Jede Eisberg-Lizenz beinhaltet die P\u00e4dagogik+ Mitgliedschaft \u2013 weil das Tool nur so wirksam ist wie die Person, die es nutzt.",
+      "cta": "Mitgliedschaft ansehen"
+    },
+    "founder": {
+      "eyebrow": "Gr\u00fcnderin",
+      "title": "Aus echter Unterrichtserfahrung entstanden",
+      "name": "Branka Rezan",
+      "biography": [
+        {
+          "text": "Branka ist Gründerin von Pädagogiik+, Lehrperson, Coach und Expertin f\u00fcr Schulentwicklung und arbeitet seit Jahren eng mit Sch\u00fcler:innen, Eltern und P\u00e4dagog:innen zusammen. Durch diese Erfahrung hat sie ein tiefes Verst\u00e4ndnis daf\u00fcr entwickelt, was in Lern- und Coachinggespr\u00e4chen wirklich geschieht \u2013 und wo sie oft ihr Potenzial nicht entfalten."
+        },
+        {
+          "text": "Sie sah immer wieder das gleiche Muster: Gespr\u00e4che, die wichtig waren, denen aber Struktur, Zeit und Unterst\u00fctzung fehlten, um ihre volle Wirkung zu entfalten. Diese Erkenntnis wurde zur Grundlage f\u00fcr P\u00e4dagogik+ und Eisberg."
+        },
+        {
+          "text": "Ihre Arbeit verbindet forschungsbasierte Methoden mit echter Unterrichtspraxis und hilft Lehrpersonen, Gespr\u00e4che zu f\u00fchren, die nicht nur strukturiert, sondern wirklich bedeutsam sind."
+        },
+        {
+          "text": "Ich habe Eisberg entwickelt, weil ich weiss, wie es sich anf\u00fchlt, aus einem Lern- und Coachinggespr\u00e4ch herauszugehen und zu sp\u00fcren: Da w\u00e4re noch mehr m\u00f6glich gewesen. Lehrpersonen verdienen ein Tool, das ihnen hilft, wirklich pr\u00e4sent zu sein \u2013 nicht einfach noch eine weitere Software."
+        }
+      ]
+    },
+    "trust": {
+      "eyebrow": "Vertrauen",
+      "title": "Auf echter Erfahrung aufgebaut",
+      "items": [
+        {
+          "title": "Echte Erfahrung",
+          "description": "10+ Jahre direkte Arbeit mit Lehrpersonen und Sch\u00fcler:innen",
+          "icon": "experience"
+        },
+        {
+          "title": "In Schulen eingesetzt",
+          "description": "Getestet und angewendet im Schulalltag",
+          "icon": "school"
+        },
+        {
+          "title": "Forschungsbasierte Methoden",
+          "description": "Basierend auf Hatties Forschung und dem WOOP-Modell",
+          "icon": "research"
+        },
+        {
+          "title": "Datenschutz von Anfang an",
+          "description": "DSGVO-konform mit Zero-Retention-Architektur",
+          "icon": "privacy"
+        }
+      ]
+    },
+    "development": {
+      "eyebrow": "Entwicklungspartner",
+      "title": "Technische Entwicklung und Plattform-Infrastruktur von gons.ch \u2013 einem Team, das Tools entwickelt, denen P\u00e4dagog:innen vertrauen k\u00f6nnen. Mit Sorgfalt gebaut. F\u00fcr Lehrpersonen gestaltet. Von Schulen in ganz Europa gesch\u00e4tzt."
+    }
+  },
+  "membership": {
+    "hero": {
+      "title": "Mehr als eine Lizenz. Ein vollst\u00e4ndiges Unterst\u00fctzungssystem.",
+      "description": "Wenn du Eisberg bekommst, erh\u00e4ltst du laufende Unterst\u00fctzung, Weiterbildung und eine Community, die an das glaubt, was du tust.",
+      "illustrationText": "Lizenz-Illustration"
+    },
+    "included": {
+      "eyebrow": "Was enthalten ist",
+      "title": "Alles in deiner Mitgliedschaft",
+      "items": [
+        {
+          "title": "Pers\u00f6nlicher Support",
+          "description": "Du bist nie allein. Unser Team ist da, damit du das Beste aus jedem Gespr\u00e4ch herausholen kannst.",
+          "icon": "headphones"
+        },
+        {
+          "title": "Live-Webinare",
+          "description": "Regelm\u00e4ssige Weiterbildungseinheiten mit Branka und dem P\u00e4dagogik+ Team, um deine Praxis zu vertiefen.",
+          "icon": "camera"
+        },
+        {
+          "title": "Wissensdatenbank",
+          "description": "Greife auf bew\u00e4hrte Modelle, Gespr\u00e4chsleitf\u00e4den und Best Practices von erfahrenen P\u00e4dagog:innen zu.",
+          "icon": "book"
+        },
+        {
+          "title": "Community",
+          "description": "Vernetze dich mit anderen Lehrpersonen, die sich genauso f\u00fcr bedeutsame Entwicklung von Sch\u00fcler:innen einsetzen wie du.",
+          "icon": "people"
+        },
+        {
+          "title": "Disclaimer",
+          "description": "Platzhalter f\u00fcr Text",
+          "icon": "alert"
+        }
+      ]
+    },
+    "pricing": {
+      "eyebrow": "Preise",
+      "title": "Transparent. Einfach. Fair.",
+      "plan": {
+        "title": "Jahreslizenz",
+        "price": "59.00 CHF/EUR",
+        "interval": "pro Monat",
+
+        "items": [
+          {
+            "text": "Vollst\u00e4ndige \u00dcbersicht auf einen Blick"
+          },
+          {
+            "text": "Strukturierte, adaptive Gespr\u00e4chsf\u00fchrung"
+          },
+          {
+            "text": "Tiefe, ressourcenorientierte Gespr\u00e4che"
+          },
+          {
+            "text": "Jede:r Sch\u00fcler:in kommt zu Wort"
+          },
+          {
+            "text": "Elternmail in ihrer Sprache, sofort bereit"
+          },
+          {
+            "text": "Zusammenfassung automatisch erstellt"
+          },
+          {
+            "text": "WOOP-Ziele mit konkretem Plan"
+          },
+          {
+            "text": "Gespr\u00e4ch als Coaching-Moment"
+          }
+        ],
+        "cta": {
+          "start": "Kostenfreie Testphase starten",
+          "contact": "Kontakt f\u00fcr Vorteile"
+        }
+      }
+    },
+    "group": {
+      "eyebrow": "Gruppenlizenzen",
+      "title": "Schul- & Teamlizenzen",
+      "description": "Spezielle Preise f\u00fcr Schulen und Bildungsinstitutionen. Hol dein ganzes Team an Bord \u2013 inklusive vollst\u00e4ndigem Datenschutzpaket.",
+      "includes": {
+        "title": "Enthalten",
+        "items": [
+          {
+            "text": "Unterschriftsbereite Auftragsverarbeitungsvereinbarung (AVV)"
+          },
+          {
+            "text": "Vorausgef\u00fcllte Datenschutz-Folgenabsch\u00e4tzung (DPIA)"
+          },
+          {
+            "text": "Druckfertige Einverst\u00e4ndniserkl\u00e4rungen f\u00fcr Eltern"
+          },
+          {
+            "text": "Pers\u00f6nliches Onboarding f\u00fcr alle Lehrpersonen"
+          },
+          {
+            "text": "Dedizierte Support-Ansprechperson f\u00fcr die Schule"
+          },
+          {
+            "text": "Zusammenfassung automatisch erstellt"
+          },
+          {
+            "text": "Individuelle Schulungen auf Anfrage m\u00f6glich"
+          }
+        ]
+      },
+      "cta": "Kontakt f\u00fcr Schulpreise"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "H\u00e4ufig gestellte Fragen",
+      "description": "Alles, was du \u00fcber Eisberg und die Funktionsweise wissen musst"
+    },
+    "questions": [
+      {
+        "id": "what-is",
+        "question": "Was ist Eisberg?",
+        "answer": "Eisberg ist ein Tool, das Lehrpersonen dabei unterst\u00fctzt, strukturierte und bedeutsame Lern- und Coachinggespr\u00e4che zu f\u00fchren. Es begleitet jeden Schritt des Prozesses \u2013 von der Vorbereitung \u00fcber das Gespr\u00e4ch selbst bis zur Nachbereitung und Elternkommunikation."
+      },
+      {
+        "id": "who-is-it-for",
+        "question": "F\u00fcr wen ist Eisberg gedacht?",
+        "answer": "Eisberg wurde in erster Linie f\u00fcr Lehrpersonen und Lernbegleiter:innen entwickelt, die mit Sch\u00fcler:innen im Schulalter arbeiten. Es ist auch wertvoll f\u00fcr Schulen und Bildungsorganisationen, die die Qualit\u00e4t von Lern- und Coachinggespr\u00e4chen verbessern m\u00f6chten."
+      },
+      {
+        "id": "how-it-works",
+        "question": "Wie funktioniert Eisberg?",
+        "answer": "Eisberg begleitet dich durch drei Phasen: vor, w\u00e4hrend und nach dem Gespr\u00e4ch. Es hilft dir bei der Vorbereitung, unterst\u00fctzt dich w\u00e4hrend des Gespr\u00e4chs mit Impulsen und erstellt danach automatisch Zusammenfassungen und Elternkommunikation."
+      },
+      {
+        "id": "preparation-needed",
+        "question": "Muss ich mich vor jedem Gespr\u00e4ch vorbereiten?",
+        "answer": "Die Vorbereitung ist minimal. Vor jedem Gespr\u00e4ch erh\u00e4ltst du eine schnelle \u00dcbersicht \u00fcber fr\u00fchere Gespr\u00e4che, Notizen und Entwicklung \u2013 so kannst du in wenigen Minuten vorbereitet starten."
+      },
+      {
+        "id": "does-it-replace-teaching",
+        "question": "Ersetzt Eisberg meine Art zu unterrichten?",
+        "answer": "Nein. Eisberg st\u00e4rkt deinen bestehenden Ansatz, indem es dir Struktur und Unterst\u00fctzung gibt. Du bleibst in der F\u00fchrung des Gespr\u00e4chs \u2013 die App hilft dir lediglich, es wirksamer zu gestalten."
+      },
+      {
+        "id": "is-conversation-recorded",
+        "question": "Wird das Gespr\u00e4ch aufgenommen?",
+        "answer": "Ja, Gespr\u00e4che werden aufgenommen und transkribiert, um die Dokumentation zu unterst\u00fctzen. Audiodaten werden sicher verarbeitet und nach strengen Datenschutzstandards behandelt."
+      },
+      {
+        "id": "gdpr-compliance",
+        "question": "Ist Eisberg DSGVO-konform?",
+        "answer": "Ja. Eisberg ist vollst\u00e4ndig DSGVO-konform. Audio wird direkt nach der Transkription gel\u00f6scht (Zero-Retention), und keine Sch\u00fcler:innendaten werden f\u00fcr KI-Training verwendet. Alle Daten werden auf EU-Servern gespeichert."
+      },
+      {
+        "id": "parents-access",
+        "question": "K\u00f6nnen Eltern auf die App zugreifen?",
+        "answer": "Nein, die App ist f\u00fcr Lehrpersonen konzipiert. Eltern erhalten jedoch nach jedem Gespr\u00e4ch klare und strukturierte Zusammenfassungen, damit sie informiert und einbezogen bleiben."
+      },
+      {
+        "id": "multi-language-support",
+        "question": "Kann ich Eisberg in verschiedenen Sprachen nutzen?",
+        "answer": "Ja. Eisberg unterst\u00fctzt mehrsprachige Kommunikation, besonders beim Erstellen von Elternmails. So k\u00f6nnen Familien mit unterschiedlichen sprachlichen Hintergr\u00fcnden leichter einbezogen werden."
+      },
+      {
+        "id": "free-trial",
+        "question": "Wie funktioniert die kostenlose Testphase?",
+        "answer": "Du kannst Eisberg sofort ohne Kreditkarte nutzen. W\u00e4hrend der Testphase steht dir der volle Funktionsumfang zur Verf\u00fcgung, damit du den gesamten Ablauf erleben kannst."
+      },
+      {
+        "id": "what-included-in-license",
+        "question": "Was erhalte ich mit einer Lizenz?",
+        "answer": "Eine Lizenz gibt dir Zugang zu unbegrenzten Gespr\u00e4chen, Sch\u00fcler:innenprofilen, automatischen Zusammenfassungen, Elternkommunikation sowie zus\u00e4tzlichen p\u00e4dagogischen Inhalten und Support."
+      },
+      {
+        "id": "school-approval",
+        "question": "Brauche ich eine Genehmigung der Schule, um Eisberg zu nutzen?",
+        "answer": "Ja. Da Eisberg sensible Daten verarbeitet, sollte der Einsatz vorgängig mit der Schule geklärt und datenschutzrechtlich sauber geregelt werden. In der Regel braucht es dafür eine Auftragsverarbeitungsvereinbarung und die Einwilligung der Eltern. Die notwendigen Vorlagen und die passende Korrespondenz stellen wir dir zur Verfügung."
+      },
+      {
+        "id": "getting-started-time",
+        "question": "Wie lange dauert es, bis ich starten kann?",
+        "answer": "Der Einstieg ist schnell. Sobald die Einrichtung und die erforderlichen Genehmigungen abgeschlossen sind, kannst du direkt mit dem ersten Lern- und Coachinggespräch beginnen. Für den Start findest du unsere Onboarding-Daten im Kalender und kannst einfach den Termin wählen, der für dich am besten passt."
+      },
+      {
+        "id": "does-it-add-work",
+        "question": "Macht das meinen Alltag aufwendiger?",
+        "answer": "Nein \u2013 das Ziel ist genau das Gegenteil. Eisberg reduziert administrative Arbeit und vereinfacht die Dokumentation, damit du dich st\u00e4rker auf das Gespr\u00e4ch selbst konzentrieren kannst."
+      },
+      {
+        "id": "what-makes-it-different",
+        "question": "Was unterscheidet Eisberg von anderen Tools?",
+        "answer": "Eisberg ist nicht einfach ein Dokumentationstool. Es verbindet strukturierte Gespr\u00e4chsf\u00fchrung, Unterst\u00fctzung in Echtzeit und automatische Nachbereitung, um die Qualit\u00e4t von Gespr\u00e4chen zu verbessern \u2013 nicht nur, um sie festzuhalten."
+      }
+    ]
+  },
+  "schools": {
+    "hero": {
+      "title": "Lern- und Coachinggespr\u00e4che, die deine Schule weiterbringen",
+      "description": "So verankerst du Lern- und Coachinggespr\u00e4che als gemeinsame Praxis in deinem Team \u2013 damit jede Lehrperson sicher, kompetent und wirksam mit Schüler:innen und Eltern kommuniziert.",
+      "illustrationText": "Team-Illustration"
+    },
+    "consultation": {
+      "eyebrow": "Beratung",
+      "title": "Seit wir Lern- und Coachinggespr\u00e4che schulweit eingef\u00fchrt haben, hat sich die Qualit\u00e4t unserer Elternkommunikation grundlegend ver\u00e4ndert \u2013 und das Vertrauen in unser Team ist sp\u00fcrbar gewachsen.",
+      "cta": "Kostenfreies Beratungsgespr\u00e4ch buchen"
+    },
+    "shift": {
+      "eyebrow": "Der Wandel",
+      "title": "Von t\u00e4glicher Reibung zu einem gemeinsamen System",
+      "description": "Als Schulleitung steuerst du nicht nur Gespr\u00e4che \u2013 du steuerst das gesamte System dahinter. Was in Lern- und Coachinggespr\u00e4chen geschieht, wirkt auf dein Team, auf die Eltern und auf die gesamte Kultur deiner Schule. Wenn eine gemeinsame Struktur fehlt, sammeln sich Probleme an. Wenn es eine gibt, ver\u00e4ndert sich alles.",
+      "items": [
+        {
+          "bad": {
+            "title": "Kein einheitlicher Standard",
+            "description": "Jede Lehrperson f\u00fchrt Lern- und Coachinggespr\u00e4che anders. Es gibt keine gemeinsame Struktur, kein gemeinsames Verst\u00e4ndnis \u2013 und keine Vergleichbarkeit."
+          },
+          "good": {
+            "title": "Ein einheitlicher Standard",
+            "description": "Alle Lehrpersonen folgen derselben bew\u00e4hrten Struktur. Gespr\u00e4che werden konsistent, professionell und \u00fcber die ganze Schule hinweg vergleichbar."
+          }
+        },
+        {
+          "bad": {
+            "title": "Ein \u00fcberfordertes Team",
+            "description": "Viele Lehrpersonen f\u00fchlen sich in Lern- und Coachinggespr\u00e4chen unsicher. Sie k\u00e4mpfen mit schwierigen Situationen und verlassen sich oft auf Improvisation."
+          },
+          "good": {
+            "title": "Ein sicheres, kompetentes Team",
+            "description": "Lehrpersonen gehen mit Klarheit und Sicherheit in Gespr\u00e4che. Sie wissen, wie sie Gespr\u00e4che f\u00fchren und auch komplexe Situationen wirksam gestalten k\u00f6nnen."
+          }
+        },
+        {
+          "bad": {
+            "title": "Schwindendes Elternvertrauen",
+            "description": "Eltern erleben Gespr\u00e4che als unklar oder konfrontativ. Mit der Zeit beginnt das Vertrauen in die Schule zu schwinden."
+          },
+          "good": {
+            "title": "Eltern als echte Partner",
+            "description": "Eltern f\u00fchlen sich informiert, einbezogen und respektiert. Vertrauen w\u00e4chst, und Kommunikation wird konstruktiv und partnerschaftlich."
+          }
+        },
+        {
+          "bad": {
+            "title": "Weiterbildung, die nicht h\u00e4ngen bleibt",
+            "description": "Du investierst in Weiterbildung, aber im Alltag ver\u00e4ndert sich wenig. Das Gelernte findet selten seinen Weg in ein konsistentes Verhalten."
+          },
+          "good": {
+            "title": "Nachhaltige Umsetzung",
+            "description": "Was Lehrpersonen lernen, wird Teil der t\u00e4glichen Praxis. Gespr\u00e4che folgen einer gemeinsamen Struktur, die sich mit der Zeit selbst st\u00e4rkt."
+          }
+        },
+        {
+          "bad": {
+            "title": "Konflikte landen auf deinem Tisch",
+            "description": "Missverst\u00e4ndnisse eskalieren zu Beschwerden. Lehrpersonen sind frustriert, Eltern unzufrieden \u2013 und du musst die Situation l\u00f6sen."
+          },
+          "good": {
+            "title": "Weniger Konflikte, weniger Eskalation",
+            "description": "Klare Struktur und Kommunikation beugen Missverst\u00e4ndnissen fr\u00fch vor. Themen werden gekl\u00e4rt, bevor sie bei dir landen."
+          }
+        },
+        {
+          "bad": {
+            "title": "Kein gemeinsames Bild vom Schüler oder von der Schülerin",
+            "description": "Lehrpersonen, Eltern und Sch\u00fcler:innen sehen Unterschiedliches. Es fehlt eine gemeinsame Ausrichtung auf St\u00e4rken, Ziele und n\u00e4chste Schritte."
+          },
+          "good": {
+            "title": "Ein gemeinsames Verst\u00e4ndnis",
+            "description": "Alle sprechen dieselbe Sprache. St\u00e4rken, Ziele und Entwicklung sind klar und zwischen Lehrpersonen, Eltern und Sch\u00fcler:innen abgestimmt."
+          }
+        }
+      ],
+      "seeImpact": "Wirkung ansehen",
+      "backReality": "Zur\u00fcck zur Realit\u00e4t"
+    },
+    "work": {
+      "eyebrow": "So arbeiten wir zusammen",
+      "title": "Flexibel, praktisch und auf deine Schule abgestimmt",
+      "items": [
+        {
+          "title": "Vor Ort",
+          "description": "Wir kommen direkt zu euch \u2013 f\u00fcr einen intensiven, praxisnahen Teamtag. Einf\u00fchrung in die Eisberg-Methode mit Live-\u00dcbungen, gemeinsamer Entwicklung und direktem Feedback.",
+          "illustration": "person"
+        },
+        {
+          "title": "Online",
+          "description": "Flexibel und ortsunabh\u00e4ngig. Live-Webinare, individuelle Beratung, begleiteter Rollout mit regelm\u00e4ssigen Check-ins und laufender Unterst\u00fctzung f\u00fcr Alltagsfragen.",
+          "illustration": "online"
+        },
+        {
+          "title": "Gruppentraining",
+          "description": "Lorem ipsum",
+          "illustration": "group"
+        }
+      ]
+    },
+    "strategy": {
+      "title": "Dein kostenloses Strategiegespr\u00e4ch",
+      "description": "In einem pers\u00f6nlichen 45-min\u00fctigen Gespr\u00e4ch entwickeln wir gemeinsam einen konkreten Plan, wie Lern- und Coachinggespr\u00e4che an deiner Schule eingef\u00fchrt werden k\u00f6nnen. Keine allgemeine Beratung \u2013 sondern eine passende Strategie f\u00fcr dein Team.",
+      "items": [
+        {
+          "title": "Klare Situationsanalyse",
+          "description": "Wir schauen gemeinsam, wo deine Schule heute steht und wo die gr\u00f6ssten Hebel f\u00fcr Ver\u00e4nderung liegen.",
+          "icon": "search"
+        },
+        {
+          "title": "Konkreter Einf\u00fchrungsplan",
+          "description": "Du erh\u00e4ltst einen realistischen Fahrplan, wie Lern- und Coachinggespr\u00e4che Schritt f\u00fcr Schritt im Team verankert werden k\u00f6nnen.",
+          "icon": "route"
+        },
+        {
+          "title": "Umgang mit Widerstand",
+          "description": "Wir besprechen, wie du skeptische Lehrpersonen an Bord holst und dein Team f\u00fcr die Ver\u00e4nderung gewinnst.",
+          "icon": "users"
+        },
+        {
+          "title": "Elternstrategie",
+          "description": "Wie du Eltern von Anfang an einbeziehst und Vertrauen in die neue Praxis aufbaust.",
+          "icon": "friends"
+        },
+        {
+          "title": "Nachhaltige Verankerung",
+          "description": "Wie das Gelernte nicht verpufft, sondern langfristig Teil der Schulkultur wird.",
+          "icon": "book"
+        },
+        {
+          "title": "Deine n\u00e4chsten Schritte",
+          "description": "Du gehst mit einem klaren, umsetzbaren Plan aus dem Gespr\u00e4ch \u2013 nicht mit vagen Ideen.",
+          "icon": "stairs"
+        }
+      ]
+    },
+    "booking": {
+      "title": "Beratungsgespr\u00e4ch buchen"
+    },
+    "faq": {
+      "eyebrow": "H\u00e4ufig gestellte Fragen",
+      "title": "Alles, was du wissen m\u00f6chtest",
+      "items": [
+        {
+          "title": "who-is-it-designed-for",
+          "question": "F\u00fcr wen ist diese L\u00f6sung gedacht?",
+          "answer": "Diese L\u00f6sung ist f\u00fcr Schulleitungen gedacht, die strukturierte und hochwertige Lern- und Coachinggespr\u00e4che im gesamten Team einf\u00fchren m\u00f6chten \u2013 nicht nur die Gespr\u00e4chsf\u00fchrung einzelner Lehrpersonen verbessern wollen."
+        },
+        {
+          "title": "difference-from-training",
+          "question": "Wie unterscheidet sich das von klassischer Lehrer:innenweiterbildung?",
+          "answer": "Klassische Weiterbildungen bleiben oft theoretisch und verblassen mit der Zeit. Eisberg verbindet Methodik, praktische Tools und laufende Unterst\u00fctzung \u2013 damit das Gelernte Teil der t\u00e4glichen Praxis wird."
+        },
+        {
+          "title": "implementation-time",
+          "question": "Wie lange dauert die Umsetzung in einer Schule?",
+          "answer": "Die Umsetzung h\u00e4ngt von der Gr\u00f6sse und den Zielen deiner Schule ab, aber die meisten Schulen k\u00f6nnen innerhalb weniger Wochen starten. Der Prozess wird Schritt f\u00fcr Schritt begleitet, damit dein Team ihn ohne grosse St\u00f6rung \u00fcbernehmen kann."
+        },
+        {
+          "title": "additional-workload",
+          "question": "Entsteht dadurch mehr Arbeit f\u00fcr meine Lehrpersonen?",
+          "answer": "Nein \u2013 das Ziel ist, den Aufwand zu reduzieren, nicht zu erh\u00f6hen. Eisberg vereinfacht Vorbereitung, Dokumentation und Nachbereitung, damit sich Lehrpersonen auf das Gespr\u00e4ch selbst konzentrieren k\u00f6nnen."
+        },
+        {
+          "title": "resistance-to-change",
+          "question": "Was, wenn mein Team Ver\u00e4nderungen gegen\u00fcber skeptisch ist?",
+          "answer": "Widerstand ist normal. Der Ansatz ist praktisch, unterst\u00fctzend und leicht zug\u00e4nglich gestaltet, damit Lehrpersonen den Nutzen schnell in ihrem Alltag erleben."
+        },
+        {
+          "title": "parent-communication",
+          "question": "Wie verbessert das die Kommunikation mit Eltern?",
+          "answer": "Lern- und Coachinggespr\u00e4che werden klarer, strukturierter und transparenter. Eltern erhalten eine konsistente Kommunikation und f\u00fchlen sich st\u00e4rker einbezogen, was das Vertrauen deutlich erh\u00f6ht."
+        },
+        {
+          "title": "whole-school-involvement",
+          "question": "Muss ich die ganze Schule auf einmal einbeziehen?",
+          "answer": "Nicht unbedingt. Du kannst mit einer kleineren Gruppe oder einem Pilotprojekt starten und schrittweise erweitern. Der Ansatz ist flexibel und passt sich der Struktur deiner Schule an."
+        },
+        {
+          "title": "implementation-support",
+          "question": "Welche Unterst\u00fctzung erhalten wir w\u00e4hrend der Umsetzung?",
+          "answer": "Du erh\u00e4ltst Begleitung durch jeden Schritt \u2013 von Strategie und Onboarding bis zur laufenden Unterst\u00fctzung. So wird der Ansatz nicht nur eingef\u00fchrt, sondern erfolgreich integriert."
+        },
+        {
+          "title": "data-protection-compliance",
+          "question": "Ist die L\u00f6sung datenschutzkonform?",
+          "answer": "Ja. Eisberg ist vollst\u00e4ndig DSGVO-konform und arbeitet mit strengen Datenschutzmassnahmen wie Zero-Retention von Audiodaten und EU-basierten Servern."
+        },
+        {
+          "title": "expected-results",
+          "question": "Welche Ergebnisse kann ich als Schulleitung erwarten?",
+          "answer": "Schulen berichten von st\u00e4rkerem Elternvertrauen, weniger Konflikten, sichereren Lehrpersonen und einem klareren, einheitlicheren Zugang zu Lern- und Coachinggespr\u00e4chen."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Deine Schule verdient eine gemeinsame Sprache.",
+      "subtitle": "Buche dein kostenloses Strategiegespr\u00e4ch",
+      "description": "45 Minuten. Kein Verkaufsgespr\u00e4ch. Nur eine ehrliche Analyse deiner Situation und ein konkreter Plan, wie Lern- und Coachinggespr\u00e4che an deiner Schule gelingen k\u00f6nnen.",
+      "cta": "Jetzt Termin buchen"
+    }
   }
 }

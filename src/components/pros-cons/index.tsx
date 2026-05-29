@@ -7,17 +7,24 @@ import Title from "../title";
 
 import classes from "./index.module.css";
 
-const ProsConsItem = ({ value, index, cons = false }: IProsConstItem) => {
+const ProsConsItem = ({
+  value,
+  index,
+  cons = false,
+  active = false,
+}: IProsConstItem) => {
   const { t } = useTranslation();
 
   return (
-    <Group className={classes.itemWrapper}>
+    <Group className={`${classes.itemWrapper} ${active ? classes.active : ""}`}>
       {cons ? (
         <IconX size={20} className={`${classes.cons}`} />
       ) : (
         <IconCheck size={20} className={`${classes.pros}`} />
       )}
-      <Description>{t(`${value}.${index}.text`)}</Description>
+      <Description variant={active ? "light" : "dark"}>
+        {t(`${value}.${index}.text`)}
+      </Description>
     </Group>
   );
 };
@@ -28,11 +35,12 @@ const ProsConsSection = ({
   itemsNum,
   itemsTitle,
   cons = false,
+  active = false,
 }: IProsConsSetion) => {
   const { t } = useTranslation();
 
   return (
-    <Stack className={classes.wrapper}>
+    <Stack className={`${classes.wrapper} ${active ? classes.active : ""}`}>
       {header && (
         <Group className={`${classes.titleBox} ${cons ? classes.cons : ""}`}>
           {cons ? (
@@ -48,7 +56,11 @@ const ProsConsSection = ({
               className={`${classes.titleIcon} ${classes.pros}`}
             />
           )}
-          <Title variant={cons ? "dark" : "primary"} margin={false} thin>
+          <Title
+            variant={cons ? "dark" : active ? "light" : "primary"}
+            margin={false}
+            thin
+          >
             {t(`${title}`)}
           </Title>
         </Group>
@@ -60,6 +72,7 @@ const ProsConsSection = ({
             value={itemsTitle}
             index={index}
             key={index}
+            active={!cons && active}
           />
         ))}
       </Stack>

@@ -1,0 +1,9 @@
+.box {
+  padding: 36px;
+
+  &.active {
+    border-radius: 20px;
+    background-color: var(--color-brand-primary);
+    box-shadow: var(--box-shadow-3);
+  }
+}

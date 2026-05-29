@@ -169,12 +169,14 @@ export interface IProsConsSetion {
   title?: string;
   itemsNum: number;
   itemsTitle: string;
+  active?: boolean;
 }
 
 export interface IProsConstItem {
   cons?: boolean;
   value: string;
   index: number;
+  active?: boolean;
 }
 
 export interface IFeatureItem {
@@ -311,4 +313,10 @@ export interface ISchoolFaqItem {
   title: string;
   question: string;
   answer: string;
+}
+
+export interface IVideo {
+  srcMp4: string;
+  srcWebm: string;
+  autoPlay?: boolean;
 }

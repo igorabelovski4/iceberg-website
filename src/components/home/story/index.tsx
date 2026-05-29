@@ -1,6 +1,15 @@
 import { STORY_STEPS_IMAGE_MAP } from "@/constants/app";
 import { IStepItem, IStoryCard } from "@/types/common";
-import { Box, Flex, Image, Stack, Text } from "@mantine/core";
+import {
+  Box,
+  Divider,
+  Flex,
+  Group,
+  Image,
+  SimpleGrid,
+  Stack,
+  Text,
+} from "@mantine/core";
 import { useTranslation } from "react-i18next";
 
 import classes from "./index.module.css";
@@ -16,10 +25,10 @@ const StoryCard = ({ num, illustration, activeStep, onClick }: IStoryCard) => {
       className={`${classes.card} ${activeStep === num ? classes.active : ""}`}
       onClick={() => onClick?.(num)}
     >
-      <Stack justify='center' align='center'>
-        <Image src={illustrationSrc} className={classes.illustration} />
+      <Group justify='center' align='center' gap='xl'>
         <Text className={classes.step}>{num + 1}</Text>
-      </Stack>
+        <Image src={illustrationSrc} className={classes.illustration} />
+      </Group>
     </Box>
   );
 };
@@ -37,7 +46,7 @@ const Story = () => {
   }
   return (
     <Stack gap={80}>
-      <Flex justify='space-between' className={classes.wrapper}>
+      <SimpleGrid cols={3}>
         {steps.map((step, index) => (
           <StoryCard
             key={index}
@@ -47,8 +56,14 @@ const Story = () => {
             illustration={step.illustration}
           />
         ))}
-      </Flex>
-      <Stack gap={12}>
+      </SimpleGrid>
+      <Stack gap={12} align='flex-start'>
+        <Group>
+          <Divider className={classes.divider} />
+          <Text className={classes.activeStep}>
+            {t("home.story.heading")} {activeStep + 1}
+          </Text>
+        </Group>
         <Title alignLeft>{t(`home.story.steps.${activeStep}.title`)}</Title>
         <Description align='left'>
           {t(`home.story.steps.${activeStep}.description`)}

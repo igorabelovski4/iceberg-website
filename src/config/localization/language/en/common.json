@@ -42,6 +42,7 @@
     },
     "story": {
       "eyebrow": "Our story",
+      "heading": "Chapter",
       "steps": [
         {
           "illustration": "dilemma",

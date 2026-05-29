@@ -30,11 +30,14 @@ import {
 
 export const HEADER_HEIGHT = 76;
 
-export const LOGO_IMAGE = "/assets/images/logo.webp";
+export const LOGO_IMAGE = "/assets/images/logo-dark.svg";
 export const LANDING_HERO_IMAGE = "/assets/images/iceberg.webp";
 export const HERO_3D_VIDEO_IMAGE = "/assets/images/3d-video.webp";
 export const FAQ_BACKGROUND_IMAGE = "/assets/images/iceberg-deep.webp";
 export const FOUNDER_IMAGE = "/assets/images/founder.webp";
+
+export const HOME_VIDEO_MP4 = "/assets/videos/home.mp4";
+export const HOME_VIDEO_WEBM = "/assets/videos/home.webm";
 
 export const DE_FLAG = "/assets/flags/de.png";
 export const FR_FLAG = "/assets/flags/fr.png";

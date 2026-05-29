@@ -1,5 +1,11 @@
 .itemWrapper {
   gap: 12px;
+
+  &.active {
+    & .pros {
+      color: var(--color-white);
+    }
+  }
 }
 
 .cons {
@@ -12,6 +18,12 @@
 
 .wrapper {
   gap: 24px;
+
+  &.active {
+    & .titleBox {
+      border-bottom-color: var(--color-white);
+    }
+  }
 }
 
 .titleBox {

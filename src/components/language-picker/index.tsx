@@ -7,8 +7,8 @@ import { useTranslation } from "react-i18next";
 import { GB_FLAG, DE_FLAG } from "@/constants/app";
 
 const data = [
-  { label: "languages.en", image: GB_FLAG, code: "EN" },
   { label: "languages.de", image: DE_FLAG, code: "DE" },
+  { label: "languages.en", image: GB_FLAG, code: "EN" },
 ];
 
 const LanguagePicker = () => {

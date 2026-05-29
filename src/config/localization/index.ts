@@ -14,7 +14,7 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources: resources,
-  lng: "en",
+  lng: "de",
   fallbackLng: "en",
   ns: ["common"],
   defaultNS: "common",
