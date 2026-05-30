@@ -17,7 +17,7 @@ const PhaseCard = () => {
   }) as IPhaseItem[];
 
   return (
-    <SimpleGrid cols={3} spacing='xl'>
+    <SimpleGrid cols={{ base: 1, sm: 3 }} spacing='xl'>
       {phases.map((phase, index) => {
         const iconKey = phase.icon as keyof typeof PHASES_ICON_MAP;
         const Icon = PHASES_ICON_MAP[iconKey];

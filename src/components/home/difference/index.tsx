@@ -17,7 +17,7 @@ const Difference = () => {
   }) as IDifferenceItem[];
 
   return (
-    <SimpleGrid cols={2} spacing='xl'>
+    <SimpleGrid cols={{ base: 1, sm: 2 }} spacing='xl'>
       <Box className={classes.box}>
         <ProsConsSection
           cons

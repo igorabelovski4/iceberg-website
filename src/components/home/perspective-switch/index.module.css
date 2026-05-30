@@ -61,6 +61,60 @@
   color: var(--color-text-secondary);
 }
 
+@media (max-width: 1200px) {
+  .tab {
+    padding: 16px 24px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .header,
+  .main {
+    padding: 36px;
+  }
+
+  .detailsCard {
+    padding: 18px;
+  }
+
+  .value {
+    font-size: 22px;
+  }
+
+  .label {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tab {
+    padding: 12px 20px;
+  }
+
+  .tabIcon {
+    font-size: 16px;
+  }
+
+  .header,
+  .main {
+    padding: 24px;
+  }
+
+  .detailsCard {
+    padding: 12px;
+  }
+
+  .value {
+    font-size: 16px;
+  }
+
+  .label {
+    font-size: 12px;
+  }
+}
+
 .stars {
   width: 1px;
   height: 1px;

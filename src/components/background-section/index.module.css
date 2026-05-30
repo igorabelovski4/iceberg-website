@@ -11,3 +11,15 @@
   margin: 0 auto;
   max-width: 1024px;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 56px 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 36px 20px;
+  }
+}

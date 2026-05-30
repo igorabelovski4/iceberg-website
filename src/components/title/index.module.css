@@ -31,3 +31,30 @@
     text-align: left;
   }
 }
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: 21px;
+  }
+
+  .margin {
+    margin-bottom: 16px;
+  }
+
+  .big {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 18px;
+  }
+  .margin {
+    margin-bottom: 12px;
+  }
+
+  .big {
+    font-size: 28px;
+  }
+}

@@ -21,7 +21,6 @@
 
 .step {
   font-size: 48px;
-  line-height: 36px;
   font-weight: 600;
   color: var(--color-border);
 }
@@ -42,4 +41,36 @@
   font-size: 28px;
   font-weight: 700;
   color: var(--color-brand-secondary-dark);
+}
+
+@media (max-width: 1200px) {
+  .card {
+    padding: 16px;
+  }
+
+  .step {
+    font-size: 32px;
+  }
+
+  .illustration {
+    height: 88px;
+  }
+
+  .divider {
+    width: 36px;
+  }
+
+  .activeStep {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 786px) {
+  .activeStep {
+    font-size: 20px;
+  }
+
+  .divider {
+    width: 24px;
+  }
 }

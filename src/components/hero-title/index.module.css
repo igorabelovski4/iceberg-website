@@ -31,3 +31,23 @@
 .primary {
   color: var(--color-brand-primary);
 }
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: 44px;
+  }
+
+  .subtitle {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+}

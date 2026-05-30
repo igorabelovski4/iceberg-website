@@ -72,3 +72,17 @@
     border-color: transparent;
   }
 }
+
+@media (max-width: 1200px) {
+  .button {
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    font-size: 13px;
+    padding: 4px 12px;
+  }
+}

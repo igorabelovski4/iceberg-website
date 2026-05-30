@@ -45,8 +45,11 @@ export function HomePage() {
         <PrimaryButton variant='secondary' icon>
           {t("cta.try")}
         </PrimaryButton>
-        <Image src={HERO_3D_VIDEO_IMAGE} py={64} />
-        <SimpleGrid cols={3} spacing={36}>
+        <Image
+          src={HERO_3D_VIDEO_IMAGE}
+          py={{ base: 24, sm: 32, lg: 44, xl: 64 }}
+        />
+        <SimpleGrid cols={{ base: 1, sm: 3 }} spacing={{ base: 16, sm: 36 }}>
           {badges.map((badge, index) => (
             <HeroCard
               key={index}

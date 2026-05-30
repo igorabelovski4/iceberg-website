@@ -15,7 +15,7 @@ const MembershipCards = () => {
   }) as IMembershipBenefitItem[];
 
   return (
-    <Grid className={classes.grid} gap={48}>
+    <Grid className={classes.grid} gap={{ base: 16, sm: 20, lg: 36 }}>
       {membershipBenefits.map((benefit, index) => {
         if (index === membershipBenefits.length - 1) return;
 

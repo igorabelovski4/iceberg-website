@@ -17,3 +17,15 @@
 .primary {
   color: var(--color-brand-primary);
 }
+
+@media (max-width: 1200px) {
+  .eyebrow {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .eyebrow {
+    font-size: 13px;
+  }
+}

@@ -46,7 +46,7 @@ const Story = () => {
   }
   return (
     <Stack gap={80}>
-      <SimpleGrid cols={3}>
+      <SimpleGrid cols={{ base: 2, sm: 3 }}>
         {steps.map((step, index) => (
           <StoryCard
             key={index}

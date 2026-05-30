@@ -3,6 +3,7 @@ import { INavigationLink } from "@/types/common";
 import { UnstyledButton } from "@mantine/core";
 
 import classes from "./index.module.css";
+import { useEffect } from "react";
 
 const NavigationLink = ({
   path,
@@ -13,6 +14,12 @@ const NavigationLink = ({
 }: INavigationLink) => {
   const location = useLocation();
   const isActive = location.pathname === path;
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+    });
+  }, [location.pathname]);
 
   return (
     <UnstyledButton

@@ -61,3 +61,9 @@
   line-height: 150%;
   color: var(--color-white);
 }
+
+@media (max-width: 768px) {
+  .card {
+    padding: 16px 24px;
+  }
+}

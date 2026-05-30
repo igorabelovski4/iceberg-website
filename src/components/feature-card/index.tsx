@@ -23,7 +23,7 @@ const FeatureCard = ({
       <Box className={classes.stars3}></Box>
       <Stack className={classes.inner}>
         <Flex className={classes.iconBox}>
-          <Icon size={28} stroke={2.3} />
+          <Icon />
         </Flex>
         <Stack className={classes.content}>
           <Title variant='light' margin={false}>

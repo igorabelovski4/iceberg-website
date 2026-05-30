@@ -33,7 +33,7 @@ const PerspectiveSwitch = () => {
           return (
             <Tabs.Tab key={index} value={perspective.value} color={color}>
               <Group>
-                {Icon && <Icon size={24} />}
+                {Icon && <Icon />}
                 <Text className={classes.title}>{perspective.title}</Text>
               </Group>
             </Tabs.Tab>
@@ -42,7 +42,6 @@ const PerspectiveSwitch = () => {
       </Tabs.List>
       {perspectives.map((perspective, index) => {
         const color = perspective.color;
-        const initialIndex = index;
         const iconKey = perspective.icon as keyof typeof PERSPECTIVE_ICON_MAP;
         const Icon = PERSPECTIVE_ICON_MAP[iconKey];
 
@@ -58,9 +57,7 @@ const PerspectiveSwitch = () => {
                 <Box className={classes.stars2}></Box>
                 <Box className={classes.stars3}></Box>
                 <Group gap={24}>
-                  <Box className={classes.iconBox}>
-                    {Icon && <Icon size={36} stroke={2.25} />}
-                  </Box>
+                  <Box className={classes.iconBox}>{Icon && <Icon />}</Box>
                   <Stack gap={0}>
                     <Title variant='light' margin={false} alignLeft>
                       {perspective.title}

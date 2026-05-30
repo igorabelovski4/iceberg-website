@@ -7,3 +7,15 @@
     box-shadow: var(--box-shadow-3);
   }
 }
+
+@media (max-width: 1200px) {
+  .box {
+    padding: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    padding: 20px;
+  }
+}
