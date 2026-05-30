@@ -3,3 +3,15 @@
   column-gap: 48px;
   margin-top: 80px;
 }
+
+@media (max-width: 1200px) {
+  .grid {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 786px) {
+  .grid {
+    margin-top: 24px;
+  }
+}
