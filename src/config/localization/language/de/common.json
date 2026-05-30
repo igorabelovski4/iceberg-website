@@ -8,10 +8,10 @@
     "schools": "F\u00fcr Schulen"
   },
   "languages": {
-    "en": "Englisch",
-    "de": "Deutsch",
-    "it": "Italienisch",
-    "fr": "Franz\u00f6sisch"
+    "en": "EN",
+    "de": "DE",
+    "it": "IT",
+    "fr": "FR"
   },
   "cta": {
     "start": "Jetzt starten",

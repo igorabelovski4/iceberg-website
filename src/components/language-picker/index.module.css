@@ -1,5 +1,4 @@
 .control {
-  width: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,13 +34,11 @@
   border-radius: 100px;
   width: 20px;
   height: 20px;
+  margin-right: 8px;
 }
 
-.icon {
-  transition: transform 150ms ease;
-  transform: rotate(0deg);
-
-  [data-expanded] & {
-    transform: rotate(180deg);
-  }
+.menuLabel {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-primary);
 }

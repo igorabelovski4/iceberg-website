@@ -8,10 +8,10 @@
     "schools": "For Schools"
   },
   "languages": {
-    "en": "English",
-    "de": "German",
-    "it": "Italian",
-    "fr": "French"
+    "en": "EN",
+    "de": "DE",
+    "it": "IT",
+    "fr": "FR"
   },
   "cta": {
     "start": "Get started",

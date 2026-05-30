@@ -22,7 +22,7 @@ const ProsConsItem = ({
       ) : (
         <IconCheck size={20} className={`${classes.pros}`} />
       )}
-      <Description variant={active ? "light" : "dark"}>
+      <Description variant={active ? "light" : "dark"} align='left'>
         {t(`${value}.${index}.text`)}
       </Description>
     </Group>

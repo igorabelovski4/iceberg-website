@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { IconChevronDown } from "@tabler/icons-react";
-import { Group, Image, Menu, UnstyledButton } from "@mantine/core";
-import classes from "./index.module.css";
+import { Group, Image, Menu, Text, UnstyledButton } from "@mantine/core";
 import { useTranslation } from "react-i18next";
+import classes from "./index.module.css";
 
 import { GB_FLAG, DE_FLAG } from "@/constants/app";
 
@@ -17,20 +16,24 @@ const LanguagePicker = () => {
   const [opened, setOpened] = useState(false);
   const [selected, setSelected] = useState(data[0]);
 
-  const items = data.map((item) => (
-    <Menu.Item
-      leftSection={<Image src={item.image} className={classes.flag} />}
-      onClick={() => {
-        setSelected(item);
+  const items = data.map((item) => {
+    if (selected.code === item.code) return;
 
-        const lang = item.label.split(".")[1];
-        i18n.changeLanguage(lang);
-      }}
-      key={item.label}
-    >
-      {t(item.label)}
-    </Menu.Item>
-  ));
+    return (
+      <Menu.Item
+        leftSection={<Image src={item.image} className={classes.flag} />}
+        onClick={() => {
+          setSelected(item);
+
+          const lang = item.label.split(".")[1];
+          i18n.changeLanguage(lang);
+        }}
+        key={item.label}
+      >
+        <Text className={classes.menuLabel}>{t(item.label)}</Text>
+      </Menu.Item>
+    );
+  });
 
   return (
     <Menu
@@ -47,9 +50,8 @@ const LanguagePicker = () => {
         >
           <Group gap='xs'>
             <Image src={selected.image} className={classes.flag} />
-            <span className={classes.label}>{t(selected.code)}</span>
+            <Text className={classes.label}>{t(selected.code)}</Text>
           </Group>
-          <IconChevronDown size={16} className={classes.icon} stroke={1.5} />
         </UnstyledButton>
       </Menu.Target>
       <Menu.Dropdown>{items}</Menu.Dropdown>

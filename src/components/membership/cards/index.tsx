@@ -20,7 +20,7 @@ const MembershipCards = () => {
         if (index === membershipBenefits.length - 1) return;
 
         return (
-          <Grid.Col span={6} key={index}>
+          <Grid.Col span={{ base: 12, sm: 6 }} key={index}>
             <FeatureCard
               title={benefit.title}
               description={benefit.description}

@@ -21,3 +21,17 @@
   align-items: center;
   gap: 20px;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 16px 12px;
+  }
+
+  .inner {
+    gap: 12px;
+  }
+
+  .right {
+    gap: 8px;
+  }
+}

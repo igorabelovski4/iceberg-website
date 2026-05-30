@@ -1,5 +1,6 @@
 .itemWrapper {
   gap: 12px;
+  flex-wrap: nowrap;
 
   &.active {
     & .pros {
@@ -50,4 +51,16 @@
 
 .items {
   gap: 24px;
+}
+
+@media (max-width: 786px) {
+  .titleIcon {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+  }
+
+  .items {
+    gap: 16px;
+  }
 }

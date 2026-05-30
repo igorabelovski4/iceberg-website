@@ -1,3 +1,7 @@
+.container {
+  gap: 80px;
+}
+
 .card {
   padding: 20px;
   border-radius: 16px;
@@ -44,6 +48,10 @@
 }
 
 @media (max-width: 1200px) {
+  .container {
+    gap: 44px;
+  }
+
   .card {
     padding: 16px;
   }
@@ -66,8 +74,16 @@
 }
 
 @media (max-width: 786px) {
+  .container {
+    gap: 28px;
+  }
+
   .activeStep {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .illustration {
+    height: 64px;
   }
 
   .divider {

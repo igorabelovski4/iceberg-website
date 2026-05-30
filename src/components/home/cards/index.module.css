@@ -28,3 +28,19 @@
     background-color: var(--color-brand-secondary-dark);
   }
 }
+
+@media (max-width: 786px) {
+  .card {
+    padding: 20px;
+  }
+
+  .inner {
+    gap: 16px;
+  }
+
+  .icon {
+    width: 52px;
+    height: 52px;
+    padding: 12px;
+  }
+}

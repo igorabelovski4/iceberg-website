@@ -66,4 +66,12 @@
   .card {
     padding: 16px 24px;
   }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .additional {
+    font-size: 12px;
+  }
 }

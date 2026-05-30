@@ -41,6 +41,12 @@
   align-items: flex-start;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+}
+
 .stars {
   width: 1px;
   height: 1px;

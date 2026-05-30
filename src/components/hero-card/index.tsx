@@ -14,7 +14,7 @@ const HeroCard = ({ icon, title, items }: IHeroCard) => {
   return (
     <>
       <Stack className={classes.card} align='center'>
-        <Icon size={28} className={classes.icon} />
+        <Icon className={classes.icon} />
         <Stack gap={4} align='center'>
           <Text className={classes.title}>{title}</Text>
           <Group>

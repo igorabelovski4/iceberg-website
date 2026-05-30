@@ -93,13 +93,17 @@
     padding: 12px 20px;
   }
 
-  .tabIcon {
-    font-size: 16px;
-  }
-
   .header,
   .main {
-    padding: 24px;
+    padding: 16px;
+  }
+
+  .main {
+    gap: 24px;
+  }
+
+  .iconBox {
+    padding: 16px;
   }
 
   .detailsCard {
@@ -112,6 +116,10 @@
 
   .label {
     font-size: 12px;
+  }
+
+  .title {
+    display: none;
   }
 }
 

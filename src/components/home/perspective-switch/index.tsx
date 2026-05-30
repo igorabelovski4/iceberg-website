@@ -51,12 +51,18 @@ const PerspectiveSwitch = () => {
 
         return (
           <Tabs.Panel key={index} value={perspective.value}>
-            <Card shadow='sm' withBorder padding={0} radius={24} mt={48}>
+            <Card
+              shadow='sm'
+              withBorder
+              padding={0}
+              radius={24}
+              mt={{ base: 24, sm: 48 }}
+            >
               <Box bg={color} className={classes.header}>
                 <Box className={classes.stars}></Box>
                 <Box className={classes.stars2}></Box>
                 <Box className={classes.stars3}></Box>
-                <Group gap={24}>
+                <Group gap={24} wrap='nowrap'>
                   <Box className={classes.iconBox}>{Icon && <Icon />}</Box>
                   <Stack gap={0}>
                     <Title variant='light' margin={false} alignLeft>
@@ -72,7 +78,7 @@ const PerspectiveSwitch = () => {
                 <Description align='left'>
                   {perspective.description}
                 </Description>
-                <SimpleGrid cols={3}>
+                <SimpleGrid cols={{ base: 1, sm: 3 }}>
                   {details.map((detail, index) => (
                     <Stack className={classes.detailsCard} key={index}>
                       <Text className={classes.value}>{detail.value}</Text>

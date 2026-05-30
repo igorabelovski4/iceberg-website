@@ -45,7 +45,7 @@ const Story = () => {
     setActiveStep(value);
   }
   return (
-    <Stack gap={80}>
+    <Stack className={classes.container}>
       <SimpleGrid cols={{ base: 2, sm: 3 }}>
         {steps.map((step, index) => (
           <StoryCard
@@ -64,7 +64,9 @@ const Story = () => {
             {t("home.story.heading")} {activeStep + 1}
           </Text>
         </Group>
-        <Title alignLeft>{t(`home.story.steps.${activeStep}.title`)}</Title>
+        <Title alignLeft margin={false}>
+          {t(`home.story.steps.${activeStep}.title`)}
+        </Title>
         <Description align='left'>
           {t(`home.story.steps.${activeStep}.description`)}
         </Description>
