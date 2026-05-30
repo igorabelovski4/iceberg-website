@@ -53,7 +53,9 @@ export function ProductPage() {
           <SectionTitle>{t("product.methodology.title")}</SectionTitle>
           <Stack gap='lg' mt='xl'>
             {methodologyDescriptions.map((description, index) => (
-              <Description align='left'>{description.text}</Description>
+              <Description align='left' key={index}>
+                {description.text}
+              </Description>
             ))}
           </Stack>
         </Section>

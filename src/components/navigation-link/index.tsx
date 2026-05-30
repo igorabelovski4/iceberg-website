@@ -4,7 +4,13 @@ import { UnstyledButton } from "@mantine/core";
 
 import classes from "./index.module.css";
 
-const NavigationLink = ({ path, label, highlight }: INavigationLink) => {
+const NavigationLink = ({
+  path,
+  label,
+  highlight,
+  device,
+  onClick,
+}: INavigationLink) => {
   const location = useLocation();
   const isActive = location.pathname === path;
 
@@ -12,7 +18,8 @@ const NavigationLink = ({ path, label, highlight }: INavigationLink) => {
     <UnstyledButton
       component={NavLink}
       to={path}
-      className={`${classes.link} ${highlight ? classes.highlight : ""} ${isActive ? classes.active : ""}`}
+      className={`${classes.link} ${highlight ? classes.highlight : ""} ${isActive ? classes.active : ""} ${device ? classes.device : ""}`}
+      onClick={onClick}
     >
       {label}
     </UnstyledButton>

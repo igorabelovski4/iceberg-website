@@ -1,30 +1,15 @@
-.wrapper {
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 48px;
-  background-color: var(--color-white);
-  box-shadow: var(--box-shadow-3);
-}
-
-.inner {
-  gap: 64px;
-  align-items: center;
-}
-
-.logo {
-  height: 64px;
-  width: auto;
-}
-
 .navigation {
-  gap: 24px;
+  gap: 20px;
+
+  &.device {
+    flex-direction: column;
+
+    & .divider {
+      display: none;
+    }
+  }
 }
 
 .divider {
   border-color: var(--color-divider);
-}
-
-.right {
-  align-items: center;
-  gap: 40px;
 }

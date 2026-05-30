@@ -50,6 +50,8 @@ export interface INavigationLink {
   path: string;
   label: string;
   highlight?: boolean;
+  device?: boolean;
+  onClick?: () => void;
 }
 
 export interface IButton {
@@ -321,4 +323,15 @@ export interface IVideo {
   srcWebm: string;
   srcPoster: string;
   autoPlay?: boolean;
+}
+
+export interface IHeader {
+  opened: boolean;
+  onClick: () => void;
+}
+
+export interface INavigation {
+  visibleFrom?: string;
+  device?: boolean;
+  onClick?: () => void;
 }

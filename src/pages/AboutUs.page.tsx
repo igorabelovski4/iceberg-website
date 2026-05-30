@@ -50,7 +50,9 @@ export function AboutUsPage() {
         <SectionTitle>{t("aboutUs.pedagogic.title")}</SectionTitle>
         <Stack gap='lg' mt='xl'>
           {pedagogicDescriptions.map((description, index) => (
-            <Description align='left'>{description.text}</Description>
+            <Description align='left' key={index}>
+              {description.text}
+            </Description>
           ))}
         </Stack>
         <PedagogicCards />

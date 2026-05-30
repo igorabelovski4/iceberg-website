@@ -15,6 +15,7 @@ import FeatureCard from "./feature-card";
 import Features from "./product/features";
 import Founder from "./about-us/founder";
 
+import Header from "./header";
 import HeroCard from "./hero-card";
 import HeroDescription from "./hero-description";
 import HeroImage from "./hero-image";
@@ -67,6 +68,7 @@ export {
   FeatureCard,
   Features,
   Founder,
+  Header,
   HeroCard,
   HeroDescription,
   HeroImage,

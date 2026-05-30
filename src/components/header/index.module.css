@@ -1,0 +1,23 @@
+.wrapper {
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow-3);
+}
+
+.inner {
+  gap: 20px;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  height: 48px;
+  width: auto;
+}
+
+.right {
+  align-items: center;
+  gap: 20px;
+}

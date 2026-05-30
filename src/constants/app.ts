@@ -28,7 +28,7 @@ import {
   IconHeart,
 } from "@tabler/icons-react";
 
-export const HEADER_HEIGHT = 76;
+export const HEADER_HEIGHT = 80;
 
 export const LOGO_IMAGE = "/assets/images/logo-dark.svg";
 export const LANDING_HERO_IMAGE = "/assets/images/iceberg.webp";
