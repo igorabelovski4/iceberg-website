@@ -1,10 +1,16 @@
 .slide {
   display: flex;
   align-items: center;
+  padding: 0 64px;
 }
 
 .illustration {
   width: 341px;
+}
+
+.control {
+  background-color: var(--color-brand-secondary-light);
+  border-color: var(--color-brand-secondary);
 }
 
 .indicators {
@@ -12,5 +18,5 @@
 }
 
 .indicator {
-  background-color: var(--color-brand-primary);
+  background-color: var(--color-brand-secondary-dark);
 }

@@ -38,6 +38,7 @@ export const FOUNDER_IMAGE = "/assets/images/founder.webp";
 
 export const HOME_VIDEO_MP4 = "/assets/videos/home.mp4";
 export const HOME_VIDEO_WEBM = "/assets/videos/home.webm";
+export const HOME_VIDEO_POSTER = "/assets/images/home-poster.webp";
 
 export const DE_FLAG = "/assets/flags/de.png";
 export const FR_FLAG = "/assets/flags/fr.png";

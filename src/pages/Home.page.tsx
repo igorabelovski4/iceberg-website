@@ -18,9 +18,13 @@ import {
 } from "@/components";
 import { Image, SimpleGrid } from "@mantine/core";
 import { IBadgeItem } from "@/types/common";
-import { HOME_VIDEO_MP4, HOME_VIDEO_WEBM } from "@/constants/app";
+import {
+  HOME_VIDEO_MP4,
+  HOME_VIDEO_POSTER,
+  HOME_VIDEO_WEBM,
+} from "@/constants/app";
 
-const { LANDING_HERO_IMAGE, HERO_3D_VIDEO_IMAGE, FOUNDER_IMAGE } = AppConstants;
+const { LANDING_HERO_IMAGE, HERO_3D_VIDEO_IMAGE } = AppConstants;
 
 export function HomePage() {
   const { t } = useTranslation();
@@ -85,7 +89,11 @@ export function HomePage() {
       <Section>
         <Eyebrow>{t("home.founder.eyebrow")}</Eyebrow>
         <SectionTitle margin>{t("home.founder.title")}</SectionTitle>
-        <Video srcWebm={HOME_VIDEO_WEBM} srcMp4={HOME_VIDEO_MP4} />
+        <Video
+          srcWebm={HOME_VIDEO_WEBM}
+          srcMp4={HOME_VIDEO_MP4}
+          srcPoster={HOME_VIDEO_POSTER}
+        />
       </Section>
       <Section variant='primary'></Section>
     </>

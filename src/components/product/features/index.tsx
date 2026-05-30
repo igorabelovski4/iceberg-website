@@ -1,4 +1,4 @@
-import { Stack, Tabs } from "@mantine/core";
+import { Box, Stack, Tabs } from "@mantine/core";
 import Title from "@/components/title";
 
 import { AppConstants } from "@/constants";
@@ -41,14 +41,22 @@ const Features = () => {
           );
         })}
       </Tabs.List>
-      {items.map((item, index) => (
-        <Tabs.Panel key={index} value={item.icon}>
-          <Stack className={classes.content} align='flex-start'>
-            <Title margin={false}>{item.title}</Title>
-            <Description align='left'>{item.description}</Description>
-          </Stack>
-        </Tabs.Panel>
-      ))}
+      {items.map((item, index) => {
+        const color = item.color;
+
+        return (
+          <Tabs.Panel key={index} value={item.icon}>
+            <Stack className={classes.content} align='flex-start'>
+              <Title margin={false} color={color}>
+                {item.title}
+              </Title>
+              <Box p='md' bd={`2px solid ${color}`} bdrs='md'>
+                <Description align='left'>{item.description}</Description>
+              </Box>
+            </Stack>
+          </Tabs.Panel>
+        );
+      })}
     </Tabs>
   );
 };

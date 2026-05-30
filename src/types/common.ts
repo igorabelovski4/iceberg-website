@@ -129,6 +129,7 @@ export interface ITitle {
   big?: boolean;
   alignLeft?: boolean;
   thin?: boolean;
+  color?: string;
 }
 
 export interface ICard {
@@ -318,5 +319,6 @@ export interface ISchoolFaqItem {
 export interface IVideo {
   srcMp4: string;
   srcWebm: string;
+  srcPoster: string;
   autoPlay?: boolean;
 }

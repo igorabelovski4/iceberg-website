@@ -52,6 +52,7 @@ const OutcomeCarousel = () => {
       controlSize={40}
       className={classes.carousel}
       classNames={{
+        control: classes.control,
         indicators: classes.indicators,
         indicator: classes.indicator,
       }}

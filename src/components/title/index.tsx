@@ -10,10 +10,12 @@ const Title = ({
   big = false,
   alignLeft = false,
   thin = false,
+  color = "",
 }: ITitle) => {
   return (
     <Text
       className={`${classes.title} ${classes[variant]} ${margin ? classes.margin : ""} ${big ? classes.big : ""} ${alignLeft ? classes.left : ""} ${thin ? classes.thin : ""}`}
+      style={{ color: color ? color : "" }}
     >
       {children}
     </Text>
