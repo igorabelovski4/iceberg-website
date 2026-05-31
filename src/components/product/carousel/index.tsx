@@ -4,7 +4,7 @@ import { AppConstants } from "@/constants";
 import { IBenefitItem, IOutcomeSlide } from "@/types/common";
 import Title from "@/components/title";
 import Description from "@/components/description";
-import { Grid, Image } from "@mantine/core";
+import { Box, Flex, Image } from "@mantine/core";
 
 const { OUTCOME_IMAGE_MAP } = AppConstants;
 
@@ -17,22 +17,16 @@ const OutcomeCarouselSlide = ({ benefit, index }: IOutcomeSlide) => {
 
   return (
     <Carousel.Slide key={benefit.illustration} className={classes.slide}>
-      <Grid>
-        {index % 2 === 0 && (
-          <Grid.Col span={{ base: 12, sm: 5 }}>
-            <Image src={illustrationSrc} className={classes.illustration} />
-          </Grid.Col>
-        )}
-        <Grid.Col span={{ base: 12, sm: 7 }}>
-          <Title alignLeft>{benefit.title}</Title>
-          <Description align='left'>{benefit.description}</Description>
-        </Grid.Col>
-        {index % 2 !== 0 && (
-          <Grid.Col span={{ base: 12, sm: 7 }}>
-            <Image src={illustrationSrc} className={classes.illustration} />
-          </Grid.Col>
-        )}
-      </Grid>
+      {index % 2 === 0 && (
+        <Image src={illustrationSrc} className={classes.illustration} />
+      )}
+      <Box>
+        <Title alignLeft>{benefit.title}</Title>
+        <Description align='left'>{benefit.description}</Description>
+      </Box>
+      {index % 2 !== 0 && (
+        <Image src={illustrationSrc} className={classes.illustration} />
+      )}
     </Carousel.Slide>
   );
 };

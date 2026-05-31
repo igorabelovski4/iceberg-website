@@ -51,7 +51,12 @@ const ShiftCarousel = () => {
       slideSize='100%'
       controlSize={40}
       className={classes.carousel}
-      classNames={{ controls: classes.controls, control: classes.control }}
+      classNames={{
+        controls: classes.controls,
+        control: classes.control,
+        indicators: classes.indicators,
+        indicator: classes.indicator,
+      }}
       emblaOptions={{
         loop: true,
         dragFree: false,

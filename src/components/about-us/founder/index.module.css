@@ -6,7 +6,7 @@
   gap: 24px;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 1200px) {
   .wrapper {
     flex-direction: column;
     gap: 24px;

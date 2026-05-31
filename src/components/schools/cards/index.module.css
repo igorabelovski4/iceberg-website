@@ -34,8 +34,8 @@
 }
 
 .cardImg {
-  height: 200px;
-  width: auto;
+  height: auto;
+  width: 80%;
   margin: 36px auto 0 auto;
 }
 

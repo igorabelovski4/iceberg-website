@@ -20,8 +20,12 @@ export function FaqPage() {
   return (
     <>
       <BackgroundSection imageSrc={FAQ_BACKGROUND_IMAGE}>
-        <HeroTitle variant='primary'>{t("faq.hero.title")}</HeroTitle>
-        <HeroDescription margin>{t("faq.hero.description")}</HeroDescription>
+        <HeroTitle shadow={false} variant='primary'>
+          {t("faq.hero.title")}
+        </HeroTitle>
+        <HeroDescription shadow={false} margin>
+          {t("faq.hero.description")}
+        </HeroDescription>
         <Section>
           <AccordionBox dark>
             {questions.map((question, index) => (

@@ -1,11 +1,13 @@
 .slide {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  padding: 0 64px;
+  gap: 32px;
+  padding: 0 64px !important;
 }
 
 .illustration {
-  width: 341px;
+  width: 40%;
 }
 
 .control {
@@ -14,7 +16,8 @@
 }
 
 .indicators {
-  bottom: 0;
+  position: static;
+  margin-top: 20px;
 }
 
 .indicator {
@@ -23,11 +26,13 @@
 
 @media (max-width: 786px) {
   .slide {
-    padding: 0 12px;
+    flex-direction: column;
+    padding: 0 20px !important;
   }
 
   .illustration {
-    width: 50%;
+    height: 50%;
+    width: auto;
     margin: 0 auto;
   }
 

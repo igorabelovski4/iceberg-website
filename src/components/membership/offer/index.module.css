@@ -34,4 +34,8 @@
   .interval {
     font-size: 14px;
   }
+
+  .buttons {
+    flex-direction: column;
+  }
 }

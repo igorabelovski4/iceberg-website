@@ -38,7 +38,13 @@ const MembershipOffer = () => {
         />
       </Box>
       <Divider />
-      <Group align='center' justify='space-between' mt='xl' wrap='nowrap'>
+      <Group
+        align='center'
+        justify='space-between'
+        mt='xl'
+        wrap='nowrap'
+        className={classes.buttons}
+      >
         <PrimaryButton icon block>
           {t(`membership.pricing.plan.cta.start`)}
         </PrimaryButton>

@@ -68,7 +68,7 @@ const PerspectiveSwitch = () => {
                     <Title variant='light' margin={false} alignLeft>
                       {perspective.title}
                     </Title>
-                    <Description variant='light'>
+                    <Description variant='light' align='left'>
                       {perspective.tagline}
                     </Description>
                   </Stack>

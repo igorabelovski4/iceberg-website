@@ -54,6 +54,23 @@
     gap: 16px;
     margin-bottom: 20px;
   }
+
+  .control {
+    border: 1px solid var(--color-brand-primary);
+  }
+
+  .control svg {
+    color: var(--color-brand-primary);
+  }
+
+  .indicators {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .indicator {
+    background-color: #cc3333;
+  }
 }
 
 .stars {
