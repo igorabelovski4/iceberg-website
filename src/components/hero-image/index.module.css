@@ -3,3 +3,11 @@
   height: 450px;
   width: auto;
 }
+
+@media (max-width: 786px) {
+  .image {
+    height: auto;
+    width: 70%;
+    margin-top: 32px;
+  }
+}

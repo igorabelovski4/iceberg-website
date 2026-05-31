@@ -21,3 +21,17 @@
 .benefits {
   margin: 36px 0;
 }
+
+@media (max-width: 786px) {
+  .card {
+    padding: 20px;
+  }
+
+  .price {
+    font-size: 24px;
+  }
+
+  .interval {
+    font-size: 14px;
+  }
+}

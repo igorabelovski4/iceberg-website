@@ -35,7 +35,7 @@ const WorkCards = () => {
   }) as ISchoolsWorkItem[];
 
   return (
-    <SimpleGrid cols={3} className={classes.wrapper}>
+    <SimpleGrid cols={{ base: 1, sm: 3 }} className={classes.wrapper}>
       {cards.map((card, index) => (
         <Card
           index={index}

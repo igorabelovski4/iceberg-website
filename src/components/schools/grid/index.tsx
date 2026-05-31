@@ -16,10 +16,12 @@ const GridItem = ({ title, description, icon }: IGridItem) => {
   return (
     <Group className={classes.box}>
       <Flex className={classes.iconBox}>
-        <Icon size={28} stroke={2} className={classes.icon} />
+        <Icon className={classes.icon} />
       </Flex>
       <Stack className={classes.content}>
-        <Title margin={false}>{title}</Title>
+        <Title margin={false} alignLeft>
+          {title}
+        </Title>
         <Description align='left'>{description}</Description>
       </Stack>
     </Group>
@@ -34,7 +36,7 @@ const StrategyGrid = () => {
   }) as ISchoolStrategyItem[];
 
   return (
-    <SimpleGrid cols={2} className={classes.wrapper}>
+    <SimpleGrid cols={{ base: 1, sm: 2 }} className={classes.wrapper}>
       {strategies.map((strategy, index) => (
         <GridItem
           title={strategy.title}

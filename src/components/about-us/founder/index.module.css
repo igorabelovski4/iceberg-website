@@ -5,3 +5,14 @@
 .inner {
   gap: 24px;
 }
+
+@media (max-width: 786px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .inner {
+    gap: 0;
+  }
+}
