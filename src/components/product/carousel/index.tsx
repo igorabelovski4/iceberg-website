@@ -19,16 +19,16 @@ const OutcomeCarouselSlide = ({ benefit, index }: IOutcomeSlide) => {
     <Carousel.Slide key={benefit.illustration} className={classes.slide}>
       <Grid>
         {index % 2 === 0 && (
-          <Grid.Col span={5}>
+          <Grid.Col span={{ base: 12, sm: 5 }}>
             <Image src={illustrationSrc} className={classes.illustration} />
           </Grid.Col>
         )}
-        <Grid.Col span={7}>
+        <Grid.Col span={{ base: 12, sm: 7 }}>
           <Title alignLeft>{benefit.title}</Title>
           <Description align='left'>{benefit.description}</Description>
         </Grid.Col>
         {index % 2 !== 0 && (
-          <Grid.Col span={5}>
+          <Grid.Col span={{ base: 12, sm: 7 }}>
             <Image src={illustrationSrc} className={classes.illustration} />
           </Grid.Col>
         )}
@@ -52,6 +52,7 @@ const OutcomeCarousel = () => {
       controlSize={40}
       className={classes.carousel}
       classNames={{
+        controls: classes.controls,
         control: classes.control,
         indicators: classes.indicators,
         indicator: classes.indicator,

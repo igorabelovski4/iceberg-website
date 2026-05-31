@@ -16,6 +16,8 @@ import {
 import { Box, Stack } from "@mantine/core";
 import { IMethodologyDescription } from "@/types/common";
 
+import classes from "./index.module.css";
+
 export function ProductPage() {
   const { t } = useTranslation();
 
@@ -31,7 +33,7 @@ export function ProductPage() {
           {t("product.hero.description")}
         </HeroDescription>
       </Section>
-      <Box style={{ marginTop: "-160px" }}>
+      <Box className={classes.productImagesBox}>
         <Section>
           <Viewports />
         </Section>

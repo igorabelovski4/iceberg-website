@@ -13,3 +13,9 @@
 .content {
   gap: 24px;
 }
+
+@media (max-width: 786px) {
+  .tabs {
+    gap: 20px;
+  }
+}

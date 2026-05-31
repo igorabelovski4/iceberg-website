@@ -1,3 +1,9 @@
 .navbar {
   padding: 16px;
 }
+
+@media (max-width: 786px) {
+  .navbar {
+    padding: 12px;
+  }
+}

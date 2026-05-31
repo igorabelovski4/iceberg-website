@@ -27,3 +27,17 @@
   right: 0;
   bottom: 0;
 }
+
+@media (max-width: 786px) {
+  .laptop {
+    width: 70%;
+  }
+
+  .tablet {
+    width: 40%;
+  }
+
+  .mobile {
+    width: 14%;
+  }
+}

@@ -1,0 +1,9 @@
+.productImagesBox {
+  margin-top: -160px;
+}
+
+@media (max-width: 786px) {
+  .productImagesBox {
+    margin-top: 0;
+  }
+}

@@ -20,3 +20,26 @@
 .indicator {
   background-color: var(--color-brand-secondary-dark);
 }
+
+@media (max-width: 786px) {
+  .slide {
+    padding: 0 12px;
+  }
+
+  .illustration {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .controls {
+    position: static;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-bottom: 8px;
+  }
+
+  .indicators {
+    position: static;
+    margin-top: 24px;
+  }
+}

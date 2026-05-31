@@ -22,7 +22,7 @@ const Features = () => {
       variant='pills'
       radius='md'
       defaultValue={t("product.features.items.0.icon")}
-    >
+      >
       <Tabs.List grow className={classes.tabs}>
         {items.map((item, index) => {
           const iconKey = item.icon as keyof typeof FEATURES_ICON_MAP;
