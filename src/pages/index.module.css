@@ -1,9 +1,0 @@
-.productImagesBox {
-  margin-top: -160px;
-}
-
-@media (max-width: 1200px) {
-  .productImagesBox {
-    margin-top: 0;
-  }
-}
