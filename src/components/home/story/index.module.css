@@ -1,14 +1,93 @@
-.illustration {
-  width: 50%;
+.container {
+  gap: 80px;
 }
 
-.arrow {
-  width: 100px;
-  margin: 160px 0;
-  cursor: pointer;
-  transition: all 0.2s ease-out;
+.card {
+  padding: 20px;
+  border-radius: 16px;
+  border: 4px solid transparent;
+
+  &.active,
+  &.active:hover {
+    border-color: var(--color-brand-secondary);
+    background-color: var(--color-brand-secondary-light);
+    box-shadow: 1px 3px 5px rgba(255, 193, 7, 0.6);
+
+    & .step {
+      color: var(--color-brand-secondary);
+    }
+  }
 
   &:hover {
-    transform: scale(1.2);
+    background-color: var(--color-brand-secondary-very-light);
+  }
+}
+
+.step {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--color-border);
+}
+
+.illustration {
+  height: 120px;
+  width: auto;
+}
+
+.divider {
+  height: 4px;
+  background-color: var(--color-brand-secondary-dark);
+  display: inline-block;
+  width: 50px;
+}
+
+.activeStep {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-brand-secondary-dark);
+}
+
+@media (max-width: 1200px) {
+  .container {
+    gap: 44px;
+  }
+
+  .card {
+    padding: 12px;
+    border-width: 2px;
+  }
+
+  .step {
+    font-size: 32px;
+  }
+
+  .illustration {
+    height: 88px;
+  }
+
+  .divider {
+    width: 36px;
+  }
+
+  .activeStep {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 786px) {
+  .container {
+    gap: 28px;
+  }
+
+  .activeStep {
+    font-size: 18px;
+  }
+
+  .illustration {
+    height: 64px;
+  }
+
+  .divider {
+    width: 24px;
   }
 }

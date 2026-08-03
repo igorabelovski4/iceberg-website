@@ -8,11 +8,10 @@ const Description = ({
   variant = "dark",
   align = "center",
   margin = false,
-  strong = false,
 }: IDescription) => {
   return (
     <Text
-      className={`${classes.description} ${classes[variant]} ${classes[align]} ${margin ? classes.margin : ""} ${strong ? classes.strong : ""}`}
+      className={`${classes.description} ${classes[variant]} ${classes[align]} ${margin ? classes.margin : ""}`}
     >
       {children}
     </Text>

@@ -6,19 +6,20 @@ import BackgroundSection from "./background-section";
 import Calendly from "./calendly";
 
 import Description from "./description";
-import Download from "./home/download";
+import Difference from "./home/difference";
+import Download from "./product/download";
 
 import Eyebrow from "./eyebrow";
 
 import FeatureCard from "./feature-card";
-import Founder from "./home/founder";
+import Features from "./product/features";
+import Founder from "./about-us/founder";
 
 import Header from "./header";
 import HeroCard from "./hero-card";
 import HeroDescription from "./hero-description";
 import HeroImage from "./hero-image";
 import HeroTitle from "./hero-title";
-import HomeFaq from "./home/faq";
 
 import LanguagePicker from "./language-picker";
 import Layout from "./layout";
@@ -30,22 +31,30 @@ import MembershipOffer from "./membership/offer";
 import Navigation from "./navigation";
 import NavigationLink from "./navigation-link";
 
+import OutcomeCarousel from "./product/carousel";
+
+import PedagogicCards from "./about-us/pedagogic-cards";
+import PerspectiveSwitch from "./home/perspective-switch";
+import PhaseCard from "./home/cards";
 import PrimaryButton from "./primary-button";
 import ProsConsItem from "./pros-cons";
-
-import Routine from "./home/routine";
 
 import Section from "./section";
 import SectionTitle from "./section-title";
 import ShiftCarousel from "./schools/carousel";
 import SchoolFaq from "./schools/faq";
 import Story from "./home/story";
+import StrategyGrid from "./schools/grid";
 
 import Title from "./title";
+import TrustGrid from "./about-us/trust-grid";
 
-import UserInterface from "./home/user-interface";
+import UserInterface from "./product/user-interface";
 
 import Video from "./video";
+import Viewports from "./product/viewports";
+
+import WorkCards from "./schools/cards";
 
 export {
   AccordionBox,
@@ -53,16 +62,17 @@ export {
   BackgroundSection,
   Calendly,
   Description,
+  Difference,
   Download,
   Eyebrow,
   FeatureCard,
+  Features,
   Founder,
   Header,
   HeroCard,
   HeroDescription,
   HeroImage,
   HeroTitle,
-  HomeFaq,
   LanguagePicker,
   Layout,
   MembershipCards,
@@ -70,15 +80,22 @@ export {
   MembershipOffer,
   Navigation,
   NavigationLink,
+  OutcomeCarousel,
+  PedagogicCards,
+  PerspectiveSwitch,
+  PhaseCard,
   PrimaryButton,
   ProsConsItem,
-  Routine,
   Section,
   SectionTitle,
   ShiftCarousel,
   SchoolFaq,
   Story,
+  StrategyGrid,
   Title,
+  TrustGrid,
   UserInterface,
   Video,
+  Viewports,
+  WorkCards,
 };

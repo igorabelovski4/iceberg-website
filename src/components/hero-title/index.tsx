@@ -12,6 +12,12 @@ const HeroTitle = ({
 }: IHeroTitle) => {
   return (
     <Stack className={classes.stack}>
+      <Title
+        order={1}
+        className={`${clsx(classes.title, classes[variant])} ${shadow ? classes.shadow : ""}`}
+      >
+        {children}
+      </Title>
       {subtitle && (
         <Text
           className={`${clsx(classes.subtitle, classes[variant])} ${shadow ? classes.shadow : ""}`}
@@ -19,12 +25,6 @@ const HeroTitle = ({
           {subtitle}
         </Text>
       )}
-      <Title
-        order={1}
-        className={`${clsx(classes.title, classes[variant])} ${shadow ? classes.shadow : ""}`}
-      >
-        {children}
-      </Title>
     </Stack>
   );
 };
