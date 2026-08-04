@@ -1,20 +1,8 @@
 import {
   MEMBERSHIP_CARDS_ICON_MAP,
   PAGE_HERO_BADGES_ICON_MAP,
-  GRID_ICON_MAP,
-  ILLUSTRATION_IMAGE_MAP,
-  STORY_STEPS_IMAGE_MAP,
   FEATURES_ICON_MAP,
 } from "@/constants/app";
-
-export interface IStoryCard {
-  num: number;
-  illustration: IStoryCardIllustrationName;
-  activeStep: number;
-  onClick?: (value: number) => void;
-}
-
-export type IStoryCardIllustrationName = keyof typeof STORY_STEPS_IMAGE_MAP;
 
 export interface IBackgroundSection {
   imageSrc: string;
@@ -114,14 +102,6 @@ export interface IHeroImage {
   alt: string;
 }
 
-export interface IText {
-  children: string;
-}
-
-export interface IArrayItem {
-  index: number;
-}
-
 export type ITitleVariant = "dark" | "light" | "primary";
 
 export interface ITitle {
@@ -134,26 +114,12 @@ export interface ITitle {
   color?: string;
 }
 
-export interface ICard {
-  index: number;
-  illustration: ICardIllustrationName;
-}
-
-export type ICardIllustrationName = keyof typeof ILLUSTRATION_IMAGE_MAP;
-
 export interface IDescription {
   children: string;
   variant?: "dark" | "light";
   align?: "left" | "center";
   margin?: boolean;
-}
-
-export type IGridItemIconName = keyof typeof GRID_ICON_MAP;
-
-export interface IGridItem {
-  title: string;
-  description: string;
-  icon: IGridItemIconName;
+  strong?: boolean;
 }
 
 export interface IFeatureCard {
@@ -195,36 +161,6 @@ export interface IBadgeItem {
   items: string[];
 }
 
-export interface IStepItem {
-  illustration: IStoryCardIllustrationName;
-  title: string;
-  description: string;
-}
-
-export interface IDifferenceItem {
-  text: string;
-}
-
-export interface IPhaseItem {
-  title: string;
-  icon: string;
-  description: string;
-}
-
-export interface IPerspectiveItem {
-  value: string;
-  title: string;
-  icon: string;
-  tagline: string;
-  description: string;
-  color: string;
-  details: IPerspectiveDetailsItem[];
-}
-
-export interface IPerspectiveDetailsItem {
-  value: string;
-  label: string;
-}
 
 export interface IMethodologyDescription {
   text: string;
@@ -241,25 +177,6 @@ export interface IOutcomeSlide {
   index: number;
 }
 
-export interface IPedgagogicDescriptionItem {
-  text: string;
-}
-
-export interface IPedagogicCardItem {
-  title: string;
-  description: string;
-  illustration: string;
-}
-
-export interface IBiographyItem {
-  text: string;
-}
-
-export interface ITrustItem {
-  title: string;
-  description: string;
-  icon: string;
-}
 
 export interface IMembershipBenefitItem {
   title: string;
@@ -279,37 +196,6 @@ export interface IFaqQuestionItem {
   id: string;
   question: string;
   answer: string;
-}
-
-export interface IShiftItem {
-  bad: IShiftBadItem;
-  good: IShiftGoodItem;
-}
-
-export interface IShiftBadItem {
-  title: string;
-  description: string;
-}
-
-export interface IShiftGoodItem {
-  title: string;
-  description: string;
-}
-
-export interface IShiftCarouselSlideItem {
-  item: IShiftItem;
-}
-
-export interface ISchoolsWorkItem {
-  title: string;
-  description: string;
-  illustration: string;
-}
-
-export interface ISchoolStrategyItem {
-  title: string;
-  description: string;
-  icon: string;
 }
 
 export interface ISchoolFaqItem {
@@ -334,4 +220,9 @@ export interface INavigation {
   visibleFrom?: string;
   device?: boolean;
   onClick?: () => void;
+}
+
+export interface IRoutineItem {
+  title: string;
+  text: string;
 }

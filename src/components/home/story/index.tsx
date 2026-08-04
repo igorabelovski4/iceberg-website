@@ -1,76 +1,36 @@
-import { STORY_STEPS_IMAGE_MAP } from "@/constants/app";
-import { IStepItem, IStoryCard } from "@/types/common";
-import {
-  Box,
-  Divider,
-  Flex,
-  Group,
-  Image,
-  SimpleGrid,
-  Stack,
-  Text,
-} from "@mantine/core";
+import { Flex, Image, Stack } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 
-import classes from "./index.module.css";
-import Title from "@/components/title";
-import Description from "@/components/description";
-import { useState } from "react";
+import { AppConstants } from "@/constants";
+import { Description, SectionTitle } from "@/components";
 
-const StoryCard = ({ num, illustration, activeStep, onClick }: IStoryCard) => {
-  const illustrationSrc = STORY_STEPS_IMAGE_MAP[illustration];
-
-  return (
-    <Box
-      className={`${classes.card} ${activeStep === num ? classes.active : ""}`}
-      onClick={() => onClick?.(num)}
-    >
-      <Group justify='center' align='center' gap='xl'>
-        <Text className={classes.step}>{num + 1}</Text>
-        <Image src={illustrationSrc} className={classes.illustration} />
-      </Group>
-    </Box>
-  );
-};
+const { STORY_1_IMAGE, STORY_2_IMAGE, STORY_ARROW } = AppConstants;
 
 const Story = () => {
-  const [activeStep, setActiveStep] = useState(0);
   const { t } = useTranslation();
 
-  const steps = t("home.story.steps", {
-    returnObjects: true,
-  }) as IStepItem[];
-
-  function handleClick(value: number) {
-    setActiveStep(value);
-  }
   return (
-    <Stack className={classes.container}>
-      <SimpleGrid cols={{ base: 2, sm: 3 }}>
-        {steps.map((step, index) => (
-          <StoryCard
-            key={index}
-            num={index}
-            activeStep={activeStep}
-            onClick={handleClick}
-            illustration={step.illustration}
-          />
-        ))}
-      </SimpleGrid>
-      <Stack gap={12} align='flex-start'>
-        <Group>
-          <Divider className={classes.divider} />
-          <Text className={classes.activeStep}>
-            {t("home.story.heading")} {activeStep + 1}
-          </Text>
-        </Group>
-        <Title alignLeft margin={false}>
-          {t(`home.story.steps.${activeStep}.title`)}
-        </Title>
-        <Description align='left'>
-          {t(`home.story.steps.${activeStep}.description`)}
-        </Description>
-      </Stack>
+    <Stack gap='xl'>
+      <SectionTitle>{t("home.story.heading_1")}</SectionTitle>
+      <Flex align='center' gap='xl'>
+        <Image src={STORY_1_IMAGE} alt='Illustration' w={"80%"} />
+        <Stack>
+          <Description align='left'>
+            {t("home.story.description_1")}
+          </Description>
+          <Description align='left'>
+            {t("home.story.description_2")}
+          </Description>
+        </Stack>
+      </Flex>
+      <Flex my={80} justify='center'>
+        <Image src={STORY_ARROW} alt='Illustration' w={64} />
+      </Flex>
+      <SectionTitle>{t("home.story.heading_2")}</SectionTitle>
+      <Flex align='center' gap='xl'>
+        <Description align='left'>{t("home.story.description_3")}</Description>
+        <Image src={STORY_2_IMAGE} alt='Illustration' w={"80%"} />
+      </Flex>
     </Stack>
   );
 };

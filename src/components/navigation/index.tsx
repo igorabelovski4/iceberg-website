@@ -4,7 +4,6 @@ import { RouteConstants } from "@/constants";
 import { useTranslation } from "react-i18next";
 
 const {
-  ROUTE_ABOUT_US,
   ROUTE_FAQ,
   ROUTE_LANDING,
   ROUTE_MEMBERSHIP,
@@ -33,12 +32,6 @@ const Navigation = ({ visibleFrom, device = false, onClick }: INavigation) => {
         device={device}
         path={ROUTE_PRODUCT}
         label={t("navigation.product")}
-        onClick={onClick}
-      />
-      <NavigationLink
-        device={device}
-        path={ROUTE_ABOUT_US}
-        label={t("navigation.aboutUs")}
         onClick={onClick}
       />
       <NavigationLink

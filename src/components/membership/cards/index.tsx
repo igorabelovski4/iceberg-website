@@ -17,8 +17,6 @@ const MembershipCards = () => {
   return (
     <Grid className={classes.grid} gap={{ base: 16, sm: 20, lg: 36 }}>
       {membershipBenefits.map((benefit, index) => {
-        if (index === membershipBenefits.length - 1) return;
-
         return (
           <Grid.Col span={{ base: 12, sm: 6 }} key={index}>
             <FeatureCard
@@ -31,15 +29,6 @@ const MembershipCards = () => {
           </Grid.Col>
         );
       })}
-      <Grid.Col span={12}>
-        <FeatureCard
-          title={t(`membership.included.items.4.title`)}
-          description={t(`membership.included.items.4.description`)}
-          map={MEMBERSHIP_CARDS_ICON_MAP}
-          alternative
-          icon={t(`membership.included.items.4.icon`) as IFeatureCardIconName}
-        />
-      </Grid.Col>
     </Grid>
   );
 };

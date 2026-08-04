@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Flex, Group, Stack } from "@mantine/core";
+import { Group, Stack } from "@mantine/core";
 import { IconCheck, IconX } from "@tabler/icons-react";
 import { IProsConsSetion, IProsConstItem } from "@/types/common";
 import Description from "../description";

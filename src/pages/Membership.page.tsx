@@ -7,7 +7,6 @@ import {
   HeroDescription,
   HeroImage,
   HeroTitle,
-  MembershipCards,
   MembershipGroup,
   MembershipOffer,
   Section,
@@ -30,11 +29,6 @@ export function MembershipPage() {
           src={CERTIFICATION_IMAGE}
           alt={t("membership.hero.illustrationText")}
         />
-      </Section>
-      <Section>
-        <Eyebrow>{t("membership.included.eyebrow")}</Eyebrow>
-        <SectionTitle>{t("membership.included.title")}</SectionTitle>
-        <MembershipCards />
       </Section>
       <Section variant='secondary'>
         <Eyebrow variant='light'>{t("membership.pricing.eyebrow")}</Eyebrow>

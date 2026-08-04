@@ -4,7 +4,7 @@ import { AppConstants } from "@/constants";
 import { IBenefitItem, IOutcomeSlide } from "@/types/common";
 import Title from "@/components/title";
 import Description from "@/components/description";
-import { Box, Flex, Image } from "@mantine/core";
+import { Box, Image } from "@mantine/core";
 
 const { OUTCOME_IMAGE_MAP } = AppConstants;
 

@@ -21,6 +21,10 @@
   &.margin {
     margin-bottom: 20px;
   }
+
+  &.strong {
+    font-weight: 700;
+  }
 }
 
 @media (max-width: 1200px) {

@@ -6,14 +6,13 @@ import BackgroundSection from "./background-section";
 import Calendly from "./calendly";
 
 import Description from "./description";
-import Difference from "./home/difference";
 import Download from "./product/download";
 
 import Eyebrow from "./eyebrow";
 
 import FeatureCard from "./feature-card";
 import Features from "./product/features";
-import Founder from "./about-us/founder";
+import Founder from "./home/founder";
 
 import Header from "./header";
 import HeroCard from "./hero-card";
@@ -33,28 +32,22 @@ import NavigationLink from "./navigation-link";
 
 import OutcomeCarousel from "./product/carousel";
 
-import PedagogicCards from "./about-us/pedagogic-cards";
-import PerspectiveSwitch from "./home/perspective-switch";
-import PhaseCard from "./home/cards";
 import PrimaryButton from "./primary-button";
 import ProsConsItem from "./pros-cons";
 
+import Routine from "./home/routine";
+
 import Section from "./section";
 import SectionTitle from "./section-title";
-import ShiftCarousel from "./schools/carousel";
 import SchoolFaq from "./schools/faq";
 import Story from "./home/story";
-import StrategyGrid from "./schools/grid";
 
 import Title from "./title";
-import TrustGrid from "./about-us/trust-grid";
 
 import UserInterface from "./product/user-interface";
 
 import Video from "./video";
 import Viewports from "./product/viewports";
-
-import WorkCards from "./schools/cards";
 
 export {
   AccordionBox,
@@ -62,7 +55,6 @@ export {
   BackgroundSection,
   Calendly,
   Description,
-  Difference,
   Download,
   Eyebrow,
   FeatureCard,
@@ -81,21 +73,15 @@ export {
   Navigation,
   NavigationLink,
   OutcomeCarousel,
-  PedagogicCards,
-  PerspectiveSwitch,
-  PhaseCard,
   PrimaryButton,
   ProsConsItem,
+  Routine,
   Section,
   SectionTitle,
-  ShiftCarousel,
   SchoolFaq,
   Story,
-  StrategyGrid,
   Title,
-  TrustGrid,
   UserInterface,
   Video,
   Viewports,
-  WorkCards,
 };

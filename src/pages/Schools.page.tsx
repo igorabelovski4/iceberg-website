@@ -10,18 +10,25 @@ import {
   Section,
   Description,
   SectionTitle,
-  ShiftCarousel,
-  WorkCards,
-  StrategyGrid,
   SchoolFaq,
   Title,
   Calendly,
+  Video,
 } from "@/components";
 
-const { TEAM_IMAGE } = AppConstants;
+const {
+  TEAM_IMAGE,
+  SCHOOLS_VIDEO_MP4,
+  SCHOOLS_VIDEO_POSTER_DE,
+  SCHOOLS_VIDEO_POSTER_EN,
+  SCHOOLS_VIDEO_WEBM,
+} = AppConstants;
 
 export function SchoolsPage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const videoPoster =
+    i18n.language === "de" ? SCHOOLS_VIDEO_POSTER_DE : SCHOOLS_VIDEO_POSTER_EN;
 
   return (
     <>
@@ -32,30 +39,15 @@ export function SchoolsPage() {
         </HeroDescription>
         <HeroImage src={TEAM_IMAGE} alt={t("schools.hero.illustrationText")} />
       </Section>
-      <Section variant='dark'>
-        <Eyebrow variant='light'>{t("schools.consultation.eyebrow")}</Eyebrow>
-        <SectionTitle variant='light' margin>
-          {t("schools.consultation.title")}
-        </SectionTitle>
-        <PrimaryButton variant='white-dark' icon>
-          {t("schools.consultation.cta")}
-        </PrimaryButton>
-      </Section>
       <Section>
-        <Eyebrow>{t("schools.shift.eyebrow")}</Eyebrow>
-        <SectionTitle margin>{t("schools.shift.title")}</SectionTitle>
-        <Description>{t("schools.shift.description")}</Description>
-        <ShiftCarousel />
-      </Section>
-      <Section>
-        <Eyebrow>{t("schools.work.eyebrow")}</Eyebrow>
-        <SectionTitle margin>{t("schools.work.title")}</SectionTitle>
-        <WorkCards />
-      </Section>
-      <Section>
-        <SectionTitle margin>{t("schools.strategy.title")}</SectionTitle>
-        <Description>{t("schools.strategy.description")}</Description>
-        <StrategyGrid />
+        <Eyebrow>{t("schools.video.eyebrow")}</Eyebrow>
+        <SectionTitle>{t("schools.video.title")}</SectionTitle>
+        <Description margin>{t("schools.video.subtitle")}</Description>
+        <Video
+          srcWebm={SCHOOLS_VIDEO_WEBM}
+          srcMp4={SCHOOLS_VIDEO_MP4}
+          srcPoster={videoPoster}
+        />
       </Section>
       <Section>
         <SectionTitle>{t("schools.booking.title")}</SectionTitle>

@@ -2,10 +2,9 @@
   "navigation": {
     "home": "Home",
     "product": "Product",
-    "aboutUs": "Who We Are",
     "membership": "Membership",
     "faq": "FAQ",
-    "schools": "For Schools"
+    "schools": "For Principals"
   },
   "languages": {
     "en": "EN",
@@ -19,9 +18,9 @@
   },
   "home": {
     "hero": {
-      "title": "Guidance over Grading.",
-      "subtitle": "More than marks",
-      "description": "Coaching that truly moves. Growth that truly matters. With Iceberg by your side, you lead learning dialogues that bring everyone along.",
+      "title": "Lead learning and coaching conversations that truly make a difference",
+      "subtitle": "Empower your students and yourself",
+      "description": "With Eisberg by your side, you can turn a mandatory meeting into the most valuable hour of your school year.",
       "badges": [
         {
           "title": "100% GDPR-compliant",
@@ -41,206 +40,58 @@
       ]
     },
     "story": {
-      "eyebrow": "Our story",
-      "heading": "Chapter",
-      "steps": [
-        {
-          "illustration": "dilemma",
-          "title": "You are my favourite teacher.  You believe in me. You help me.",
-          "description": "And again you hear it. You give yourself a quiet pat on the shoulder — not because you were perfect, but because you know you made a difference. Your students grow because you make it possible. That is exactly why you became a teacher."
-        },
-        {
-          "illustration": "missing",
-          "title": "But time is short. The framework is missing.",
-          "description": "Too often the conversation stays at the surface. The quiet ones are waiting for the right question. The strong ones are waiting for a real challenge. Your students grow because you make it possible. That is exactly why you became a teacher. The parents have no idea how much you invest. Goals fade away. Work that does not land."
-        },
-        {
-          "illustration": "fall",
-          "title": "You did not become a teacher for this.",
-          "description": "You do not want to go back. And you do not have to."
-        },
-        {
-          "illustration": "discover",
-          "title": "Below the surface lies what truly matters.",
-          "description": "Undiscovered strengths. Unnamed fears. Potential that is waiting for someone to believe in it. The learning dialogue is the only place where you can dive in — when you are present, when you truly listen. That moment of genuine connection changes a student. Not the grade. That moment."
-        },
-        {
-          "illustration": "grow",
-          "title": "That person is you",
-          "description": "The learning dialogue is the only place where you can dive in — when you are present, when you truly listen. That moment of genuine connection changes a student. Not the grade. That moment."
-        },
-        {
-          "illustration": "won",
-          "title": "Iceberg is built for that moment.",
-          "description": "With Iceberg, conversations change for everyone involved. For you, for the student, for the parents. They become more interactive, more competent, and go deeper. Iceberg does not make the conversation easier. It makes it possible."
-        }
-      ]
-    },
-    "nutshell": {
-      "eyebrow": "In a nutshell",
-      "title": "Iceberg guides teachers through every phase of the learning dialogue – from preparation to parent email – so they can be fully present."
-    },
-    "difference": {
-      "eyebrow": "The difference",
-      "title": "Before & After",
-      "against": {
-        "title": "Without Iceberg",
-        "items": [
-          {
-            "text": "No overview before the conversation"
-          },
-          {
-            "text": "Always the same questions"
-          },
-          {
-            "text": "Conversation stays at the surface"
-          },
-          {
-            "text": "Quiet students stay quiet"
-          },
-          {
-            "text": "Parents don't know what is happening"
-          },
-          {
-            "text": "One hour of documentation afterwards"
-          },
-          {
-            "text": "Goals that fade away"
-          },
-          {
-            "text": "Conversation as an obligation"
-          }
-        ]
-      },
-      "for": {
-        "title": "With Iceberg",
-        "items": [
-          {
-            "text": "Complete summary at a glance"
-          },
-          {
-            "text": "Structured, adaptive conversation guidance"
-          },
-          {
-            "text": "Deep, resource-oriented conversations"
-          },
-          {
-            "text": "Every student gets to speak"
-          },
-          {
-            "text": "Parent email in their language, ready immediately"
-          },
-          {
-            "text": "Summary created automatically"
-          },
-          {
-            "text": "Goals with a concrete plan"
-          },
-          {
-            "text": "Conversation as a coaching moment"
-          }
-        ]
-      }
-    },
-    "howWorks": {
-      "eyebrow": "How it works",
-      "title": "The Three Phases Of Conversation",
-      "phases": [
-        {
-          "title": "Before",
-          "icon": "clock",
-          "description": "You open the app and see everything at a glance: last conversation, observations, current level. In two minutes, you’re ready. You start every seassion calm and focused."
-        },
-        {
-          "title": "During",
-          "icon": "message",
-          "description": "You start with a strength. “What has changed?” The student reflects, then opens up. The app transcribes, suggests questions, and guides you through goals and next steps."
-        },
-        {
-          "title": "After",
-          "icon": "send",
-          "description": "The app summarises it all: strengths, competencies, goals, next steps.  In minutes, you have a clear summary — ready to share with parents."
-        }
-      ]
-    },
-    "audience": {
-      "title": "Who Is Iceberg For?",
-      "options": [
-        {
-          "value": "teachers",
-          "title": "For Teachers",
-          "icon": "school",
-          "tagline": "You gain time. And depth.",
-          "description": "You are fully present. No notes, no laptop between you and the student. After the conversation, the app delivers a complete summary – with strengths, independence level, and WOOP goals. The documentation writes itself. And the feedback loop helps you improve with every conversation.",
-          "color": "#4F7CAC",
-          "details": [
-            {
-              "value": "2 min",
-              "label": "Preparation time"
-            },
-            {
-              "value": "100%",
-              "label": "Present in conversation"
-            },
-            {
-              "value": "Auto",
-              "label": "Documentation"
-            }
-          ]
-        },
-        {
-          "value": "students",
-          "title": "For Students",
-          "icon": "hearth",
-          "tagline": "Finally, someone truly listens.",
-          "description": "The conversation begins with your strengths – not your grades. You are asked what you want and what might hold you back. You learn to assess yourself: what am I good at? Where am I still struggling? You leave the conversation with a clear plan and the knowledge that your teacher truly listened.",
-          "color": "#D9B65C",
-          "details": [
-            {
-              "value": "Strengths",
-              "label": "First, not grades"
-            },
-            {
-              "value": "Voice",
-              "label": "Every student heard"
-            },
-            {
-              "value": "WHOOP",
-              "label": "Clear action plan"
-            }
-          ]
-        },
-        {
-          "value": "parents",
-          "title": "For Parents",
-          "icon": "people",
-          "tagline": "Everyone in the boat.",
-          "description": "After every conversation they receive a resource-oriented summary in their preferred language. They know which goal is being worked on and how they can support at home. No waiting until the next report card. Parents can give anonymous feedback if they wish.",
-          "color": "#C65A5A",
-          "details": [
-            {
-              "value": "Instant",
-              "label": "Email after conversation"
-            },
-            {
-              "value": "Multi",
-              "label": "Language support"
-            },
-            {
-              "value": "Feedback",
-              "label": "Anonymous option"
-            }
-          ]
-        }
-      ]
+      "heading_1": "I don't have time for learning conversations on top of everything else!",
+      "description_1": "You give your all for your students every day, yet school life sometimes pushes you to your limits. Challenging behavior, demanding conversations with parents, and learning conversations that take a lot of time but rarely make a real difference.",
+      "description_2": "With Eisberg, you look beneath the surface. You discover what a child truly needs, find the right words, and work together to define the next steps that have a real impact in everyday school life. This transforms learning conversations from another mandatory task into your most powerful educational tool.",
+      "heading_2": "From now on, learning conversations will be your favorite tool in everyday school life!",
+      "description_3": "When you lead learning conversations with Eisberg, they become the best opportunity to strengthen relationships. When children and parents feel that their strengths are at the center of the conversation, trust grows. That creates a more relaxed atmosphere, prevents conflicts, and turns children and parents into your allies."
     },
     "support": {
       "eyebrow": "More than software",
-      "title": "You're Not Alone"
+      "title": "With Iceberg, you don't just get a tool. You get..."
+    },
+    "idea": {
+      "eyebrow": "From the founder",
+      "title": "The Idea behind Iceberg",
+      "subtitle": "Guide with confidence. Create lasting impact."
+    },
+    "routine": {
+      "title": "How Iceberg Fits Into Your Everyday Routine",
+      "items": [
+        {
+          "title": "Everything at a glance",
+          "text": "Open Iceberg and instantly see where you stand with each student: your last conversation, key observations, current topics, agreed goals, and next steps. Instead of searching through notes or trying to remember the details, you're prepared in just a few minutes. You enter every conversation with confidence because everything you need is right in front of you."
+        },
+        {
+          "title": "Be fully present in every conversation",
+          "text": "Iceberg guides you through learning and coaching conversations with carefully designed prompts—from the opening questions to goals, challenges, aspirations, and the next small step. Together, you create a personal affirmation and a meaningful image that help the student stay motivated and remember their own strengths. While you focus on listening, asking questions, and building trust, Iceberg transcribes the conversation in the background. That means you can be fully present instead of taking notes, organizing information, and documenting everything at the same time."
+        },
+        {
+          "title": "Follow-up that practically writes itself",
+          "text": "After the conversation, Iceberg automatically summarizes the key points for you. Strengths, competencies, goals, challenges, and next steps are clearly organized and professionally written. Within minutes, you have a polished summary that can be sent directly to parents as an email—if needed, even in the family's preferred language."
+        },
+        {
+          "title": "Capture observations with ease",
+          "text": "Between conversations, simply record quick observations as voice notes. Iceberg automatically links them to the right student, so they're ready whenever you need them. Instead of starting your next conversation with a blank page, you'll have authentic insights from everyday school life at your fingertips."
+        },
+        {
+          "title": "Expert guidance exactly when you need it",
+          "text": "Sometimes you sense there's more beneath the surface. A student's behavior puzzles you. A conversation didn't go as planned. A child seems stuck. Iceberg supports you with evidence-based guidance on behavior, classroom management, relationship building, learning strategies, and parent communication. It helps you better understand challenging situations, discover new approaches, and confidently plan your next steps."
+        }
+      ]
     },
     "founder": {
-      "eyebrow": "From the founder",
-      "title": "The Idea behind Iceberg"
+      "name": "Branka Rezan",
+      "role": "Founder of Iceberg",
+      "text": "You're not alone. Many teachers experience learning conversations as stressful, time-consuming, and little more than another box to tick. But that's only the surface. When you learn to take these conversations deeper, they become one of the most powerful tools for making everyday school life easier."
+    },
+    "iceberg": {
+      "title": "Why the Name Iceberg?",
+      "text": "We believe in the potential of every student, and we understand how demanding the teaching profession can be. We created Iceberg to put meaningful educational impact back at the heart of everyday school life. To us, education is about far more than grades and managing behavior—that's only the tip of the iceberg. Iceberg stands for having the courage to look beneath the surface: to discover each student's true strengths, concerns, and untapped potential, while also recognizing the incredible potential within you as a teacher."
+    },
+    "footer": {
+      "title": "Experience how Iceberg transforms your learning conversations. Try it free for two months with two students—no commitment required.",
+      "button": "Try Iceberg for Free"
     }
   },
   "product": {
@@ -382,104 +233,6 @@
       "cta": "Try it now"
     }
   },
-  "aboutUs": {
-    "hero": {
-      "title": "Built by educators. For educators",
-      "description": "Tools, training, and support to help you lead conversations that truly matter.",
-      "illustrationText": "Educator illustration"
-    },
-    "mission": {
-      "eyebrow": "Why we exist",
-      "title": "Built for the moments that matter",
-      "description": "Learning conversations are where real change happens — but too often, they lack structure, time, and support. We created Iceberg to make those moments easier to lead, deeper in impact, and consistent across every classroom."
-    },
-    "pedagogic": {
-      "eyebrow": "Pedagogic+",
-      "title": "A modern approach to learning conversations",
-      "descriptions": [
-        {
-          "text": "Pedagogic+ is the foundation behind Iceberg. It brings together research, real classroom experience, and a clear methodology focused on meaningful learning dialogues."
-        },
-        {
-          "text": "At the same time, Pedagogic+ is a community for teachers who want to go deeper — a space where educators learn, share, and grow together, guided by research-backed methods and real classroom insights."
-        },
-        {
-          "text": "The goal is simple: to help teachers move beyond surface-level conversations and create real impact in how students grow, reflect, and take responsibility for their learning."
-        }
-      ],
-      "cards": [
-        {
-          "title": "Training",
-          "description": "Workshops, webinars, and practical resources designed to help you grow and apply what you learn in real conversations.",
-          "illustration": "training"
-        },
-        {
-          "title": "Community",
-          "description": "Connect with like-minded teachers, share experiences, and learn from each other in a supportive environment.",
-          "illustration": "community"
-        },
-        {
-          "title": "Support",
-          "description": "Get guidance when you need it – with expert support that helps you navigate real challenges in your daily work.",
-          "illustration": "support"
-        }
-      ]
-    },
-    "membership": {
-      "eyebrow": "Membership",
-      "title": "Every Iceberg license includes Pedagogic+ membership - because the tool is only as powerful as the person using it.",
-      "cta": "See membership"
-    },
-    "founder": {
-      "eyebrow": "Founder",
-      "title": "Built from real classroom experience",
-      "name": "Branka Milovanović",
-      "biography": [
-        {
-          "text": "Branka is a teacher, coach, and school development expert who has worked closely with students, parents, and educators for years. Through this experience, she gained a deep understanding of what truly happens in learning conversations — and where they often fall short."
-        },
-        {
-          "text": "She saw the same pattern again and again: conversations that mattered, but lacked structure, time, and support to reach their full potential. That insight became the foundation for both Pedagogic+ and Iceberg."
-        },
-        {
-          "text": "Her work combines research-backed methods with real classroom practice, helping teachers lead conversations that are not only structured, but truly meaningful."
-        },
-        {
-          "text": "I built Iceberg because I know what it's like to walk out of a learning dialogue feeling like it could have gone deeper. Teachers deserve a tool that helps them be fully present—not just another piece of software."
-        }
-      ]
-    },
-    "trust": {
-      "eyebrow": "Trust",
-      "title": "Built on real experience",
-      "items": [
-        {
-          "title": "Real experience",
-          "description": "10+ years working directly with teachers and students",
-          "icon": "experience"
-        },
-        {
-          "title": "Used in schools",
-          "description": "Tested and applied in everyday school environments",
-          "icon": "school"
-        },
-        {
-          "title": "Research-backed methods",
-          "description": "Based on Hattie’s research and the WOOP framework",
-          "icon": "research"
-        },
-        {
-          "title": "Privacy by design",
-          "description": "GDPR-compliant with zero-retention architecture",
-          "icon": "privacy"
-        }
-      ]
-    },
-    "development": {
-      "eyebrow": "Development partner",
-      "title": "Technical development and platform infrastructure by gons.ch - a team dedicated to building tools that educators can trust. Built with care. Designed for teachers. Trusted by schools across Europe."
-    }
-  },
   "membership": {
     "hero": {
       "title": "More than a license. A complete support system.",
@@ -492,28 +245,18 @@
       "items": [
         {
           "title": "Personal Support",
-          "description": "You're never alone. Our team is here to help you get the most out of every conversation.",
+          "description": "You're never on your own. Our team is here to help you get the most out of every conversation. We'll guide you through onboarding and answer your questions in regular online sessions.",
           "icon": "headphones"
         },
         {
           "title": "Live Webinars",
-          "description": "Regular training sessions with Branka and the Pedagogic+ team to deepen your practice.",
+          "description": "Regular professional development sessions with Branka and the Pädagogik+ team to help you deepen your practice.",
           "icon": "camera"
         },
         {
-          "title": "Knowledge base",
-          "description": "Access proven frameworks, conversation guides, and best practices from expert educators.",
-          "icon": "book"
-        },
-        {
           "title": "Community",
-          "description": "Connect with fellow teachers who share your commitment to meaningful student growth.",
+          "description": "Connect with fellow educators who are just as committed to supporting meaningful student growth as you are.",
           "icon": "people"
-        },
-        {
-          "title": "Disclaimer",
-          "description": "Placeholder for text",
-          "icon": "alert"
         }
       ]
     },
@@ -679,136 +422,10 @@
       "description": "How to anchor learning conversations as a shared practice within your team—so that every teacher communicates confidently, competently, and effectively with children and parents.",
       "illustrationText": "Team illustration"
     },
-    "consultation": {
-      "eyebrow": "Consultation",
-      "title": "Since we introduced learning conversations school-wide, the quality of our parent communication has fundamentally changed – and the trust in our team has grown noticeably.",
-      "cta": "Book your free consultation"
-    },
-    "shift": {
-      "eyebrow": "The shift",
-      "title": "From daily friction to a shared system",
-      "description": "As a school principal, you don’t just manage conversations – you manage the entire system behind them. What happens in learning conversations affects your team, your parents, and the overall culture of your school. When there is no shared structure, problems accumulate. When there is one, everything changes.",
-      "items": [
-        {
-          "bad": {
-            "title": "No unified standard",
-            "description": "Every teacher conducts learning conversations differently. There is no shared structure, no shared understanding – and no comparability."
-          },
-          "good": {
-            "title": "A unified standard",
-            "description": "All teachers follow the same proven structure. Conversations become consistent, professional, and comparable across the entire school."
-          }
-        },
-        {
-          "bad": {
-            "title": "An overwhelmed team",
-            "description": "Many teachers feel insecure in learning conversations. They struggle to handle difficult situations and often rely on improvisation."
-          },
-          "good": {
-            "title": "A confident, competent team",
-            "description": "Teachers enter conversations with clarity and confidence. They know how to guide discussions and handle complex situations effectively."
-          }
-        },
-        {
-          "bad": {
-            "title": "Eroding parental trust",
-            "description": "Parents experience conversations as unclear or confrontational. Over time, trust in the school begins to weaken."
-          },
-          "good": {
-            "title": "Parents as genuine partners",
-            "description": "Parents feel informed, involved, and respected. Trust grows, and communication becomes constructive and collaborative."
-          }
-        },
-        {
-          "bad": {
-            "title": "Training that doesn’t stick",
-            "description": "You invest in professional development, but little changes in daily practice. What is learned rarely translates into consistent behavior."
-          },
-          "good": {
-            "title": "Sustainable implementation",
-            "description": "What teachers learn becomes part of everyday practice. Conversations follow a shared structure that reinforces itself over time."
-          }
-        },
-        {
-          "bad": {
-            "title": "Conflicts land on your desk",
-            "description": "Misunderstandings escalate into complaints. Teachers feel frustrated, parents are dissatisfied, and you are left to resolve the situation."
-          },
-          "good": {
-            "title": "Fewer conflicts, less escalation",
-            "description": "Clear structure and communication prevent misunderstandings early. Issues are resolved before they reach you."
-          }
-        },
-        {
-          "bad": {
-            "title": "No shared picture of the child",
-            "description": "Teachers, parents, and students see different things. There is no alignment on strengths, goals, or next steps."
-          },
-          "good": {
-            "title": "A shared understanding",
-            "description": "Everyone speaks the same language. Strengths, goals, and progress are clear and aligned across teachers, parents, and students."
-          }
-        }
-      ],
-      "seeImpact": "See the impact",
-      "backReality": "Back to reality"
-    },
-    "work": {
-      "eyebrow": "How we work together",
-      "title": "Flexible, practical and tailored to your school",
-      "items": [
-        {
-          "title": "In Person",
-          "description": "We come directly to you – for an intensive, hands-on team day. Introduction of the Iceberg Method with live exercises, collaborative development, and direct feedback.",
-          "illustration": "person"
-        },
-        {
-          "title": "Online",
-          "description": "Flexible and location-independent. Live webinars, individual consultations, guided rollout with regular check-ins, and ongoing support for everyday questions.",
-          "illustration": "online"
-        },
-        {
-          "title": "Group training",
-          "description": "Lorem ipsum",
-          "illustration": "group"
-        }
-      ]
-    },
-    "strategy": {
-      "title": "Your Free Strategy Consultation",
-      "description": "In a personal 45-minute conversation, we develop a concrete plan together for how learning conversations can be introduced at your school. Not generic advice – but a tailored strategy for your team.",
-      "items": [
-        {
-          "title": "Clear situation analysis",
-          "description": "We look together at where your school stands today and what the biggest levers for change are.",
-          "icon": "search"
-        },
-        {
-          "title": "Concrete introduction plan",
-          "description": "You receive a realistic roadmap for how learning conversations can be anchored step by step within the team.",
-          "icon": "route"
-        },
-        {
-          "title": "Handling resistance",
-          "description": "We discuss how to bring sceptical teachers on board and win the team over for the change.",
-          "icon": "users"
-        },
-        {
-          "title": "Parent strategy",
-          "description": "How to involve parents from the very beginning and build trust in the new practice.",
-          "icon": "friends"
-        },
-        {
-          "title": "Sustainable anchoring",
-          "description": "How what is learned does not fizzle out – but becomes a lasting part of the school culture.",
-          "icon": "book"
-        },
-        {
-          "title": "Your next steps",
-          "description": "You leave the conversation with a clear, actionable plan – not vague ideas.",
-          "icon": "stairs"
-        }
-      ]
+    "video": {
+      "eyebrow": "For School Leaders",
+      "title": "The Future of Learning Conversations",
+      "subtitle": "Empower your teachers. Strengthen your school."
     },
     "booking": {
       "title": "Book a consultation"

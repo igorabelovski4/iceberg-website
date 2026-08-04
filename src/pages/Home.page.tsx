@@ -2,32 +2,39 @@ import { useTranslation } from "react-i18next";
 import { AppConstants } from "@/constants";
 import {
   BackgroundSection,
-  Difference,
+  Description,
   Eyebrow,
+  Founder,
   HeroCard,
   HeroDescription,
   HeroTitle,
   MembershipCards,
-  PerspectiveSwitch,
-  PhaseCard,
   PrimaryButton,
+  Routine,
   Section,
   SectionTitle,
   Story,
+  Title,
   Video,
 } from "@/components";
-import { Image, SimpleGrid } from "@mantine/core";
+import { Image, SimpleGrid, Stack } from "@mantine/core";
 import { IBadgeItem } from "@/types/common";
-import {
-  HOME_VIDEO_MP4,
-  HOME_VIDEO_POSTER,
-  HOME_VIDEO_WEBM,
-} from "@/constants/app";
 
-const { LANDING_HERO_IMAGE, HERO_3D_VIDEO_IMAGE } = AppConstants;
+const {
+  LANDING_HERO_IMAGE,
+  HERO_3D_VIDEO_IMAGE,
+  HOME_VIDEO_MP4,
+  HOME_VIDEO_POSTER_DE,
+  HOME_VIDEO_POSTER_EN,
+  HOME_VIDEO_WEBM,
+  ICEBERG_OVERVIEW,
+} = AppConstants;
 
 export function HomePage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const videoPoster =
+    i18n.language === "de" ? HOME_VIDEO_POSTER_DE : HOME_VIDEO_POSTER_EN;
 
   const badges = t("home.hero.badges", {
     returnObjects: true,
@@ -61,44 +68,48 @@ export function HomePage() {
         </SimpleGrid>
       </BackgroundSection>
       <Section>
-        <Eyebrow>{t("home.story.eyebrow")}</Eyebrow>
         <Story />
       </Section>
-      <Section variant='secondary'>
-        <Eyebrow variant='light'>{t("home.nutshell.eyebrow")}</Eyebrow>
-        <SectionTitle variant='light'>{t("home.nutshell.title")}</SectionTitle>
-      </Section>
       <Section>
-        <Eyebrow variant='primary'>{t("home.difference.eyebrow")}</Eyebrow>
-        <SectionTitle margin>{t("home.difference.title")}</SectionTitle>
-        <Difference />
-      </Section>
-      <Section variant='dark'>
-        <Eyebrow variant='light'>{t("home.howWorks.eyebrow")}</Eyebrow>
-        <SectionTitle variant='light' margin>
-          {t("home.howWorks.title")}
-        </SectionTitle>
-        <PhaseCard />
-      </Section>
-      <Section>
-        <SectionTitle margin>{t("home.audience.title")}</SectionTitle>
-        <PerspectiveSwitch />
-      </Section>
-      <Section>
-        <Eyebrow>{t("home.support.eyebrow")}</Eyebrow>
-        <SectionTitle margin>{t("home.support.title")}</SectionTitle>
-        <MembershipCards />
-      </Section>
-      <Section>
-        <Eyebrow>{t("home.founder.eyebrow")}</Eyebrow>
-        <SectionTitle margin>{t("home.founder.title")}</SectionTitle>
+        <Eyebrow>{t("home.idea.eyebrow")}</Eyebrow>
+        <SectionTitle>{t("home.idea.title")}</SectionTitle>
+        <Description margin>{t("home.idea.subtitle")}</Description>
         <Video
           srcWebm={HOME_VIDEO_WEBM}
           srcMp4={HOME_VIDEO_MP4}
-          srcPoster={HOME_VIDEO_POSTER}
+          srcPoster={videoPoster}
         />
       </Section>
-      <Section variant='primary'></Section>
+      <Section>
+        <SimpleGrid cols={2} spacing={120}>
+          <Routine />
+          <Founder />
+        </SimpleGrid>
+      </Section>
+      <Section variant='dark'>
+        <Eyebrow variant='light'>{t("home.support.eyebrow")}</Eyebrow>
+        <SectionTitle variant='light' margin>
+          {t("home.support.title")}
+        </SectionTitle>
+        <MembershipCards />
+      </Section>
+      <Section>
+        <SimpleGrid cols={2} spacing={64}>
+          <Image src={ICEBERG_OVERVIEW} w='100%' radius='xl' />
+          <Stack>
+            <SectionTitle margin>{t("home.iceberg.title")}</SectionTitle>
+            <Description align='left'>{t("home.iceberg.text")}</Description>
+          </Stack>
+        </SimpleGrid>
+      </Section>
+      <Section variant='secondary'>
+        <SectionTitle variant='light' margin>
+          {t("home.footer.title")}
+        </SectionTitle>
+        <PrimaryButton variant='white-secondary'>
+          {t("home.footer.button")}
+        </PrimaryButton>
+      </Section>
     </>
   );
 }
