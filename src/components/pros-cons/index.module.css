@@ -9,12 +9,19 @@
   }
 }
 
+.white .cons,
+.white .pros {
+  color: var(--color-white) !important;
+}
+
 .cons {
   color: var(--color-error);
+  flex-shrink: 0;
 }
 
 .pros {
   color: var(--color-brand-primary);
+  flex-shrink: 0;
 }
 
 .wrapper {
@@ -43,6 +50,7 @@
   padding: 8px;
   border-radius: 9999px;
   background-color: #e0f7f8;
+  flex-shrink: 0 !important;
 
   &.cons {
     background-color: #ffeeee;
@@ -50,7 +58,7 @@
 }
 
 .items {
-  gap: 24px;
+  gap: 8px;
 }
 
 @media (max-width: 786px) {

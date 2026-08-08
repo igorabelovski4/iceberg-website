@@ -20,7 +20,7 @@
     "hero": {
       "title": "Lead learning and coaching conversations that truly make a difference",
       "subtitle": "Empower your students and yourself",
-      "description": "With Eisberg by your side, you can turn a mandatory meeting into the most valuable hour of your school year.",
+      "description": "With Iceberg by your side, you can turn a mandatory meeting into the most valuable hour of your school year.",
       "badges": [
         {
           "title": "100% GDPR-compliant",
@@ -42,9 +42,9 @@
     "story": {
       "heading_1": "I don't have time for learning conversations on top of everything else!",
       "description_1": "You give your all for your students every day, yet school life sometimes pushes you to your limits. Challenging behavior, demanding conversations with parents, and learning conversations that take a lot of time but rarely make a real difference.",
-      "description_2": "With Eisberg, you look beneath the surface. You discover what a child truly needs, find the right words, and work together to define the next steps that have a real impact in everyday school life. This transforms learning conversations from another mandatory task into your most powerful educational tool.",
+      "description_2": "With Iceberg, you look beneath the surface. You discover what a child truly needs, find the right words, and work together to define the next steps that have a real impact in everyday school life. This transforms learning conversations from another mandatory task into your most powerful educational tool.",
       "heading_2": "From now on, learning conversations will be your favorite tool in everyday school life!",
-      "description_3": "When you lead learning conversations with Eisberg, they become the best opportunity to strengthen relationships. When children and parents feel that their strengths are at the center of the conversation, trust grows. That creates a more relaxed atmosphere, prevents conflicts, and turns children and parents into your allies."
+      "description_3": "When you lead learning conversations with Iceberg, they become the best opportunity to strengthen relationships. When children and parents feel that their strengths are at the center of the conversation, trust grows. That creates a more relaxed atmosphere, prevents conflicts, and turns children and parents into your allies."
     },
     "support": {
       "eyebrow": "More than software",
@@ -235,8 +235,8 @@
   },
   "membership": {
     "hero": {
-      "title": "More than a license. A complete support system.",
-      "description": "When you get Iceberg, you get the app and Pedagogic+ membership. It's not just software — it's ongoing support, training, and a community that believes in what you do.",
+      "title": "Discover what suits you",
+      "description": "Effective learning and coaching conversations arise when sound educational knowledge meets a clear structure. Discover Pedagogic+, test Iceberg in your everyday school environment or combine both.",
       "illustrationText": "License illustration"
     },
     "included": {
@@ -250,7 +250,7 @@
         },
         {
           "title": "Live Webinars",
-          "description": "Regular professional development sessions with Branka and the Pädagogik+ team to help you deepen your practice.",
+          "description": "Regular professional development sessions with Branka and the Pedagogic+ team to help you deepen your practice.",
           "icon": "camera"
         },
         {
@@ -263,74 +263,156 @@
     "pricing": {
       "eyebrow": "Pricing",
       "title": "Transparent. Simple. Fair.",
-      "plan": {
-        "title": "Annual License",
-        "price": "69.99$",
-        "interval": "per year",
-        "included": "App + Pedagogic+ Membership",
-        "items": [
-          {
-            "text": "Complete summary at a glance"
+      "plans": [
+        {
+          "title": "Pedagogic+",
+          "subtitle": "Your professional development for everyday school life",
+          "description": "Pedagogic+ helps teachers strengthen their educational expertise, discover fresh perspectives and turn practical ideas into meaningful improvements in everyday school life.",
+          "additional": {
+            "title": "Discover free for 1 month,",
+            "note": "Explore Pedagogic+ with full access for one month."
           },
-          {
-            "text": "Structured, adaptive conversation guidance"
+          "price": {
+            "monthly": {
+              "before": "Afterwards",
+              "price": "CHF 32.50",
+              "after": "per month"
+            },
+            "annual": {
+              "before": "Billed annually",
+              "price": "CHF 390.-"
+            }
           },
-          {
-            "text": "Deep, resource-oriented conversations"
+          "included": [
+            {
+              "text": "Evidence-based professional development"
+            },
+            {
+              "text": "Live workshops with experts"
+            },
+            {
+              "text": "Proven teaching materials and methods"
+            },
+            {
+              "text": "Practical inspiration for your lessons"
+            },
+            {
+              "text": "Exchange and personal professional growth"
+            },
+            {
+              "text": "Access to the Pedagogic+ members area"
+            }
+          ],
+          "cta": "Discover Pedagogic+ for free"
+        },
+        {
+          "title": "Iceberg",
+          "subtitle": "For learning and coaching conversations that make a difference",
+          "description": "Iceberg provides structure, clarity and practical guidance for learning and coaching conversations, helping you identify needs, define next steps and document progress with confidence.",
+          "additional": {
+            "title": "Discover free for 2 months",
+            "note": "Try Eisberg with 2 students for 2 months."
           },
-          {
-            "text": "Every student gets to speak"
+          "price": {
+            "monthly": {
+              "before": "Afterwards",
+              "price": "CHF 40.83",
+              "after": "per month"
+            },
+            "annual": {
+              "before": "Billed annually",
+              "price": "CHF 490.-"
+            }
           },
-          {
-            "text": "Parent email in their language, ready immediately"
+          "included": [
+            {
+              "text": "Easily record observations"
+            },
+            {
+              "text": "Prepare conversations effectively"
+            },
+            {
+              "text": "Receive suitable conversation questions"
+            },
+            {
+              "text": "Make strengths, goals and obstacles visible"
+            },
+            {
+              "text": "Develop concrete next steps"
+            },
+            {
+              "text": "Automatically document conversations"
+            },
+            {
+              "text": "Prepare parent communication"
+            },
+            {
+              "text": "Track progress over time"
+            }
+          ],
+          "cta": "Try Iceberg free for 2 months",
+          "note": "Would you like to use Iceberg for multiple teachers or an entire school? We'd be happy to prepare a tailored offer for you.",
+          "link": "Request a team or school license"
+        },
+        {
+          "highlight": "Most comprehensive Support",
+          "title": "Iceberg + Pedagogic+",
+          "subtitle": "Professional development and practical conversation support combined",
+          "description": "Combine Pedagogic+ with Iceberg to strengthen your educational practice while gaining structured guidance, practical resources and effective support for every learning conversation.",
+          "additional": {
+            "title": "Discover both free for 2 months",
+            "note": "Try Eisberg with 2 students and enjoy full Pedagogic+ access."
           },
-          {
-            "text": "Summary created automatically"
+          "price": {
+            "monthly": {
+              "before": "Afterwards",
+              "price": "CHF 57.50",
+              "after": "per month"
+            },
+            "annual": {
+              "before": "Billed annually",
+              "price": "CHF 690.-"
+            }
           },
-          {
-            "text": "WOOP goals with a concrete plan"
-          },
-          {
-            "text": "Conversation as a coaching moment"
-          }
-        ],
-        "cta": {
-          "start": "Start Free Trial",
-          "contact": "Contact for benefits"
+          "included": [
+            {
+              "text": "All Iceberg features and services"
+            },
+            {
+              "text": "Full access to Pedagogic+"
+            },
+            {
+              "text": "Evidence-based professional development"
+            },
+            {
+              "text": "Live workshops with experts"
+            },
+            {
+              "text": "Proven teaching materials and methods"
+            },
+            {
+              "text": "Structured guidance and suitable conversation questions"
+            },
+            {
+              "text": "Automatic conversation documentation"
+            },
+            {
+              "text": "Continuous development of your coaching practice"
+            }
+          ],
+          "cta": "Discover both for free"
         }
-      }
+      ]
     },
-    "group": {
-      "eyebrow": "Group licenses",
-      "title": "School & Team Licenses",
-      "description": "Special pricing for schools and educational institutions. Get your entire team onboarded with the complete compliance package included.",
-      "includes": {
-        "title": "Includes",
-        "items": [
-          {
-            "text": "Ready-to-sign Data Processing Agreement (DPA)"
-          },
-          {
-            "text": "Pre-filled Data Protection Impact Assessment (DPIA)"
-          },
-          {
-            "text": "Print-ready parental consent forms"
-          },
-          {
-            "text": "Personal onboarding for all teachers"
-          },
-          {
-            "text": "Dedicated school support contact"
-          },
-          {
-            "text": "Summary created automatically"
-          },
-          {
-            "text": "Custom training sessions available"
-          }
-        ]
-      },
-      "cta": "Contact for School Pricing"
+    "differences": {
+      "title": "What distinguishes Pedagogic+ from Iceberg?",
+      "description_1": "Pedagogic+ provides you with educational knowledge, professional guidance, methods and practical ideas for your everyday school life. Iceberg supports you in putting them into practice during learning and coaching conversations: when preparing, during the conversation and in the subsequent documentation.",
+      "description_2": "With Pedagogic+, you develop your educational practice further. With Iceberg, you have the right structure and helpful questions at your side when it matters most. In the combined offer, both areas complement each other."
+    },
+    "schools": {
+      "title": "Iceberg for your team or school",
+      "description": "Would you like to strengthen learning and coaching conversations at your school, develop a shared conversation culture and make educational work more visible? For teams and schools, we create an offer tailored to your size and needs.",
+      "cta": "Request a non-binding offer"
     }
   },
   "faq": {

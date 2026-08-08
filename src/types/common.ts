@@ -139,6 +139,7 @@ export interface IProsConsSetion {
   itemsNum: number;
   itemsTitle: string;
   active?: boolean;
+  white?: boolean;
 }
 
 export interface IProsConstItem {
@@ -146,6 +147,7 @@ export interface IProsConstItem {
   value: string;
   index: number;
   active?: boolean;
+  white?: boolean;
 }
 
 export interface IFeatureItem {
@@ -160,7 +162,6 @@ export interface IBadgeItem {
   icon: keyof typeof PAGE_HERO_BADGES_ICON_MAP;
   items: string[];
 }
-
 
 export interface IMethodologyDescription {
   text: string;
@@ -177,7 +178,6 @@ export interface IOutcomeSlide {
   index: number;
 }
 
-
 export interface IMembershipBenefitItem {
   title: string;
   description: string;
@@ -185,10 +185,6 @@ export interface IMembershipBenefitItem {
 }
 
 export interface IMembershipPlanBenefitItem {
-  text: string;
-}
-
-export interface IMembershipGroupBenefitItem {
   text: string;
 }
 

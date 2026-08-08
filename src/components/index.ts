@@ -24,7 +24,6 @@ import LanguagePicker from "./language-picker";
 import Layout from "./layout";
 
 import MembershipCards from "./membership/cards";
-import MembershipGroup from "./membership/group";
 import MembershipOffer from "./membership/offer";
 
 import Navigation from "./navigation";
@@ -68,7 +67,6 @@ export {
   LanguagePicker,
   Layout,
   MembershipCards,
-  MembershipGroup,
   MembershipOffer,
   Navigation,
   NavigationLink,

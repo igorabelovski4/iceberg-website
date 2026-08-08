@@ -1,41 +1,93 @@
 .card {
   text-align: center;
-  padding: 50px;
+  padding: 48px 36px 36px 36px;
   border-radius: 24px;
   box-shadow: var(--box-shadow-3);
+  position: relative;
+  overflow: visible;
 }
 
-.price {
-  font-size: 56px;
-  line-height: 84%;
-  font-weight: 700;
+.highlightCard {
+  border: none;
+  background-color: var(--color-brand-primary);
+}
+
+.title {
+  font-size: 24px;
+}
+
+.highlightCard .title {
+  color: var(--color-white);
+}
+
+.highlight {
+  position: absolute;
+  top: -20px;
+  background-color: var(--color-brand-secondary);
+  padding: 8px 16px;
+  border: 2px solid var(--color-brand-secondary);
+  border-radius: 12px;
+  font-weight: 500;
+  box-shadow: var(--box-shadow-3);
+  text-transform: uppercase;
+}
+
+.description,
+.subtitle {
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 500;
   color: var(--color-text-primary);
 }
 
-.interval {
-  font-size: 20px;
-  line-height: 1.5;
-  color: var(--color-text-secondary);
+.subtitle {
+  padding-bottom: 36px;
+  border-bottom: 1px solid var(--color-divider);
 }
 
-.benefits {
-  margin: 36px 0;
+.highlightCard .description,
+.highlightCard .subtitle {
+  color: var(--color-white);
 }
 
-@media (max-width: 786px) {
-  .card {
-    padding: 20px;
-  }
+.highlightCard .subtitle {
+  border-color: var(--color-light);
+}
 
-  .price {
-    font-size: 24px;
-  }
+.box {
+  padding: 24px 24px;
+  border-radius: 12px;
+  background-color: var(--color-brand-secondary-very-light);
+  border: 1px solid var(--color-brand-secondary);
+}
 
-  .interval {
-    font-size: 14px;
-  }
+.highlightCard .box {
+  background-color: var(--color-white);
+  border-color: var(--color-brand-primary-dark);
+}
 
-  .buttons {
-    flex-direction: column;
-  }
+.additional {
+  color: var(--color-brand-secondary-dark);
+  font-weight: 600;
+}
+
+.highlightCard .additional {
+  color: var(--color-brand-primary-dark);
+}
+
+.note {
+  font-size: 14px;
+  color: var(--color-text-primary);
+}
+
+.before,
+.after {
+  font-size: 15px;
+  color: var(--color-text-primary);
+}
+
+.price {
+  font-size: 24px;
+  color: var(--color-text-primary);
+  font-weight: 600;
 }

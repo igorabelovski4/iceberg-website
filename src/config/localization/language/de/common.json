@@ -235,8 +235,8 @@
   },
   "membership": {
     "hero": {
-      "title": "Mehr als eine Lizenz. Ein vollst\u00e4ndiges Unterst\u00fctzungssystem.",
-      "description": "Wenn du Eisberg bekommst, erh\u00e4ltst du laufende Unterst\u00fctzung, Weiterbildung und eine Community, die an das glaubt, was du tust.",
+      "title": "Entdecke, was zu dir passt",
+      "description": "Gute Lern- und Coachinggespräche entstehen, wenn pädagogisches Wissen und eine klare Struktur zusammenkommen. Entdecke Pädagogik+, teste Eisberg in deinem Schulalltag oder verbinde beides miteinander.",
       "illustrationText": "Lizenz-Illustration"
     },
     "included": {
@@ -263,74 +263,156 @@
     "pricing": {
       "eyebrow": "Preise",
       "title": "Transparent. Einfach. Fair.",
-      "plan": {
-        "title": "Jahreslizenz",
-        "price": "59.00 CHF/EUR",
-        "interval": "pro Monat",
-
-        "items": [
-          {
-            "text": "Vollst\u00e4ndige \u00dcbersicht auf einen Blick"
+      "plans": [
+        {
+          "title": "PÄDAGOGIK+",
+          "subtitle": "Deine pädagogische Weiterbildung für den Schulalltag",
+          "description": "Pädagogik+ unterstützt dich dabei, dein pädagogisches Wissen zu vertiefen, neue Perspektiven zu gewinnen und konkrete Ideen erfolgreich in deinem Schulalltag umzusetzen.",
+          "additional": {
+            "title": "1 Monat kostenfrei entdecken",
+            "note": "Entdecke Pädagogik+ einen Monat lang mit vollem Zugang."
           },
-          {
-            "text": "Strukturierte, adaptive Gespr\u00e4chsf\u00fchrung"
+          "price": {
+            "monthly": {
+              "before": "Danach",
+              "price": "CHF 32.50",
+              "after": "pro Monat"
+            },
+            "annual": {
+              "before": "Jährlich verrechnet",
+              "price": "CHF 390.-"
+            }
           },
-          {
-            "text": "Tiefe, ressourcenorientierte Gespr\u00e4che"
+          "included": [
+            {
+              "text": "Fachlich fundierte Weiterbildungen"
+            },
+            {
+              "text": "Live-Workshops mit Expert:innen"
+            },
+            {
+              "text": "Praxiserprobte Materialien und Methoden"
+            },
+            {
+              "text": "Konkrete Impulse für deinen Unterricht"
+            },
+            {
+              "text": "Austausch und persönliche Weiterentwicklung"
+            },
+            {
+              "text": "Zugang zum Pädagogik+ Mitgliederbereich"
+            }
+          ],
+          "cta": "Pädagogik+ kostenfrei entdecken"
+        },
+        {
+          "title": "Eisberg",
+          "subtitle": "Für Lern- und Coachinggespräche, die weiterbringen",
+          "description": "Eisberg gibt dir Struktur, Klarheit und passende Fragen für wirksame Lern- und Coachinggespräche und unterstützt dich dabei, Entwicklungen sichtbar zu machen und sicher zu dokumentieren.",
+          "additional": {
+            "title": "2 Monate kostenfrei entdecken",
+            "note": "Teste Eisberg 2 Monate mit 2 Schüler:innen."
           },
-          {
-            "text": "Jede:r Sch\u00fcler:in kommt zu Wort"
+          "price": {
+            "monthly": {
+              "before": "Danach",
+              "price": "CHF 40.83",
+              "after": "pro Monat"
+            },
+            "annual": {
+              "before": "Jährlich verrechnet",
+              "price": "CHF 490.-"
+            }
           },
-          {
-            "text": "Elternmail in ihrer Sprache, sofort bereit"
+          "included": [
+            {
+              "text": "Beobachtungen einfach festhalten"
+            },
+            {
+              "text": "Gespräche gezielt vorbereiten"
+            },
+            {
+              "text": "Passende Gesprächsfragen erhalten"
+            },
+            {
+              "text": "Stärken, Ziele und Hindernisse sichtbar machen"
+            },
+            {
+              "text": "Konkrete nächste Schritte entwickeln"
+            },
+            {
+              "text": "Gespräche automatisch dokumentieren"
+            },
+            {
+              "text": "Elternkommunikation vorbereiten"
+            },
+            {
+              "text": "Entwicklung über längere Zeit nachvollziehen"
+            }
+          ],
+          "cta": "Eisberg 2 Monate kostenfrei testen",
+          "note": "Du möchtest Eisberg für mehrere Lehrpersonen oder eine ganze Schule einsetzen? Wir erstellen dir gerne ein individuelles Angebot.",
+          "link": "Team- und Schullizenz anfragen"
+        },
+        {
+          "highlight": "Beste Begleitung",
+          "title": "Eisberg + Pädagogik+",
+          "subtitle": "Pädagogische Weiterentwicklung und konkrete Gesprächsbegleitung vereint",
+          "description": "Verbinde Pädagogik+ mit Eisberg und entwickle deine pädagogische Praxis weiter – mit fundiertem Wissen, praxiserprobten Materialien und strukturierter Begleitung für jedes Gespräch.",
+          "additional": {
+            "title": "Beides 2 Monate kostenfrei entdecken",
+            "note": "Teste Eisberg mit 2 Schüler:innen und erhalte vollen Zugang zu Pädagogik+."
           },
-          {
-            "text": "Zusammenfassung automatisch erstellt"
+          "price": {
+            "monthly": {
+              "before": "Danach",
+              "price": "CHF 57.50",
+              "after": "pro Monat"
+            },
+            "annual": {
+              "before": "Jährlich verrechnet",
+              "price": "CHF 690.-"
+            }
           },
-          {
-            "text": "WOOP-Ziele mit konkretem Plan"
-          },
-          {
-            "text": "Gespr\u00e4ch als Coaching-Moment"
-          }
-        ],
-        "cta": {
-          "start": "Kostenfreie Testphase starten",
-          "contact": "Kontakt f\u00fcr Vorteile"
+          "included": [
+            {
+              "text": "Alle Funktionen und Leistungen von Eisberg"
+            },
+            {
+              "text": "Vollständiger Zugang zu Pädagogik+"
+            },
+            {
+              "text": "Fachlich fundierte Weiterbildungen"
+            },
+            {
+              "text": "Live-Workshops mit Expert:innen"
+            },
+            {
+              "text": "Praxiserprobte Materialien und Methoden"
+            },
+            {
+              "text": "Struktur und passende Fragen für deine Gespräche"
+            },
+            {
+              "text": "Automatische Gesprächsdokumentation"
+            },
+            {
+              "text": "Kontinuierliche Weiterentwicklung deiner Gesprächspraxis"
+            }
+          ]
         }
-      }
+      ],
+      "cta": "Beides kostenfrei entdecken"
     },
-    "group": {
-      "eyebrow": "Gruppenlizenzen",
-      "title": "Schul- & Teamlizenzen",
-      "description": "Spezielle Preise f\u00fcr Schulen und Bildungsinstitutionen. Hol dein ganzes Team an Bord \u2013 inklusive vollst\u00e4ndigem Datenschutzpaket.",
-      "includes": {
-        "title": "Enthalten",
-        "items": [
-          {
-            "text": "Unterschriftsbereite Auftragsverarbeitungsvereinbarung (AVV)"
-          },
-          {
-            "text": "Vorausgef\u00fcllte Datenschutz-Folgenabsch\u00e4tzung (DPIA)"
-          },
-          {
-            "text": "Druckfertige Einverst\u00e4ndniserkl\u00e4rungen f\u00fcr Eltern"
-          },
-          {
-            "text": "Pers\u00f6nliches Onboarding f\u00fcr alle Lehrpersonen"
-          },
-          {
-            "text": "Dedizierte Support-Ansprechperson f\u00fcr die Schule"
-          },
-          {
-            "text": "Zusammenfassung automatisch erstellt"
-          },
-          {
-            "text": "Individuelle Schulungen auf Anfrage m\u00f6glich"
-          }
-        ]
-      },
-      "cta": "Kontakt f\u00fcr Schulpreise"
+    "differences": {
+      "title": "Was unterscheidet Pädagogik+ und Eisberg?",
+      "description_1": "Pädagogik+ vermittelt dir pädagogisches Wissen, Haltung, Methoden und konkrete Ideen für deinen Schulalltag. Eisberg unterstützt dich bei der direkten Umsetzung im Lern- und Coachinggespräch: bei der Vorbereitung, während des Gesprächs und bei der anschliessenden Dokumentation.",
+      "description_2": "Mit Pädagogik+ entwickelst du deine pädagogische Praxis weiter. Mit Eisberg hast du im entscheidenden Moment die passende Struktur und hilfreiche Fragen an deiner Seite. Im Kombi-Angebot greifen beide Bereiche ineinander."
+    },
+    "schools": {
+      "title": "Eisberg für dein Team oder deine Schule",
+      "description": "Du möchtest Lern- und Coachinggespräche an eurer Schule stärken, eine gemeinsame Gesprächskultur entwickeln und die pädagogische Arbeit sichtbar machen? Für Teams und Schulen erstellen wir ein Angebot, das zu eurer Grösse und euren Bedürfnissen passt.",
+      "cta": "Unverbindliches Angebot anfragen"
     }
   },
   "faq": {

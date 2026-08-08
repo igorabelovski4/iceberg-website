@@ -12,17 +12,20 @@ const ProsConsItem = ({
   index,
   cons = false,
   active = false,
+  white = false,
 }: IProsConstItem) => {
   const { t } = useTranslation();
 
   return (
-    <Group className={`${classes.itemWrapper} ${active ? classes.active : ""}`}>
+    <Group
+      className={`${classes.itemWrapper} ${active ? classes.active : ""} ${white ? classes.white : ""}`}
+    >
       {cons ? (
         <IconX size={20} className={`${classes.cons}`} />
       ) : (
         <IconCheck size={20} className={`${classes.pros}`} />
       )}
-      <Description variant={active ? "light" : "dark"} align='left'>
+      <Description variant={active || white ? "light" : "dark"} align='left'>
         {t(`${value}.${index}.text`)}
       </Description>
     </Group>
@@ -35,6 +38,7 @@ const ProsConsSection = ({
   itemsNum,
   itemsTitle,
   cons = false,
+  white = false,
   active = false,
 }: IProsConsSetion) => {
   const { t } = useTranslation();
@@ -72,6 +76,7 @@ const ProsConsSection = ({
             value={itemsTitle}
             index={index}
             key={index}
+            white={white}
             active={!cons && active}
           />
         ))}

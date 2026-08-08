@@ -7,11 +7,12 @@ import {
   HeroDescription,
   HeroImage,
   HeroTitle,
-  MembershipGroup,
   MembershipOffer,
+  PrimaryButton,
   Section,
   SectionTitle,
 } from "@/components";
+import { SimpleGrid, Stack } from "@mantine/core";
 
 const { CERTIFICATION_IMAGE } = AppConstants;
 
@@ -30,20 +31,38 @@ export function MembershipPage() {
           alt={t("membership.hero.illustrationText")}
         />
       </Section>
-      <Section variant='secondary'>
+      <Section variant='dark'>
         <Eyebrow variant='light'>{t("membership.pricing.eyebrow")}</Eyebrow>
         <SectionTitle variant='light' margin>
           {t("membership.pricing.title")}
         </SectionTitle>
-        <MembershipOffer />
+        <SimpleGrid cols={3}>
+          <MembershipOffer index={0} />
+          <MembershipOffer index={1} />
+          <MembershipOffer index={2} />
+        </SimpleGrid>
       </Section>
       <Section>
-        <Eyebrow>{t("membership.group.eyebrow")}</Eyebrow>
-        <SectionTitle margin>{t("membership.group.title")}</SectionTitle>
-        <Description align='left' margin>
-          {t("membership.group.description")}
+        <SectionTitle>{t("membership.differences.title")}</SectionTitle>
+        <Stack gap='lg' mt='xl'>
+          <Description align='left'>
+            {t("membership.differences.description_1")}
+          </Description>
+          <Description align='left'>
+            {t("membership.differences.description_2")}
+          </Description>
+        </Stack>
+      </Section>
+      <Section variant='secondary'>
+        <SectionTitle variant='light'>
+          {t("membership.schools.title")}
+        </SectionTitle>
+        <Description variant='light' margin>
+          {t("membership.schools.description")}
         </Description>
-        <MembershipGroup />
+        <PrimaryButton variant='white-secondary'>
+          {t("membership.schools.cta")}
+        </PrimaryButton>
       </Section>
     </>
   );
