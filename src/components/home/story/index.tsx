@@ -23,7 +23,7 @@ const Story = () => {
           </Description>
         </Stack>
       </Flex>
-      <Flex my={80} justify='center'>
+      <Flex my={24} justify='center'>
         <Image src={STORY_ARROW} alt='Illustration' w={64} />
       </Flex>
       <SectionTitle>{t("home.story.heading_2")}</SectionTitle>

@@ -50,8 +50,11 @@ export function HomePage() {
           {t("home.hero.description")}
         </HeroDescription>
         <PrimaryButton variant='secondary' icon>
-          {t("cta.try")}
+          {t("home.hero.cta")}
         </PrimaryButton>
+        <HeroDescription variant='light' margin>
+          {t("home.hero.additional")}
+        </HeroDescription>
         <Image
           src={HERO_3D_VIDEO_IMAGE}
           py={{ base: 24, sm: 32, lg: 44, xl: 64 }}

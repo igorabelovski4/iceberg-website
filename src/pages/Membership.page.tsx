@@ -11,6 +11,7 @@ import {
   PrimaryButton,
   Section,
   SectionTitle,
+  Title,
 } from "@/components";
 import { SimpleGrid, Stack } from "@mantine/core";
 
@@ -62,6 +63,18 @@ export function MembershipPage() {
         </Description>
         <PrimaryButton variant='white-secondary'>
           {t("membership.schools.cta")}
+        </PrimaryButton>
+      </Section>
+      <Section>
+        <Title big>{t("membership.webinar.title")}</Title>
+        <Description margin>
+          {t("membership.webinar.description_1")}
+        </Description>
+        <Description margin>
+          {t("membership.webinar.description_2")}
+        </Description>
+        <PrimaryButton href='https://xn--lerngesprche-ocb.com/lerngespraech-workshop/'>
+          {t("membership.webinar.cta")}
         </PrimaryButton>
       </Section>
     </>

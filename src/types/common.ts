@@ -45,6 +45,7 @@ export interface INavigationLink {
 export interface IButton {
   children: string;
   variant?: IButtonVariant;
+  href?: string;
   icon?: boolean;
   block?: boolean;
   onClick?: () => void;

@@ -18,9 +18,11 @@
   },
   "home": {
     "hero": {
-      "title": "Führe Lern- und Coachinggespräche, die viel bewegen und bewirken",
+      "title": "Führe Lern- und Coachinggespräche leichter, sicherer und wirksamer",
       "subtitle": "Stärke deine Schüler:innen und dich selbst",
-      "description": "Mit Eisberg an deiner Seite machst du den lästigen Pflichttermin zur wertvollsten Stunde deines Schuljahres.",
+      "description": "Mit Eisberg behältst du den roten Faden, findest die passenden Fragen und begleitest deine Schüler:innen mit Klarheit und nachhaltiger Wirkung.",
+      "cta": "Eisberg kostenfrei entdecken",
+      "additional": "2 Monate mit 2 Schüler:innen kostenfrei und unverbindlich.",
       "badges": [
         {
           "title": "100% DSGVO-konform",
@@ -43,12 +45,12 @@
       "heading_1": "Ich habe nicht auch noch Zeit für Lerngespräche!",
       "description_1": "Du gibst jeden Tag alles für deine Schüler und Schülerinnen und trotzdem stösst du im Schulalltag manchmal an deine Grenzen. Herausforderndes Verhalten, anspruchsvolle Elterngespräche und Lerngespräche, die viel Zeit kosten, aber kaum etwas verändern.",
       "description_2": "Mit Eisberg blickst du unter die Oberfläche. Du erkennst, was ein Kind wirklich braucht, findest die richtigen Worte und entwickelst gemeinsam nächste Schritte, die im Alltag wirken. So werden Lerngespräche vom zusätzlichen Pflichttermin zu deinem stärksten pädagogischen Werkzeug.",
-      "heading_2": "Ab sofort ist das Lerngespräch dein Lieblings-Tool im Schulalltag!",
-      "description_3": "Führst du Lerngespräche mit Eisberg, bieten sie die beste Gelegenheit, Beziehungen zu stärken. Spüren Kinder und Eltern, dass du ihre Stärken in den Mittelpunkt stellst, wächst Vertrauen und das schafft Entspannung vermeidet Konflikte und du gewinnst Kinder und Eltern als Verbündete."
+      "heading_2": "Ab sofort wird das Lerngespräch zu deinem stärksten pädagogischen Werkzeug",
+      "description_3": "Mit Eisberg werden Lern- und Coachinggespräche zu Momenten, in denen Motivation wächst, Beziehungen gestärkt werden und Vertrauen entsteht. Schüler:innen erleben, dass ihre Stärken im Mittelpunkt stehen und ihre Bedürfnisse ernst genommen werden. Eltern erkennen, dass du genau hinschaust und gezielt handelst. Gemeinsam entwickelt ihr konkrete Massnahmen, die im Schulalltag wirklich etwas verändern. Das entlastet dich, schafft Verbindung und hilft euch, Herausforderungen gemeinsam zu lösen und Entwicklung nachhaltig voranzubringen."
     },
     "support": {
-      "eyebrow": "Mehr als Software",
-      "title": "Mit Eisberg bekommst du nicht nur ein Tool. Du bekommst"
+      "eyebrow": "Mehr als eine Software",
+      "title": "Mit Eisberg erhältst du ein ganzes Unterstützungssystem, das dich bei deinen Lern- und Coachinggesprächen begleitet, entlastet und fachlich weiterbringt."
     },
     "idea": {
       "eyebrow": "Von der Gr\u00fcnderin",
@@ -87,7 +89,7 @@
     },
     "iceberg": {
       "title": "Was hat es eigentlich mit dem Namen Eisberg auf sich?",
-      "text": "Wir glauben an das Potenzial jedes Schülers und jeder Schülerin. Wir wissen, wie hart der Beruf der Lehrperson ist. Eisberg haben wir gegründet, um echte pädagogische Wirksamkeit wieder in den Mittelpunkt zu rücken. Für uns bedeutet Schule nicht bloss Noten verteilen und Verhalten massregeln. Das ist nur die Spitze des Eisbergs. Eisberg steht für den Mut, unter die Oberfläche zu schauen: auf die wahren Stärken, die Sorgen und das enorme Potenzial, das in jedem Kind - und in dir als Lehrperson - steckt."
+      "text": "Wir glauben an das Potenzial aller Schüler:innen und wissen, wie anspruchsvoll der Beruf der Lehrperson ist. Deshalb haben wir Eisberg entwickelt: um das sichtbar zu machen, was im Schulalltag oft unter der Oberfläche bleibt. Denn Schule bedeutet weit mehr, als Leistungen zu beurteilen und auf Verhalten zu reagieren. Das, was wir auf den ersten Blick sehen, ist lediglich die Spitze des Eisbergs. Darunter liegen Stärken, Bedürfnisse, Sorgen, Erfahrungen und ein enormes Entwicklungspotenzial. Eisberg steht für den Mut, genauer hinzuschauen, die richtigen Fragen zu stellen und gemeinsam neue Wege zu entdecken. So wird sichtbar, was Schüler:innen wirklich brauchen und was du als Lehrperson jeden Tag bewirkst."
     },
     "footer": {
       "title": "Erlebe, wie Eisberg deine Lerngespräche verändert: zwei Monate mit zwei Schüler:innen kostenfrei und unverbindlich testen",
@@ -158,16 +160,19 @@
     },
     "methodology": {
       "eyebrow": "Methodik",
-      "title": "Forschungsbasiert. F\u00fcr Lehrpersonen gemacht.",
+      "title": "Forschungsbasiert. Für Lehrpersonen gemacht.",
       "descriptions": [
         {
-          "text": "Eisberg basiert auf John Hatties Forschung zu Visible Learning \u2013 der gr\u00f6ssten Synthese p\u00e4dagogischer Studien. Hattie zeigt, dass die Beziehung zwischen Lehrperson und Sch\u00fcler:in eine Effektst\u00e4rke von d = 0.72 hat, also fast doppelt so hoch wie der Durchschnitt aller p\u00e4dagogischen Interventionen."
+          "text": "Wissenschaftlich fundiert und für den Schulalltag entwickelt"
         },
         {
-          "text": "Die WOOP-Methode (Wish, Outcome, Obstacle, Plan) von Professorin Gabriele Oettingen bildet den Rahmen f\u00fcr die Zielsetzung. Im Unterschied zu positivem Denken allein fragt WOOP: Was k\u00f6nnte im Weg stehen? Und was wirst du tun, wenn das passiert?"
+          "text": "Eisberg orientiert sich unter anderem an John Hatties Forschung zu Visible Learning. Seine umfassende Synthese von mehr als 800 Metaanalysen zeigt, dass eine tragfähige Beziehung zwischen Lehrperson und Schüler:in einen bedeutsamen Einfluss auf das Lernen hat. In der ursprünglichen Auswertung wird dafür eine Effektstärke von d = 0.72 ausgewiesen. Spätere Übersichten nennen d = 0.52. Beide Werte liegen über Hatties Orientierungspunkt von d = 0.40. Visible Learning, aktualisierte Übersicht der Effektstärken"
         },
         {
-          "text": "Die 5 Eisberg-Level machen Selbstst\u00e4ndigkeit sichtbar. Von Deep Sea \u2013 enge Begleitung \u2013 bis Summit \u2013 vollst\u00e4ndig selbstst\u00e4ndig \u2013 hat jede Kompetenz ihre eigene Entwicklung. Lehrpersonen k\u00f6nnen in einem Kind oft mehr sehen, als der Schüler oder Schülerin selbst \u00fcber sich glaubt."
+          "text": "Für die Zielsetzung greift Eisberg die wissenschaftlich fundierte WOOP Methode von Professorin Gabriele Oettingen auf. WOOP steht für Wish, Outcome, Obstacle und Plan. Schüler:innen formulieren einen Wunsch, stellen sich das gewünschte Ergebnis vor, erkennen ein inneres Hindernis und entwickeln einen konkreten Wenn dann Plan für den Umgang damit. So bleibt es nicht beim positiven Denken: Aus einem Wunsch entsteht ein umsetzbarer nächster Schritt. WOOP – wissenschaftlicher Hintergrund"
+        },
+        {
+          "text": "Die fünf Eisberg Level machen Entwicklung und zunehmende Selbstständigkeit sichtbar. Sie reichen von Deep Sea mit enger Begleitung bis Summit, wo Schüler:innen eine Kompetenz selbstständig zeigen. Dabei wird jede Kompetenz einzeln betrachtet, denn Entwicklung verläuft nicht in allen Bereichen gleich. So kannst du sichtbar machen, was Schüler:innen bereits gelingt, wo sie Unterstützung brauchen und welches Potenzial sie selbst vielleicht noch nicht erkennen."
         }
       ]
     },
@@ -244,19 +249,24 @@
       "title": "Alles in deiner Mitgliedschaft",
       "items": [
         {
-          "title": "Pers\u00f6nlicher Support",
-          "description": "Du bist nie allein. Unser Team ist da, damit du das Beste aus jedem Gespräch herausholen kannst. Wir führen dich sorgfältig ein und beantworten deine Fragen in regelmäßigen Online-Treffen.",
+          "title": "Persönliche Begleitung",
+          "description": "Von der sorgfältigen Einführung bis zu deinen Fragen aus dem Schulalltag sind wir für dich da. In regelmässigen Online Treffen erhältst du persönliche Unterstützung, damit du Eisberg gezielt einsetzen und das Beste aus deinen Gesprächen herausholen kannst.",
           "icon": "headphones"
         },
         {
-          "title": "Live-Webinare",
-          "description": "Regelmässige Weiterbildungseinheiten mit Branka und dem Pädagogik+ Team, um deine Praxis zu vertiefen.",
+          "title": "Live Webinare",
+          "description": "In regelmässigen Live Webinaren mit Branka und dem Pädagogik+ Team erhältst du neue Impulse, vertiefst deine Gesprächsführung und entwickelst deine pädagogische Praxis weiter.",
           "icon": "camera"
         },
         {
-          "title": "Community",
-          "description": "Vernetze dich mit anderen Lehrpersonen, die sich genauso für die bedeutsame Entwicklung von Schüler:innen einsetzen wie du.",
+          "title": "Austausch mit anderen Lehrpersonen",
+          "description": "Du triffst Lehrpersonen, die Schüler:innen ebenso engagiert begleiten und stärken möchten wie du. Ihr teilt Erfahrungen, lernt voneinander und findet gemeinsam neue Wege für herausfordernde Situationen.",
           "icon": "people"
+        },
+        {
+          "title": "Praxisnahe Aktivitäten",
+          "description": "Du erhältst eine wachsende Sammlung erprobter Aktivitäten, mit denen du Schüler:innen gezielt stärkst. Ob Konzentration, Motivation, Selbstvertrauen, Lernstrategien oder ein gutes Miteinander: Du findest schnell passende Ideen, die du direkt im Gespräch und im Schulalltag einsetzen kannst.",
+          "icon": "grow"
         }
       ]
     },
@@ -265,7 +275,7 @@
       "title": "Transparent. Einfach. Fair.",
       "plans": [
         {
-          "title": "PÄDAGOGIK+",
+          "title": "⁠Pädagogik+ Mitgliederbereich",
           "subtitle": "Deine pädagogische Weiterbildung für den Schulalltag",
           "description": "Pädagogik+ unterstützt dich dabei, dein pädagogisches Wissen zu vertiefen, neue Perspektiven zu gewinnen und konkrete Ideen erfolgreich in deinem Schulalltag umzusetzen.",
           "additional": {
@@ -280,7 +290,7 @@
             },
             "annual": {
               "before": "Jährlich verrechnet",
-              "price": "CHF 390.-"
+              "price": "CHF 290.-"
             }
           },
           "included": [
@@ -288,7 +298,7 @@
               "text": "Fachlich fundierte Weiterbildungen"
             },
             {
-              "text": "Live-Workshops mit Expert:innen"
+              "text": "Live Workshops mit Expert:innen"
             },
             {
               "text": "Praxiserprobte Materialien und Methoden"
@@ -297,10 +307,16 @@
               "text": "Konkrete Impulse für deinen Unterricht"
             },
             {
-              "text": "Austausch und persönliche Weiterentwicklung"
+              "text": "Regelmässige neue Inhalte"
             },
             {
-              "text": "Zugang zum Pädagogik+ Mitgliederbereich"
+              "text": "Austausch mit engagierten Lehrpersonen"
+            },
+            {
+              "text": "Persönliche und fachliche Weiterentwicklung"
+            },
+            {
+              "text": "Vollständiger Zugang zum Mitgliederbereich"
             }
           ],
           "cta": "Pädagogik+ kostenfrei entdecken"
@@ -347,7 +363,7 @@
               "text": "Elternkommunikation vorbereiten"
             },
             {
-              "text": "Entwicklung über längere Zeit nachvollziehen"
+              "text": "Entwicklung langfristig nachvollziehen"
             }
           ],
           "cta": "Eisberg 2 Monate kostenfrei testen",
@@ -356,7 +372,7 @@
         },
         {
           "highlight": "Beste Begleitung",
-          "title": "Eisberg + Pädagogik+",
+          "title": "Eisberg und Pädagogik+ kombiniert",
           "subtitle": "Pädagogische Weiterentwicklung und konkrete Gesprächsbegleitung vereint",
           "description": "Verbinde Pädagogik+ mit Eisberg und entwickle deine pädagogische Praxis weiter – mit fundiertem Wissen, praxiserprobten Materialien und strukturierter Begleitung für jedes Gespräch.",
           "additional": {
@@ -371,7 +387,7 @@
             },
             "annual": {
               "before": "Jährlich verrechnet",
-              "price": "CHF 690.-"
+              "price": "CHF 590.-"
             }
           },
           "included": [
@@ -382,27 +398,27 @@
               "text": "Vollständiger Zugang zu Pädagogik+"
             },
             {
-              "text": "Fachlich fundierte Weiterbildungen"
+              "text": "Lern- und Coachinggespräche gezielt vorbereiten"
             },
             {
-              "text": "Live-Workshops mit Expert:innen"
+              "text": "Passende Fragen und nächste Schritte entwickeln"
             },
             {
-              "text": "Praxiserprobte Materialien und Methoden"
+              "text": "Gespräche automatisch dokumentieren"
             },
             {
-              "text": "Struktur und passende Fragen für deine Gespräche"
+              "text": "Weiterbildungen und Live Workshops besuchen"
             },
             {
-              "text": "Automatische Gesprächsdokumentation"
+              "text": "Praxiserprobte Materialien und Aktivitäten erhalten"
             },
             {
-              "text": "Kontinuierliche Weiterentwicklung deiner Gesprächspraxis"
+              "text": "Dich fachlich weiterentwickeln und austauschen"
             }
-          ]
+          ],
+          "cta": "Beides kostenfrei entdecken"
         }
-      ],
-      "cta": "Beides kostenfrei entdecken"
+      ]
     },
     "differences": {
       "title": "Was unterscheidet Pädagogik+ und Eisberg?",
@@ -413,6 +429,12 @@
       "title": "Eisberg für dein Team oder deine Schule",
       "description": "Du möchtest Lern- und Coachinggespräche an eurer Schule stärken, eine gemeinsame Gesprächskultur entwickeln und die pädagogische Arbeit sichtbar machen? Für Teams und Schulen erstellen wir ein Angebot, das zu eurer Grösse und euren Bedürfnissen passt.",
       "cta": "Unverbindliches Angebot anfragen"
+    },
+    "webinar": {
+      "title": "Du möchtest zuerst erfahren, wie wirksame Lern- und Coachinggespräche gelingen?",
+      "description_1": "In unserem kostenfreien Live Webinar erhältst du konkrete Fragen, Strukturen und Umsetzungsideen, mit denen du deine Gespräche sofort wirksamer gestalten kannst. Du lernst, wie du Schüler:innen stärkst, Ziele greifbar machst und nächste Schritte entwickelst, die im Schulalltag tatsächlich umgesetzt werden.",
+      "cta": "Kostenfrei zum Webinar anmelden",
+      "description_2": "Das Webinar vermittelt dir wertvolles pädagogisches Wissen, das du unabhängig von Eisberg anwenden kannst. Am Ende zeigen wir dir, wie Eisberg dich bei der Umsetzung unterstützt."
     }
   },
   "faq": {

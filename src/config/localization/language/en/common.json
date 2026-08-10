@@ -18,9 +18,11 @@
   },
   "home": {
     "hero": {
-      "title": "Lead learning and coaching conversations that truly make a difference",
-      "subtitle": "Empower your students and yourself",
-      "description": "With Iceberg by your side, you can turn a mandatory meeting into the most valuable hour of your school year.",
+      "title": "Make learning and coaching conversations easier, safer, and more effective",
+      "subtitle": "Empower your students — and yourself",
+      "description": "With Eisberg, you keep the conversation on track, find the right questions, and guide your students with clarity and lasting impact.",
+      "cta": "Discover Eisberg for free",
+      "additional": "2 months with 2 students, free of charge and with no obligation.",
       "badges": [
         {
           "title": "100% GDPR-compliant",
@@ -43,12 +45,12 @@
       "heading_1": "I don't have time for learning conversations on top of everything else!",
       "description_1": "You give your all for your students every day, yet school life sometimes pushes you to your limits. Challenging behavior, demanding conversations with parents, and learning conversations that take a lot of time but rarely make a real difference.",
       "description_2": "With Iceberg, you look beneath the surface. You discover what a child truly needs, find the right words, and work together to define the next steps that have a real impact in everyday school life. This transforms learning conversations from another mandatory task into your most powerful educational tool.",
-      "heading_2": "From now on, learning conversations will be your favorite tool in everyday school life!",
-      "description_3": "When you lead learning conversations with Iceberg, they become the best opportunity to strengthen relationships. When children and parents feel that their strengths are at the center of the conversation, trust grows. That creates a more relaxed atmosphere, prevents conflicts, and turns children and parents into your allies."
+      "heading_2": "From now on, learning conversations become your most powerful educational tool",
+      "description_3": "With Eisberg, learning and coaching conversations become moments where motivation grows, relationships are strengthened, and trust is built. Students experience that their strengths are at the center and that their needs are taken seriously. Parents see that you pay close attention and take targeted action. Together, you develop concrete measures that truly make a difference in everyday school life. This takes the pressure off you, creates connection, and helps you solve challenges together while driving sustainable development forward."
     },
     "support": {
-      "eyebrow": "More than software",
-      "title": "With Iceberg, you don't just get a tool. You get..."
+      "eyebrow": "More than just software",
+      "title": "With Eisberg, you get a complete support system that guides you through your learning and coaching conversations, takes the pressure off, and helps you grow professionally."
     },
     "idea": {
       "eyebrow": "From the founder",
@@ -87,7 +89,7 @@
     },
     "iceberg": {
       "title": "Why the Name Iceberg?",
-      "text": "We believe in the potential of every student, and we understand how demanding the teaching profession can be. We created Iceberg to put meaningful educational impact back at the heart of everyday school life. To us, education is about far more than grades and managing behavior—that's only the tip of the iceberg. Iceberg stands for having the courage to look beneath the surface: to discover each student's true strengths, concerns, and untapped potential, while also recognizing the incredible potential within you as a teacher."
+      "text": "We believe in the potential of every student and understand how demanding the teaching profession can be. That’s why we developed Eisberg: to make visible what often remains beneath the surface of everyday school life. Because school is about much more than assessing performance and reacting to behavior. What we see at first glance is merely the tip of the iceberg. Beneath it lie strengths, needs, concerns, experiences, and enormous potential for growth. Eisberg stands for the courage to look closer, ask the right questions, and discover new paths together. This makes it possible to see what students truly need and the difference you make as a teacher every day."
     },
     "footer": {
       "title": "Experience how Iceberg transforms your learning conversations. Try it free for two months with two students—no commitment required.",
@@ -158,16 +160,19 @@
     },
     "methodology": {
       "eyebrow": "Methodology",
-      "title": "Grounded in research. Built for teachers.",
+      "title": "Research-based. Designed for teachers.",
       "descriptions": [
         {
-          "text": "Iceberg is built on John Hattie's Visible Learning research—the largest synthesis of educational studies ever conducted. Hattie shows that the teacher-student relationship has an effect size of d = 0.72, almost twice the average of all educational interventions."
+          "text": "Scientifically grounded and developed for everyday school life"
         },
         {
-          "text": "The WOOP method (Wish, Outcome, Obstacle, Plan) by Professor Gabriele Oettingen provides the goal-setting framework. Unlike positive thinking alone, WOOP asks: what might get in the way? And what will you do if that happens?"
+          "text": "Eisberg draws, among other things, on John Hattie’s research on Visible Learning. His comprehensive synthesis of more than 800 meta-analyses shows that a strong teacher-student relationship has a significant influence on learning. The original analysis reports an effect size of d = 0.72. Later reviews cite d = 0.52. Both values are above Hattie’s benchmark of d = 0.40. Visible Learning, updated overview of effect sizes"
         },
         {
-          "text": "The 5 Iceberg Levels make independence visible. From Deep Sea (close guidance) to Summit (fully independent), each competency has its own journey. Teachers can see more in a student than the student believes about themselves."
+          "text": "For goal setting, Eisberg draws on Professor Gabriele Oettingen’s scientifically grounded WOOP method. WOOP stands for Wish, Outcome, Obstacle, and Plan. Students formulate a wish, imagine the desired outcome, identify an internal obstacle, and develop a concrete if-then plan for dealing with it. This means it goes beyond positive thinking: a wish becomes an actionable next step. WOOP – scientific background"
+        },
+        {
+          "text": "The five Eisberg levels make development and increasing independence visible. They range from Deep Sea, where students receive close support, to Summit, where students demonstrate a competency independently. Each competency is considered individually, because development does not progress equally in every area. This allows you to make visible what students are already able to do, where they need support, and what potential they may not yet recognize in themselves."
         }
       ]
     },
@@ -240,23 +245,28 @@
       "illustrationText": "License illustration"
     },
     "included": {
-      "eyebrow": "What included",
-      "title": "Everything in your membership",
+      "eyebrow": "What’s included",
+      "title": "Everything included in your membership",
       "items": [
         {
           "title": "Personal Support",
-          "description": "You're never on your own. Our team is here to help you get the most out of every conversation. We'll guide you through onboarding and answer your questions in regular online sessions.",
+          "description": "From a thorough introduction to your questions from everyday school life, we’re here for you. In regular online sessions, you receive personal support so you can use Eisberg effectively and get the most out of your conversations.",
           "icon": "headphones"
         },
         {
           "title": "Live Webinars",
-          "description": "Regular professional development sessions with Branka and the Pedagogic+ team to help you deepen your practice.",
+          "description": "In regular live webinars with Branka and the Pädagogik+ team, you’ll gain new insights, deepen your conversation skills, and further develop your educational practice.",
           "icon": "camera"
         },
         {
-          "title": "Community",
-          "description": "Connect with fellow educators who are just as committed to supporting meaningful student growth as you are.",
+          "title": "Exchange with Other Teachers",
+          "description": "You’ll meet teachers who, just like you, want to support and empower their students with dedication. You share experiences, learn from one another, and find new ways to navigate challenging situations together.",
           "icon": "people"
+        },
+        {
+          "title": "Practical Activities",
+          "description": "You’ll gain access to a growing collection of tried-and-tested activities designed to support your students in a targeted way. Whether it’s concentration, motivation, self-confidence, learning strategies, or positive relationships: you’ll quickly find suitable ideas that you can use directly in conversations and everyday school life.",
+          "icon": "grow"
         }
       ]
     },
@@ -265,57 +275,63 @@
       "title": "Transparent. Simple. Fair.",
       "plans": [
         {
-          "title": "Pedagogic+",
+          "title": "Pädagogik+ Membership Area",
           "subtitle": "Your professional development for everyday school life",
-          "description": "Pedagogic+ helps teachers strengthen their educational expertise, discover fresh perspectives and turn practical ideas into meaningful improvements in everyday school life.",
+          "description": "Pädagogik+ helps you deepen your educational knowledge, gain new perspectives, and successfully put practical ideas into practice in your everyday school life.",
           "additional": {
-            "title": "Discover free for 1 month,",
-            "note": "Explore Pedagogic+ with full access for one month."
+            "title": "Explore it free for 1 month",
+            "note": "Discover Pädagogik+ with full access for one month."
           },
           "price": {
             "monthly": {
-              "before": "Afterwards",
+              "before": "Then",
               "price": "CHF 32.50",
               "after": "per month"
             },
             "annual": {
               "before": "Billed annually",
-              "price": "CHF 390.-"
+              "price": "CHF 290.-"
             }
           },
           "included": [
             {
-              "text": "Evidence-based professional development"
+              "text": "Expert-led professional development"
             },
             {
               "text": "Live workshops with experts"
             },
             {
-              "text": "Proven teaching materials and methods"
+              "text": "Practice-tested materials and methods"
             },
             {
-              "text": "Practical inspiration for your lessons"
+              "text": "Practical ideas for your teaching"
             },
             {
-              "text": "Exchange and personal professional growth"
+              "text": "Regularly updated content"
             },
             {
-              "text": "Access to the Pedagogic+ members area"
+              "text": "Exchange with dedicated teachers"
+            },
+            {
+              "text": "Personal and professional development"
+            },
+            {
+              "text": "Full access to the membership area"
             }
           ],
-          "cta": "Discover Pedagogic+ for free"
+          "cta": "Discover Pädagogik+ for free"
         },
         {
-          "title": "Iceberg",
+          "title": "Eisberg",
           "subtitle": "For learning and coaching conversations that make a difference",
-          "description": "Iceberg provides structure, clarity and practical guidance for learning and coaching conversations, helping you identify needs, define next steps and document progress with confidence.",
+          "description": "Eisberg gives you structure, clarity, and the right questions for effective learning and coaching conversations, helping you make progress visible and document it securely.",
           "additional": {
-            "title": "Discover free for 2 months",
-            "note": "Try Eisberg with 2 students for 2 months."
+            "title": "Explore it free for 2 months",
+            "note": "Try Eisberg for 2 months with 2 students."
           },
           "price": {
             "monthly": {
-              "before": "Afterwards",
+              "before": "Then",
               "price": "CHF 40.83",
               "after": "per month"
             },
@@ -329,13 +345,13 @@
               "text": "Easily record observations"
             },
             {
-              "text": "Prepare conversations effectively"
+              "text": "Prepare conversations with purpose"
             },
             {
-              "text": "Receive suitable conversation questions"
+              "text": "Get suitable conversation questions"
             },
             {
-              "text": "Make strengths, goals and obstacles visible"
+              "text": "Make strengths, goals, and obstacles visible"
             },
             {
               "text": "Develop concrete next steps"
@@ -344,63 +360,63 @@
               "text": "Automatically document conversations"
             },
             {
-              "text": "Prepare parent communication"
+              "text": "Prepare communication with parents"
             },
             {
-              "text": "Track progress over time"
+              "text": "Track development over the long term"
             }
           ],
-          "cta": "Try Iceberg free for 2 months",
-          "note": "Would you like to use Iceberg for multiple teachers or an entire school? We'd be happy to prepare a tailored offer for you.",
-          "link": "Request a team or school license"
+          "cta": "Try Eisberg free for 2 months",
+          "note": "Would you like to use Eisberg for several teachers or an entire school? We would be happy to create a customized offer for you.",
+          "link": "Request a team and school license"
         },
         {
-          "highlight": "Most comprehensive Support",
-          "title": "Iceberg + Pedagogic+",
-          "subtitle": "Professional development and practical conversation support combined",
-          "description": "Combine Pedagogic+ with Iceberg to strengthen your educational practice while gaining structured guidance, practical resources and effective support for every learning conversation.",
+          "highlight": "Best Support",
+          "title": "Eisberg and Pädagogik+ Combined",
+          "subtitle": "Professional development and practical conversation support, combined",
+          "description": "Combine Pädagogik+ with Eisberg and develop your educational practice further — with sound knowledge, practice-tested materials, and structured support for every conversation.",
           "additional": {
-            "title": "Discover both free for 2 months",
-            "note": "Try Eisberg with 2 students and enjoy full Pedagogic+ access."
+            "title": "Explore both free for 2 months",
+            "note": "Try Eisberg with 2 students and get full access to Pädagogik+."
           },
           "price": {
             "monthly": {
-              "before": "Afterwards",
+              "before": "Then",
               "price": "CHF 57.50",
               "after": "per month"
             },
             "annual": {
               "before": "Billed annually",
-              "price": "CHF 690.-"
+              "price": "CHF 590.-"
             }
           },
           "included": [
             {
-              "text": "All Iceberg features and services"
+              "text": "All Eisberg features and benefits"
             },
             {
-              "text": "Full access to Pedagogic+"
+              "text": "Full access to Pädagogik+"
             },
             {
-              "text": "Evidence-based professional development"
+              "text": "Prepare learning and coaching conversations with purpose"
             },
             {
-              "text": "Live workshops with experts"
+              "text": "Develop the right questions and next steps"
             },
             {
-              "text": "Proven teaching materials and methods"
+              "text": "Automatically document conversations"
             },
             {
-              "text": "Structured guidance and suitable conversation questions"
+              "text": "Attend professional development sessions and live workshops"
             },
             {
-              "text": "Automatic conversation documentation"
+              "text": "Access practice-tested materials and activities"
             },
             {
-              "text": "Continuous development of your coaching practice"
+              "text": "Continue your professional development and exchange with others"
             }
           ],
-          "cta": "Discover both for free"
+          "cta": "Explore both for free"
         }
       ]
     },
@@ -413,6 +429,12 @@
       "title": "Iceberg for your team or school",
       "description": "Would you like to strengthen learning and coaching conversations at your school, develop a shared conversation culture and make educational work more visible? For teams and schools, we create an offer tailored to your size and needs.",
       "cta": "Request a non-binding offer"
+    },
+    "webinar": {
+      "title": "Would you like to learn first how effective learning and coaching conversations can succeed?",
+      "description_1": "In our free live webinar, you’ll get practical questions, structures, and ideas you can put into practice right away to make your conversations more effective. You’ll learn how to empower students, make goals tangible, and develop next steps that can actually be implemented in everyday school life.",
+      "cta": "Register for the free webinar",
+      "description_2": "The webinar provides you with valuable educational knowledge that you can apply independently of Eisberg. At the end, we’ll show you how Eisberg can support you in putting it into practice."
     }
   },
   "faq": {

@@ -1,7 +1,6 @@
 import clsx from "clsx";
 import { IButton } from "@/types/common";
 import { Button } from "@mantine/core";
-
 import classes from "./index.module.css";
 import { IconArrowNarrowRight } from "@tabler/icons-react";
 
@@ -11,14 +10,21 @@ const PrimaryButton = ({
   icon,
   block,
   onClick,
+  href,
 }: IButton) => {
+  const isAnchor = !!href;
+
   return (
     <Button
       variant='filled'
-      className={clsx(
-        `${classes.button} ${classes[variant]} ${block ? classes.block : ""}`,
-      )}
-      {...(icon && { rightSection: <IconArrowNarrowRight /> })}
+      component={isAnchor ? "a" : "button"}
+      href={href}
+      target={isAnchor ? "_blank" : undefined}
+      rel={isAnchor ? "noopener noreferrer" : undefined}
+      className={clsx(classes.button, classes[variant], block && classes.block)}
+      {...(icon && {
+        rightSection: <IconArrowNarrowRight size={18} />,
+      })}
       onClick={onClick}
     >
       {children}
