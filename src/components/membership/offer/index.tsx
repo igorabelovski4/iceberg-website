@@ -85,11 +85,7 @@ const MembershipOffer = ({ index }: MembershipOfferProps) => {
           {t(`membership.pricing.plans.${index}.cta`)}
         </PrimaryButton>
         {i18n.exists(`membership.pricing.plans.${index}.link`) && (
-          <PrimaryButton
-            variant='white-primary'
-            block
-            href='https://xn--lerngesprche-ocb.com/lerngespraech-workshop/'
-          >
+          <PrimaryButton variant='white-primary' block>
             {t(`membership.pricing.plans.${index}.link`)}
           </PrimaryButton>
         )}

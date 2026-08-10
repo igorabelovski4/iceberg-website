@@ -49,9 +49,18 @@ export function HomePage() {
         <HeroDescription variant='light' margin>
           {t("home.hero.description")}
         </HeroDescription>
-        <PrimaryButton variant='secondary' icon>
-          {t("home.hero.cta")}
-        </PrimaryButton>
+        <Stack align='center'>
+          <PrimaryButton variant='secondary' icon>
+            {t("home.hero.cta")}
+          </PrimaryButton>
+          <PrimaryButton
+            variant='primary'
+            icon
+            href='https://xn--lerngesprche-ocb.com/lerngespraech-workshop/'
+          >
+            {t(`cta.webinar`)}
+          </PrimaryButton>
+        </Stack>
         <HeroDescription variant='light' margin>
           {t("home.hero.additional")}
         </HeroDescription>
