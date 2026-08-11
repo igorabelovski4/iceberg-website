@@ -15,7 +15,7 @@
   "cta": {
     "start": "Jetzt starten",
     "try": "Jetzt ausprobieren",
-    "webinar": "Kostenfreies Webinar"
+    "webinar": "Zum kostenfreien Webinar"
   },
   "home": {
     "hero": {
@@ -23,7 +23,9 @@
       "subtitle": "Stärke deine Schüler:innen und dich selbst",
       "description": "Mit Eisberg behältst du den roten Faden, findest die passenden Fragen und begleitest deine Schüler:innen mit Klarheit und nachhaltiger Wirkung.",
       "cta": "Eisberg kostenfrei entdecken",
-      "additional": "2 Monate mit 2 Schüler:innen kostenfrei und unverbindlich.",
+      "additional_1": "2 Monate mit 2 Schüler:innen kostenfrei und unverbindlich.",
+      "additional_2": "Du möchtest zuerst erfahren, wie wirksame Lern- und Coachinggespräche gelingen?",
+      "additional_3": "Praxisnahe Impulse, die du sofort in deinem Schulalltag anwenden kannst.",
       "badges": [
         {
           "title": "100% DSGVO-konform",
@@ -276,17 +278,17 @@
       "title": "Transparent. Einfach. Fair.",
       "plans": [
         {
-          "title": "⁠Pädagogik+ Mitgliederbereich",
+          "title": "Pädagogik+ Mitgliedschaft",
           "subtitle": "Deine pädagogische Weiterbildung für den Schulalltag",
-          "description": "Pädagogik+ unterstützt dich dabei, dein pädagogisches Wissen zu vertiefen, neue Perspektiven zu gewinnen und konkrete Ideen erfolgreich in deinem Schulalltag umzusetzen.",
+          "description": "Entdecke Weiterbildungen, Live Workshops und wertvolle Impulse von erfahrenen Expert:innen zu den Themen, die dich als Lehrperson wirklich beschäftigen. Du erhältst fundiertes Wissen, konkrete Umsetzungsideen und praxiserprobte Materialien, die dich stärken und im Schulalltag spürbar weiterbringen.",
           "additional": {
-            "title": "1 Monat kostenfrei entdecken",
-            "note": "Entdecke Pädagogik+ einen Monat lang mit vollem Zugang."
+            "title": "Pädagogik+ kostenfrei entdecken",
+            "note": "Dein erster Monat ist kostenfrei und unverbindlich."
           },
           "price": {
             "monthly": {
               "before": "Danach",
-              "price": "CHF 32.50",
+              "price": "CHF 24.20",
               "after": "pro Monat"
             },
             "annual": {
@@ -333,7 +335,7 @@
           "price": {
             "monthly": {
               "before": "Danach",
-              "price": "CHF 40.83",
+              "price": "CHF 40.85",
               "after": "pro Monat"
             },
             "annual": {
@@ -377,13 +379,13 @@
           "subtitle": "Pädagogische Weiterentwicklung und konkrete Gesprächsbegleitung vereint",
           "description": "Verbinde Pädagogik+ mit Eisberg und entwickle deine pädagogische Praxis weiter – mit fundiertem Wissen, praxiserprobten Materialien und strukturierter Begleitung für jedes Gespräch.",
           "additional": {
-            "title": "Beides 2 Monate kostenfrei entdecken",
+            "title": "Beides kostenfrei entdecken (Mitgliedschaft 1 Monat, Eisberg 2 Monate)",
             "note": "Teste Eisberg mit 2 Schüler:innen und erhalte vollen Zugang zu Pädagogik+."
           },
           "price": {
             "monthly": {
               "before": "Danach",
-              "price": "CHF 57.50",
+              "price": "CHF 59.15",
               "after": "pro Monat"
             },
             "annual": {

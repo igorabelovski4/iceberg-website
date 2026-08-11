@@ -14,7 +14,6 @@ import {
   Section,
   SectionTitle,
   Story,
-  Title,
   Video,
 } from "@/components";
 import { Image, SimpleGrid, Stack } from "@mantine/core";
@@ -49,20 +48,24 @@ export function HomePage() {
         <HeroDescription variant='light' margin>
           {t("home.hero.description")}
         </HeroDescription>
-        <Stack align='center'>
-          <PrimaryButton variant='secondary' icon>
-            {t("home.hero.cta")}
-          </PrimaryButton>
-          <PrimaryButton
-            variant='primary'
-            icon
-            href='https://xn--lerngesprche-ocb.com/lerngespraech-workshop/'
-          >
-            {t(`cta.webinar`)}
-          </PrimaryButton>
-        </Stack>
-        <HeroDescription variant='light' margin>
-          {t("home.hero.additional")}
+        <PrimaryButton variant='secondary' icon>
+          {t("home.hero.cta")}
+        </PrimaryButton>
+        <HeroDescription variant='light' small>
+          {t("home.hero.additional_1")}
+        </HeroDescription>
+        <HeroDescription variant='light' margin small>
+          {t("home.hero.additional_2")}
+        </HeroDescription>
+        <PrimaryButton
+          variant='primary'
+          icon
+          href='https://xn--lerngesprche-ocb.com/lerngespraech-workshop/'
+        >
+          {t(`cta.webinar`)}
+        </PrimaryButton>
+        <HeroDescription variant='light' margin small>
+          {t("home.hero.additional_3")}
         </HeroDescription>
         <Image
           src={HERO_3D_VIDEO_IMAGE}

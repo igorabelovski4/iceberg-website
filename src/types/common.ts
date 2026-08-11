@@ -21,6 +21,7 @@ export interface IHeroDescription {
   variant?: IHeroDescriptionVariant;
   margin?: boolean;
   shadow?: boolean;
+  small?: boolean;
 }
 
 export type IHeroDescriptionVariant = "dark" | "light";
@@ -101,6 +102,8 @@ export interface IAccordionItem {
 export interface IHeroImage {
   src: string;
   alt: string;
+  bigger?: boolean;
+  noMargin?: boolean;
 }
 
 export type ITitleVariant = "dark" | "light" | "primary";

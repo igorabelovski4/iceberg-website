@@ -7,13 +7,14 @@ import classes from "./index.module.css";
 const HeroDescription = ({
   children,
   variant = "dark",
-  margin,
+  margin = false,
   shadow = true,
+  small = false,
 }: IHeroDescription) => {
   return (
     <Text
       className={clsx(
-        `${classes.description} ${classes[variant]} ${margin ? classes.margin : ""} ${shadow ? classes.shadow : ""}`,
+        `${classes.description} ${classes[variant]} ${margin ? classes.margin : ""} ${small ? classes.small : ""} ${shadow ? classes.shadow : ""}`,
       )}
     >
       {children}

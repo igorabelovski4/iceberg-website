@@ -15,7 +15,7 @@
   "cta": {
     "start": "Get started",
     "try": "Try it now",
-    "webinar": "Free webinar"
+    "webinar": "To the free webinar"
   },
   "home": {
     "hero": {
@@ -23,7 +23,9 @@
       "subtitle": "Empower your students — and yourself",
       "description": "With Eisberg, you keep the conversation on track, find the right questions, and guide your students with clarity and lasting impact.",
       "cta": "Discover Eisberg for free",
-      "additional": "2 months with 2 students, free of charge and with no obligation.",
+      "additional_1": "2 months with 2 students, free of charge and without obligation.",
+      "additional_2": "Would you like to find out first how effective learning and coaching conversations can be?",
+      "additional_3": "Practical insights that you can apply immediately in your everyday school life.",
       "badges": [
         {
           "title": "100% GDPR-compliant",
@@ -276,17 +278,17 @@
       "title": "Transparent. Simple. Fair.",
       "plans": [
         {
-          "title": "Pädagogik+ Membership Area",
+          "title": "Pädagogik+ Membership",
           "subtitle": "Your professional development for everyday school life",
-          "description": "Pädagogik+ helps you deepen your educational knowledge, gain new perspectives, and successfully put practical ideas into practice in your everyday school life.",
+          "description": "Discover professional development programs, live workshops, and valuable insights from experienced experts on the topics that truly matter to you as a teacher. You’ll gain in-depth knowledge, practical ideas for implementation, and tried-and-tested materials that empower you and make a real difference in your everyday school life.",
           "additional": {
-            "title": "Explore it free for 1 month",
-            "note": "Discover Pädagogik+ with full access for one month."
+            "title": "Discover Pädagogik+ for free",
+            "note": "Your first month is free and without obligation."
           },
           "price": {
             "monthly": {
               "before": "Then",
-              "price": "CHF 32.50",
+              "price": "CHF 24.20",
               "after": "per month"
             },
             "annual": {
@@ -333,7 +335,7 @@
           "price": {
             "monthly": {
               "before": "Then",
-              "price": "CHF 40.83",
+              "price": "CHF 40.85",
               "after": "per month"
             },
             "annual": {
@@ -377,13 +379,13 @@
           "subtitle": "Professional development and practical conversation support, combined",
           "description": "Combine Pädagogik+ with Eisberg and develop your educational practice further — with sound knowledge, practice-tested materials, and structured support for every conversation.",
           "additional": {
-            "title": "Explore both free for 2 months",
+            "title": "Discover both for free (membership for 1 month, Eisberg for 2 months).",
             "note": "Try Eisberg with 2 students and get full access to Pädagogik+."
           },
           "price": {
             "monthly": {
               "before": "Then",
-              "price": "CHF 57.50",
+              "price": "CHF 59.15",
               "after": "per month"
             },
             "annual": {

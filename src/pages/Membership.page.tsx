@@ -23,14 +23,17 @@ export function MembershipPage() {
   return (
     <>
       <Section>
-        <HeroTitle shadow={false}>{t("membership.hero.title")}</HeroTitle>
-        <HeroDescription shadow={false}>
-          {t("membership.hero.description")}
-        </HeroDescription>
+        <HeroTitle shadow={false}>{t("navigation.membership")}</HeroTitle>
         <HeroImage
           src={CERTIFICATION_IMAGE}
           alt={t("membership.hero.illustrationText")}
+          bigger
+          noMargin
         />
+        <SectionTitle>{t("membership.hero.title")}</SectionTitle>
+        <HeroDescription shadow={false}>
+          {t("membership.hero.description")}
+        </HeroDescription>
       </Section>
       <Section variant='dark'>
         <Eyebrow variant='light'>{t("membership.pricing.eyebrow")}</Eyebrow>

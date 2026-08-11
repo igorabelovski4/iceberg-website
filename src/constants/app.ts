@@ -67,7 +67,7 @@ export const PROGRESS_IMAGE = "/assets/illustrations/stepping-up.png";
 export const CONFIDENCE_IMAGE = "/assets/illustrations/stand-up.png";
 
 export const TEAM_IMAGE = "/assets/illustrations/team.png";
-export const CERTIFICATION_IMAGE = "/assets/illustrations/certification.png";
+export const CERTIFICATION_IMAGE = "/assets/images/membership.webp";
 
 export const PAGE_HERO_BADGES_ICON_MAP = {
   shield: IconShield,

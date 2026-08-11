@@ -21,14 +21,26 @@
   color: var(--color-white);
 }
 
+.small {
+  font-size: 18px;
+}
+
 @media (max-width: 1200px) {
   .description {
     font-size: 18px;
+  }
+
+  .description {
+    font-size: 15px;
   }
 }
 
 @media (max-width: 768px) {
   .description {
     font-size: 16px;
+  }
+
+  .description {
+    font-size: 12px;
   }
 }

@@ -4,10 +4,22 @@
   width: auto;
 }
 
+.bigger {
+  height: 650px;
+}
+
+.noMargin {
+  margin-top: 0px;
+}
+
 @media (max-width: 786px) {
   .image {
     height: auto;
     width: 70%;
     margin-top: 32px;
+  }
+
+  .bigger {
+    height: auto;
   }
 }
