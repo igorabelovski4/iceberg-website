@@ -3,21 +3,21 @@ import { useTranslation } from "react-i18next";
 import { PrimaryButton } from "@/components";
 
 import classes from "./index.module.css";
-import { IMembershipPlanBenefitItem } from "@/types/common";
+import { IPricingBenefitItem } from "@/types/common";
 import ProsConsSection from "@/components/pros-cons";
 
-interface MembershipOfferProps {
+interface PricingOfferProps {
   index: number;
 }
 
-const MembershipOffer = ({ index }: MembershipOfferProps) => {
+const PricingOffer = ({ index }: PricingOfferProps) => {
   const { t, i18n } = useTranslation();
 
-  const benefits = t(`membership.pricing.plans.${index}.included`, {
+  const benefits = t(`pricing.pricing.plans.${index}.included`, {
     returnObjects: true,
-  }) as IMembershipPlanBenefitItem[];
+  }) as IPricingBenefitItem[];
 
-  const highlight = i18n.exists(`membership.pricing.plans.${index}.highlight`);
+  const highlight = i18n.exists(`pricing.pricing.plans.${index}.highlight`);
 
   return (
     <Card
@@ -25,45 +25,34 @@ const MembershipOffer = ({ index }: MembershipOfferProps) => {
     >
       <Stack align='center' gap='36' mb='xl'>
         <Title className={classes.title}>
-          {t(`membership.pricing.plans.${index}.title`)}
+          {t(`pricing.pricing.plans.${index}.title`)}
         </Title>
         {highlight && (
           <Text className={classes.highlight}>
-            {t(`membership.pricing.plans.${index}.highlight`)}
+            {t(`pricing.pricing.plans.${index}.highlight`)}
           </Text>
         )}
         <Text className={classes.subtitle}>
-          {t(`membership.pricing.plans.${index}.subtitle`)}
+          {t(`pricing.pricing.plans.${index}.subtitle`)}
         </Text>
         <Text className={classes.description}>
-          {t(`membership.pricing.plans.${index}.description`)}
+          {t(`pricing.pricing.plans.${index}.description`)}
         </Text>
         <Box className={classes.box}>
           <Stack gap='sm' mb={28}>
             <Text className={classes.additional}>
-              {t(`membership.pricing.plans.${index}.additional.title`)}
+              {t(`pricing.pricing.plans.${index}.additional.title`)}
             </Text>
             <Text className={classes.note}>
-              {t(`membership.pricing.plans.${index}.additional.note`)}
-            </Text>
-          </Stack>
-          <Stack gap='0' mb='lg'>
-            <Text className={classes.before}>
-              {t(`membership.pricing.plans.${index}.price.monthly.before`)}
-            </Text>
-            <Text className={classes.price}>
-              {t(`membership.pricing.plans.${index}.price.monthly.price`)}
-            </Text>
-            <Text className={classes.after}>
-              {t(`membership.pricing.plans.${index}.price.monthly.after`)}
+              {t(`pricing.pricing.plans.${index}.additional.note`)}
             </Text>
           </Stack>
           <Stack gap='0'>
             <Text className={classes.before}>
-              {t(`membership.pricing.plans.${index}.price.annual.before`)}
+              {t(`pricing.pricing.plans.${index}.price.before`)}
             </Text>
             <Text className={classes.price}>
-              {t(`membership.pricing.plans.${index}.price.annual.price`)}
+              {t(`pricing.pricing.plans.${index}.price.price`)}
             </Text>
           </Stack>
         </Box>
@@ -73,7 +62,7 @@ const MembershipOffer = ({ index }: MembershipOfferProps) => {
           header={false}
           itemsNum={benefits.length}
           white={highlight}
-          itemsTitle={`membership.pricing.plans.${index}.included`}
+          itemsTitle={`pricing.pricing.plans.${index}.included`}
         />
       </Box>
       <Stack>
@@ -82,11 +71,11 @@ const MembershipOffer = ({ index }: MembershipOfferProps) => {
           icon
           block
         >
-          {t(`membership.pricing.plans.${index}.cta`)}
+          {t(`pricing.pricing.plans.${index}.cta`)}
         </PrimaryButton>
-        {i18n.exists(`membership.pricing.plans.${index}.link`) && (
+        {i18n.exists(`pricing.pricing.plans.${index}.link`) && (
           <PrimaryButton variant='white-primary' block>
-            {t(`membership.pricing.plans.${index}.link`)}
+            {t(`pricing.pricing.plans.${index}.link`)}
           </PrimaryButton>
         )}
       </Stack>
@@ -94,4 +83,4 @@ const MembershipOffer = ({ index }: MembershipOfferProps) => {
   );
 };
 
-export default MembershipOffer;
+export default PricingOffer;

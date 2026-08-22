@@ -1,0 +1,16 @@
+.box {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.inner {
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+  background-color: #4891e0;
+}
+
+.wrapper {
+  padding: 20px;
+}

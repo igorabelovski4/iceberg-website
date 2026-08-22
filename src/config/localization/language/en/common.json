@@ -2,8 +2,9 @@
   "navigation": {
     "home": "Home",
     "product": "Product",
-    "membership": "Membership",
+    "pricing": "Pricing",
     "faq": "FAQ",
+    "team": "Team",
     "schools": "For Principals"
   },
   "languages": {
@@ -19,37 +20,15 @@
   },
   "home": {
     "hero": {
-      "title": "Make learning and coaching conversations easier, safer, and more effective",
-      "subtitle": "Empower your students — and yourself",
-      "description": "With Eisberg, you keep the conversation on track, find the right questions, and guide your students with clarity and lasting impact.",
-      "cta": "Discover Eisberg for free",
-      "additional_1": "2 months with 2 students, free of charge and without obligation.",
-      "additional_2": "Would you like to find out first how effective learning and coaching conversations can be?",
-      "additional_3": "Practical insights that you can apply immediately in your everyday school life.",
-      "badges": [
-        {
-          "title": "100% GDPR-compliant",
-          "icon": "shield",
-          "items": ["Zero-Retention", "EU Servers"]
-        },
-        {
-          "title": "Everyone in the boat",
-          "icon": "users",
-          "items": ["Teacher", "Student", "Parents"]
-        },
-        {
-          "title": "Measurable growth",
-          "icon": "trending",
-          "items": ["Conversation by conversation"]
-        }
-      ]
+      "title": "Empower your students and yourself",
+      "subtitle": "With Eisberg, you can conduct learning and coaching conversations more easily, confidently, and effectively",
+      "cta": "Discover Eisberg for free"
     },
     "story": {
-      "heading_1": "I don't have time for learning conversations on top of everything else!",
-      "description_1": "You give your all for your students every day, yet school life sometimes pushes you to your limits. Challenging behavior, demanding conversations with parents, and learning conversations that take a lot of time but rarely make a real difference.",
-      "description_2": "With Iceberg, you look beneath the surface. You discover what a child truly needs, find the right words, and work together to define the next steps that have a real impact in everyday school life. This transforms learning conversations from another mandatory task into your most powerful educational tool.",
-      "heading_2": "From now on, learning conversations become your most powerful educational tool",
-      "description_3": "With Eisberg, learning and coaching conversations become moments where motivation grows, relationships are strengthened, and trust is built. Students experience that their strengths are at the center and that their needs are taken seriously. Parents see that you pay close attention and take targeted action. Together, you develop concrete measures that truly make a difference in everyday school life. This takes the pressure off you, creates connection, and helps you solve challenges together while driving sustainable development forward."
+      "heading_1": "Achieve more and save time",
+      "description_1": "Eisberg supports you with preparation, during the conversation, and in the follow-up. Relevant questions and suggested wording provide guidance, while Eisberg transcribes the conversation, summarizes the key content, records next steps, and prepares the information for parents. This gives you more time to be fully present, build strong relationships, and foster motivation that comes from within. At the same time, your valuable educational work becomes visible.",
+      "heading_2": "Your strongest pedagogical tool",
+      "description_2": "Eisberg is your dynamic pedagogical companion. Learning paths, subject-specific and interdisciplinary competencies, goals, and next steps are connected across all conversations. This helps you keep track of what each student is working on, anchor goals sustainably, and empower students to take action. Feedback on the course of the conversation strengthens you and helps you continuously develop your conversational skills."
     },
     "support": {
       "eyebrow": "More than just software",
@@ -90,14 +69,44 @@
       "role": "Founder of Iceberg",
       "text": "You're not alone. Many teachers experience learning conversations as stressful, time-consuming, and little more than another box to tick. But that's only the surface. When you learn to take these conversations deeper, they become one of the most powerful tools for making everyday school life easier."
     },
-    "iceberg": {
-      "title": "Why the Name Iceberg?",
-      "text": "We believe in the potential of every student and understand how demanding the teaching profession can be. That’s why we developed Eisberg: to make visible what often remains beneath the surface of everyday school life. Because school is about much more than assessing performance and reacting to behavior. What we see at first glance is merely the tip of the iceberg. Beneath it lie strengths, needs, concerns, experiences, and enormous potential for growth. Eisberg stands for the courage to look closer, ask the right questions, and discover new paths together. This makes it possible to see what students truly need and the difference you make as a teacher every day."
+    "feedback": {
+      "description": "Eisberg makes visible what students really need and how you can support them in a targeted way. Parents are involved, feel heard and taken seriously, and work together with the teacher toward the same goal. At the same time, it becomes clear how much pedagogical expertise you bring to understanding, empowering, and supporting students throughout their development.",
+      "items": [
+        {
+          "message": "It warms our hearts! It is so wonderful to learn how aware our son is of his strengths and what he would like to continue working on.",
+          "author": "Parents of M., 3rd grade"
+        },
+        {
+          "message": "We are surprised by how openly our daughter talks to you. It is deeply touching to see how well you understand her and how openly and trustingly she talks about what is on her mind.",
+          "author": "Parents of L., 5th grade"
+        },
+        {
+          "message": "Your feedback helps us understand much better what our son experiences and what matters to him in everyday school life, and how we can support him at home as well. We feel like we are all working toward the same goal.",
+          "author": "Parents of N., 6th grade"
+        }
+      ]
     },
     "footer": {
       "title": "Experience how Iceberg transforms your learning conversations. Try it free for two months with two students—no commitment required.",
       "button": "Try Iceberg for Free"
-    }
+    },
+    "trust": [
+      {
+        "title": "100% GDPR-compliant",
+        "icon": "shield",
+        "items": ["Zero-Retention", "EU Servers"]
+      },
+      {
+        "title": "Everyone in the boat",
+        "icon": "users",
+        "items": ["Teacher", "Student", "Parents"]
+      },
+      {
+        "title": "Measurable growth",
+        "icon": "trending",
+        "items": ["Conversation by conversation"]
+      }
+    ]
   },
   "product": {
     "hero": {
@@ -241,10 +250,10 @@
       "cta": "Try it now"
     }
   },
-  "membership": {
+  "pricing": {
     "hero": {
-      "title": "Discover what suits you",
-      "description": "Effective learning and coaching conversations arise when sound educational knowledge meets a clear structure. Discover Pedagogic+, test Iceberg in your everyday school environment or combine both.",
+      "title": "Choose the support that fits your school day",
+      "description": "Eisberg supports you in conducting learning and coaching conversations in a structured way, making progress visible, and keeping track of the bigger picture. If you also want to deepen your pedagogical knowledge, gain new insights, and exchange ideas with other teachers, Pädagogik+ complements your work with Eisberg.",
       "illustrationText": "License illustration"
     },
     "included": {
@@ -274,74 +283,19 @@
       ]
     },
     "pricing": {
-      "eyebrow": "Pricing",
       "title": "Transparent. Simple. Fair.",
       "plans": [
         {
-          "title": "Pädagogik+ Membership",
-          "subtitle": "Your professional development for everyday school life",
-          "description": "Discover professional development programs, live workshops, and valuable insights from experienced experts on the topics that truly matter to you as a teacher. You’ll gain in-depth knowledge, practical ideas for implementation, and tried-and-tested materials that empower you and make a real difference in your everyday school life.",
-          "additional": {
-            "title": "Discover Pädagogik+ for free",
-            "note": "Your first month is free and without obligation."
-          },
-          "price": {
-            "monthly": {
-              "before": "Then",
-              "price": "CHF 24.20",
-              "after": "per month"
-            },
-            "annual": {
-              "before": "Billed annually",
-              "price": "CHF 290.-"
-            }
-          },
-          "included": [
-            {
-              "text": "Expert-led professional development"
-            },
-            {
-              "text": "Live workshops with experts"
-            },
-            {
-              "text": "Practice-tested materials and methods"
-            },
-            {
-              "text": "Practical ideas for your teaching"
-            },
-            {
-              "text": "Regularly updated content"
-            },
-            {
-              "text": "Exchange with dedicated teachers"
-            },
-            {
-              "text": "Personal and professional development"
-            },
-            {
-              "text": "Full access to the membership area"
-            }
-          ],
-          "cta": "Discover Pädagogik+ for free"
-        },
-        {
           "title": "Eisberg",
-          "subtitle": "For learning and coaching conversations that make a difference",
+          "subtitle": "Your tool for learning and coaching conversations that make a difference",
           "description": "Eisberg gives you structure, clarity, and the right questions for effective learning and coaching conversations, helping you make progress visible and document it securely.",
           "additional": {
             "title": "Explore it free for 2 months",
             "note": "Try Eisberg for 2 months with 2 students."
           },
           "price": {
-            "monthly": {
-              "before": "Then",
-              "price": "CHF 40.85",
-              "after": "per month"
-            },
-            "annual": {
-              "before": "Billed annually",
-              "price": "CHF 490.-"
-            }
+            "before": "Billed annually",
+            "price": "CHF 490.-"
           },
           "included": [
             {
@@ -375,23 +329,16 @@
         },
         {
           "highlight": "Best Support",
-          "title": "Eisberg and Pädagogik+ Combined",
-          "subtitle": "Professional development and practical conversation support, combined",
+          "title": "Eisberg + Pädagogik+",
+          "subtitle": "Use Eisberg. Grow your pedagogical expertise.",
           "description": "Combine Pädagogik+ with Eisberg and develop your educational practice further — with sound knowledge, practice-tested materials, and structured support for every conversation.",
           "additional": {
             "title": "Discover both for free (membership for 1 month, Eisberg for 2 months).",
             "note": "Try Eisberg with 2 students and get full access to Pädagogik+."
           },
           "price": {
-            "monthly": {
-              "before": "Then",
-              "price": "CHF 59.15",
-              "after": "per month"
-            },
-            "annual": {
-              "before": "Billed annually",
-              "price": "CHF 590.-"
-            }
+            "before": "Billed annually",
+            "price": "CHF 590.-"
           },
           "included": [
             {
@@ -420,8 +367,60 @@
             }
           ],
           "cta": "Explore both for free"
+        },
+        {
+          "title": "Pädagogik+ Membership",
+          "subtitle": "Your professional development and pedagogical support",
+          "description": "Discover professional development programs, live workshops, and valuable insights from experienced experts on the topics that truly matter to you as a teacher. You’ll gain in-depth knowledge, practical ideas for implementation, and tried-and-tested materials that empower you and make a real difference in your everyday school life.",
+          "additional": {
+            "title": "Discover Pädagogik+ for free",
+            "note": "Your first month is free and without obligation."
+          },
+          "price": {
+            "before": "Billed annually",
+            "price": "CHF 290.-"
+          },
+          "included": [
+            {
+              "text": "Expert-led professional development"
+            },
+            {
+              "text": "Live workshops with experts"
+            },
+            {
+              "text": "Practice-tested materials and methods"
+            },
+            {
+              "text": "Practical ideas for your teaching"
+            },
+            {
+              "text": "Regularly updated content"
+            },
+            {
+              "text": "Exchange with dedicated teachers"
+            },
+            {
+              "text": "Personal and professional development"
+            },
+            {
+              "text": "Full access to the membership area"
+            }
+          ],
+          "cta": "Discover Pädagogik+ for free"
         }
       ]
+    },
+    "brief": {
+      "description": "Would you like to use Eisberg for your class? With this template, you can briefly and convincingly show your school leadership how Eisberg supports you in your everyday school life and why investing in Eisberg is worthwhile for the entire school.",
+      "cta": "Download the template for your school leadership"
+    },
+    "leadership": {
+      "title": "GET YOUR SCHOOL LEADERSHIP ON BOARD",
+      "description_1": "Good learning and coaching conversations are not a private additional task for a committed teacher. They strengthen the quality of teaching, collaboration with parents, and the shared educational work of a school.",
+      "description_2": "That’s why your school may be willing to cover the costs of Eisberg or the complete package consisting of Eisberg and Pädagogik+.",
+      "description_3": "We have put together information for your school leadership on how teachers, students, parents, and the entire school can benefit.",
+      "cta": "Download information for my school leadership",
+      "additional": "Simply download, forward it, and start the conversation together."
     },
     "differences": {
       "title": "What distinguishes Pedagogic+ from Iceberg?",

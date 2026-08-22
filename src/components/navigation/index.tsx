@@ -6,8 +6,9 @@ import { useTranslation } from "react-i18next";
 const {
   ROUTE_FAQ,
   ROUTE_LANDING,
-  ROUTE_MEMBERSHIP,
+  ROUTE_PRICING,
   ROUTE_PRODUCT,
+  ROUTE_TEAM,
   ROUTE_SCHOOLS,
 } = RouteConstants;
 
@@ -36,14 +37,20 @@ const Navigation = ({ visibleFrom, device = false, onClick }: INavigation) => {
       />
       <NavigationLink
         device={device}
-        path={ROUTE_MEMBERSHIP}
-        label={t("navigation.membership")}
+        path={ROUTE_PRICING}
+        label={t("navigation.pricing")}
         onClick={onClick}
       />
       <NavigationLink
         device={device}
         path={ROUTE_FAQ}
         label={t("navigation.faq")}
+        onClick={onClick}
+      />
+      <NavigationLink
+        device={device}
+        path={ROUTE_TEAM}
+        label={t("navigation.team")}
         onClick={onClick}
       />
       <Divider size='sm' orientation='vertical' className={classes.divider} />

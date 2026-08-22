@@ -23,6 +23,10 @@
     margin-bottom: 20px;
   }
 
+  &.small {
+    font-size: 18px;
+  }
+
   &.big {
     font-size: 48px;
   }
@@ -41,6 +45,10 @@
     margin-bottom: 16px;
   }
 
+  .small {
+    font-size: 15px;
+  }
+
   .big {
     font-size: 36px;
   }
@@ -52,6 +60,10 @@
   }
   .margin {
     margin-bottom: 12px;
+  }
+
+  .small {
+    font-size: 12px;
   }
 
   .big {

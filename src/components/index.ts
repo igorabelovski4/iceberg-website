@@ -12,6 +12,7 @@ import Eyebrow from "./eyebrow";
 
 import FeatureCard from "./feature-card";
 import Features from "./product/features";
+import Feedback from "./home/feedback";
 import Founder from "./home/founder";
 
 import Header from "./header";
@@ -23,15 +24,14 @@ import HeroTitle from "./hero-title";
 import LanguagePicker from "./language-picker";
 import Layout from "./layout";
 
-import MembershipCards from "./membership/cards";
-import MembershipOffer from "./membership/offer";
-
 import Navigation from "./navigation";
 import NavigationLink from "./navigation-link";
 
 import OutcomeCarousel from "./product/carousel";
 
 import PrimaryButton from "./primary-button";
+import PricingCards from "./pricing/cards";
+import PricingOffer from "./pricing/offer";
 import ProsConsItem from "./pros-cons";
 
 import Routine from "./home/routine";
@@ -42,6 +42,7 @@ import SchoolFaq from "./schools/faq";
 import Story from "./home/story";
 
 import Title from "./title";
+import Team from "./team";
 
 import UserInterface from "./product/user-interface";
 
@@ -58,6 +59,7 @@ export {
   Eyebrow,
   FeatureCard,
   Features,
+  Feedback,
   Founder,
   Header,
   HeroCard,
@@ -66,8 +68,8 @@ export {
   HeroTitle,
   LanguagePicker,
   Layout,
-  MembershipCards,
-  MembershipOffer,
+  PricingCards,
+  PricingOffer,
   Navigation,
   NavigationLink,
   OutcomeCarousel,
@@ -79,6 +81,7 @@ export {
   SchoolFaq,
   Story,
   Title,
+  Team,
   UserInterface,
   Video,
   Viewports,

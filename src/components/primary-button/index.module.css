@@ -37,6 +37,15 @@
   }
 }
 
+.dark {
+  background-color: var(--color-text-primary);
+
+  &:hover {
+    background-color: var(--color-white);
+    color: var(--color-text-primary);
+  }
+}
+
 .white-primary {
   background-color: var(--color-white);
   color: var(--color-brand-primary-very-dark);

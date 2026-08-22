@@ -2,8 +2,9 @@
   "navigation": {
     "home": "Startseite",
     "product": "Produkt",
-    "membership": "Mitgliedschaft",
+    "pricing": "Preise",
     "faq": "FAQ",
+    "team": "Team",
     "schools": "Für Schulleitungen"
   },
   "languages": {
@@ -19,37 +20,15 @@
   },
   "home": {
     "hero": {
-      "title": "Führe Lern- und Coachinggespräche leichter, sicherer und wirksamer",
-      "subtitle": "Stärke deine Schüler:innen und dich selbst",
-      "description": "Mit Eisberg behältst du den roten Faden, findest die passenden Fragen und begleitest deine Schüler:innen mit Klarheit und nachhaltiger Wirkung.",
-      "cta": "Eisberg kostenfrei entdecken",
-      "additional_1": "2 Monate mit 2 Schüler:innen kostenfrei und unverbindlich.",
-      "additional_2": "Du möchtest zuerst erfahren, wie wirksame Lern- und Coachinggespräche gelingen?",
-      "additional_3": "Praxisnahe Impulse, die du sofort in deinem Schulalltag anwenden kannst.",
-      "badges": [
-        {
-          "title": "100% DSGVO-konform",
-          "icon": "shield",
-          "items": ["Zero-Retention", "EU-Server"]
-        },
-        {
-          "title": "Alle im Boot",
-          "icon": "users",
-          "items": ["Lehrperson", "Sch\u00fcler:in", "Eltern"]
-        },
-        {
-          "title": "Messbare Entwicklung",
-          "icon": "trending",
-          "items": ["Gespr\u00e4ch f\u00fcr Gespr\u00e4ch"]
-        }
-      ]
+      "title": "Stärke deine Lernenden und dich selbst",
+      "subtitle": "Mit Eisberg führst du Lern- und Coachinggespräche leichter, sicherer und wirksamer",
+      "cta": "Eisberg kostenfrei entdecken"
     },
     "story": {
-      "heading_1": "Ich habe nicht auch noch Zeit für Lerngespräche!",
-      "description_1": "Du gibst jeden Tag alles für deine Schüler und Schülerinnen und trotzdem stösst du im Schulalltag manchmal an deine Grenzen. Herausforderndes Verhalten, anspruchsvolle Elterngespräche und Lerngespräche, die viel Zeit kosten, aber kaum etwas verändern.",
-      "description_2": "Mit Eisberg blickst du unter die Oberfläche. Du erkennst, was ein Kind wirklich braucht, findest die richtigen Worte und entwickelst gemeinsam nächste Schritte, die im Alltag wirken. So werden Lerngespräche vom zusätzlichen Pflichttermin zu deinem stärksten pädagogischen Werkzeug.",
-      "heading_2": "Ab sofort wird das Lerngespräch zu deinem stärksten pädagogischen Werkzeug",
-      "description_3": "Mit Eisberg werden Lern- und Coachinggespräche zu Momenten, in denen Motivation wächst, Beziehungen gestärkt werden und Vertrauen entsteht. Schüler:innen erleben, dass ihre Stärken im Mittelpunkt stehen und ihre Bedürfnisse ernst genommen werden. Eltern erkennen, dass du genau hinschaust und gezielt handelst. Gemeinsam entwickelt ihr konkrete Massnahmen, die im Schulalltag wirklich etwas verändern. Das entlastet dich, schafft Verbindung und hilft euch, Herausforderungen gemeinsam zu lösen und Entwicklung nachhaltig voranzubringen."
+      "heading_1": "Mehr bewirken und Zeit sparen",
+      "description_1": "Eisberg entlastet dich bei der Vorbereitung, im Gespräch und bei der Nachbereitung. Passende Fragen und Formulierungshilfen unterstützen dich, während Eisberg das Gespräch transkribiert, die wichtigsten Inhalte zusammenfasst, nächste Schritte festhält und die Elterninformation vorbereitet. So bleibt dir mehr Zeit für volle Präsenz, stärkende Beziehungen und Motivation, die von innen wächst. Gleichzeitig wird deine wertvolle pädagogische Arbeit sichtbar.",
+      "heading_2": "Dein stärkstes pädagogisches Werkzeug",
+      "description_2": "Eisberg ist dein dynamischer pädagogischer Begleiter. Lernwege, fachliche und überfachliche Kompetenzen, Ziele und nächste Schritte werden über alle Gespräche hinweg miteinander verbunden. So behältst du im Blick, wer woran arbeitet, Ziele werden nachhaltig verankert und Schüler und Schülerinnen kommen ins Handeln. Rückmeldungen zum Gesprächsverlauf stärken dich und helfen dir, deine Gesprächsführung kontinuierlich weiterzuentwickeln."
     },
     "support": {
       "eyebrow": "Mehr als eine Software",
@@ -90,14 +69,44 @@
       "role": "Gründerin Eisberg",
       "text": "Du bist nicht allein. Viele Lehrkräfte erleben Lerngespräche als extrem stressig, zeitraubend und als bloße Pflichtübung. Doch das ist nur die Oberfläche. Führst du ein Lerngespräch in die Tiefe, erleichtert es deinen Schulalltag. "
     },
-    "iceberg": {
-      "title": "Was hat es eigentlich mit dem Namen Eisberg auf sich?",
-      "text": "Wir glauben an das Potenzial aller Schüler:innen und wissen, wie anspruchsvoll der Beruf der Lehrperson ist. Deshalb haben wir Eisberg entwickelt: um das sichtbar zu machen, was im Schulalltag oft unter der Oberfläche bleibt. Denn Schule bedeutet weit mehr, als Leistungen zu beurteilen und auf Verhalten zu reagieren. Das, was wir auf den ersten Blick sehen, ist lediglich die Spitze des Eisbergs. Darunter liegen Stärken, Bedürfnisse, Sorgen, Erfahrungen und ein enormes Entwicklungspotenzial. Eisberg steht für den Mut, genauer hinzuschauen, die richtigen Fragen zu stellen und gemeinsam neue Wege zu entdecken. So wird sichtbar, was Schüler:innen wirklich brauchen und was du als Lehrperson jeden Tag bewirkst."
+    "feedback": {
+      "description": "Eisberg macht sichtbar, was Schüler und Schülerinnen wirklich brauchen und wie du sie gezielt begleiten kannst. Eltern werden einbezogen, fühlen sich ernst genommen und ziehen gemeinsam mit der Lehrperson am gleichen Strang. Gleichzeitig wird sichtbar, mit wie viel pädagogischer Kompetenz du Schüler und Schülerinnen wahrnimmst, stärkst und in ihrer Entwicklung begleitest.",
+      "items": [
+        {
+          "message": "Da blüht unser Herz auf! Es ist so schön zu erfahren, wie bewusst unser Sohn seine Stärken wahrnimmt und woran er weiterarbeiten möchte.",
+          "author": "Eltern von M., 3. Klasse"
+        },
+        {
+          "message": "Wir sind überrascht, dass sich unsere Tochter Ihnen gegenüber so öffnet. Es berührt uns zu sehen, wie gut Sie sie verstehen und wie vertrauensvoll sie über das spricht, was sie beschäftigt.",
+          "author": "Eltern von L., 5. Klasse"
+        },
+        {
+          "message": "Durch Ihre Rückmeldung verstehen wir viel besser, was unseren Sohn im Schulalltag bewegt und wie wir ihn auch zu Hause unterstützen können. Wir haben das Gefühl, gemeinsam an einem Strang zu ziehen.",
+          "author": "Eltern von N., 6. Klasse"
+        }
+      ]
     },
     "footer": {
       "title": "Erlebe, wie Eisberg deine Lerngespräche verändert: zwei Monate mit zwei Schüler:innen kostenfrei und unverbindlich testen",
       "button": "Eisberg kostenfrei testen"
-    }
+    },
+    "trust": [
+      {
+        "title": "100% DSGVO-konform",
+        "icon": "shield",
+        "items": ["Zero-Retention", "EU-Server"]
+      },
+      {
+        "title": "Alle im Boot",
+        "icon": "users",
+        "items": ["Lehrperson", "Sch\u00fcler:in", "Eltern"]
+      },
+      {
+        "title": "Messbare Entwicklung",
+        "icon": "trending",
+        "items": ["Gespr\u00e4ch f\u00fcr Gespr\u00e4ch"]
+      }
+    ]
   },
   "product": {
     "hero": {
@@ -241,10 +250,10 @@
       "cta": "Jetzt ausprobieren"
     }
   },
-  "membership": {
+  "pricing": {
     "hero": {
-      "title": "Entdecke, was zu dir passt",
-      "description": "Gute Lern- und Coachinggespräche entstehen, wenn pädagogisches Wissen und eine klare Struktur zusammenkommen. Entdecke Pädagogik+, teste Eisberg in deinem Schulalltag oder verbinde beides miteinander.",
+      "title": "Wähle die Begleitung, die zu deinem Schulalltag passt",
+      "description": "Eisberg begleitet dich dabei, Lern- und Coachinggespräche strukturiert zu führen, Entwicklungen sichtbar zu machen und den roten Faden zu behalten. Wenn du zusätzlich dein pädagogisches Wissen vertiefen, neue Impulse erhalten und dich mit anderen Lehrpersonen austauschen möchtest, ergänzt Pädagogik+ deine Arbeit mit Eisberg.",
       "illustrationText": "Lizenz-Illustration"
     },
     "included": {
@@ -274,59 +283,11 @@
       ]
     },
     "pricing": {
-      "eyebrow": "Preise",
       "title": "Transparent. Einfach. Fair.",
       "plans": [
         {
-          "title": "Pädagogik+ Mitgliedschaft",
-          "subtitle": "Deine pädagogische Weiterbildung für den Schulalltag",
-          "description": "Entdecke Weiterbildungen, Live Workshops und wertvolle Impulse von erfahrenen Expert:innen zu den Themen, die dich als Lehrperson wirklich beschäftigen. Du erhältst fundiertes Wissen, konkrete Umsetzungsideen und praxiserprobte Materialien, die dich stärken und im Schulalltag spürbar weiterbringen.",
-          "additional": {
-            "title": "Pädagogik+ kostenfrei entdecken",
-            "note": "Dein erster Monat ist kostenfrei und unverbindlich."
-          },
-          "price": {
-            "monthly": {
-              "before": "Danach",
-              "price": "CHF 24.20",
-              "after": "pro Monat"
-            },
-            "annual": {
-              "before": "Jährlich verrechnet",
-              "price": "CHF 290.-"
-            }
-          },
-          "included": [
-            {
-              "text": "Fachlich fundierte Weiterbildungen"
-            },
-            {
-              "text": "Live Workshops mit Expert:innen"
-            },
-            {
-              "text": "Praxiserprobte Materialien und Methoden"
-            },
-            {
-              "text": "Konkrete Impulse für deinen Unterricht"
-            },
-            {
-              "text": "Regelmässige neue Inhalte"
-            },
-            {
-              "text": "Austausch mit engagierten Lehrpersonen"
-            },
-            {
-              "text": "Persönliche und fachliche Weiterentwicklung"
-            },
-            {
-              "text": "Vollständiger Zugang zum Mitgliederbereich"
-            }
-          ],
-          "cta": "Pädagogik+ kostenfrei entdecken"
-        },
-        {
           "title": "Eisberg",
-          "subtitle": "Für Lern- und Coachinggespräche, die weiterbringen",
+          "subtitle": "Dein Werkzeug für Lern- und Coachinggespräche, die weiterbringen",
           "description": "Eisberg gibt dir Struktur, Klarheit und passende Fragen für wirksame Lern- und Coachinggespräche und unterstützt dich dabei, Entwicklungen sichtbar zu machen und sicher zu dokumentieren.",
           "additional": {
             "title": "2 Monate kostenfrei entdecken",
@@ -375,8 +336,8 @@
         },
         {
           "highlight": "Beste Begleitung",
-          "title": "Eisberg und Pädagogik+ kombiniert",
-          "subtitle": "Pädagogische Weiterentwicklung und konkrete Gesprächsbegleitung vereint",
+          "title": "Eisberg + Pädagogik+",
+          "subtitle": "Eisberg anwenden. Pädagogisch weiterwachsen.",
           "description": "Verbinde Pädagogik+ mit Eisberg und entwickle deine pädagogische Praxis weiter – mit fundiertem Wissen, praxiserprobten Materialien und strukturierter Begleitung für jedes Gespräch.",
           "additional": {
             "title": "Beides kostenfrei entdecken (Mitgliedschaft 1 Monat, Eisberg 2 Monate)",
@@ -420,8 +381,67 @@
             }
           ],
           "cta": "Beides kostenfrei entdecken"
+        },
+        {
+          "title": "Pädagogik+ Mitgliedschaft",
+          "subtitle": "Deine pädagogische Weiterbildung und Begleitung",
+          "description": "Entdecke Weiterbildungen, Live Workshops und wertvolle Impulse von erfahrenen Expert:innen zu den Themen, die dich als Lehrperson wirklich beschäftigen. Du erhältst fundiertes Wissen, konkrete Umsetzungsideen und praxiserprobte Materialien, die dich stärken und im Schulalltag spürbar weiterbringen.",
+          "additional": {
+            "title": "Pädagogik+ kostenfrei entdecken",
+            "note": "Dein erster Monat ist kostenfrei und unverbindlich."
+          },
+          "price": {
+            "monthly": {
+              "before": "Danach",
+              "price": "CHF 24.20",
+              "after": "pro Monat"
+            },
+            "annual": {
+              "before": "Jährlich verrechnet",
+              "price": "CHF 290.-"
+            }
+          },
+          "included": [
+            {
+              "text": "Fachlich fundierte Weiterbildungen"
+            },
+            {
+              "text": "Live Workshops mit Expert:innen"
+            },
+            {
+              "text": "Praxiserprobte Materialien und Methoden"
+            },
+            {
+              "text": "Konkrete Impulse für deinen Unterricht"
+            },
+            {
+              "text": "Regelmässige neue Inhalte"
+            },
+            {
+              "text": "Austausch mit engagierten Lehrpersonen"
+            },
+            {
+              "text": "Persönliche und fachliche Weiterentwicklung"
+            },
+            {
+              "text": "Vollständiger Zugang zum Mitgliederbereich"
+            }
+          ],
+          "cta": "Pädagogik+ kostenfrei entdecken"
         }
       ]
+    },
+    "brief": {
+      "description": "Du möchtest Eisberg für deine Klasse einsetzen? Mit dieser Vorlage kannst du deiner Schulleitung kurz und überzeugend zeigen, wie Eisberg dich im Schulalltag unterstützt und weshalb sich die Investition für die ganze Schule lohnt.",
+      "cta": "Vorlage für die Schulleitung herunterladen"
+    },
+    "leadership": {
+      "title": "NIMM DEINE SCHULLEITUNG MIT INS BOOT",
+      "description_1": "Gute Lern- und Coachinggespräche sind keine private Zusatzaufgabe einer engagierten Lehrperson. Sie stärken die Unterrichtsqualität, die Zusammenarbeit mit den Eltern und die gemeinsame pädagogische Arbeit einer Schule.",
+      "description_2": "Vielleicht übernimmt deine Schule deshalb die Kosten für Eisberg oder für das Gesamtpaket aus Eisberg und Pädagogik+.",
+      "description_3": "Wir haben für deine Schulleitung zusammengestellt, wie Lehrpersonen, Schüler:innen, Eltern und die ganze Schule davon profitieren.",
+      "cta": "Informationen für meine Schulleitung herunterladen",
+      "additional": "Einfach herunterladen, weiterleiten und gemeinsam ins Gespräch kommen."
     },
     "differences": {
       "title": "Was unterscheidet Pädagogik+ und Eisberg?",
@@ -520,6 +540,30 @@
         "id": "what-makes-it-different",
         "question": "Was unterscheidet Eisberg von anderen Tools?",
         "answer": "Eisberg ist nicht einfach ein Dokumentationstool. Es verbindet strukturierte Gespr\u00e4chsf\u00fchrung, Unterst\u00fctzung in Echtzeit und automatische Nachbereitung, um die Qualit\u00e4t von Gespr\u00e4chen zu verbessern \u2013 nicht nur, um sie festzuhalten."
+      }
+    ]
+  },
+  "team": {
+    "items": [
+      {
+        "name": "Branka Rezan",
+        "role": "Gründerin & Geschäftsführerin | Lehrerin, Schulcoach & psychologische Beraterin",
+        "biography": "Branka Rezan ist Gründerin und Geschäftsführerin von Pädagogik+. Als Lehrerin, Schulcoach und psychologische Beraterin verbindet sie langjährige Erfahrung aus dem Schulalltag mit fundiertem Wissen aus Pädagogik, Psychologie und Coaching. Ihr Ziel ist es, Lehrpersonen zu stärken und Lernlandschaften mitzugestalten, in denen Schüler und Schülerinnen wachsen, Verantwortung übernehmen und Vertrauen in die eigenen Fähigkeiten entwickeln."
+      },
+      {
+        "name": "Sandra Rohner",
+        "role": "Geschäftsleitung | Vertrieb & Partnerschaften",
+        "biography": "Sandra Rohner kennt Schule aus knapp 30 Jahren eigener Praxis. Im Zentrum ihrer Arbeit steht ein stärkender Blick auf Kinder und Jugendliche: Was ist schon da? Was gelingt? Und was braucht es, damit der nächste Schritt möglich wird? Heute begleitet sie Schulen, Teams und Lehrpersonen und bringt ihre Erfahrung aus dem Schulalltag in ihre Arbeit ein. Sie ist überzeugt, dass gute Gespräche etwas in Bewegung bringen können, wenn wir zuhören, die richtigen Fragen stellen und den Blick auf Möglichkeiten statt auf Defizite richten."
+      },
+      {
+        "name": "Betinna",
+        "role": "Placeholder",
+        "biography": "Placeholder"
+      },
+      {
+        "name": "Kathy Golinski",
+        "role": "Marketing & Kommunikation",
+        "biography": "Kathy Golinski unterstützt Pädagogik+ mit ihrer Erfahrung aus über 20 Jahren Marketing und Kommunikation. Gemeinsam mit Branka sorgt sie dafür, dass die Ideen, Angebote und die Vision von Pädagogik+ die Menschen erreichen, für die sie gemacht sind. Dabei verbindet sie strategisches Marketing mit einem feinen Gespür für Sprache, Inhalte und eine Kommunikation, die nahbar bleibt. Als Mama von zwei Schulkindern liegt ihr die Arbeit von Pädagogik+ auch persönlich am Herzen – und sie brennt dafür, gemeinsam mit Branka Veränderung im Schulalltag sichtbar und möglich zu machen. www.kathinka.online"
       }
     ]
   },

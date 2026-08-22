@@ -1,6 +1,6 @@
 import {
-  MEMBERSHIP_CARDS_ICON_MAP,
-  PAGE_HERO_BADGES_ICON_MAP,
+  PRICING_CARDS_ICON_MAP,
+  TRUST_BADGES_ICON_MAP,
   FEATURES_ICON_MAP,
 } from "@/constants/app";
 
@@ -49,12 +49,14 @@ export interface IButton {
   href?: string;
   icon?: boolean;
   block?: boolean;
+  download?: boolean;
   onClick?: () => void;
 }
 
 export type IButtonVariant =
   | "primary"
   | "secondary"
+  | "dark"
   | "white-primary"
   | "white-secondary"
   | "white-dark";
@@ -79,7 +81,7 @@ export interface ISectionTitle {
 
 export type ISectionTitleVariant = "dark" | "light";
 
-export type IIconName = keyof typeof PAGE_HERO_BADGES_ICON_MAP;
+export type IIconName = keyof typeof TRUST_BADGES_ICON_MAP;
 
 export interface IHeroCard {
   icon: IIconName;
@@ -112,6 +114,7 @@ export interface ITitle {
   children: string;
   variant?: ITitleVariant;
   margin?: boolean;
+  small?: boolean;
   big?: boolean;
   alignLeft?: boolean;
   thin?: boolean;
@@ -134,7 +137,7 @@ export interface IFeatureCard {
   alternative?: boolean;
 }
 
-export type IFeatureCardIconName = keyof typeof MEMBERSHIP_CARDS_ICON_MAP;
+export type IFeatureCardIconName = keyof typeof PRICING_CARDS_ICON_MAP;
 
 export interface IProsConsSetion {
   cons?: boolean;
@@ -163,7 +166,7 @@ export interface IFeatureItem {
 
 export interface IBadgeItem {
   title: string;
-  icon: keyof typeof PAGE_HERO_BADGES_ICON_MAP;
+  icon: keyof typeof TRUST_BADGES_ICON_MAP;
   items: string[];
 }
 
@@ -182,13 +185,13 @@ export interface IOutcomeSlide {
   index: number;
 }
 
-export interface IMembershipBenefitItem {
+export interface IPricingBenefitItem {
   title: string;
   description: string;
   icon: string;
 }
 
-export interface IMembershipPlanBenefitItem {
+export interface IPricingPlanBenefitItem {
   text: string;
 }
 
@@ -225,4 +228,20 @@ export interface INavigation {
 export interface IRoutineItem {
   title: string;
   text: string;
+}
+
+export interface IStoryCarouselSlide {
+  image: any;
+  index: number;
+}
+
+export interface IFeedbackItem {
+  text: string;
+  author: string;
+}
+
+export interface ITeamItem {
+  name: string;
+  role: string;
+  biography: string;
 }

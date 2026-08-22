@@ -11,6 +11,7 @@ const PrimaryButton = ({
   block,
   onClick,
   href,
+  download = false,
 }: IButton) => {
   const isAnchor = !!href;
 
@@ -19,6 +20,7 @@ const PrimaryButton = ({
       variant='filled'
       component={isAnchor ? "a" : "button"}
       href={href}
+      download={download}
       target={isAnchor ? "_blank" : undefined}
       rel={isAnchor ? "noopener noreferrer" : undefined}
       className={clsx(classes.button, classes[variant], block && classes.block)}

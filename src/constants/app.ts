@@ -11,7 +11,6 @@ import {
   IconMailOpened,
   IconTargetArrow,
   IconUserShare,
-  IconAlertTriangle,
 } from "@tabler/icons-react";
 
 export const HEADER_HEIGHT = 80;
@@ -20,8 +19,11 @@ export const LOGO_IMAGE = "/assets/images/eisberg-logo-light.svg";
 export const LANDING_HERO_IMAGE = "/assets/images/iceberg.webp";
 export const HERO_3D_VIDEO_IMAGE = "/assets/images/3d-video.webp";
 export const FAQ_BACKGROUND_IMAGE = "/assets/images/iceberg-deep.webp";
-export const FOUNDER_IMAGE = "/assets/images/founder.webp";
-export const ICEBERG_OVERVIEW = "/assets/images/iceberg-overview.webp";
+export const FOUNDER_IMAGE = "/assets/images/branka.webp";
+export const TEAM_0_IMAGE = "/assets/images/branka.webp";
+export const TEAM_1_IMAGE = "/assets/images/sandra.webp";
+export const TEAM_2_IMAGE = "/assets/images/kathy.webp";
+export const TEAM_3_IMAGE = "/assets/images/kathy.webp";
 
 export const HOME_VIDEO_MP4 = "/assets/videos/video-home.mp4";
 export const HOME_VIDEO_WEBM = "/assets/videos/video-home.webm";
@@ -41,8 +43,16 @@ export const FR_FLAG = "/assets/flags/fr.png";
 export const GB_FLAG = "/assets/flags/gb.png";
 export const IT_FLAG = "/assets/flags/it.png";
 
-export const STORY_1_IMAGE = "/assets/illustrations/overwhelmed.svg";
-export const STORY_2_IMAGE = "/assets/illustrations/success.svg";
+export const STORY_1_IMAGE = "/assets/images/story-1.webp";
+export const STORY_2_IMAGE = "/assets/images/story-2.webp";
+export const STORY_3_IMAGE = "/assets/images/story-3.webp";
+export const STORY_4_IMAGE = "/assets/images/story-4.webp";
+export const STORY_5_IMAGE = "/assets/images/story-5.webp";
+export const STORY_6_IMAGE = "/assets/images/story-6.webp";
+export const STORY_7_IMAGE = "/assets/images/story-7.webp";
+export const STORY_8_IMAGE = "/assets/images/story-8.webp";
+export const STORY_9_IMAGE = "/assets/images/story-9.webp";
+export const STORY_10_IMAGE = "/assets/images/story-10.webp";
 export const STORY_ARROW = "/assets/images/arrow.svg";
 
 export const APP_STORE_IMAGE = "/assets/images/app-store-button.webp";
@@ -69,7 +79,36 @@ export const CONFIDENCE_IMAGE = "/assets/illustrations/stand-up.png";
 export const TEAM_IMAGE = "/assets/illustrations/team.png";
 export const CERTIFICATION_IMAGE = "/assets/images/membership.webp";
 
-export const PAGE_HERO_BADGES_ICON_MAP = {
+export const BRIEF_DOCUMENT = "/assets/documents/brief.pdf";
+
+export const AVATAR_IMAGE = "/assets/illustrations/avatar.svg";
+
+export const STAR_IMAGE = "/assets/images/star.svg";
+
+export const TEAM_IMAGES = [
+  TEAM_0_IMAGE,
+  TEAM_1_IMAGE,
+  TEAM_2_IMAGE,
+  TEAM_3_IMAGE,
+];
+
+export const STORY_0_IMAGES = [
+  STORY_1_IMAGE,
+  STORY_2_IMAGE,
+  STORY_3_IMAGE,
+  STORY_4_IMAGE,
+  STORY_5_IMAGE,
+];
+
+export const STORY_1_IMAGES = [
+  STORY_6_IMAGE,
+  STORY_7_IMAGE,
+  STORY_8_IMAGE,
+  STORY_9_IMAGE,
+  STORY_10_IMAGE,
+];
+
+export const TRUST_BADGES_ICON_MAP = {
   shield: IconShield,
   users: IconUsers,
   trending: IconTrendingUp,
@@ -98,7 +137,7 @@ export const OUTCOME_IMAGE_MAP = {
   confidence: CONFIDENCE_IMAGE,
 } as const;
 
-export const MEMBERSHIP_CARDS_ICON_MAP = {
+export const PRICING_CARDS_ICON_MAP = {
   headphones: IconHeadphones,
   camera: IconVideo,
   people: IconUsers,

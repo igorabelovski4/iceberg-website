@@ -4,12 +4,12 @@ import { IHeroCard } from "@/types/common";
 
 import { AppConstants } from "@/constants";
 
-const { PAGE_HERO_BADGES_ICON_MAP } = AppConstants;
+const { TRUST_BADGES_ICON_MAP } = AppConstants;
 
 import classes from "./index.module.css";
 
 const HeroCard = ({ icon, title, items }: IHeroCard) => {
-  const Icon = PAGE_HERO_BADGES_ICON_MAP[icon];
+  const Icon = TRUST_BADGES_ICON_MAP[icon];
 
   return (
     <>
