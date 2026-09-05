@@ -50,12 +50,12 @@ export function ProductPage() {
           <SectionTitle margin>{t("product.experience.title")}</SectionTitle>
           <UserInterface />
         </Section>
-        <Section>
-          <Eyebrow>{t("product.methodology.eyebrow")}</Eyebrow>
-          <SectionTitle>{t("product.methodology.title")}</SectionTitle>
+        <Section variant="dark">
+          <Eyebrow variant="light">{t("product.methodology.eyebrow")}</Eyebrow>
+          <SectionTitle variant="light">{t("product.methodology.title")}</SectionTitle>
           <Stack gap='lg' mt='xl'>
             {methodologyDescriptions.map((description, index) => (
-              <Description align='left' key={index}>
+              <Description variant="light" align='left' key={index}>
                 {description.text}
               </Description>
             ))}

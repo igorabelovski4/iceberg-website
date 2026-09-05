@@ -4,105 +4,85 @@
     "product": "Product",
     "pricing": "Pricing",
     "faq": "FAQ",
-    "team": "Team",
-    "schools": "For Principals"
+    "team": "About us",
+    "schools": "For school leadership",
+    "privacy": "Privacy Policy"
   },
   "languages": {
-    "en": "EN",
     "de": "DE",
-    "it": "IT",
-    "fr": "FR"
+    "ch": "CH",
+    "en": "EN",
+    "us": "US"
   },
   "cta": {
     "start": "Get started",
     "try": "Try it now",
-    "webinar": "To the free webinar"
+    "webinar": "Join the free webinar"
   },
   "home": {
     "hero": {
-      "title": "Empower your students and yourself",
-      "subtitle": "With Eisberg, you can conduct learning and coaching conversations more easily, confidently, and effectively",
+      "title": "Empower your learners and yourself",
+      "subtitle": "With Eisberg, you can lead learning and coaching conversations more easily, confidently and effectively",
       "cta": "Discover Eisberg for free"
     },
     "story": {
       "heading_1": "Achieve more and save time",
-      "description_1": "Eisberg supports you with preparation, during the conversation, and in the follow-up. Relevant questions and suggested wording provide guidance, while Eisberg transcribes the conversation, summarizes the key content, records next steps, and prepares the information for parents. This gives you more time to be fully present, build strong relationships, and foster motivation that comes from within. At the same time, your valuable educational work becomes visible.",
-      "heading_2": "Your strongest pedagogical tool",
-      "description_2": "Eisberg is your dynamic pedagogical companion. Learning paths, subject-specific and interdisciplinary competencies, goals, and next steps are connected across all conversations. This helps you keep track of what each student is working on, anchor goals sustainably, and empower students to take action. Feedback on the course of the conversation strengthens you and helps you continuously develop your conversational skills."
+      "description_1": "Eisberg supports you before, during and after the conversation. Relevant questions and wording suggestions support you, while Eisberg transcribes the conversation, summarises the key content, records next steps and prepares the information for parents. This gives you more time to be fully present, build strong relationships and foster motivation that comes from within. At the same time, your valuable educational work becomes visible.",
+      "heading_2": "Your strongest tool for effective learning conversations",
+      "description_2": "Eisberg supports you before, during and after every learning and coaching conversation. Learning pathways, subject-specific and interdisciplinary skills, goals and next steps become visible and connected across multiple conversations. This allows you to see at a glance what each student is working on and ensures that agreed goals continue to have an impact in everyday school life. Students are empowered to take action, while you receive valuable feedback that helps you continuously develop your conversation skills."
     },
     "support": {
-      "eyebrow": "More than just software",
-      "title": "With Eisberg, you get a complete support system that guides you through your learning and coaching conversations, takes the pressure off, and helps you grow professionally."
+      "eyebrow": "More than software",
+      "title": "With Eisberg, you get a complete support system that accompanies you through your learning and coaching conversations, relieves your workload and helps you develop professionally."
     },
     "idea": {
       "eyebrow": "From the founder",
-      "title": "The Idea behind Iceberg",
-      "subtitle": "Guide with confidence. Create lasting impact."
+      "title": "The idea behind Eisberg",
+      "subtitle": "With Eisberg, provide clearer guidance and achieve more."
     },
     "routine": {
-      "title": "How Iceberg Fits Into Your Everyday Routine",
-      "items": [
-        {
-          "title": "Everything at a glance",
-          "text": "Open Iceberg and instantly see where you stand with each student: your last conversation, key observations, current topics, agreed goals, and next steps. Instead of searching through notes or trying to remember the details, you're prepared in just a few minutes. You enter every conversation with confidence because everything you need is right in front of you."
-        },
-        {
-          "title": "Be fully present in every conversation",
-          "text": "Iceberg guides you through learning and coaching conversations with carefully designed prompts—from the opening questions to goals, challenges, aspirations, and the next small step. Together, you create a personal affirmation and a meaningful image that help the student stay motivated and remember their own strengths. While you focus on listening, asking questions, and building trust, Iceberg transcribes the conversation in the background. That means you can be fully present instead of taking notes, organizing information, and documenting everything at the same time."
-        },
-        {
-          "title": "Follow-up that practically writes itself",
-          "text": "After the conversation, Iceberg automatically summarizes the key points for you. Strengths, competencies, goals, challenges, and next steps are clearly organized and professionally written. Within minutes, you have a polished summary that can be sent directly to parents as an email—if needed, even in the family's preferred language."
-        },
-        {
-          "title": "Capture observations with ease",
-          "text": "Between conversations, simply record quick observations as voice notes. Iceberg automatically links them to the right student, so they're ready whenever you need them. Instead of starting your next conversation with a blank page, you'll have authentic insights from everyday school life at your fingertips."
-        },
-        {
-          "title": "Expert guidance exactly when you need it",
-          "text": "Sometimes you sense there's more beneath the surface. A student's behavior puzzles you. A conversation didn't go as planned. A child seems stuck. Iceberg supports you with evidence-based guidance on behavior, classroom management, relationship building, learning strategies, and parent communication. It helps you better understand challenging situations, discover new approaches, and confidently plan your next steps."
-        }
-      ]
+      "title": "Fully present in the conversation",
+      "description": "Eisberg guides you through the learning and coaching conversation with targeted questions: from the opening and exploring wishes, goals and obstacles to the next small step. The questions were developed by certified learning coaches and learning therapists. This helps you keep the thread, go deeper from the very beginning and lead conversations that move people and create real change. The conversation results in a personal empowering statement and a fitting image that help the student stay on track and remember their own strengths. While you listen, ask questions and build a relationship, Eisberg transcribes in the background. This means you can be truly present instead of having to take notes, structure information and document everything at the same time."
     },
     "founder": {
       "name": "Branka Rezan",
-      "role": "Founder of Iceberg",
-      "text": "You're not alone. Many teachers experience learning conversations as stressful, time-consuming, and little more than another box to tick. But that's only the surface. When you learn to take these conversations deeper, they become one of the most powerful tools for making everyday school life easier."
+      "role": "Founder of Eisberg",
+      "text": "You are not alone. Many teachers experience learning conversations as extremely stressful, time-consuming and little more than a box-ticking exercise. But that is only the surface. When you take a learning conversation deeper, it makes everyday school life easier."
     },
     "feedback": {
-      "description": "Eisberg makes visible what students really need and how you can support them in a targeted way. Parents are involved, feel heard and taken seriously, and work together with the teacher toward the same goal. At the same time, it becomes clear how much pedagogical expertise you bring to understanding, empowering, and supporting students throughout their development.",
+      "description": "When parents feel that their child is truly seen, Eisberg makes visible what students need, what they are already doing well and which next step can help them move forward. Parents feel taken seriously, gain a better understanding of the educational support and can actively support the agreed steps. At the same time, it becomes visible how much expertise, appreciation and care you bring to strengthening students and supporting their development. Before the testimonials: What parents say about conversations with Eisberg",
       "items": [
         {
-          "message": "It warms our hearts! It is so wonderful to learn how aware our son is of his strengths and what he would like to continue working on.",
+          "message": "Our hearts are bursting with joy! It is so wonderful to see how consciously our son recognises his strengths and what he would like to continue working on.",
           "author": "Parents of M., 3rd grade"
         },
         {
-          "message": "We are surprised by how openly our daughter talks to you. It is deeply touching to see how well you understand her and how openly and trustingly she talks about what is on her mind.",
+          "message": "We are surprised by how openly our daughter talks to you. It touches us to see how well you understand her and how trustingly she talks about what is on her mind.",
           "author": "Parents of L., 5th grade"
         },
         {
-          "message": "Your feedback helps us understand much better what our son experiences and what matters to him in everyday school life, and how we can support him at home as well. We feel like we are all working toward the same goal.",
+          "message": "Your feedback helps us understand much better what moves our son during everyday school life and how we can support him at home. We feel that we are all pulling in the same direction.",
           "author": "Parents of N., 6th grade"
         }
       ]
     },
     "footer": {
-      "title": "Experience how Iceberg transforms your learning conversations. Try it free for two months with two students—no commitment required.",
-      "button": "Try Iceberg for Free"
+      "title": "Experience how Eisberg transforms your learning conversations Eisberg",
+      "button": "Try Eisberg for free"
     },
     "trust": [
       {
         "title": "100% GDPR-compliant",
         "icon": "shield",
-        "items": ["Zero-Retention", "EU Servers"]
+        "items": ["Zero retention", "EU servers"]
       },
       {
-        "title": "Everyone in the boat",
+        "title": "Everyone on board",
         "icon": "users",
         "items": ["Teacher", "Student", "Parents"]
       },
       {
-        "title": "Measurable growth",
+        "title": "Measurable development",
         "icon": "trending",
         "items": ["Conversation by conversation"]
       }
@@ -110,11 +90,11 @@
   },
   "product": {
     "hero": {
-      "title": "Dialogue platform that makes growth visible",
-      "description": "Iceberg guides you through every conversation — from preparation to parent communication so you can focus on what truly matters: the student in front of you.",
-      "image-desktop-text": "Dekstop viewport",
-      "image-tablet-text": "Tablet viewport",
-      "image-phone-text": "Phone viewport",
+      "title": "The coaching platform that makes development visible",
+      "description": "Eisberg supports you through every conversation – from preparation to communication with parents, so you can focus on what really matters: the student in front of you.",
+      "image-desktop-text": "Desktop view",
+      "image-tablet-text": "Tablet view",
+      "image-phone-text": "Smartphone view",
       "app-store-text": "App Store button",
       "google-play-text": "Google Play button"
     },
@@ -124,43 +104,43 @@
       "items": [
         {
           "title": "Guided conversation flow",
-          "description": "A structured framework guides you through every phase of the conversation – before, during, and after. You always know what to focus on and how to lead the dialogue, without relying on improvisation. This creates consistency and confidence in every interaction.",
+          "description": "A structured framework guides you through every phase of the conversation – before, during and after. You always know what to focus on and how to guide the dialogue without having to improvise. This creates consistency and confidence in every encounter.",
           "icon": "route",
           "color": "#D9B65C"
         },
         {
           "title": "Automatic transcription",
-          "description": "Conversations are recorded and transcribed in real time, capturing everything accurately in the background. You no longer need to split your attention between listening and taking notes. This allows you to stay fully present with the student.",
+          "description": "Conversations are recorded and transcribed in real time while everything is captured precisely in the background. You no longer have to divide your attention between listening and taking notes. This allows you to remain truly present with the child.",
           "icon": "microphone",
           "color": "#4F7CAC"
         },
         {
           "title": "Smart prompts & question suggestions",
-          "description": "During the conversation, the app provides contextual prompts and “power questions” to guide you. These suggestions help you go deeper, stay on track, and handle different situations more effectively. Over time, this improves the quality of every conversation you lead.",
+          "description": "During the conversation, the app provides relevant prompts and empowering questions developed by certified learning coaches and learning therapists. This helps you keep the thread, go deeper from the very beginning and lead conversations that move people and create real change.",
           "icon": "messages",
           "color": "#C65A5A"
         },
         {
           "title": "AI-generated summaries",
-          "description": "After each session, the app automatically generates a clear and structured summary. It highlights strengths, key discussion points, and agreed next steps. What used to take significant time is now done for you within minutes.",
+          "description": "After each conversation, the app automatically creates a clear and structured summary. It highlights strengths, key discussion points and agreed next steps. What used to take a lot of time can now be completed in just a few minutes.",
           "icon": "ai",
           "color": "#3FA38D"
         },
         {
           "title": "Parent email generator",
-          "description": "After every conversation, a structured and supportive email is ready to send to parents. It includes key insights, strengths, and agreed goals – automatically generated in their preferred language. This keeps parents informed and involved without adding extra work.",
+          "description": "After each conversation, a structured and supportive email to the parents is ready. It contains key insights, strengths and agreed goals – automatically in the parents' preferred language. The app creates a draft that the teacher reviews, supplements and consciously approves. This keeps parents informed and involved while responsibility and control clearly remain with the teacher.",
           "icon": "envelope",
           "color": "#E08A3C"
         },
         {
-          "title": "WOOP goal builder",
-          "description": "The built-in WOOP framework helps transform goals into concrete, actionable plans. Students define what they want to achieve, identify possible obstacles, and decide how to respond. This makes goals realistic, trackable, and far more likely to happen.",
+          "title": "WOOP goal generator",
+          "description": "The integrated WOOP model helps turn goals into concrete, actionable plans. Students define what they want to achieve, recognise possible obstacles and decide how to respond to them. This makes goals realistic, measurable and much more likely to be put into practice.",
           "icon": "target",
           "color": "#7B61A8"
         },
         {
-          "title": "Student profiles & progress tracking",
-          "description": "Each student has a dynamic profile that reflects their strengths, competencies, and level of independence. You can track development over time and see patterns across different areas. This creates a complete and meaningful picture of each student’s growth.",
+          "title": "Student profiles & development history",
+          "description": "Every student has a dynamic profile that makes strengths, competencies and their level of independence visible. You can track development over time and identify patterns across different areas. This creates a complete and meaningful picture of each student's development.",
           "icon": "student",
           "color": "#C97C92"
         }
@@ -168,373 +148,362 @@
     },
     "experience": {
       "eyebrow": "User experience",
-      "title": "Designed for real conversations"
+      "title": "Designed for lasting conversations"
     },
     "methodology": {
       "eyebrow": "Methodology",
-      "title": "Research-based. Designed for teachers.",
+      "title": "Research-based. Made for teachers.",
       "descriptions": [
         {
           "text": "Scientifically grounded and developed for everyday school life"
         },
         {
-          "text": "Eisberg draws, among other things, on John Hattie’s research on Visible Learning. His comprehensive synthesis of more than 800 meta-analyses shows that a strong teacher-student relationship has a significant influence on learning. The original analysis reports an effect size of d = 0.72. Later reviews cite d = 0.52. Both values are above Hattie’s benchmark of d = 0.40. Visible Learning, updated overview of effect sizes"
+          "text": "Eisberg draws, among other things, on John Hattie's research on Visible Learning. His comprehensive synthesis of more than 800 meta-analyses shows that a strong relationship between teacher and student has a significant influence on learning. The original analysis reports an effect size of d = 0.72. Later overviews cite d = 0.52. Both values are above Hattie's benchmark of d = 0.40. Visible Learning, updated overview of effect sizes"
         },
         {
-          "text": "For goal setting, Eisberg draws on Professor Gabriele Oettingen’s scientifically grounded WOOP method. WOOP stands for Wish, Outcome, Obstacle, and Plan. Students formulate a wish, imagine the desired outcome, identify an internal obstacle, and develop a concrete if-then plan for dealing with it. This means it goes beyond positive thinking: a wish becomes an actionable next step. WOOP – scientific background"
+          "text": "For goal setting, Eisberg draws on Professor Gabriele Oettingen's scientifically grounded WOOP method. WOOP stands for Wish, Outcome, Obstacle and Plan. Students formulate a wish, imagine the desired outcome, identify an internal obstacle and develop a concrete if-then plan for dealing with it. This means it goes beyond positive thinking: a wish becomes an actionable next step. WOOP – scientific background"
         },
         {
-          "text": "The five Eisberg levels make development and increasing independence visible. They range from Deep Sea, where students receive close support, to Summit, where students demonstrate a competency independently. Each competency is considered individually, because development does not progress equally in every area. This allows you to make visible what students are already able to do, where they need support, and what potential they may not yet recognize in themselves."
+          "text": "The five Eisberg Levels make development and increasing independence visible. They range from Deep Sea, with close support, to Summit, where students demonstrate a competency independently. Each competency is considered individually because development does not progress equally in all areas. This allows you to make visible what students are already doing well, where they need support and what potential they may not yet recognise in themselves."
         }
       ]
     },
     "benefits": {
-      "eyebrow": "The outcome",
-      "title": "What changes when you use Iceberg",
+      "eyebrow": "The result",
+      "title": "What changes when you use Eisberg",
       "items": [
         {
-          "title": "Students who feel truly seen",
-          "description": "Every student gets the space to speak and reflect. Even quieter students open up, leading to stronger relationships, more trust, and higher engagement.",
+          "title": "Students who truly feel seen",
+          "description": "Every student gets space to speak and reflect. Even quieter children open up, leading to stronger relationships, greater trust and higher participation.",
           "illustration": "satisfaction"
         },
         {
-          "title": "More time, less admin",
-          "description": "All notes, summaries, and parent communication are created automatically. What used to take up to an hour of documentation after each conversation is now reduced to just a few minutes.",
+          "title": "More time, less administration",
+          "description": "All notes, summaries and information for parents are created automatically. What used to mean up to an hour of documentation after every conversation is reduced to just a few minutes.",
           "illustration": "clock"
         },
         {
-          "title": "Structured conversation, no guesswork",
-          "description": "Every conversation follows a clear structure – before, during, and after. You always know what to ask next, without relying on improvisation or repeating the same patterns.",
+          "title": "Structured conversations without guesswork",
+          "description": "Every conversation follows a clear structure – before, during and after. You always know which question to ask next, without having to improvise or repeat the same patterns over and over.",
           "illustration": "conversation"
         },
         {
-          "title": "Deeper student conversation",
-          "description": "Move beyond grades and surface-level topics. Iceberg helps you uncover real challenges, hidden strengths, and the underlying factors that truly influence a student’s development.",
+          "title": "Deeper conversations with students",
+          "description": "Go beyond grades and surface-level topics. Eisberg helps you make visible real challenges, hidden strengths and the deeper factors that genuinely influence a child's development.",
           "illustration": "minds"
         },
         {
-          "title": "Goals that actually happen",
-          "description": "With the WOOP method, goals become concrete and actionable. Students don’t just set intentions – they identify obstacles and define clear steps to move forward.",
+          "title": "Goals that actually get implemented",
+          "description": "The WOOP method makes goals concrete and action-oriented. Students do not simply set intentions; they identify obstacles and define clear steps to move forward.",
           "illustration": "goals"
         },
         {
-          "title": "Parents effortlessly involved",
-          "description": "After each conversation, a structured and supportive summary is ready to send to parents – in their preferred language. They stay informed, involved, and aligned without extra effort.",
+          "title": "Parents involved effortlessly",
+          "description": "After each conversation, a structured and supportive summary is ready to be sent to parents – in their preferred language. They stay informed, involved and aligned without any additional effort.",
           "illustration": "parents"
         },
         {
-          "title": "Fully present during conversation",
-          "description": "No need to take notes or manage documentation during the conversation. You can focus entirely on the student while the app captures and structures everything in the background.",
+          "title": "Fully present during the conversation",
+          "description": "You do not have to take notes or manage documentation during the conversation. You can focus entirely on the child while the app captures and structures everything in the background.",
           "illustration": "focus"
         },
         {
           "title": "Continuous improvement through feedback",
-          "description": "Each conversation includes built-in reflection. Over time, you develop stronger communication skills and improve the quality of your conversations step by step.",
+          "description": "Every conversation includes an integrated reflection. Over time, you strengthen your conversation skills and improve the quality of your conversations step by step.",
           "illustration": "feedback"
         },
         {
-          "title": "Visible student progress",
-          "description": "Track development across competencies, independence, and self-responsibility. Progress becomes measurable and visible – not just reflected in grades.",
+          "title": "Visible student development",
+          "description": "Track development in competencies, independence and personal responsibility. Progress becomes measurable and visible – not just reflected in grades.",
           "illustration": "progress"
         },
         {
           "title": "Less stress, more confidence",
-          "description": "You enter every conversation prepared and supported. With a clear system in place, conversations become more predictable, effective, and significantly less stressful.",
+          "description": "You enter every conversation prepared and supported. With a clear system, conversations become more predictable, effective and significantly less demanding.",
           "illustration": "confidence"
         }
       ]
     },
     "start": {
       "eyebrow": "Get started",
-      "title": "Iceberg guides teachers through every phase of the learning dialogue – from preparation to parent email – so they can be fully present.",
+      "title": "The Eisberg app supports you through every phase of the learning and coaching conversation – from preparation to the parent email – so you can be truly present.",
       "cta": "Try it now"
     }
   },
   "pricing": {
     "hero": {
-      "title": "Choose the support that fits your school day",
-      "description": "Eisberg supports you in conducting learning and coaching conversations in a structured way, making progress visible, and keeping track of the bigger picture. If you also want to deepen your pedagogical knowledge, gain new insights, and exchange ideas with other teachers, Pädagogik+ complements your work with Eisberg.",
+      "title": "Choose the support that fits your everyday school life",
+      "description": "Eisberg supports you in leading learning and coaching conversations in a structured way, making development visible and keeping the thread. If you also want to deepen your educational knowledge, gain new ideas and exchange experiences with other teachers, Pädagogik+ complements your work with Eisberg.",
       "illustrationText": "License illustration"
     },
     "included": {
-      "eyebrow": "What’s included",
-      "title": "Everything included in your membership",
+      "eyebrow": "What's included",
+      "title": "Everything in your membership",
       "items": [
         {
-          "title": "Personal Support",
-          "description": "From a thorough introduction to your questions from everyday school life, we’re here for you. In regular online sessions, you receive personal support so you can use Eisberg effectively and get the most out of your conversations.",
+          "title": "Personal support",
+          "description": "From careful onboarding to your questions from everyday school life, we are here for you. In regular online meetings, you receive personal support so you can use Eisberg effectively and get the most out of your conversations.",
           "icon": "headphones"
         },
         {
-          "title": "Live Webinars",
-          "description": "In regular live webinars with Branka and the Pädagogik+ team, you’ll gain new insights, deepen your conversation skills, and further develop your educational practice.",
+          "title": "Live webinars",
+          "description": "In regular live webinars with the Pädagogik+ team, you receive new ideas, deepen your conversation skills and develop your educational practice.",
           "icon": "camera"
         },
         {
-          "title": "Exchange with Other Teachers",
-          "description": "You’ll meet teachers who, just like you, want to support and empower their students with dedication. You share experiences, learn from one another, and find new ways to navigate challenging situations together.",
+          "title": "Exchange with other teachers",
+          "description": "You meet teachers who want to support and empower students just as much as you do. You share experiences, learn from one another and find new ways to handle challenging situations together.",
           "icon": "people"
         },
         {
-          "title": "Practical Activities",
-          "description": "You’ll gain access to a growing collection of tried-and-tested activities designed to support your students in a targeted way. Whether it’s concentration, motivation, self-confidence, learning strategies, or positive relationships: you’ll quickly find suitable ideas that you can use directly in conversations and everyday school life.",
+          "title": "Practical activities",
+          "description": "You receive a growing collection of tried-and-tested activities designed to strengthen students in specific areas. Whether it is concentration, motivation, self-confidence, learning strategies or positive relationships: you can quickly find suitable ideas to use directly in conversations and everyday school life.",
           "icon": "grow"
         }
       ]
     },
     "pricing": {
-      "title": "Transparent. Simple. Fair.",
+      "title": "Your Eisberg. The right offer for you.",
+      "description": "So conversations lead to real next steps.",
       "plans": [
         {
-          "title": "Eisberg",
-          "subtitle": "Your tool for learning and coaching conversations that make a difference",
-          "description": "Eisberg gives you structure, clarity, and the right questions for effective learning and coaching conversations, helping you make progress visible and document it securely.",
-          "additional": {
-            "title": "Explore it free for 2 months",
-            "note": "Try Eisberg for 2 months with 2 students."
-          },
-          "price": {
-            "before": "Billed annually",
-            "price": "CHF 490.-"
-          },
+          "label": "The clear starting point",
+          "subtitle": "EISBERG",
+          "title": "Eisberg for learning and coaching conversations",
+          "price": "GBP 450.-",
+          "sufix": "per year",
           "included": [
             {
-              "text": "Easily record observations"
+              "text": "Eisberg for one teacher and one class"
             },
             {
-              "text": "Prepare conversations with purpose"
+              "text": "Preparation and support for your conversations"
             },
             {
-              "text": "Get suitable conversation questions"
+              "text": "Automatic summaries and documentation"
             },
             {
-              "text": "Make strengths, goals, and obstacles visible"
+              "text": "Concrete feedback on your conversations"
             },
             {
-              "text": "Develop concrete next steps"
+              "text": "Onboarding webinar for a confident start"
             },
             {
-              "text": "Automatically document conversations"
+              "text": "Regular webinars with specialist staff"
             },
             {
-              "text": "Prepare communication with parents"
+              "text": "Exchange, questions and practical cases in live webinars"
             },
             {
-              "text": "Track development over the long term"
+              "text": "Ongoing development of Eisberg"
+            },
+            {
+              "text": "Technical support with questions about using the app"
             }
           ],
-          "cta": "Try Eisberg free for 2 months",
-          "note": "Would you like to use Eisberg for several teachers or an entire school? We would be happy to create a customized offer for you.",
-          "link": "Request a team and school license"
+          "cta": "Try for free for 2 months",
+          "note": "With two students. Free of charge and without obligation."
         },
         {
-          "highlight": "Best Support",
-          "title": "Eisberg + Pädagogik+",
-          "subtitle": "Use Eisberg. Grow your pedagogical expertise.",
-          "description": "Combine Pädagogik+ with Eisberg and develop your educational practice further — with sound knowledge, practice-tested materials, and structured support for every conversation.",
-          "additional": {
-            "title": "Discover both for free (membership for 1 month, Eisberg for 2 months).",
-            "note": "Try Eisberg with 2 students and get full access to Pädagogik+."
-          },
-          "price": {
-            "before": "Billed annually",
-            "price": "CHF 590.-"
-          },
+          "label": "Best overall package",
+          "subtitle": "EISBERG PLUS",
+          "title": "Eisberg with educational professional development",
+          "price": "GBP 450.-",
+          "sufix": "per year",
           "included": [
             {
-              "text": "All Eisberg features and benefits"
+              "text": "All benefits included in Eisberg"
             },
             {
-              "text": "Full access to Pädagogik+"
+              "text": "Access to all Pädagogik+ professional development programmes"
             },
             {
-              "text": "Prepare learning and coaching conversations with purpose"
+              "text": "Regularly new educational content and materials"
             },
             {
-              "text": "Develop the right questions and next steps"
+              "text": "Live professional development sessions with experienced specialists"
             },
             {
-              "text": "Automatically document conversations"
+              "text": "Exchange and concrete ideas for your everyday school life"
             },
             {
-              "text": "Attend professional development sessions and live workshops"
+              "text": "Personal introductory meeting"
             },
             {
-              "text": "Access practice-tested materials and activities"
+              "text": "Four personal 1:1 reflection sessions per year"
             },
             {
-              "text": "Continue your professional development and exchange with others"
+              "text": "Personal support with difficult situations as part of the reflection sessions"
+            },
+            {
+              "text": "Individual feedback and concrete next steps for your practice"
             }
           ],
-          "cta": "Explore both for free"
-        },
-        {
-          "title": "Pädagogik+ Membership",
-          "subtitle": "Your professional development and pedagogical support",
-          "description": "Discover professional development programs, live workshops, and valuable insights from experienced experts on the topics that truly matter to you as a teacher. You’ll gain in-depth knowledge, practical ideas for implementation, and tried-and-tested materials that empower you and make a real difference in your everyday school life.",
-          "additional": {
-            "title": "Discover Pädagogik+ for free",
-            "note": "Your first month is free and without obligation."
-          },
-          "price": {
-            "before": "Billed annually",
-            "price": "CHF 290.-"
-          },
-          "included": [
-            {
-              "text": "Expert-led professional development"
-            },
-            {
-              "text": "Live workshops with experts"
-            },
-            {
-              "text": "Practice-tested materials and methods"
-            },
-            {
-              "text": "Practical ideas for your teaching"
-            },
-            {
-              "text": "Regularly updated content"
-            },
-            {
-              "text": "Exchange with dedicated teachers"
-            },
-            {
-              "text": "Personal and professional development"
-            },
-            {
-              "text": "Full access to the membership area"
-            }
-          ],
-          "cta": "Discover Pädagogik+ for free"
+          "cta": "Choose Eisberg Plus",
+          "note": "Eisberg and the professional development programme from Pädagogik+ in one package."
         }
       ]
     },
-    "brief": {
-      "description": "Would you like to use Eisberg for your class? With this template, you can briefly and convincingly show your school leadership how Eisberg supports you in your everyday school life and why investing in Eisberg is worthwhile for the entire school.",
-      "cta": "Download the template for your school leadership"
+    "support": {
+      "title": "Include specialist staff at no extra cost",
+      "descriptions": [
+        {
+          "text": "School special education teachers, school social workers and other school-based specialists can support individual students from your class as guest users."
+        },
+        {
+          "text": "There are no additional license costs for this."
+        },
+        {
+          "text": "A separate license is only required if a specialist uses Eisberg with their own class or group."
+        }
+      ]
+    },
+    "letter": {
+      "subtitle": "Support for your application",
+      "title": "Maybe your school will cover the cost.",
+      "description": "With our prepared letter, you can easily ask your school leadership for support.",
+      "cta": "Download the letter for school leadership"
     },
     "leadership": {
       "title": "GET YOUR SCHOOL LEADERSHIP ON BOARD",
-      "description_1": "Good learning and coaching conversations are not a private additional task for a committed teacher. They strengthen the quality of teaching, collaboration with parents, and the shared educational work of a school.",
-      "description_2": "That’s why your school may be willing to cover the costs of Eisberg or the complete package consisting of Eisberg and Pädagogik+.",
-      "description_3": "We have put together information for your school leadership on how teachers, students, parents, and the entire school can benefit.",
+      "description_1": "Good learning and coaching conversations are not a private extra task for a committed teacher. They strengthen teaching quality, collaboration with parents and the shared educational work of a school.",
+      "description_2": "That is why your school may cover the cost of Eisberg or the combined Eisberg and Pädagogik+ package.",
+      "description_3": "We have put together information for your school leadership on how teachers, students, parents and the whole school can benefit.",
       "cta": "Download information for my school leadership",
-      "additional": "Simply download, forward it, and start the conversation together."
+      "additional": "Simply download, forward it and start the conversation together."
     },
     "differences": {
-      "title": "What distinguishes Pedagogic+ from Iceberg?",
-      "description_1": "Pedagogic+ provides you with educational knowledge, professional guidance, methods and practical ideas for your everyday school life. Iceberg supports you in putting them into practice during learning and coaching conversations: when preparing, during the conversation and in the subsequent documentation.",
-      "description_2": "With Pedagogic+, you develop your educational practice further. With Iceberg, you have the right structure and helpful questions at your side when it matters most. In the combined offer, both areas complement each other."
+      "title": "What is the difference between Pädagogik+ and Eisberg?",
+      "description_1": "Pädagogik+ gives you educational knowledge, mindset, methods and concrete ideas for everyday school life. Eisberg supports you in putting these into practice directly in learning and coaching conversations: during preparation, the conversation itself and the subsequent documentation.",
+      "description_2": "With Pädagogik+, you develop your educational practice further. With Eisberg, you have the right structure and helpful questions by your side at the decisive moment. In the combined offer, the two areas work together."
     },
     "schools": {
-      "title": "Iceberg for your team or school",
-      "description": "Would you like to strengthen learning and coaching conversations at your school, develop a shared conversation culture and make educational work more visible? For teams and schools, we create an offer tailored to your size and needs.",
-      "cta": "Request a non-binding offer"
+      "title": "Eisberg for your team or school",
+      "description": "Would you like to strengthen learning and coaching conversations at your school, develop a shared conversation culture and make educational work visible? For teams and schools, we create an offer tailored to your size and needs.",
+      "cta": "Request a no-obligation offer"
     },
     "webinar": {
-      "title": "Would you like to learn first how effective learning and coaching conversations can succeed?",
-      "description_1": "In our free live webinar, you’ll get practical questions, structures, and ideas you can put into practice right away to make your conversations more effective. You’ll learn how to empower students, make goals tangible, and develop next steps that can actually be implemented in everyday school life.",
+      "title": "Would you first like to learn how effective learning and coaching conversations work?",
+      "description_1": "In our free live webinar, you will receive concrete questions, structures and implementation ideas that you can use to make your conversations more effective right away. You will learn how to empower students, make goals tangible and develop next steps that are actually implemented in everyday school life.",
       "cta": "Register for the free webinar",
-      "description_2": "The webinar provides you with valuable educational knowledge that you can apply independently of Eisberg. At the end, we’ll show you how Eisberg can support you in putting it into practice."
+      "description_2": "The webinar gives you valuable educational knowledge that you can apply independently of Eisberg. At the end, we show you how Eisberg supports you in putting it into practice."
     }
   },
   "faq": {
     "hero": {
-      "title": "Frequently Asked Questions",
-      "description": "Everything you need to know about Iceberg and how it works"
+      "title": "Frequently asked questions",
+      "description": "Everything you need to know about Eisberg and how it works"
     },
     "questions": [
       {
         "id": "what-is",
-        "question": "What is Iceberg?",
-        "answer": "Iceberg is a tool designed to help teachers lead structured, meaningful learning conversations. It supports every step of the process – from preparation, through the conversation itself, to follow-up and parent communication."
+        "question": "What is Eisberg?",
+        "answer": "Eisberg is a tool that helps teachers lead structured and meaningful learning and coaching conversations. It supports every step of the process – from preparation through the conversation itself to follow-up and communication with parents."
       },
       {
         "id": "who-is-it-for",
-        "question": "Who is Iceberg for?",
-        "answer": "Iceberg is primarily built for teachers and tutors working with students of school age. It is also valuable for schools and educational organizations that want to improve the quality of learning conversations."
+        "question": "Who is Eisberg for?",
+        "answer": "Eisberg was primarily developed for teachers and learning support professionals who work with school-age students. It is also valuable for schools and educational organisations that want to improve the quality of learning and coaching conversations."
       },
       {
         "id": "how-it-works",
-        "question": "How does Iceberg work?",
-        "answer": "Iceberg guides you through three phases: before, during, and after the conversation. It helps you prepare, supports you with prompts during the session, and automatically creates summaries and parent communication afterward."
+        "question": "How does Eisberg work?",
+        "answer": "Eisberg supports you through three phases: before, during and after the conversation. It helps you prepare, supports you with prompts during the conversation and then automatically creates summaries and communication for parents."
       },
       {
         "id": "preparation-needed",
-        "question": "Do I need to prepare before each conversation?",
-        "answer": "Preparation is minimal. Before each session, you get a quick overview of previous conversations, notes, and progress – so you can walk in prepared in just a few minutes."
+        "question": "Do I need to prepare before every conversation?",
+        "answer": "Preparation is minimal. Before each conversation, you get a quick overview of previous conversations, notes and development, so you can be prepared and get started within minutes."
       },
       {
         "id": "does-it-replace-teaching",
-        "question": "Does Iceberg replace my way of teaching?",
-        "answer": "No. Iceberg enhances your existing approach by giving you structure and support. You stay in control of the conversation – the app simply helps you do it more effectively."
+        "question": "Does Eisberg replace my way of teaching?",
+        "answer": "No. Eisberg strengthens your existing approach by giving you structure and support. You remain in charge of the conversation – the app simply helps you make it more effective."
       },
       {
         "id": "is-conversation-recorded",
         "question": "Is the conversation recorded?",
-        "answer": "Yes, conversations are recorded and transcribed to support documentation. Audio data is processed securely and handled according to strict privacy standards."
+        "answer": "Yes, conversations are recorded and transcribed to support documentation. Audio data is processed securely and handled according to strict data protection standards."
       },
       {
         "id": "gdpr-compliance",
-        "question": "Is Iceberg GDPR compliant?",
-        "answer": "Yes. Iceberg is fully GDPR compliant. Audio is deleted immediately after transcription (Zero-Retention), and no student data is used for AI training. All data is stored on EU servers."
+        "question": "Is Eisberg GDPR-compliant?",
+        "answer": "Yes. Eisberg is fully GDPR-compliant. Audio is deleted immediately after transcription (zero retention), and no student data is used for AI training. All data is stored on EU servers."
       },
       {
         "id": "parents-access",
         "question": "Can parents access the app?",
-        "answer": "No, the app is designed for teachers. However, parents receive clear and structured summaries after each conversation, so they stay informed and involved."
+        "answer": "No, the app is designed for teachers. However, parents receive clear and structured summaries after each conversation so that they remain informed and involved."
       },
       {
         "id": "multi-language-support",
-        "question": "Can I use Iceberg in different languages?",
-        "answer": "Yes. Iceberg supports multilingual communication, especially when generating parent emails, making it easier to include families from different backgrounds."
+        "question": "Can I use Eisberg in different languages?",
+        "answer": "Yes. Eisberg supports multilingual communication, especially when creating parent emails. This makes it easier to involve families with different language backgrounds."
       },
       {
         "id": "free-trial",
         "question": "How does the free trial work?",
-        "answer": "You can start using Iceberg immediately without a credit card. The full feature set is available during the trial, so you can experience the complete workflow."
+        "answer": "You can start using Eisberg immediately without a credit card. During the trial, you have access to the full range of features so you can experience the complete process."
       },
       {
         "id": "what-included-in-license",
-        "question": "What do I get with a licence?",
-        "answer": "A licence gives you access to unlimited conversations, student profiles, automatic summaries, parent communication, and additional educational content and support."
+        "question": "What do I get with a license?",
+        "answer": "A license gives you access to unlimited conversations, student profiles, automatic summaries, parent communication as well as additional educational content and support."
       },
       {
         "id": "school-approval",
-        "question": "Do I need school approval to use Iceberg?",
-        "answer": "Yes. Since the app processes sensitive data, a data processing agreement and parental consent are required before using it in a school environment."
+        "question": "Do I need school approval to use Eisberg?",
+        "answer": "Yes. Since Eisberg processes sensitive data, its use should be discussed with the school in advance and properly regulated from a data protection perspective. This generally requires a data processing agreement and parental consent. We provide the necessary templates and appropriate correspondence."
       },
       {
         "id": "getting-started-time",
         "question": "How long does it take to get started?",
-        "answer": "Getting started is quick. Once the setup and required approvals are complete, you can begin your first conversation immediately."
+        "answer": "Getting started is quick. Once setup and the required approvals are complete, you can begin your first learning and coaching conversation right away. You will find our onboarding dates in the calendar and can simply choose the appointment that suits you best."
       },
       {
         "id": "does-it-add-work",
-        "question": "Will this add more work to my day?",
-        "answer": "No – the goal is the opposite. Iceberg reduces administrative work and simplifies documentation, so you can focus more on the conversation itself."
+        "question": "Does it make my everyday work more time-consuming?",
+        "answer": "No – the goal is exactly the opposite. Eisberg reduces administrative work and simplifies documentation so that you can focus more strongly on the conversation itself."
       },
       {
         "id": "what-makes-it-different",
-        "question": "What makes Iceberg different from other tools?",
-        "answer": "Iceberg is not just a documentation tool. It combines structured guidance, real-time support, and automated follow-up to improve the quality of conversations – not just record them."
+        "question": "What makes Eisberg different from other tools?",
+        "answer": "Eisberg is not simply a documentation tool. It combines structured conversation guidance, real-time support and automatic follow-up to improve the quality of conversations – not just to record them."
+      }
+    ]
+  },
+  "team": {
+    "items": [
+      {
+        "name": "Branka Rezan",
+        "role": "Founder, Managing Director, Educational and psychological consulting, Teacher, School coach",
+        "biography": "Branka Rezan is the founder and managing director of Pädagogik+. As a teacher, school coach and psychological counsellor, she combines many years of experience from everyday school life with well-founded knowledge in education, psychology and coaching. Her goal is to empower teachers and help shape learning environments in which students grow, take responsibility and develop confidence in their own abilities. Pädagogik-Plus GmbH, branka.rezan@paedagogik-plus.com branka.rezan@eisberg-coaching.com www.pädagogik-plus.com"
+      },
+      {
+        "name": "Sandra Rohner",
+        "role": "Managing Director, Educational Consulting Sales, Teacher, Systemic Coach in training",
+        "biography": "Sandra Rohner knows schools from almost 30 years of hands-on experience. Her work is centred on an empowering view of children and young people: What is already there? What works? And what is needed to make the next step possible? Today, she supports schools, teams and teachers and brings her experience from everyday school life into her work. She believes that good conversations can set things in motion when we listen, ask the right questions and focus on possibilities rather than deficits. More information at www.kapricho.ch E-mail: sandra.rohner@eisberg-coaching.com sandra@kapricho.ch"
+      },
+      {
+        "name": "Bettina Schec",
+        "role": "School consulting, Special education teacher, SchoolJOKER & learning therapist",
+        "biography": "As a special education teacher, SchoolJOKER and learning therapist, Bettina Scheck supports students, teachers, school leadership and parents on matters relating to learning. Her focus is on advising in challenging teaching situations, personal coaching and supporting difficult conversations. Learning conversations that strengthen relationships, make development visible and enable sustainable learning are particularly close to her heart. More information at https://bettina-scheck.ch E-mail: coaching@bettina.scheck.ch"
+      },
+      {
+        "name": "Kathy Golinski",
+        "role": "Marketing & Communications",
+        "biography": "Kathy Golinski supports Pädagogik+ with more than 20 years of experience in marketing and communications. Together with Branka, she ensures that the ideas, offers and vision of Pädagogik+ reach the people they are designed for. She combines strategic marketing with a fine sense for language, content and communication that remains approachable. As a mother of two school-age children, the work of Pädagogik+ is also personally close to her heart – and she is passionate about making change in everyday school life visible and possible together with Branka. More information at www.kathinka.online E-mail:losdenken@kathinka.online"
       }
     ]
   },
   "schools": {
     "hero": {
-      "title": "Coaching Conversation That Move Your School Forward",
-      "description": "How to anchor learning conversations as a shared practice within your team—so that every teacher communicates confidently, competently, and effectively with children and parents.",
-      "illustrationText": "Team illustration"
+      "title": "Book a consultation"
     },
     "video": {
-      "eyebrow": "For School Leaders",
-      "title": "The Future of Learning Conversations",
+      "eyebrow": "For school leadership",
+      "title": "The future of learning conversations",
       "subtitle": "Empower your teachers. Strengthen your school."
-    },
-    "booking": {
-      "title": "Book a consultation"
     },
     "faq": {
       "eyebrow": "Frequently asked questions",
@@ -543,60 +512,64 @@
         {
           "title": "who-is-it-designed-for",
           "question": "Who is this solution designed for?",
-          "answer": "This solution is designed for school principals who want to introduce structured, high-quality learning conversations across their entire team – not just improve individual teacher performance."
+          "answer": "This solution is designed for school leaders who want to introduce structured, high-quality learning and coaching conversations across the entire team – not just improve the conversation skills of individual teachers."
         },
         {
           "title": "difference-from-training",
-          "question": "How is this different from traditional teacher training?",
-          "answer": "Traditional training often stays theoretical and fades over time. Iceberg combines methodology, practical tools, and ongoing support – ensuring that what is learned becomes part of everyday practice."
+          "question": "How does this differ from traditional teacher professional development?",
+          "answer": "Traditional professional development often remains theoretical and fades over time. Eisberg combines methodology, practical tools and ongoing support so that what is learned becomes part of daily practice."
         },
         {
           "title": "implementation-time",
-          "question": "How long does it take to implement in a school?",
-          "answer": "Implementation depends on your school’s size and goals, but most schools can get started within a few weeks. The process is guided step by step, so your team can adopt it without disruption."
+          "question": "How long does implementation take in a school?",
+          "answer": "Implementation depends on the size and goals of your school, but most schools can get started within a few weeks. The process is supported step by step so that your team can adopt it without major disruption."
         },
         {
           "title": "additional-workload",
-          "question": "Will this add more work for my teachers?",
-          "answer": "No – the goal is to reduce workload, not increase it. Iceberg simplifies preparation, documentation, and follow-up, allowing teachers to focus on the conversation itself."
+          "question": "Does this create more work for my teachers?",
+          "answer": "No – the goal is to reduce the workload, not increase it. Eisberg simplifies preparation, documentation and follow-up so that teachers can focus on the conversation itself."
         },
         {
           "title": "resistance-to-change",
-          "question": "What if my team is resistant to change?",
-          "answer": "Resistance is natural. The approach is designed to be practical, supportive, and easy to adopt, helping teachers quickly experience the benefits in their daily work."
+          "question": "What if my team is sceptical about change?",
+          "answer": "Resistance is normal. The approach is practical, supportive and easy to access, so teachers can quickly experience its benefits in their everyday work."
         },
         {
           "title": "parent-communication",
           "question": "How does this improve communication with parents?",
-          "answer": "Learning conversations become clearer, more structured, and more transparent. Parents receive consistent communication and feel more involved, which significantly increases trust."
+          "answer": "Learning and coaching conversations become clearer, more structured and more transparent. Parents receive consistent communication and feel more involved, which significantly increases trust."
         },
         {
           "title": "whole-school-involvement",
-          "question": "Do I need to involve the entire school at once?",
-          "answer": "Not necessarily. You can start with a smaller group or pilot and expand gradually. The approach is flexible and adapts to your school’s structure."
+          "question": "Do I have to involve the whole school at once?",
+          "answer": "Not necessarily. You can start with a smaller group or pilot project and expand gradually. The approach is flexible and adapts to your school's structure."
         },
         {
           "title": "implementation-support",
-          "question": "What kind of support do we receive during implementation?",
-          "answer": "You receive guidance through every step – from strategy and onboarding to ongoing support. This ensures that the approach is not only introduced, but successfully integrated."
+          "question": "What support do we receive during implementation?",
+          "answer": "You receive support at every step – from strategy and onboarding to ongoing assistance. This ensures that the approach is not only introduced but successfully integrated."
         },
         {
           "title": "data-protection-compliance",
-          "question": "Is the solution compliant with data protection regulations?",
-          "answer": "Yes. Iceberg is fully GDPR-compliant, with strict data protection measures such as zero-retention of audio data and EU-based servers."
+          "question": "Is the solution compliant with data protection requirements?",
+          "answer": "Yes. Eisberg is fully GDPR-compliant and uses strict data protection measures such as zero retention of audio data and EU-based servers."
         },
         {
           "title": "expected-results",
           "question": "What results can I expect as a school leader?",
-          "answer": "Schools report stronger parental trust, fewer conflicts, more confident teachers, and a clearer, more consistent approach to learning conversations."
+          "answer": "Schools report greater trust from parents, fewer conflicts, more confident teachers and a clearer, more consistent approach to learning and coaching conversations."
         }
       ]
     },
     "cta": {
-      "title": "Your school deserves a shared language.",
-      "subtitle": "Book Your Free Strategy Consultation",
-      "description": "45 minutes. No sales pitch. Just an honest analysis of your situation and a concrete plan for how learning conversations can succeed at your school.",
-      "cta": "Book Your Appointment Now"
+      "title": "Make good conversations the shared standard at your school",
+      "description": "45 minutes to greater clarity and concrete next steps for your learning and coaching conversations.",
+      "cta": "Book a free strategy call"
     }
+  },
+  "credits": "© 2026 Eisberg ",
+  "privacy": {
+    "title": "Privacy Policy of the Eisberg App",
+    "content": "Last updated: August 2026\n\n1. What is this Privacy Policy about?\n\nEisberg is an app for learning and coaching conversations at school. It supports teachers and specialist staff in preparing, conducting and summarising conversations with students.\n\nThe app helps identify strengths, ask appropriate questions, and record goals, obstacles and next steps. With the prior consent of the parents or the authorised person, a conversation can be recorded. Eisberg creates a written summary from the recording. The audio file is then automatically and permanently deleted.\n\nThis Privacy Policy explains which personal data is processed when using Eisberg, why we need this data, who can access it and what rights data subjects have.\n\n2. Who provides Eisberg?\n\nEisberg is provided by:\n\nPädagogik+ GmbH\n\nSchüracherstrasse 45\n\n8700 Küsnacht\n\nSwitzerland\n\nEmail: info@paedagogik-plus.com\n\nwww.pädagogik-plus.com\n\nwww.eisberg-coaching.com\n\nFor questions about data protection, you can contact:\n\nBranka Rezan, Owner\n\nEmail: branka.rezan@paedagogik-plus.com\n\n3. Who is responsible for data processing?\n\nIf a public or private school uses Eisberg, the respective school or responsible school authority generally remains responsible for processing school-related personal data.\n\nPädagogik+ GmbH processes the data in accordance with the agreed instructions.\n\nTo the extent that Pädagogik+ GmbH processes data under its own responsibility for operating the app, managing user accounts, billing, security or support, Pädagogik+ GmbH is responsible for this processing.\n\n4. Who is Eisberg intended for?\n\nEisberg is intended for:\n\n- Teachers\n- Special education teachers\n- School social workers\n- School-based specialists\n- Coaches and other authorised support persons\n- Schools and school authorities\n- Students as part of a supported conversation\n\nStudents do not use Eisberg without the supervision of an authorised adult.\n\n5. What personal data is processed?\n\nDepending on how the app is used, the following personal data may be processed:\n\nData of teachers and specialist staff\n\n- First and last name\n- Email address\n- School and role\n- User account and access permissions\n- Login information\n- Selected settings\n- Information about licenses and subscriptions\n- Support requests and communications\n- Technical usage data and security logs\n\nData of students\n\n- First and last name, i.e. assigned identifiers\n- Class or learning group\n- Conversation date\n- Conversation content\n- Strengths, interests and resources\n- Academic and personal challenges\n- Goals, obstacles and next steps\n- Written conversation summaries\n- Notes from authorised teachers and specialist staff\n- Information about consent that has been granted or refused\n- Audio data during temporary processing\n\nLearning and coaching conversations may involve sensitive personal data. This may include information about health, wellbeing, family situations, special educational measures or social difficulties. The responsible teacher or specialist carefully determines, in accordance with the principle of proportionality, which information is necessary for the specific conversation and educational support.\n\n6. For what purposes is the data processed?\n\nThe data is processed in particular for the following purposes:\n\n- Preparation of learning and coaching conversations\n- Conducting and structuring conversations\n- Identifying strengths, resources and challenges\n- Developing goals and next steps\n- Creating a written conversation summary\n- Documenting agreed goals and measures\n- Preparing for further conversations\n- Managing user accounts and access rights\n- Providing, securing and improving the conversations\n- Handling support requests\n- Managing licenses, contracts and billing\n- Fulfilling contractual obligations\n\nPersonal data is not used for advertising. Conversation content is not sold and is not disclosed to third parties for advertising purposes.\n\nConversation content is not used to automatically assess or grade students or to make decisions about educational measures.\n\n7. How does audio recording work?\n\nAn audio recording is made only if the required consent has been given in advance.\n\nBefore recording begins, the people present are informed that the conversation will be recorded. Recording may only begin once all required consents have been obtained.\n\nThe audio file is processed exclusively to create a written summary of the conversation. It is not permanently stored in the app.\n\nAfter the summary has been created, the audio file is automatically and permanently deleted. It can then no longer be accessed or restored by either the school or Pädagogik+ GmbH.\n\nIf a transcript is temporarily created during processing, it is also permanently deleted after the summary has been created.\n\nOnly the approved conversation summary and the recorded goals and next steps are stored permanently.\n\n8. Is consent voluntary?\n\nConsent to audio recording is voluntary.\n\nIf consent is not given, the learning or coaching conversation takes place without audio recording and without an automatic summary. The student does not suffer any educational disadvantage as a result.\n\nConsent that has been given can be withdrawn at any time for future conversations. The lawfulness of processing that has already been completed is not affected by the withdrawal.\n\nThe withdrawal can be submitted to the school or via the following contact address:\n\nbranka.rezan@paedagogik-plus.com\n\nIf a student has sufficient capacity to make decisions based on their age and personal development, their wishes must also be appropriately taken into account. A recording should not be made against the student's clearly expressed wishes.\n\n9. What is the legal basis for processing the data?\n\nPublic schools process personal data on the basis of the applicable cantonal data protection law and the relevant school regulations.\n\nPädagogik+ GmbH is subject in particular to the Swiss Federal Act on Data Protection.\n\nAudio recording is based on prior consent from the authorised persons. Consent to record a non-public conversation must be obtained before recording begins.\n\n10. Who has access to the data?\n\nWithin the school, only authorised teachers and specialist staff who support the student and need the information for their duties receive access.\n\nAccess rights are assigned by the school and should be reviewed regularly.\n\nEmployees of Pädagogik+ GmbH only receive access when this is necessary for technical operation, security or handling a support request. They are required to maintain confidentiality.\n\nParents do not automatically receive access to the teacher's user account. Statutory rights to information, access and inspection remain unaffected.\n\n11. Is data shared with external service providers?\n\nCarefully selected technical service providers may be used to operate Eisberg, for example for:\n\n- Hosting and data storage\n- Creating transcripts and summaries\n- Sending emails\n- User authentication\n- Error analysis and technical security\n- Payment processing\n- Support\n\nThese service providers may process personal data only to the agreed extent and for the specified purposes. They are contractually required to maintain confidentiality, ensure data security and delete data.\n\nEisberg uses the following key service providers:\n\nService provider:\n\nDigitalOcean, LLC\n\nOperation and storage of the app\n\nCountry: Netherlands (Amsterdam data centre); provider based in the USA\n\nOpenAI Ireland Ltd. / OpenAI, L.L.C.\n\nTemporary conversion of the audio file into text\n\nCountry: Ireland (EU) / USA\n\nAnthropic PBC (Claude)\n\nCreation of the conversation summary\n\nCountry: USA\n\nBrevo (Sendinblue SAS)\n\nSending technical messages\n\nCountry: France (EU)\n\nPädagogik-Plus GmbH\n\nPayment processing\n\nCountry: Switzerland\n\nGoogle Ireland Ltd. / Google LLC\n\nHosting of the parent questionnaire (Google Forms), sending push notifications\n\nCountry: Ireland (EU) / USA\n\nAn up-to-date list of the service providers used can be requested via branka.rezan@paedagogik-plus.com.\n\n12. Is data transferred abroad?\n\nPersonal data is generally stored and processed in the EU.\n\nIf a service provider processes data in a country that does not provide data protection comparable to that of Switzerland or the EU, appropriate safeguards are implemented. These include, in particular, recognised standard contractual clauses and additional technical and organisational safeguards.\n\nAudio recordings and conversation content are processed only in the countries named in this Privacy Policy.\n\nBefore publication, this section must specify exactly whether audio recordings or summaries are processed outside Switzerland and the EU.\n\n13. Is the data used to train artificial intelligence?\n\nAudio recordings, transcripts, conversation summaries and other school-related personal data may not be used by Pädagogik+ GmbH or the service providers used by it to train their own or third-party artificial intelligence models.\n\nThey are also not used to create advertising profiles or for personalised advertising.\n\n14. How long is the data stored?\n\nPersonal data is retained only for as long as necessary for the respective purpose or as long as there is a legal obligation to retain it.\n\nThe school is responsible for determining the applicable retention periods and having school-related data that is no longer required deleted.\n\nWhen a student leaves the school or a teacher leaves their position, access rights are reviewed and adjusted.\n\n15. How is the data protected?\n\nPädagogik+ GmbH and the responsible school implement appropriate technical and organisational measures to protect personal data.\n\nThese include, in particular:\n\n- Encrypted data transmission\n- Encryption of stored data\n- Personal user accounts\n- Secure passwords and authentication procedures\n- Role-based access rights\n- Logging of security-relevant activities\n- Regular security checks\n- Secure backups\n- Contractual obligations for service providers\n- Training and confidentiality obligations for authorised employees\n- Procedures for detecting and handling data protection incidents\n\nDespite careful security measures, absolute security cannot be guaranteed when processing data digitally.\n\n16. What rights do data subjects have?\n\nUnder applicable law, data subjects have, in particular, the right to:\n\n- Request information about their processed personal data\n- Have inaccurate data corrected\n- Request the deletion of unlawfully processed or no longer required data\n- Have unlawful processing prohibited\n- Withdraw consent for the future\n- Contact the competent data protection supervisory authority\n\nThe right of access relates to personal data that is still available at the time of the request. If an audio file has already been permanently deleted, a copy of the recording can no longer be provided. However, information can still be requested about existing summaries and other stored personal data.\n\nThe rights of minors are exercised depending on their age and capacity to make decisions, either by the minors themselves or by their legal representative.\n\nRequests concerning school-related data should generally be addressed to the responsible school:\n\nRequests concerning Pädagogik+ GmbH can be sent to:\n\nbranka.rezan@paedagogik-plus.com\n\nAn appropriate proof of identity may be required before information is provided.\n\n17. Are automated decisions made?\n\nEisberg does not make decisions about students based solely on automated processing.\n\nThe summary created by Eisberg is a support tool for teachers and specialist staff. It does not replace educational or professional assessment. The responsible teacher must review the summary and can correct or supplement it.\n\nGrades, support measures and other educational decisions must not be based solely on an automatically generated summary.\n\n18. What data is collected when using the app technically?\n\nWhen using the app, technical data may be collected, for example:\n\n- IP address\n- Device type and operating system\n- App version\n- Time and duration of access\n- Login activities\n- Error messages\n- Security events\n- Technical identifiers\n\nThis data is required to provide the app, resolve errors, prevent misuse and ensure security.\n\nTechnical usage data is not combined with conversation content to create advertising profiles.\n\n19. Communications and support\n\nWhen a teacher, school or other authorised person contacts Pädagogik+ GmbH, the contact details provided and the content of the request are processed.\n\nSupport requests should not contain unnecessary personal data of students. If access to school-related data is necessary for troubleshooting, this is only done with the appropriate authorisation and is limited to what is necessary.\n\n20. Data protection breaches\n\nIf there is a suspicion that personal data has been lost, accessed without authorisation or disclosed unlawfully, the incident is investigated and documented.\n\nThe responsible school and, where applicable, the competent data protection supervisory authority and the affected persons are informed where this is legally required.\n\nData protection incidents can be reported to:\n\nbranka.rezan@paedagogik-plus.com\n\n21. Changes to this Privacy Policy\n\nThis Privacy Policy may be amended if the app, the service providers used or the legal requirements change.\n\nIn the event of significant changes, schools and users will be informed in an appropriate manner.\n\nIf a change significantly expands the purpose or scope of audio processing, new consent will be obtained.\n\n22. Contact\n\nPädagogik+ GmbH\n\nEisberg\n\nSchüracherstrasse 45\n\n8700 Küsnacht\n\nSwitzerland\n\nbranka.rezan@paedagogik-plus.com\n\nwww.pädagogik-plus.com\n\nwww.eisberg-coaching.com"
   }
 }

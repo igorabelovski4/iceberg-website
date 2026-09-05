@@ -1,14 +1,28 @@
 import { Carousel } from "@mantine/carousel";
-import { Center, Flex, Group, Image, Stack } from "@mantine/core";
+import {
+  Box,
+  Center,
+  Flex,
+  Group,
+  Image,
+  SimpleGrid,
+  Stack,
+} from "@mantine/core";
 import { useTranslation } from "react-i18next";
 import Autoplay from "embla-carousel-autoplay";
 
-import { Description, Title } from "@/components";
+import { Description, Title, Video } from "@/components";
 import { useRef } from "react";
 import { IFeedbackItem } from "@/types/common";
 
 import classes from "./index.module.css";
-import { AVATAR_IMAGE, STAR_IMAGE } from "@/constants/app";
+import {
+  AVATAR_IMAGE,
+  STAR_IMAGE,
+  TESTIMONIAL__VIDEO_POSTER,
+  TESTIMONIAL_VIDEO_MP4,
+  TESTIMONIAL_VIDEO_WEBM,
+} from "@/constants/app";
 
 const FeedbackCaourselSlide = ({ feedback, index }: any) => {
   return (
@@ -65,10 +79,19 @@ const Feedback = () => {
   const { t } = useTranslation();
 
   return (
-    <Flex gap={"100"} align={"center"}>
-      <Description align='left'>{t("home.feedback.description")}</Description>
-      <FeedbackCarousel />
-    </Flex>
+    <Stack align='center' gap={80}>
+      <SimpleGrid cols={2} spacing={"xl"}>
+        <Description align='left'>{t("home.feedback.description")}</Description>
+        <Video
+          srcWebm={TESTIMONIAL_VIDEO_WEBM}
+          srcMp4={TESTIMONIAL_VIDEO_MP4}
+          srcPoster={TESTIMONIAL__VIDEO_POSTER}
+        />
+      </SimpleGrid>
+      <Center maw={800}>
+        <FeedbackCarousel />
+      </Center>
+    </Stack>
   );
 };
 

@@ -11,9 +11,16 @@ const AccordionItem = ({
   dark = false,
 }: IAccordionItem) => {
   return (
-    <Accordion.Item value={title}>
+    <Accordion.Item
+      value={title}
+      styles={{
+        item: {
+          border: "1px solid var(--color-border)",
+        },
+      }}
+    >
       <Accordion.Control>
-        <Title variant={dark ? "light" : "dark"} margin={false}>
+        <Title variant={dark ? "light" : "dark"} small margin={false}>
           {question}
         </Title>
       </Accordion.Control>

@@ -1,55 +1,33 @@
 import { useTranslation } from "react-i18next";
-import { AppConstants } from "@/constants";
 
 import {
   Description,
-  Eyebrow,
-  HeroDescription,
-  HeroImage,
-  HeroTitle,
   PricingOffer,
   PrimaryButton,
   Section,
   SectionTitle,
   Title,
+  Letter,
 } from "@/components";
 import { SimpleGrid, Stack } from "@mantine/core";
-import { BRIEF_DOCUMENT } from "@/constants/app";
-
-const { CERTIFICATION_IMAGE } = AppConstants;
 
 export function PricingPage() {
   const { t } = useTranslation();
 
   return (
     <>
-      <Section>
-        <HeroTitle shadow={false}>{t("pricing.hero.title")}</HeroTitle>
-        <HeroDescription shadow={false}>
-          {t("pricing.hero.description")}
-        </HeroDescription>
-        <HeroImage
-          src={CERTIFICATION_IMAGE}
-          alt={t("pricing.hero.illustrationText")}
-          bigger
-          noMargin
-        />
-      </Section>
       <Section variant='dark'>
-        <SectionTitle variant='light' margin>
+        <SectionTitle variant='light'>
           {t("pricing.pricing.title")}
         </SectionTitle>
-        <SimpleGrid cols={3}>
+        <Description variant='light' margin>
+          {t("pricing.pricing.description")}
+        </Description>
+        <SimpleGrid cols={2} mt={"64"}>
           <PricingOffer index={0} />
           <PricingOffer index={1} />
-          <PricingOffer index={2} />
         </SimpleGrid>
-      </Section>
-      <Section>
-        <Description margin>{t("pricing.brief.description")}</Description>
-        <PrimaryButton variant='dark' download href={BRIEF_DOCUMENT}>
-          {t("pricing.brief.cta")}
-        </PrimaryButton>
+        <Letter />
       </Section>
       <Section variant='secondary'>
         <SectionTitle variant='light' margin>

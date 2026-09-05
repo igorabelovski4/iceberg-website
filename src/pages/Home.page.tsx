@@ -90,15 +90,15 @@ export function HomePage() {
       <Section>
         <Feedback />
       </Section>
-      <Section variant='secondary'>
+      <Section variant='dark'>
         <SectionTitle variant='light' margin>
           {t("home.footer.title")}
         </SectionTitle>
-        <PrimaryButton variant='white-secondary'>
+        <PrimaryButton variant='white-dark'>
           {t("home.footer.button")}
         </PrimaryButton>
       </Section>
-      <Section variant='dark'>
+      <Section variant='secondary'>
         <SimpleGrid cols={{ base: 1, sm: 3 }} spacing={{ base: 16, sm: 36 }}>
           {badges.map((badge, index) => (
             <HeroCard

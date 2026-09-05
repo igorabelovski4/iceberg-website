@@ -7,8 +7,10 @@ import { PricingPage } from "./pages/Pricing.page";
 import { FaqPage } from "./pages/Faq.page";
 import { TeamPage } from "./pages/Team.page";
 import { SchoolsPage } from "./pages/Schools.page";
+import PrivacyPage from "./pages/Privacy.page";
 
 import { Layout } from "@/components";
+import { ROUTE_POLICY } from "./constants/route";
 
 const {
   ROUTE_LANDING,
@@ -46,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: ROUTE_SCHOOLS,
         element: <SchoolsPage />,
+      },
+      {
+        path: ROUTE_POLICY,
+        element: <PrivacyPage />,
       },
     ],
   },

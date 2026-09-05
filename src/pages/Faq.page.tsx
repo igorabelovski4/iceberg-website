@@ -27,14 +27,13 @@ export function FaqPage() {
           {t("faq.hero.description")}
         </HeroDescription>
         <Section>
-          <AccordionBox dark>
+          <AccordionBox>
             {questions.map((question, index) => (
               <AccordionItem
                 key={question.id}
                 title={question.id}
                 question={question.question}
                 answer={question.answer}
-                dark
               />
             ))}
           </AccordionBox>

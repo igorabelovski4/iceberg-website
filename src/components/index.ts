@@ -23,6 +23,7 @@ import HeroTitle from "./hero-title";
 
 import LanguagePicker from "./language-picker";
 import Layout from "./layout";
+import Letter from "./pricing/letter";
 
 import Navigation from "./navigation";
 import NavigationLink from "./navigation-link";
@@ -68,6 +69,7 @@ export {
   HeroTitle,
   LanguagePicker,
   Layout,
+  Letter,
   PricingCards,
   PricingOffer,
   Navigation,

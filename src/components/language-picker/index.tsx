@@ -3,11 +3,13 @@ import { Group, Image, Menu, Text, UnstyledButton } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 import classes from "./index.module.css";
 
-import { GB_FLAG, DE_FLAG } from "@/constants/app";
+import { DE_FLAG, CH_FLAG, UK_FLAG, US_FLAG } from "@/constants/app";
 
 const data = [
   { label: "languages.de", image: DE_FLAG, code: "DE" },
-  { label: "languages.en", image: GB_FLAG, code: "EN" },
+  { label: "languages.ch", image: CH_FLAG, code: "CH" },
+  { label: "languages.en", image: UK_FLAG, code: "EN" },
+  { label: "languages.us", image: US_FLAG, code: "US" },
 ];
 
 const LanguagePicker = () => {

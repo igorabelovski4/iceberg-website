@@ -127,6 +127,7 @@ export interface IDescription {
   align?: "left" | "center";
   margin?: boolean;
   strong?: boolean;
+  format?: boolean;
 }
 
 export interface IFeatureCard {
@@ -244,4 +245,8 @@ export interface ITeamItem {
   name: string;
   role: string;
   biography: string;
+}
+
+export interface ISupportDescription {
+  text: string;
 }

@@ -2,6 +2,21 @@
   padding: 16px;
 }
 
+.footer {
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text-primary);
+  transition: all 0.15s ease-out;
+
+  &:hover {
+    color: var(--color-text-muted);
+  }
+}
+
 @media (max-width: 786px) {
   .navbar {
     padding: 12px;

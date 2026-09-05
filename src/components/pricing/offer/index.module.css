@@ -1,93 +1,50 @@
 .card {
-  text-align: center;
   padding: 48px 36px 36px 36px;
   border-radius: 24px;
   box-shadow: var(--box-shadow-3);
   position: relative;
   overflow: visible;
+  color: var(--color-text-primary);
 }
 
-.highlightCard {
-  border: none;
-  background-color: var(--color-brand-primary);
+.label {
+  padding: 7px 16px;
+  font-weight: 600;
+  background-color: var(--color-brand-primary-light);
+  color: var(--color-brand-primary-dark);
+  border-radius: 99px;
+  display: inline-block;
+  margin-bottom: 24px;
+
+  &.secondary {
+    background-color: var(--color-brand-secondary-light);
+    color: var(--color-brand-secondary-dark);
+  }
+}
+
+.subtitle {
+  font-size: 20px;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
 }
 
 .title {
-  font-size: 24px;
-}
-
-.highlightCard .title {
-  color: var(--color-white);
-}
-
-.highlight {
-  position: absolute;
-  top: -20px;
-  background-color: var(--color-brand-secondary);
-  padding: 8px 16px;
-  border: 2px solid var(--color-brand-secondary);
-  border-radius: 12px;
-  font-weight: 500;
-  box-shadow: var(--box-shadow-3);
-  text-transform: uppercase;
-}
-
-.description,
-.subtitle {
-  font-size: 17px;
-  line-height: 1.8;
-  font-weight: 500;
-  color: var(--color-text-primary);
-}
-
-.subtitle {
-  padding-bottom: 36px;
-  border-bottom: 1px solid var(--color-divider);
-}
-
-.highlightCard .description,
-.highlightCard .subtitle {
-  color: var(--color-white);
-}
-
-.highlightCard .subtitle {
-  border-color: var(--color-light);
-}
-
-.box {
-  padding: 24px 24px;
-  border-radius: 12px;
-  background-color: var(--color-brand-secondary-very-light);
-  border: 1px solid var(--color-brand-secondary);
-}
-
-.highlightCard .box {
-  background-color: var(--color-white);
-  border-color: var(--color-brand-primary-dark);
-}
-
-.additional {
-  color: var(--color-brand-secondary-dark);
+  font-size: 32px;
   font-weight: 600;
-}
-
-.highlightCard .additional {
-  color: var(--color-brand-primary-dark);
-}
-
-.note {
-  font-size: 14px;
-  color: var(--color-text-primary);
-}
-
-.before,
-.after {
-  font-size: 15px;
-  color: var(--color-text-primary);
+  margin-bottom: 26px;
 }
 
 .price {
-  font-size: 24px;
-  color: var(--color-text-primary);
+  font-size: 46px;
   font-weight: 600;
+  color: var(--color-space-dark);
+}
+
+.sufix {
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.additional {
+  color: var(--color-text-muted);
 }

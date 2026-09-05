@@ -15,75 +15,125 @@ import {
 
 export const HEADER_HEIGHT = 80;
 
-export const LOGO_IMAGE = "/assets/images/eisberg-logo-light.svg";
-export const LANDING_HERO_IMAGE = "/assets/images/iceberg.webp";
+export const LOGO_IMAGE = "/assets/images/logo/eisberg-logo-light.svg";
+export const LANDING_HERO_IMAGE = "/assets/images/iceberg-1.webp";
 export const HERO_3D_VIDEO_IMAGE = "/assets/images/3d-video.webp";
 export const FAQ_BACKGROUND_IMAGE = "/assets/images/iceberg-deep.webp";
-export const FOUNDER_IMAGE = "/assets/images/branka.webp";
+export const FOUNDER_IMAGE = "/assets/images/founder.webp";
 export const TEAM_0_IMAGE = "/assets/images/branka.webp";
 export const TEAM_1_IMAGE = "/assets/images/sandra.webp";
-export const TEAM_2_IMAGE = "/assets/images/kathy.webp";
+export const TEAM_2_IMAGE = "/assets/images/bettina.webp";
 export const TEAM_3_IMAGE = "/assets/images/kathy.webp";
 
 export const HOME_VIDEO_MP4 = "/assets/videos/video-home.mp4";
 export const HOME_VIDEO_WEBM = "/assets/videos/video-home.webm";
 export const HOME_VIDEO_POSTER_EN =
-  "/assets/images/video-home-thumbnail-en.webp";
+  "/assets/images/thumbnails/video-home-thumbnail-en.webp";
 export const HOME_VIDEO_POSTER_DE =
-  "/assets/images/video-home-thumbnail-de.webp";
+  "/assets/images/thumbnails/video-home-thumbnail-de.webp";
 export const SCHOOLS_VIDEO_MP4 = "/assets/videos/video-schools.mp4";
 export const SCHOOLS_VIDEO_WEBM = "/assets/videos/video-schools.webm";
 export const SCHOOLS_VIDEO_POSTER_EN =
-  "/assets/images/video-schools-thumbnail-en.webp";
+  "/assets/images/thumbnails/video-schools-thumbnail-en.webp";
 export const SCHOOLS_VIDEO_POSTER_DE =
-  "/assets/images/video-schools-thumbnail-de.webp";
+  "/assets/images/thumbnails/video-schools-thumbnail-de.webp";
 
-export const DE_FLAG = "/assets/flags/de.png";
-export const FR_FLAG = "/assets/flags/fr.png";
-export const GB_FLAG = "/assets/flags/gb.png";
-export const IT_FLAG = "/assets/flags/it.png";
+export const TESTIMONIAL_VIDEO_MP4 = "/assets/videos/testimonial.mp4";
+export const TESTIMONIAL_VIDEO_WEBM = "/assets/videos/testimonial.webm";
+export const TESTIMONIAL__VIDEO_POSTER =
+  "/assets/images/thumbnails/testimonial.webp";
 
-export const STORY_1_IMAGE = "/assets/images/story-1.webp";
-export const STORY_2_IMAGE = "/assets/images/story-2.webp";
-export const STORY_3_IMAGE = "/assets/images/story-3.webp";
-export const STORY_4_IMAGE = "/assets/images/story-4.webp";
-export const STORY_5_IMAGE = "/assets/images/story-5.webp";
-export const STORY_6_IMAGE = "/assets/images/story-6.webp";
-export const STORY_7_IMAGE = "/assets/images/story-7.webp";
-export const STORY_8_IMAGE = "/assets/images/story-8.webp";
-export const STORY_9_IMAGE = "/assets/images/story-9.webp";
-export const STORY_10_IMAGE = "/assets/images/story-10.webp";
-export const STORY_ARROW = "/assets/images/arrow.svg";
+export const DE_FLAG = "/assets/flags/de.webp";
+export const CH_FLAG = "/assets/flags/ch.webp";
+export const UK_FLAG = "/assets/flags/uk.webp";
+export const US_FLAG = "/assets/flags/us.webp";
+
+export const STORY_1_IMAGE = "/assets/images/story/story-1.webp";
+export const STORY_2_IMAGE = "/assets/images/story/story-2.webp";
+export const STORY_3_IMAGE = "/assets/images/story/story-3.webp";
+export const STORY_4_IMAGE = "/assets/images/story/story-4.webp";
+export const STORY_5_IMAGE = "/assets/images/story/story-5.webp";
+export const STORY_6_IMAGE = "/assets/images/story/story-6.webp";
+export const STORY_7_IMAGE = "/assets/images/story/story-7.webp";
+export const STORY_8_IMAGE = "/assets/images/story/story-8.webp";
+export const STORY_9_IMAGE = "/assets/images/story/story-9.webp";
+export const STORY_10_IMAGE = "/assets/images/story/story-10.webp";
 
 export const APP_STORE_IMAGE = "/assets/images/app-store-button.webp";
 export const GOOGLE_PLAY_IMAGE = "/assets/images/google-play-button.webp";
 
-export const LAPTOP_VIEWPORT_IMAGE = "/assets/images/laptop-viewport.webp";
-export const TABLET_VIEWPORT_IMAGE = "/assets/images/tablet-viewport.webp";
-export const MOBILE_VIEWPORT_IMAGE = "/assets/images/mobile-viewport.webp";
-export const TABLET_VIEWPORT_1_IMAGE = "/assets/images/tablet-viewport-1.webp";
-export const TABLET_VIEWPORT_2_IMAGE = "/assets/images/tablet-viewport-2.webp";
-export const TABLET_VIEWPORT_3_IMAGE = "/assets/images/tablet-viewport-3.webp";
+export const LAPTOP_VIEWPORT_IMAGE_EN =
+  "/assets/images/screenshots/laptop-viewport-en.webp";
+export const LAPTOP_VIEWPORT_IMAGE_US =
+  "/assets/images/screenshots/laptop-viewport-us.webp";
+export const LAPTOP_VIEWPORT_IMAGE_DE =
+  "/assets/images/screenshots/laptop-viewport-de.webp";
+export const LAPTOP_VIEWPORT_IMAGE_CH =
+  "/assets/images/screenshots/laptop-viewport-ch.webp";
+export const TABLET_VIEWPORT_IMAGE_EN =
+  "/assets/images/screenshots/tablet-viewport-en.webp";
+export const TABLET_VIEWPORT_IMAGE_US =
+  "/assets/images/screenshots/tablet-viewport-us.webp";
+export const TABLET_VIEWPORT_IMAGE_DE =
+  "/assets/images/screenshots/tablet-viewport-de.webp";
+export const TABLET_VIEWPORT_IMAGE_CH =
+  "/assets/images/screenshots/tablet-viewport-ch.webp";
+export const MOBILE_VIEWPORT_IMAGE_EN =
+  "/assets/images/screenshots/mobile-viewport-en.webp";
+export const MOBILE_VIEWPORT_IMAGE_US =
+  "/assets/images/screenshots/mobile-viewport-us.webp";
+export const MOBILE_VIEWPORT_IMAGE_DE =
+  "/assets/images/screenshots/mobile-viewport-de.webp";
+export const MOBILE_VIEWPORT_IMAGE_CH =
+  "/assets/images/screenshots/mobile-viewport-ch.webp";
+export const TABLET_VIEWPORT_1_IMAGE_EN =
+  "/assets/images/screenshots/tablet-viewport-1-en.webp";
+export const TABLET_VIEWPORT_1_IMAGE_US =
+  "/assets/images/screenshots/tablet-viewport-1-us.webp";
+export const TABLET_VIEWPORT_1_IMAGE_DE =
+  "/assets/images/screenshots/tablet-viewport-1-de.webp";
+export const TABLET_VIEWPORT_1_IMAGE_CH =
+  "/assets/images/screenshots/tablet-viewport-1-ch.webp";
+export const TABLET_VIEWPORT_2_IMAGE_EN =
+  "/assets/images/screenshots/tablet-viewport-2-en.webp";
+export const TABLET_VIEWPORT_2_IMAGE_US =
+  "/assets/images/screenshots/tablet-viewport-2-us.webp";
+export const TABLET_VIEWPORT_2_IMAGE_DE =
+  "/assets/images/screenshots/tablet-viewport-2-de.webp";
+export const TABLET_VIEWPORT_2_IMAGE_CH =
+  "/assets/images/screenshots/tablet-viewport-2-ch.webp";
+export const TABLET_VIEWPORT_3_IMAGE_EN =
+  "/assets/images/screenshots/tablet-viewport-3-en.webp";
+export const TABLET_VIEWPORT_3_IMAGE_US =
+  "/assets/images/screenshots/tablet-viewport-3-us.webp";
+export const TABLET_VIEWPORT_3_IMAGE_DE =
+  "/assets/images/screenshots/tablet-viewport-3-de.webp";
+export const TABLET_VIEWPORT_3_IMAGE_CH =
+  "/assets/images/screenshots/tablet-viewport-3-ch.webp";
 
-export const SATISFACTION_IMAGE = "/assets/illustrations/happy-news.png";
-export const CLOCK_IMAGE = "/assets/illustrations/time-change.png";
-export const CONVERSATION_IMAGE = "/assets/illustrations/getting-coffee.png";
-export const DEEP_MINDS_IMAGE = "/assets/illustrations/thought-process.png";
-export const GOALS_IMAGE = "/assets/illustrations/personal-goals.png";
-export const PARENTS_IMAGE = "/assets/illustrations/quality-time.png";
-export const FOCUS_IMAGE = "/assets/illustrations/podcast-listener.png";
-export const FEEDBACK_IMAGE = "/assets/illustrations/reviews.png";
-export const PROGRESS_IMAGE = "/assets/illustrations/stepping-up.png";
-export const CONFIDENCE_IMAGE = "/assets/illustrations/stand-up.png";
+export const SATISFACTION_IMAGE = "/assets/illustrations/happy-news.webp";
+export const CLOCK_IMAGE = "/assets/illustrations/time-change.webp";
+export const CONVERSATION_IMAGE = "/assets/illustrations/getting-coffee.webp";
+export const DEEP_MINDS_IMAGE = "/assets/illustrations/thought-process.webp";
+export const GOALS_IMAGE = "/assets/illustrations/personal-goals.webp";
+export const PARENTS_IMAGE = "/assets/illustrations/quality-time.webp";
+export const FOCUS_IMAGE = "/assets/illustrations/podcast-listener.webp";
+export const FEEDBACK_IMAGE = "/assets/illustrations/reviews.webp";
+export const PROGRESS_IMAGE = "/assets/illustrations/stepping-up.webp";
+export const CONFIDENCE_IMAGE = "/assets/illustrations/stand-up.webp";
 
-export const TEAM_IMAGE = "/assets/illustrations/team.png";
-export const CERTIFICATION_IMAGE = "/assets/images/membership.webp";
+export const TEAM_IMAGE = "/assets/illustrations/team.webp";
 
-export const BRIEF_DOCUMENT = "/assets/documents/brief.pdf";
+export const BRIEF_DOCUMENT_CH = "/assets/documents/Brief-CH.pdf";
+export const BRIEF_DOCUMENT_EN = "/assets/documents/Brief-EN.pdf";
+export const BRIEF_DOCUMENT_DE = "/assets/documents/Brief-DE.pdf";
+export const BRIEF_DOCUMENT_US = "/assets/documents/Brief-US.pdf";
 
-export const AVATAR_IMAGE = "/assets/illustrations/avatar.svg";
+export const AVATAR_IMAGE = "/assets/illustrations/avatar.webp";
 
 export const STAR_IMAGE = "/assets/images/star.svg";
+
+export const LETTER_IMAGE = "/assets/illustrations/letter.webp";
 
 export const TEAM_IMAGES = [
   TEAM_0_IMAGE,

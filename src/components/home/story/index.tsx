@@ -3,13 +3,10 @@ import { Center, Flex, Image, Stack } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 import Autoplay from "embla-carousel-autoplay";
 
-import { AppConstants } from "@/constants";
 import { Description, SectionTitle } from "@/components";
 import { IStoryCarouselSlide } from "@/types/common";
 import { STORY_0_IMAGES, STORY_1_IMAGES } from "@/constants/app";
 import { useRef } from "react";
-
-const { STORY_ARROW } = AppConstants;
 
 const StoryCarouselSlide = ({ image, index }: IStoryCarouselSlide) => {
   return (
@@ -51,8 +48,8 @@ const Story = () => {
 
   return (
     <Stack gap='xl'>
-      <SectionTitle>{t("home.story.heading_1")}</SectionTitle>
-      <Flex align='center' gap='xl'>
+      <SectionTitle margin>{t("home.story.heading_1")}</SectionTitle>
+      <Flex align='center' gap='xl' mb={64}>
         <StoryCarousel images={STORY_0_IMAGES} />
         <Stack>
           <Description align='left'>
@@ -60,10 +57,7 @@ const Story = () => {
           </Description>
         </Stack>
       </Flex>
-      <Flex my={48} justify='center'>
-        <Image src={STORY_ARROW} alt='Illustration' w={64} />
-      </Flex>
-      <SectionTitle>{t("home.story.heading_2")}</SectionTitle>
+      <SectionTitle margin>{t("home.story.heading_2")}</SectionTitle>
       <Flex align='center' gap='xl'>
         <Description align='left'>{t("home.story.description_2")}</Description>
         <StoryCarousel images={STORY_1_IMAGES} />

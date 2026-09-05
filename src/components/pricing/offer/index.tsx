@@ -1,4 +1,4 @@
-import { Box, Card, Divider, Title, Group, Stack, Text } from "@mantine/core";
+import { Box, Card, Title, Group, Stack, Text } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 import { PrimaryButton } from "@/components";
 
@@ -20,43 +20,28 @@ const PricingOffer = ({ index }: PricingOfferProps) => {
   const highlight = i18n.exists(`pricing.pricing.plans.${index}.highlight`);
 
   return (
-    <Card
-      className={`${classes.card} ${highlight ? classes.highlightCard : ""}`}
-    >
-      <Stack align='center' gap='36' mb='xl'>
-        <Title className={classes.title}>
-          {t(`pricing.pricing.plans.${index}.title`)}
-        </Title>
-        {highlight && (
-          <Text className={classes.highlight}>
-            {t(`pricing.pricing.plans.${index}.highlight`)}
-          </Text>
-        )}
+    <Card className={classes.card}>
+      <Box ta='left'>
+        <Text
+          className={`${classes.label} ${index === 0 ? "" : classes.secondary}`}
+        >
+          {t(`pricing.pricing.plans.${index}.label`)}
+        </Text>
         <Text className={classes.subtitle}>
           {t(`pricing.pricing.plans.${index}.subtitle`)}
         </Text>
-        <Text className={classes.description}>
-          {t(`pricing.pricing.plans.${index}.description`)}
-        </Text>
-        <Box className={classes.box}>
-          <Stack gap='sm' mb={28}>
-            <Text className={classes.additional}>
-              {t(`pricing.pricing.plans.${index}.additional.title`)}
-            </Text>
-            <Text className={classes.note}>
-              {t(`pricing.pricing.plans.${index}.additional.note`)}
-            </Text>
-          </Stack>
-          <Stack gap='0'>
-            <Text className={classes.before}>
-              {t(`pricing.pricing.plans.${index}.price.before`)}
-            </Text>
-            <Text className={classes.price}>
-              {t(`pricing.pricing.plans.${index}.price.price`)}
-            </Text>
-          </Stack>
-        </Box>
-      </Stack>
+        <Title className={classes.title} ta='left'>
+          {t(`pricing.pricing.plans.${index}.title`)}
+        </Title>
+        <Group gap={"md"} align='center' mb={24}>
+          <Text className={classes.price}>
+            {t(`pricing.pricing.plans.${index}.price`)}
+          </Text>
+          <Text className={classes.sufix}>
+            {t(`pricing.pricing.plans.${index}.sufix`)}
+          </Text>
+        </Group>
+      </Box>
       <Box my='xl'>
         <ProsConsSection
           header={false}
@@ -67,17 +52,15 @@ const PricingOffer = ({ index }: PricingOfferProps) => {
       </Box>
       <Stack>
         <PrimaryButton
-          variant={highlight ? "white-primary" : "primary"}
           icon
           block
+          variant={index === 0 ? "primary" : "secondary"}
         >
           {t(`pricing.pricing.plans.${index}.cta`)}
         </PrimaryButton>
-        {i18n.exists(`pricing.pricing.plans.${index}.link`) && (
-          <PrimaryButton variant='white-primary' block>
-            {t(`pricing.pricing.plans.${index}.link`)}
-          </PrimaryButton>
-        )}
+        <Text className={classes.additional}>
+          {t(`pricing.pricing.plans.${index}.note`)}
+        </Text>
       </Stack>
     </Card>
   );

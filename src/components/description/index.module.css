@@ -25,6 +25,10 @@
   &.strong {
     font-weight: 700;
   }
+
+  &.format {
+    white-space: pre-line;
+  }
 }
 
 @media (max-width: 1200px) {

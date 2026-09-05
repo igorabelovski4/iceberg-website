@@ -3,15 +3,12 @@ import { AppConstants } from "@/constants";
 
 import {
   Eyebrow,
-  HeroDescription,
-  HeroImage,
   HeroTitle,
   PrimaryButton,
   Section,
   Description,
   SectionTitle,
   SchoolFaq,
-  Title,
   Calendly,
   Video,
 } from "@/components";
@@ -34,10 +31,7 @@ export function SchoolsPage() {
     <>
       <Section>
         <HeroTitle shadow={false}>{t("schools.hero.title")}</HeroTitle>
-        <HeroDescription shadow={false}>
-          {t("schools.hero.description")}
-        </HeroDescription>
-        <HeroImage src={TEAM_IMAGE} alt={t("schools.hero.illustrationText")} />
+        <Calendly />
       </Section>
       <Section>
         <Eyebrow>{t("schools.video.eyebrow")}</Eyebrow>
@@ -49,10 +43,6 @@ export function SchoolsPage() {
           srcPoster={videoPoster}
         />
       </Section>
-      <Section>
-        <SectionTitle>{t("schools.booking.title")}</SectionTitle>
-        <Calendly />
-      </Section>
       <Section variant='dark'>
         <Eyebrow variant='light'>{t("schools.faq.eyebrow")}</Eyebrow>
         <SectionTitle variant='light' margin>
@@ -61,12 +51,7 @@ export function SchoolsPage() {
         <SchoolFaq />
       </Section>
       <Section variant='primary'>
-        <Title variant='light' big>
-          {t("schools.cta.title")}
-        </Title>
-        <SectionTitle variant='light' margin>
-          {t("schools.cta.subtitle")}
-        </SectionTitle>
+        <SectionTitle variant='light'>{t("schools.cta.title")}</SectionTitle>
         <Description variant='light' margin>
           {t("schools.cta.description")}
         </Description>

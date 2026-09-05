@@ -4,14 +4,15 @@
     "product": "Produkt",
     "pricing": "Preise",
     "faq": "FAQ",
-    "team": "Team",
-    "schools": "Für Schulleitungen"
+    "team": "Über uns",
+    "schools": "Für Schulleitungen",
+    "privacy": "Datenschutzerklärung"
   },
   "languages": {
-    "en": "EN",
     "de": "DE",
-    "it": "IT",
-    "fr": "FR"
+    "ch": "CH",
+    "en": "EN",
+    "us": "US"
   },
   "cta": {
     "start": "Jetzt starten",
@@ -27,8 +28,8 @@
     "story": {
       "heading_1": "Mehr bewirken und Zeit sparen",
       "description_1": "Eisberg entlastet dich bei der Vorbereitung, im Gespräch und bei der Nachbereitung. Passende Fragen und Formulierungshilfen unterstützen dich, während Eisberg das Gespräch transkribiert, die wichtigsten Inhalte zusammenfasst, nächste Schritte festhält und die Elterninformation vorbereitet. So bleibt dir mehr Zeit für volle Präsenz, stärkende Beziehungen und Motivation, die von innen wächst. Gleichzeitig wird deine wertvolle pädagogische Arbeit sichtbar.",
-      "heading_2": "Dein stärkstes pädagogisches Werkzeug",
-      "description_2": "Eisberg ist dein dynamischer pädagogischer Begleiter. Lernwege, fachliche und überfachliche Kompetenzen, Ziele und nächste Schritte werden über alle Gespräche hinweg miteinander verbunden. So behältst du im Blick, wer woran arbeitet, Ziele werden nachhaltig verankert und Schüler und Schülerinnen kommen ins Handeln. Rückmeldungen zum Gesprächsverlauf stärken dich und helfen dir, deine Gesprächsführung kontinuierlich weiterzuentwickeln."
+      "heading_2": "Dein stärkstes Tool für wirksame Lerngespräche",
+      "description_2": "Eisberg begleitet dich vor, während und nach jedem Lern- und Coachinggespräch. Lernwege, fachliche und überfachliche Kompetenzen, Ziele und nächste Schritte werden über mehrere Gespräche hinweg sichtbar und miteinander verknüpft. So erkennst du auf einen Blick, wer woran arbeitet, und sorgst dafür, dass vereinbarte Ziele im Schulalltag weiterwirken. Schüler und Schülerinnen kommen ins Handeln und du erhältst wertvolle Rückmeldungen, mit denen du deine Gesprächsführung gezielt weiterentwickeln kannst."
     },
     "support": {
       "eyebrow": "Mehr als eine Software",
@@ -40,29 +41,8 @@
       "subtitle": "Mit Eisberg klarer begleiten und mehr bewirken."
     },
     "routine": {
-      "title": "So funktioniert Eisberg in deinem Alltag",
-      "items": [
-        {
-          "title": "⁠Alles auf einen Blick",
-          "text": "Du öffnest Eisberg und siehst sofort, wo du mit diesem Kind stehst: das letzte Gespräch, wichtige Beobachtungen, aktuelle Themen, vereinbarte Ziele und nächste Schritte. Statt Zettel zu suchen oder dich mühsam zu erinnern, bist du in wenigen Minuten vorbereitet. Du gehst ruhiger ins Gespräch, weil du den roten Faden bereits vor dir hast."
-        },
-        {
-          "title": "Voll präsent im Gespräch",
-          "text": "Eisberg begleitet dich mit gezielten Fragen durch das Lern- und Coachinggespräch: vom Einstieg über Wünsche, Ziele und Hindernisse bis zum nächsten kleinen Schritt. Aus dem Gespräch entstehen ein persönlicher Kraftsatz und ein passendes Bild, die dem Kind helfen, dranzubleiben und sich an seine eigene Stärke zu erinnern. Während du zuhörst, fragst und Beziehung aufbaust, transkribiert Eisberg im Hintergrund. So kannst du wirklich präsent sein, statt gleichzeitig mitschreiben, strukturieren und dokumentieren zu müssen."
-        },
-        {
-          "title": "⁠Die Nachbereitung schreibt sich fast von selbst",
-          "text": "Nach dem Gespräch fasst Eisberg die wichtigsten Punkte automatisch für dich zusammen: Stärken, Kompetenzen, Ziele, Hindernisse und nächste Schritte werden klar geordnet und verständlich formuliert. In wenigen Minuten entsteht daraus eine professionelle Zusammenfassung, die du direkt als Elternmail verwenden kannst. Auf Wunsch auch in der passenden Sprache der Familie."
-        },
-        {
-          "title": "Beobachtungen einfach festhalten",
-          "text": "Zwischen den Gesprächen hältst du kurze Beobachtungen direkt per Sprachnachricht fest. Eisberg ordnet sie dem passenden Kind zu, damit du sie beim nächsten Gespräch sofort griffbereit hast. So gehst du nicht mit einem leeren Blatt ins Gespräch, sondern mit echten Eindrücken aus dem Schulalltag."
-        },
-        {
-          "title": "⁠Fachliche Impulse genau dann, wenn du sie brauchst",
-          "text": "Manchmal spürst du: Da steckt mehr dahinter. Ein Verhalten irritiert dich. Ein Gespräch war schwierig. Ein Kind kommt nicht weiter. Eisberg unterstützt dich mit geprüften Impulsen zu Verhalten, Classroom Management, Beziehungsgestaltung, Lernstrategien und Elternarbeit. So kannst du Situationen klarer einordnen, neue Handlungsmöglichkeiten entdecken und deine nächsten Schritte gezielt planen"
-        }
-      ]
+      "title": "Voll präsent im Gespräch",
+      "description": "Eisberg begleitet dich mit gezielten Fragen durch das Lern- und Coachinggespräch: vom Einstieg über Wünsche, Ziele und Hindernisse bis zum nächsten kleinen Schritt. Die Fragen wurden von zertifizierten Lerncoaches und Lerntherapeuten entwickelt. So behältst du den roten Faden, gehst von Anfang an in die Tiefe und führst Gespräche, die bewegen und echte Veränderung bewirken. Aus dem Gespräch entstehen ein persönlicher Kraftsatz und ein passendes Bild, die dem Schüler oder der Schülerin helfen, dranzubleiben und sich an die eigene Stärke zu erinnern. Während du zuhörst, fragst und Beziehung aufbaust, transkribiert Eisberg im Hintergrund. So kannst du wirklich präsent sein, statt gleichzeitig mitschreiben, strukturieren und dokumentieren zu müssen."
     },
     "founder": {
       "name": "Branka Rezan",
@@ -70,7 +50,7 @@
       "text": "Du bist nicht allein. Viele Lehrkräfte erleben Lerngespräche als extrem stressig, zeitraubend und als bloße Pflichtübung. Doch das ist nur die Oberfläche. Führst du ein Lerngespräch in die Tiefe, erleichtert es deinen Schulalltag. "
     },
     "feedback": {
-      "description": "Eisberg macht sichtbar, was Schüler und Schülerinnen wirklich brauchen und wie du sie gezielt begleiten kannst. Eltern werden einbezogen, fühlen sich ernst genommen und ziehen gemeinsam mit der Lehrperson am gleichen Strang. Gleichzeitig wird sichtbar, mit wie viel pädagogischer Kompetenz du Schüler und Schülerinnen wahrnimmst, stärkst und in ihrer Entwicklung begleitest.",
+      "description": "Wenn Eltern spüren, dass ihr Kind wirklich gesehen wird Eisberg macht sichtbar, was Schüler und Schülerinnen brauchen, was ihnen bereits gelingt und welcher nächste Schritt sie weiterbringt. Eltern fühlen sich ernst genommen, verstehen die pädagogische Begleitung besser und können die vereinbarten Schritte mittragen. Gleichzeitig wird sichtbar, mit wie viel Kompetenz, Wertschätzung und Sorgfalt du Schüler und Schülerinnen stärkst und in ihrer Entwicklung begleitest. Vor den Testimonials: Das sagen Eltern über Gespräche mit Eisberg",
       "items": [
         {
           "message": "Da blüht unser Herz auf! Es ist so schön zu erfahren, wie bewusst unser Sohn seine Stärken wahrnimmt und woran er weiterarbeiten möchte.",
@@ -87,7 +67,7 @@
       ]
     },
     "footer": {
-      "title": "Erlebe, wie Eisberg deine Lerngespräche verändert: zwei Monate mit zwei Schüler:innen kostenfrei und unverbindlich testen",
+      "title": "Erlebe, wie Eisberg deine Lerngespräche verändertt Eisberg",
       "button": "Eisberg kostenfrei testen"
     },
     "trust": [
@@ -136,7 +116,7 @@
         },
         {
           "title": "Smarte Impulse & Fragevorschl\u00e4ge",
-          "description": "W\u00e4hrend des Gespr\u00e4chs liefert dir die App passende Impulse und st\u00e4rkende Fragen. Diese Vorschl\u00e4ge helfen dir, tiefer zu gehen, den roten Faden zu behalten und unterschiedliche Situationen sicherer zu gestalten. Mit der Zeit verbessert sich dadurch die Qualit\u00e4t jedes Gespr\u00e4chs, das du f\u00fchrst.",
+          "description": "Während des Gesprächs liefert dir die App passende Impulse und stärkende Fragen, die von zertifizierten Lerncoaches und Lerntherapeuten entwickelt wurden. So behältst du den roten Faden, gehst von Anfang an in die Tiefe und führst Gespräche, die bewegen und echte Veränderung bewirken.",
           "icon": "messages",
           "color": "#C65A5A"
         },
@@ -246,7 +226,7 @@
     },
     "start": {
       "eyebrow": "Jetzt starten",
-      "title": "Eisberg begleitet Lehrpersonen durch jede Phase des Lern- und Coachinggespr\u00e4chs \u2013 von der Vorbereitung bis zur Elternmail \u2013 damit sie wirklich pr\u00e4sent sein k\u00f6nnen.",
+      "title": "Die Eisberg App begleitet dich durch jede Phase des Lern- und Coachinggesprächs - von der Vorbereitung bis zur Elternmail - damit du wirklich präsent sein kanst.",
       "cta": "Jetzt ausprobieren"
     }
   },
@@ -267,7 +247,7 @@
         },
         {
           "title": "Live Webinare",
-          "description": "In regelmässigen Live Webinaren mit Branka und dem Pädagogik+ Team erhältst du neue Impulse, vertiefst deine Gesprächsführung und entwickelst deine pädagogische Praxis weiter.",
+          "description": "In regelmässigen Live Webinaren mit dem Pädagogik+ Team erhältst du neue Impulse, vertiefst deine Gesprächsführung und entwickelst deine pädagogische Praxis weiter.",
           "icon": "camera"
         },
         {
@@ -283,157 +263,107 @@
       ]
     },
     "pricing": {
-      "title": "Transparent. Einfach. Fair.",
+      "title": "Dein Eisberg. Dein passendes Angebot.",
+      "description": "Damit aus Gesprächen echte nächste Schritte werden.",
       "plans": [
         {
-          "title": "Eisberg",
-          "subtitle": "Dein Werkzeug für Lern- und Coachinggespräche, die weiterbringen",
-          "description": "Eisberg gibt dir Struktur, Klarheit und passende Fragen für wirksame Lern- und Coachinggespräche und unterstützt dich dabei, Entwicklungen sichtbar zu machen und sicher zu dokumentieren.",
-          "additional": {
-            "title": "2 Monate kostenfrei entdecken",
-            "note": "Teste Eisberg 2 Monate mit 2 Schüler:innen."
-          },
-          "price": {
-            "monthly": {
-              "before": "Danach",
-              "price": "CHF 40.85",
-              "after": "pro Monat"
-            },
-            "annual": {
-              "before": "Jährlich verrechnet",
-              "price": "CHF 490.-"
-            }
-          },
+          "label": "Der klare Einstieg",
+          "subtitle": "EISBERG",
+          "title": "Eisberg für Lern- und Coachinggespräche",
+          "price": "EUR 490.-",
+          "sufix": "pro Jahr",
           "included": [
             {
-              "text": "Beobachtungen einfach festhalten"
+              "text": "Eisberg für eine Lehrperson und eine Klasse"
             },
             {
-              "text": "Gespräche gezielt vorbereiten"
+              "text": "Vorbereitung und Begleitung deiner Gespräche"
             },
             {
-              "text": "Passende Gesprächsfragen erhalten"
+              "text": "Automatische Zusammenfassungen und Dokumentationen"
             },
             {
-              "text": "Stärken, Ziele und Hindernisse sichtbar machen"
+              "text": "Konkretes Feedback zu deinen Gesprächen"
             },
             {
-              "text": "Konkrete nächste Schritte entwickeln"
+              "text": "Onboarding-Webinar für einen sicheren Start"
             },
             {
-              "text": "Gespräche automatisch dokumentieren"
+              "text": "Regelmässige Webinare mit Fachpersonen"
             },
             {
-              "text": "Elternkommunikation vorbereiten"
+              "text": "Austausch, Fragen und Praxisfälle in den Live-Webinaren"
             },
             {
-              "text": "Entwicklung langfristig nachvollziehen"
+              "text": "Laufende Weiterentwicklung von Eisberg"
+            },
+            {
+              "text": "Technischer Support bei Fragen zur Anwendung"
             }
           ],
-          "cta": "Eisberg 2 Monate kostenfrei testen",
-          "note": "Du möchtest Eisberg für mehrere Lehrpersonen oder eine ganze Schule einsetzen? Wir erstellen dir gerne ein individuelles Angebot.",
-          "link": "Team- und Schullizenz anfragen"
+          "cta": "2 Monate kostenfrei testen",
+          "note": "Mit zwei Schulern oder Schulerinnen. Kostenfrei und unverbindlich."
         },
         {
-          "highlight": "Beste Begleitung",
-          "title": "Eisberg + Pädagogik+",
-          "subtitle": "Eisberg anwenden. Pädagogisch weiterwachsen.",
-          "description": "Verbinde Pädagogik+ mit Eisberg und entwickle deine pädagogische Praxis weiter – mit fundiertem Wissen, praxiserprobten Materialien und strukturierter Begleitung für jedes Gespräch.",
-          "additional": {
-            "title": "Beides kostenfrei entdecken (Mitgliedschaft 1 Monat, Eisberg 2 Monate)",
-            "note": "Teste Eisberg mit 2 Schüler:innen und erhalte vollen Zugang zu Pädagogik+."
-          },
-          "price": {
-            "monthly": {
-              "before": "Danach",
-              "price": "CHF 59.15",
-              "after": "pro Monat"
-            },
-            "annual": {
-              "before": "Jährlich verrechnet",
-              "price": "CHF 590.-"
-            }
-          },
+          "label": "Bestes Gesamtpaket",
+          "subtitle": "EISBERG PLUS",
+          "title": "Eisberg mit pädagogischer Weiterbildung",
+          "price": "EUR 490.-",
+          "sufix": "pro Jahr",
           "included": [
             {
-              "text": "Alle Funktionen und Leistungen von Eisberg"
+              "text": "Alle Leistungen aus Eisberg"
             },
             {
-              "text": "Vollständiger Zugang zu Pädagogik+"
+              "text": "Zugang zu sämtlichen Pädagogik+ Weiterbildungen"
             },
             {
-              "text": "Lern- und Coachinggespräche gezielt vorbereiten"
+              "text": "Regelmässig neue pädagogische Inhalte und Materialien"
             },
             {
-              "text": "Passende Fragen und nächste Schritte entwickeln"
+              "text": "Live-Weiterbildungen mit erfahrenen Fachpersonen"
             },
             {
-              "text": "Gespräche automatisch dokumentieren"
+              "text": "Austausch und konkrete Impulse für deinen Schulalltag"
             },
             {
-              "text": "Weiterbildungen und Live Workshops besuchen"
+              "text": "Persönliches Einführungsgespräch"
             },
             {
-              "text": "Praxiserprobte Materialien und Aktivitäten erhalten"
+              "text": "Vier persönliche 1:1-Reflexionsgespräche pro Jahr"
             },
             {
-              "text": "Dich fachlich weiterentwickeln und austauschen"
+              "text": "Persönliche Unterstützung bei schwierigen Situationen im Rahmen der Reflexionsgespräche"
+            },
+            {
+              "text": "Individuelle Rückmeldung und konkrete nächste Schritte für deine Praxis"
             }
           ],
-          "cta": "Beides kostenfrei entdecken"
-        },
-        {
-          "title": "Pädagogik+ Mitgliedschaft",
-          "subtitle": "Deine pädagogische Weiterbildung und Begleitung",
-          "description": "Entdecke Weiterbildungen, Live Workshops und wertvolle Impulse von erfahrenen Expert:innen zu den Themen, die dich als Lehrperson wirklich beschäftigen. Du erhältst fundiertes Wissen, konkrete Umsetzungsideen und praxiserprobte Materialien, die dich stärken und im Schulalltag spürbar weiterbringen.",
-          "additional": {
-            "title": "Pädagogik+ kostenfrei entdecken",
-            "note": "Dein erster Monat ist kostenfrei und unverbindlich."
-          },
-          "price": {
-            "monthly": {
-              "before": "Danach",
-              "price": "CHF 24.20",
-              "after": "pro Monat"
-            },
-            "annual": {
-              "before": "Jährlich verrechnet",
-              "price": "CHF 290.-"
-            }
-          },
-          "included": [
-            {
-              "text": "Fachlich fundierte Weiterbildungen"
-            },
-            {
-              "text": "Live Workshops mit Expert:innen"
-            },
-            {
-              "text": "Praxiserprobte Materialien und Methoden"
-            },
-            {
-              "text": "Konkrete Impulse für deinen Unterricht"
-            },
-            {
-              "text": "Regelmässige neue Inhalte"
-            },
-            {
-              "text": "Austausch mit engagierten Lehrpersonen"
-            },
-            {
-              "text": "Persönliche und fachliche Weiterentwicklung"
-            },
-            {
-              "text": "Vollständiger Zugang zum Mitgliederbereich"
-            }
-          ],
-          "cta": "Pädagogik+ kostenfrei entdecken"
+          "cta": "Eisberg Plus wählen",
+          "note": "Eisberg und der Weiterbildungsbereich von Pädagogik+ im Gesamtpaket."
         }
       ]
     },
-    "brief": {
-      "description": "Du möchtest Eisberg für deine Klasse einsetzen? Mit dieser Vorlage kannst du deiner Schulleitung kurz und überzeugend zeigen, wie Eisberg dich im Schulalltag unterstützt und weshalb sich die Investition für die ganze Schule lohnt.",
-      "cta": "Vorlage für die Schulleitung herunterladen"
+    "support": {
+      "title": "Fachpersonen kostenfrei einbeziehen",
+      "descriptions": [
+        {
+          "text": "Schulische Heilpädagoginnen und Heilpädagogen, Schulsozialarbeit und weitere schulische Fachpersonen können einzelne Schüler und Schülerinnen deiner Klasse als Gastpersonen begleiten."
+        },
+        {
+          "text": "Dafür entstehen keine zusätzlichen Lizenzkosten."
+        },
+        {
+          "text": "Eine eigene Lizenz wird erst benötigt, wenn eine Fachperson Eisberg mit einer eigenen Klasse oder Gruppe einsetzt."
+        }
+      ]
+    },
+
+    "letter": {
+      "subtitle": "Unterstützung für deinen antrag",
+      "title": "Vielleicht übernimmt deine Schule die Kosten.",
+      "description": "Mit unserem vorbereiteten Brief kannst du deine Schulleitung unkompliziert um UNterstützung bitten.",
+      "cta": "Brief für die Schulleitung herunterladen"
     },
     "leadership": {
       "title": "NIMM DEINE SCHULLEITUNG MIT INS BOOT",
@@ -547,39 +477,34 @@
     "items": [
       {
         "name": "Branka Rezan",
-        "role": "Gründerin & Geschäftsführerin | Lehrerin, Schulcoach & psychologische Beraterin",
-        "biography": "Branka Rezan ist Gründerin und Geschäftsführerin von Pädagogik+. Als Lehrerin, Schulcoach und psychologische Beraterin verbindet sie langjährige Erfahrung aus dem Schulalltag mit fundiertem Wissen aus Pädagogik, Psychologie und Coaching. Ihr Ziel ist es, Lehrpersonen zu stärken und Lernlandschaften mitzugestalten, in denen Schüler und Schülerinnen wachsen, Verantwortung übernehmen und Vertrauen in die eigenen Fähigkeiten entwickeln."
+        "role": "Gründerin, Geschäftsführung Pädagogische und psychologische Beratung, Lehrerin, Schulcoach",
+        "biography": "Branka Rezan ist Gründerin und Geschäftsführerin von Pädagogik+. Als Lehrerin, Schulcoach und psychologische Beraterin verbindet sie langjährige Erfahrung aus dem Schulalltag mit fundiertem Wissen aus Pädagogik, Psychologie und Coaching. Ihr Ziel ist es, Lehrpersonen zu stärken und Lernlandschaften mitzugestalten, in denen Schüler und Schülerinnen wachsen, Verantwortung übernehmen und Vertrauen in die eigenen Fähigkeiten entwickeln. Pädagogik-Plus GmbH, branka.rezan@paedagogik-plus.com branka.rezan@eisberg-coaching.com www.pädagogik-plus.com"
       },
       {
         "name": "Sandra Rohner",
-        "role": "Geschäftsleitung | Vertrieb & Partnerschaften",
-        "biography": "Sandra Rohner kennt Schule aus knapp 30 Jahren eigener Praxis. Im Zentrum ihrer Arbeit steht ein stärkender Blick auf Kinder und Jugendliche: Was ist schon da? Was gelingt? Und was braucht es, damit der nächste Schritt möglich wird? Heute begleitet sie Schulen, Teams und Lehrpersonen und bringt ihre Erfahrung aus dem Schulalltag in ihre Arbeit ein. Sie ist überzeugt, dass gute Gespräche etwas in Bewegung bringen können, wenn wir zuhören, die richtigen Fragen stellen und den Blick auf Möglichkeiten statt auf Defizite richten."
+        "role": "Geschäftsleitung, Vertrieb Pädagogische Beratung, Lehrerin, systemischer Coach i.A.",
+        "biography": "Sandra Rohner kennt Schule aus knapp 30 Jahren eigener Praxis. Im Zentrum ihrer Arbeit steht ein stärkender Blick auf Kinder und Jugendliche: Was ist schon da? Was gelingt? Und was braucht es, damit der nächste Schritt möglich wird? Heute begleitet sie Schulen, Teams und Lehrpersonen und bringt ihre Erfahrung aus dem Schulalltag in ihre Arbeit ein. Sie ist überzeugt, dass gute Gespräche etwas in Bewegung bringen können, wenn wir zuhören, die richtigen Fragen stellen und den Blick auf Möglichkeiten statt auf Defizite richten. Weitere Infos auf www.kapricho.ch E-mail: sandra.rohner@eisberg-coaching.com sandra@kapricho.ch "
       },
       {
-        "name": "Betinna",
-        "role": "Placeholder",
-        "biography": "Placeholder"
+        "name": "Bettina Schec",
+        "role": "Schulberatung , Schulische Heilpädagogin, SchulJOKERin & Lerntherapeutin",
+        "biography": "Bettina Scheck begleitet als Schulische Heilpädagogin, SchulJOKERin und Lerntherapeutin Schüler und Schülerinnen, Lehrpersonen, Schulleitungen und Eltern rund um das Thema Lernen. Ihr Fokus liegt auf der Beratung in herausfordernden Unterrichtssituationen, persönlichem Coaching und der Begleitung schwieriger Gespräche. Besonders am Herzen liegen ihr Lerngespräche, die Beziehung stärken, Entwicklung sichtbar machen und nachhaltiges Lernen ermöglichen. Weitere Infos auf https://bettina-scheck.ch E-mail: coaching@bettina.scheck.ch"
       },
       {
         "name": "Kathy Golinski",
         "role": "Marketing & Kommunikation",
-        "biography": "Kathy Golinski unterstützt Pädagogik+ mit ihrer Erfahrung aus über 20 Jahren Marketing und Kommunikation. Gemeinsam mit Branka sorgt sie dafür, dass die Ideen, Angebote und die Vision von Pädagogik+ die Menschen erreichen, für die sie gemacht sind. Dabei verbindet sie strategisches Marketing mit einem feinen Gespür für Sprache, Inhalte und eine Kommunikation, die nahbar bleibt. Als Mama von zwei Schulkindern liegt ihr die Arbeit von Pädagogik+ auch persönlich am Herzen – und sie brennt dafür, gemeinsam mit Branka Veränderung im Schulalltag sichtbar und möglich zu machen. www.kathinka.online"
+        "biography": "Kathy Golinski unterstützt Pädagogik+ mit ihrer Erfahrung aus über 20 Jahren Marketing und Kommunikation. Gemeinsam mit Branka sorgt sie dafür, dass die Ideen, Angebote und die Vision von Pädagogik+ die Menschen erreichen, für die sie gemacht sind. Dabei verbindet sie strategisches Marketing mit einem feinen Gespür für Sprache, Inhalte und eine Kommunikation, die nahbar bleibt. Als Mama von zwei Schulkindern liegt ihr die Arbeit von Pädagogik+ auch persönlich am Herzen – und sie brennt dafür, gemeinsam mit Branka Veränderung im Schulalltag sichtbar und möglich zu machen. Weitere Infos auf www.kathinka.online E-mail:losdenken@kathinka.online"
       }
     ]
   },
   "schools": {
     "hero": {
-      "title": "Lern- und Coachinggespr\u00e4che, die deine Schule weiterbringen",
-      "description": "So verankerst du Lern- und Coachinggespr\u00e4che als gemeinsame Praxis in deinem Team \u2013 damit jede Lehrperson sicher, kompetent und wirksam mit Schüler:innen und Eltern kommuniziert.",
-      "illustrationText": "Team-Illustration"
+      "title": "Beratungsgespr\u00e4ch buchen"
     },
     "video": {
       "eyebrow": "Für Schulleitungen",
       "title": "Die Zukunft der Lerngespräche",
       "subtitle": "Stärke deine Lehrpersonen. Stärke deine Schule."
-    },
-    "booking": {
-      "title": "Beratungsgespr\u00e4ch buchen"
     },
     "faq": {
       "eyebrow": "H\u00e4ufig gestellte Fragen",
@@ -638,10 +563,14 @@
       ]
     },
     "cta": {
-      "title": "Deine Schule verdient eine gemeinsame Sprache.",
-      "subtitle": "Buche dein kostenloses Strategiegespr\u00e4ch",
-      "description": "45 Minuten. Kein Verkaufsgespr\u00e4ch. Nur eine ehrliche Analyse deiner Situation und ein konkreter Plan, wie Lern- und Coachinggespr\u00e4che an deiner Schule gelingen k\u00f6nnen.",
-      "cta": "Jetzt Termin buchen"
+      "title": "So werden gute Gespräche an eurer Schule zum gemeinsamen Standard",
+      "description": "In 45 Minuten zu mehr Klarheit und konkreten nächsten Schritten für eure Lern- und Coachinggespräche.",
+      "cta": "Kostenfreies Strategiegespräch buchen"
     }
+  },
+  "credits": "© 2026 Eisberg ",
+  "privacy": {
+    "title": "Datenschutzerklärung der Eisberg App",
+    "content": "Stand: August 2026\n\n1. Worum geht es in dieser Datenschutzerklärung?\n\nEisberg ist eine App für Lern- und Coachinggespräche in der Schule. Sie unterstützt Lehrpersonen und Fachpersonen dabei, Gespräche mit Schülern und Schülerinnen vorzubereiten, durchzuführen und zusammenzufassen.\n\nDie App hilft dabei, Stärken zu erkennen, passende Fragen zu stellen sowie Ziele, Hindernisse und nächste Schritte festzuhalten. Mit der vorgängigen Einwilligung der Eltern oder der berechtigten Person kann ein Gespräch aufgenommen werden. Aus der Aufnahme erstellt Eisberg eine schriftliche Zusammenfassung. Anschliessend wird die Audiodatei automatisch und endgültig gelöscht.\n\nIn dieser Datenschutzerklärung informieren wir darüber, welche Personendaten bei der Verwendung von Eisberg bearbeitet werden, weshalb wir diese Daten benötigen, wer darauf zugreifen kann und welche Rechte die betroffenen Personen haben.\n\n2. Wer bietet Eisberg an?\n\nEisberg ist ein Angebot der:\n\nPädagogik+ GmbH\n\nSchüracherstrasse 45\n\n8700 Küsnacht\n\nSchweiz\n\nE-Mail: info@paedagogik-plus.com\n\nwww.pädagogik-plus.com\n\nwww.eisberg-coaching.com\n\nBei Fragen zum Datenschutz können Sie sich an folgende Stelle wenden:\n\nBranka Rezan, Inhaberin\n\nE-Mail: branka.rezan@paedagogik-plus.com\n\n3. Wer ist für die Datenbearbeitung verantwortlich?\n\nSetzt eine öffentliche oder private Schule Eisberg ein, bleibt grundsätzlich die jeweilige Schule beziehungsweise die zuständige Schulgemeinde für die Bearbeitung der schulischen Personendaten verantwortlich.\n\nDie Pädagogik+ GmbH bearbeitet die Daten entsprechend den vereinbarten Weisungen.\n\nSoweit die Pädagogik+ GmbH Daten für den Betrieb der App, die Verwaltung von Benutzerkonten, die Abrechnung, die Sicherheit oder den Support in eigener Verantwortung bearbeitet, ist die Pädagogik+ GmbH für diese Bearbeitung verantwortlich.\n\n4. Für wen ist Eisberg bestimmt?\n\nEisberg richtet sich an:\n\n- Lehrpersonen\n- schulische Heilpädagogen und Heilpädagoginnen\n- Schulsozialarbeitende\n- schulische Fachpersonen\n- Coaches und weitere berechtigte Begleitpersonen\n- Schulen und Schulgemeinden\n- Schüler und Schülerinnen im Rahmen eines begleiteten Gesprächs\n\nSchüler und Schülerinnen verwenden Eisberg nicht ohne Begleitung einer berechtigten erwachsenen Person.\n\n5. Welche Personendaten werden bearbeitet?\n\nJe nach Verwendung der App können folgende Personendaten bearbeitet werden:\n\nDaten von Lehrpersonen und Fachpersonen\n\n- Vorname und Nachname\n- E-Mail Adresse\n- Schule und Funktion\n- Benutzerkonto und Zugriffsberechtigungen\n- Anmeldeinformationen\n- gewählte Einstellungen\n- Angaben zu Lizenzen und Abonnements\n- Supportanfragen und Kommunikation\n- technische Nutzungsdaten und Sicherheitsprotokolle\n\nDaten von Schülern und Schülerinnen\n\n- Vorname und Nachname, d.h. festgelegte Kennzeichnungen\n- Klasse oder Lerngruppe\n- Gesprächsdatum\n- Gesprächsinhalte\n- Stärken, Interessen und Ressourcen\n- schulische und persönliche Herausforderungen\n- Ziele, Hindernisse und nächste Schritte\n- schriftliche Gesprächszusammenfassungen\n- Notizen der berechtigten Lehrpersonen und Fachpersonen\n- Angaben zur erteilten oder abgelehnten Einwilligung\n- Audiodaten während der vorübergehenden Verarbeitung\n\nIn Lern- und Coachinggesprächen können schützenswerte Personendaten zur Sprache kommen. Dazu können Angaben zur Gesundheit, zum Wohlbefinden, zu familiären Situationen, zu sonderpädagogischen Massnahmen oder zu sozialen Schwierigkeiten gehören. Die zuständige Lehrperson oder Fachperson entscheidet sorgfältig und nach dem Grundsatz der Verhältnismässigkeit, welche Informationen für das konkrete Gespräch und die schulische Begleitung erforderlich sind.\n\n6. Zu welchen Zwecken werden die Daten bearbeitet?\n\nDie Daten werden insbesondere zu folgenden Zwecken bearbeitet:\n\n- Vorbereitung von Lern- und Coachinggesprächen\n- Durchführung und Strukturierung der Gespräche\n- Erkennen von Stärken, Ressourcen und Herausforderungen\n- Entwicklung von Zielen und nächsten Schritten\n- Erstellung einer schriftlichen Gesprächszusammenfassung\n- Dokumentation der vereinbarten Ziele und Massnahmen\n- Vorbereitung weiterer Gespräche\n- Verwaltung der Benutzerkonten und Zugriffsrechte\n- Bereitstellung, Sicherheit und Verbesserung der Gespräche\n- Bearbeitung von Supportanfragen\n- Verwaltung von Lizenzen, Verträgen und Abrechnungen\n- Erfüllung vertraglicher Pflichten\n\nPersonendaten werden nicht für Werbung verwendet. Gesprächsinhalte werden nicht verkauft und nicht zu Werbezwecken an Dritte weitergegeben.\n\nGesprächsinhalte werden nicht dazu verwendet, Schüler und Schülerinnen automatisiert zu bewerten, zu benoten oder über schulische Massnahmen zu entscheiden.\n\n7. Wie funktioniert die Audioaufnahme?\n\nEine Audioaufnahme erfolgt nur, wenn die erforderliche Einwilligung vorgängig erteilt wurde.\n\nVor Beginn der Aufnahme werden die anwesenden Personen darüber informiert, dass das Gespräch aufgenommen wird. Die Aufnahme darf erst gestartet werden, wenn alle erforderlichen Zustimmungen vorliegen.\n\nDie Audiodatei wird ausschliesslich verarbeitet, um eine schriftliche Zusammenfassung des Gesprächs zu erstellen. Sie wird nicht dauerhaft in der App aufbewahrt.\n\nNach der Erstellung der Zusammenfassung wird die Audiodatei automatisch und endgültig gelöscht. Sie kann danach weder von der Schule noch von der Pädagogik+ GmbH abgerufen oder wiederhergestellt werden.\n\nFalls während der Verarbeitung vorübergehend ein Transkript erstellt wird, wird auch dieses nach der Erstellung der Zusammenfassung endgültig gelöscht.\n\nDauerhaft gespeichert werden nur die freigegebene Gesprächszusammenfassung sowie die festgehaltenen Ziele und nächsten Schritte.\n\n8. Ist die Einwilligung freiwillig?\n\nDie Einwilligung in die Audioaufnahme ist freiwillig.\n\nWird keine Einwilligung erteilt, findet das Lern- oder Coachinggespräch ohne Audioaufnahme und ohne automatische Zusammenfassung statt. Dem Schüler oder der Schülerin entstehen daraus keine schulischen Nachteile.\n\nEine erteilte Einwilligung kann jederzeit für zukünftige Gespräche widerrufen werden. Die Rechtmässigkeit bereits abgeschlossener Bearbeitungen wird durch den Widerruf nicht berührt.\n\nDer Widerruf kann bei der Schule oder über folgende Kontaktadresse eingereicht werden:\n\nbranka.rezan@paedagogik-plus.com\n\nIst ein Schüler oder eine Schülerin aufgrund des Alters und der persönlichen Entwicklung urteilsfähig, muss auch der Wille dieser Person angemessen berücksichtigt werden. Eine Aufnahme soll nicht gegen den erkennbaren Willen des Schülers oder der Schülerin erfolgen.\n\n9. Auf welcher rechtlichen Grundlage werden die Daten bearbeitet?\n\nÖffentliche Schulen bearbeiten Personendaten auf Grundlage des für sie geltenden kantonalen Datenschutzrechts sowie der jeweiligen schulrechtlichen Bestimmungen.\n\nPädagogik+ GmbH untersteht insbesondere dem Schweizer Datenschutzgesetz.\n\nDie Audioaufnahme erfolgt auf Grundlage einer vorgängigen Einwilligung der berechtigten Personen. Die Einwilligung in die Aufnahme eines nicht öffentlichen Gesprächs muss vor Beginn der Aufnahme vorliegen.\n\n10. Wer hat Zugriff auf die Daten?\n\nInnerhalb der Schule erhalten nur berechtigte Lehrpersonen und Fachpersonen Zugriff, die den Schüler oder die Schülerin begleiten und die Informationen für ihre Aufgabe benötigen.\n\nZugriffsrechte werden durch die Schule vergeben und sollen regelmässig überprüft werden.\n\nMitarbeitende der Pädagogik+ GmbH erhalten nur Zugriff, wenn dies für den technischen Betrieb, die Sicherheit oder die Bearbeitung einer Supportanfrage erforderlich ist. Sie sind zur Vertraulichkeit verpflichtet.\n\nEltern erhalten nicht automatisch Zugriff auf das Benutzerkonto der Lehrperson. Gesetzliche Informations-, Auskunfts- und Einsichtsrechte bleiben bestehen.\n\n11. Werden Daten an externe Dienstleister weitergegeben?\n\nFür den Betrieb von Eisberg können sorgfältig ausgewählte technische Dienstleister eingesetzt werden, beispielsweise für:\n\n- Hosting und Datenspeicherung\n- Erstellung von Transkripten und Zusammenfassungen\n- Versand von E-Mails\n- Benutzeranmeldung\n- Fehleranalyse und technische Sicherheit\n- Zahlungsabwicklung\n- Support\n\nDiese Dienstleister dürfen Personendaten nur im vereinbarten Umfang und für die festgelegten Zwecke bearbeiten. Sie werden vertraglich zur Vertraulichkeit, Datensicherheit und Löschung verpflichtet.\n\nEisberg setzt folgende wesentliche Dienstleister ein:\n\nDienstleister:\n\nDigitalOcean, LLC\n\nBetrieb und Speicherung der App\n\nLand: Niederlande (Rechenzentrum Amsterdam); Anbieter mit Sitz in den USA\n\nOpenAI Ireland Ltd. / OpenAI, L.L.C.\n\nVorübergehende Umwandlung der Audiodatei in Text\n\nLand: Irland (EU) / USA\n\nAnthropic PBC (Claude)\n\nErstellung der Gesprächszusammenfassung\n\nLand: USA\n\nBrevo (Sendinblue SAS)\n\nVersand technischer Nachrichten\n\nLand: Frankreich (EU)\n\nPädagogik-Plus GmbH\n\nAbwicklung von Zahlungen\n\nLand: Schweiz\n\nGoogle Ireland Ltd. / Google LLC\n\nHosting des Elternfragebogens (Google Forms), Versand von Push-Benachrichtigungen\n\nLand: Irland (EU) / USA\n\nEine aktuelle Liste der eingesetzten Dienstleister kann über branka.rezan@paedagogik-plus.com angefordert werden.\n\n12. Werden Daten ins Ausland übermittelt?\n\nPersonendaten werden grundsätzlich in der EU gespeichert und bearbeitet.\n\nFalls ein Dienstleister Daten in einem Land bearbeitet, das keinen mit der Schweiz oder EU vergleichbaren Datenschutz gewährleistet, werden geeignete Schutzmassnahmen getroffen. Dazu gehören insbesondere anerkannte Standarddatenschutzklauseln und zusätzliche technische und organisatorische Schutzmassnahmen.\n\nAudioaufnahmen und Gesprächsinhalte werden nur in den in dieser Datenschutzerklärung genannten Ländern verarbeitet.\n\nVor der Veröffentlichung muss hier genau angegeben werden, ob Audioaufnahmen oder Zusammenfassungen ausserhalb der Schweiz und der EU bearbeitet werden.\n\n13. Werden die Daten für das Training künstlicher Intelligenz verwendet?\n\nAudioaufnahmen, Transkripte, Gesprächszusammenfassungen und andere schulische Personendaten dürfen von der Pädagogik+ GmbH und den eingesetzten Dienstleistern nicht für das Training eigener oder fremder künstlicher Intelligenzmodelle verwendet werden.\n\nSie werden auch nicht zur Erstellung von Werbeprofilen oder für personalisierte Werbung verwendet.\n\n14. Wie lange werden die Daten gespeichert?\n\nPersonendaten werden nur so lange aufbewahrt, wie dies für den jeweiligen Zweck erforderlich ist oder eine gesetzliche Aufbewahrungspflicht besteht.\n\nDie Schule ist dafür verantwortlich, die für sie geltenden Aufbewahrungsfristen festzulegen und nicht mehr benötigte schulische Daten löschen zu lassen.\n\nBeim Austritt eines Schülers oder einer Schülerin sowie beim Ausscheiden einer Lehrperson werden die Zugriffsrechte überprüft und angepasst.\n\n15. Wie werden die Daten geschützt?\n\nDie Pädagogik+ GmbH und die verantwortliche Schule treffen angemessene technische und organisatorische Massnahmen zum Schutz der Personendaten.\n\nDazu gehören insbesondere:\n\n- verschlüsselte Übertragung der Daten\n- Verschlüsselung gespeicherter Daten\n- persönliche Benutzerkonten\n- sichere Passwörter und Anmeldeverfahren\n- rollenbasierte Zugriffsrechte\n- Protokollierung sicherheitsrelevanter Vorgänge\n- regelmässige Sicherheitsprüfungen\n- gesicherte Datensicherungen\n- vertragliche Verpflichtung der Dienstleister\n- Schulung und Verpflichtung berechtigter Mitarbeitender\n- Verfahren zur Erkennung und Behandlung von Datenschutzvorfällen\n\nTrotz sorgfältiger Schutzmassnahmen kann bei der digitalen Datenbearbeitung keine absolute Sicherheit garantiert werden.\n\n16. Welche Rechte haben betroffene Personen?\n\nBetroffene Personen haben im Rahmen des anwendbaren Rechts insbesondere das Recht:\n\n- Auskunft über ihre bearbeiteten Personendaten zu verlangen\n- unrichtige Daten berichtigen zu lassen\n- die Löschung unrechtmässig bearbeiteter oder nicht mehr benötigter Daten zu verlangen\n- eine widerrechtliche Bearbeitung untersagen zu lassen\n- eine erteilte Einwilligung für die Zukunft zu widerrufen\n- sich an die zuständige Datenschutzaufsicht zu wenden\n\nDas Auskunftsrecht bezieht sich auf die zum Zeitpunkt des Gesuchs noch vorhandenen Personendaten. Wurde eine Audiodatei bereits endgültig gelöscht, kann keine Kopie der Aufnahme mehr zur Verfügung gestellt werden. Auskunft kann jedoch weiterhin über vorhandene Zusammenfassungen und weitere gespeicherte Personendaten verlangt werden.\n\nDie Rechte minderjähriger Personen werden je nach Alter und Urteilsfähigkeit durch sie selbst oder durch ihre gesetzliche Vertretung ausgeübt.\n\nAnfragen zu schulischen Daten sind grundsätzlich an die verantwortliche Schule zu richten:\n\nAnfragen zur Pädagogik+ GmbH können an folgende Adresse gerichtet werden:\n\nbranka.rezan@paedagogik-plus.com\n\nVor der Erteilung einer Auskunft kann ein geeigneter Identitätsnachweis verlangt werden.\n\n17. Werden automatisierte Entscheidungen getroffen?\n\nEisberg trifft keine ausschliesslich automatisierten Entscheidungen über Schüler und Schülerinnen.\n\nDie von Eisberg erstellte Zusammenfassung ist eine Unterstützung für Lehrpersonen und Fachpersonen. Sie ersetzt keine pädagogische oder fachliche Beurteilung. Die verantwortliche Lehrperson muss die Zusammenfassung prüfen und kann sie berichtigen oder ergänzen.\n\nNoten, Fördermassnahmen und andere schulische Entscheidungen dürfen nicht allein auf einer automatisch erstellten Zusammenfassung beruhen.\n\n18. Welche Daten werden bei der technischen Verwendung der App erfasst?\n\nBei der Verwendung der App können technische Daten erfasst werden, beispielsweise:\n\n- IP Adresse\n- Gerätetyp und Betriebssystem\n- Version der App\n- Zeitpunkt und Dauer des Zugriffs\n- Anmeldevorgänge\n- Fehlermeldungen\n- Sicherheitsereignisse\n- technische Kennzeichnungen\n\nDiese Daten werden benötigt, um die App bereitzustellen, Fehler zu beheben, Missbrauch zu verhindern und die Sicherheit zu gewährleisten.\n\nTechnische Nutzungsdaten werden nicht mit Gesprächsinhalten zu Werbeprofilen zusammengeführt.\n\n19. Mitteilungen und Support\n\nWenn eine Lehrperson, Schule oder andere berechtigte Person Kontakt mit der Pädagogik+ GmbH aufnimmt, werden die angegebenen Kontaktdaten und der Inhalt der Anfrage bearbeitet.\n\nSupportanfragen sollen keine unnötigen Personendaten von Schülern und Schülerinnen enthalten. Falls für die Fehlerbehebung ein Zugriff auf schulische Daten notwendig ist, erfolgt dieser nur mit entsprechender Berechtigung und wird auf das erforderliche Mass beschränkt.\n\n20. Datenschutzverletzungen\n\nBesteht der Verdacht, dass Personendaten verloren gegangen sind, unberechtigt eingesehen oder unrechtmässig weitergegeben wurden, wird der Vorfall untersucht und dokumentiert.\n\nDie verantwortliche Schule und gegebenenfalls die zuständige Datenschutzaufsicht sowie die betroffenen Personen werden informiert, wenn dies gesetzlich erforderlich ist.\n\nDatenschutzvorfälle können an folgende Adresse gemeldet werden:\n\nbranka.rezan@paedagogik-plus.com\n\n21. Änderungen dieser Datenschutzerklärung\n\nDiese Datenschutzerklärung kann angepasst werden, wenn sich die App, die eingesetzten Dienstleister oder die gesetzlichen Anforderungen verändern.\n\nBei wesentlichen Änderungen werden die Schulen und Benutzerinnen und Benutzer in geeigneter Form informiert.\n\nWenn eine Änderung den Zweck oder den Umfang der Audioverarbeitung wesentlich erweitert, wird eine neue Einwilligung eingeholt.\n\n22. Kontakt\n\nPädagogik+ GmbH\n\nEisberg\n\nSchüracherstrasse 45\n\n8700 Küsnacht\n\nSchweiz\n\nbranka.rezan@paedagogik-plus.com\n\nwww.pädagogik-plus.com\n\nwww.eisberg-coaching.com"
   }
 }
