@@ -1,13 +1,5 @@
 import { Carousel } from "@mantine/carousel";
-import {
-  Box,
-  Center,
-  Flex,
-  Group,
-  Image,
-  SimpleGrid,
-  Stack,
-} from "@mantine/core";
+import { Center, Group, Image, SimpleGrid, Stack } from "@mantine/core";
 import { useTranslation } from "react-i18next";
 import Autoplay from "embla-carousel-autoplay";
 
@@ -47,7 +39,7 @@ const FeedbackCaourselSlide = ({ feedback, index }: any) => {
 
 const FeedbackCarousel = () => {
   const { t } = useTranslation();
-  const autoplay = useRef(Autoplay({ delay: 3000 }));
+  const autoplay = useRef(Autoplay({ delay: 9999993000 }));
 
   const feedbacks = t("home.feedback.items", {
     returnObjects: true,
@@ -55,7 +47,6 @@ const FeedbackCarousel = () => {
 
   return (
     <Carousel
-      slideSize='100%'
       slideGap='md'
       withIndicators={false}
       withControls={false}
@@ -67,6 +58,7 @@ const FeedbackCarousel = () => {
       plugins={[autoplay.current]}
       onMouseEnter={autoplay.current.stop}
       onMouseLeave={() => autoplay.current.play()}
+      className={classes.carousel}
     >
       {feedbacks.map((feedback, index) => (
         <FeedbackCaourselSlide feedback={feedback} key={index} />
@@ -80,7 +72,7 @@ const Feedback = () => {
 
   return (
     <Stack align='center' gap={80}>
-      <SimpleGrid cols={2} spacing={"xl"}>
+      <SimpleGrid cols={{ base: 1, md: 2 }} spacing={"xl"}>
         <Description align='left'>{t("home.feedback.description")}</Description>
         <Video
           srcWebm={TESTIMONIAL_VIDEO_WEBM}

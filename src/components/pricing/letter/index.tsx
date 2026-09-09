@@ -39,18 +39,18 @@ const Letter = () => {
       </Card>
 
       <Card className={classes.card}>
-        <Flex gap={"100"}>
+        <Flex
+          gap={{ base: 36, md: 100 }}
+          direction={{ base: "column", md: "row" }}
+          align={{ base: "center", md: "flex-start" }}
+        >
           <Image src={LETTER_IMAGE} w={"20%"} />
-
           <Stack align='flex-start'>
             <Description>{t("pricing.letter.subtitle")}</Description>
-
             <SectionTitle>{t("pricing.letter.title")}</SectionTitle>
-
             <Description align='left' margin>
               {t("pricing.letter.description")}
             </Description>
-
             <PrimaryButton variant='dark' download href={briefDocument}>
               {t("pricing.letter.cta")}
             </PrimaryButton>

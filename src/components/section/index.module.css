@@ -2103,6 +2103,12 @@
   }
 }
 
+@media (max-width: 1400px) {
+  .inner {
+    max-width: 85vw;
+  }
+}
+
 @media (max-width: 1200px) {
   .container {
     padding: 56px 32px;

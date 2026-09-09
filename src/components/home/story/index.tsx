@@ -7,12 +7,13 @@ import { Description, SectionTitle } from "@/components";
 import { IStoryCarouselSlide } from "@/types/common";
 import { STORY_0_IMAGES, STORY_1_IMAGES } from "@/constants/app";
 import { useRef } from "react";
+import classes from "./index.module.css";
 
 const StoryCarouselSlide = ({ image, index }: IStoryCarouselSlide) => {
   return (
     <Carousel.Slide key={index}>
       <Center>
-        <Image src={image} w={"70%"} bdrs={"lg"} />
+        <Image src={image} w={"70%"} bdrs={"lg"} className={classes.image} />
       </Center>
     </Carousel.Slide>
   );
@@ -49,7 +50,7 @@ const Story = () => {
   return (
     <Stack gap='xl'>
       <SectionTitle margin>{t("home.story.heading_1")}</SectionTitle>
-      <Flex align='center' gap='xl' mb={64}>
+      <Flex align='center' gap='xl' mb={64} className={classes.box}>
         <StoryCarousel images={STORY_0_IMAGES} />
         <Stack>
           <Description align='left'>
@@ -58,7 +59,7 @@ const Story = () => {
         </Stack>
       </Flex>
       <SectionTitle margin>{t("home.story.heading_2")}</SectionTitle>
-      <Flex align='center' gap='xl'>
+      <Flex align='center' gap='xl' className={classes.box}>
         <Description align='left'>{t("home.story.description_2")}</Description>
         <StoryCarousel images={STORY_1_IMAGES} />
       </Flex>

@@ -1,4 +1,10 @@
 .button {
-  width: 12%;
+  max-width: 300px;
   height: auto;
+}
+
+@media (max-width: 1200px) {
+  .button {
+    max-width: 30%;
+  }
 }

@@ -1,0 +1,9 @@
+@media (max-width: 978px) {
+  .box {
+    flex-direction: column;
+  }
+
+  .image {
+    max-height: 300px;
+  }
+}

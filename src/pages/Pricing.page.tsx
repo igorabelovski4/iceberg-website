@@ -23,7 +23,7 @@ export function PricingPage() {
         <Description variant='light' margin>
           {t("pricing.pricing.description")}
         </Description>
-        <SimpleGrid cols={2} mt={"64"}>
+        <SimpleGrid cols={{ base: 1, md: 2 }} mt={"64"}>
           <PricingOffer index={0} />
           <PricingOffer index={1} />
         </SimpleGrid>

@@ -74,12 +74,11 @@ export function HomePage() {
         </Stack>
       </Section>
       <Section>
-        <SimpleGrid cols={2} spacing={120}>
+        <SimpleGrid cols={{ base: 1, md: 2 }} spacing={{ base: 20, md: 120 }}>
           <Routine />
           <Founder />
         </SimpleGrid>
       </Section>
-
       <Section variant='dark'>
         <Eyebrow variant='light'>{t("home.support.eyebrow")}</Eyebrow>
         <SectionTitle variant='light' margin>

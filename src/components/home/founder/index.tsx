@@ -10,7 +10,7 @@ const Founder = () => {
   const { t } = useTranslation();
 
   return (
-    <Stack gap={64} className={classes.wrapper}>
+    <Stack className={classes.wrapper}>
       <Image
         src={FOUNDER_IMAGE}
         alt={t("home.founder.name")}

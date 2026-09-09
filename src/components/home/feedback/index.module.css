@@ -8,9 +8,15 @@
   height: 120px;
   display: flex;
   align-items: flex-end;
-  background-color: #2B55AA;
+  background-color: #2b55aa;
 }
 
 .wrapper {
   padding: 20px;
+}
+
+@media (max-width: 986px) {
+  .carousel {
+    max-width: 90vw;
+  }
 }

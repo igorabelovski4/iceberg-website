@@ -21,30 +21,3 @@
     color: var(--color-brand-secondary-dark);
   }
 }
-
-.subtitle {
-  font-size: 20px;
-  color: var(--color-text-muted);
-  margin-bottom: 12px;
-}
-
-.title {
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 26px;
-}
-
-.price {
-  font-size: 46px;
-  font-weight: 600;
-  color: var(--color-space-dark);
-}
-
-.sufix {
-  font-size: 20px;
-  margin-top: 12px;
-}
-
-.additional {
-  color: var(--color-text-muted);
-}

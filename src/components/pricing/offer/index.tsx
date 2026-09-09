@@ -1,6 +1,6 @@
-import { Box, Card, Title, Group, Stack, Text } from "@mantine/core";
+import { Box, Card, Group, Stack, Text } from "@mantine/core";
 import { useTranslation } from "react-i18next";
-import { PrimaryButton } from "@/components";
+import { Description, PrimaryButton, Title } from "@/components";
 
 import classes from "./index.module.css";
 import { IPricingBenefitItem } from "@/types/common";
@@ -27,19 +27,15 @@ const PricingOffer = ({ index }: PricingOfferProps) => {
         >
           {t(`pricing.pricing.plans.${index}.label`)}
         </Text>
-        <Text className={classes.subtitle}>
+        <Description align='left'>
           {t(`pricing.pricing.plans.${index}.subtitle`)}
-        </Text>
-        <Title className={classes.title} ta='left'>
-          {t(`pricing.pricing.plans.${index}.title`)}
-        </Title>
-        <Group gap={"md"} align='center' mb={24}>
-          <Text className={classes.price}>
+        </Description>
+        <Title>{t(`pricing.pricing.plans.${index}.title`)}</Title>
+        <Group gap={"md"} align='center' mb={{ base: 0, md: 24 }}>
+          <Title big margin={false}>
             {t(`pricing.pricing.plans.${index}.price`)}
-          </Text>
-          <Text className={classes.sufix}>
-            {t(`pricing.pricing.plans.${index}.sufix`)}
-          </Text>
+          </Title>
+          <Description>{t(`pricing.pricing.plans.${index}.sufix`)}</Description>
         </Group>
       </Box>
       <Box my='xl'>
@@ -58,9 +54,7 @@ const PricingOffer = ({ index }: PricingOfferProps) => {
         >
           {t(`pricing.pricing.plans.${index}.cta`)}
         </PrimaryButton>
-        <Text className={classes.additional}>
-          {t(`pricing.pricing.plans.${index}.note`)}
-        </Text>
+        <Description>{t(`pricing.pricing.plans.${index}.note`)}</Description>
       </Stack>
     </Card>
   );

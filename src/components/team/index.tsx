@@ -18,7 +18,11 @@ const Team = () => {
   }) as ITeamItem[];
 
   return (
-    <SimpleGrid cols={2} spacing={120} verticalSpacing={120}>
+    <SimpleGrid
+      cols={{ base: 1, md: 2 }}
+      spacing={{ base: 36, lg: 100 }}
+      verticalSpacing={{ base: 36, lg: 100 }}
+    >
       {team.map((teamItem, index) => (
         <Stack key={index} gap='xl' className={classes.box}>
           <Center>
